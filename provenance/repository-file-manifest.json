@@ -1624,9 +1624,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/src/worker.js",
-      "bytes": 10924,
-      "sha256": "bdcde7b7926d005986ffa824f942e0da22db4ae9d2d36b3a11fb602eeb89f714",
-      "git_blob_sha": "9293a1d5c37e85446cd0ffa1fb9fdfc4a5c03e33"
+      "bytes": 11083,
+      "sha256": "cbd4392adc4b071c6e53c98e899531018dd5398c4382dff457ee8683f9f1e8b5",
+      "git_blob_sha": "d20847a48c82d387338ec031606fa387999a7b91"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/tests/protocol.test.mjs",
