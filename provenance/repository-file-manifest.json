@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "prepared_date": "2026-10-09",
+  "prepared_date": "2026-10-11",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -34,9 +34,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 8667,
-      "sha256": "f8d0a6cfc9e54e9aa8721f604688fd26eb9f69c9f31506afef54f4e963bd1e75",
-      "git_blob_sha": "d33f168a1965054d6f97bf2bf214896f1b10e836"
+      "bytes": 20304,
+      "sha256": "2046a21202efaf25d994e10144f79bc23946d06098d0cb4c4bcc02f3d9848aa0",
+      "git_blob_sha": "b062acf2b6254aceef0889e7d135d64f59bf8f99"
     },
     {
       "path": "indexes/book-catalog.json",
