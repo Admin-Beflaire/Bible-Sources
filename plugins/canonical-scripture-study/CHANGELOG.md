@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.1.8 — Preview
+## 0.1.9 — Preview — 2026-10-11
+
+- Add a shared study-dialogue policy to first MCP instructions and Python/Worker plans: answer the actual question, retain clarifications, evaluate cumulative arguments and explain specific reasoning errors.
+- Distinguish explicit contextual statements from supported inference, corroboration, compatibility and canonical synthesis; permit warranted doctrine without overstating unstated conclusions as direct textual proof.
+- Bound source checks to an identified gap, reuse verified evidence, retrieve enough discourse and stop once resolved; limit external research by depth and expand it only for a concrete need.
+- Respect the Bible’s diverse genres and formative purpose, and answer follow-up questions with targeted context/retrieval rather than restarting a full study.
+- Update study, exegesis and theology-review instructions. Keep the source texts and authentication unchanged; production remains 0.1.8.
+
+## 0.1.8 — Production — 2026-10-11
 
 - Ordinary passage studies explain and select the smallest curated enclosing literary unit, including Genesis 1:1–2:3 for Genesis 1. Explicit exact requests and focused commands keep their scope; unindexed boundaries require source-based host review.
 - Apply a general source-grounded OT–NT wording policy: preserve recognizable verified quotation/echo wording where grammar supports it; assess defensible consolidated working renderings; footnote traditional, scholarly and working choices; preserve real source differences.

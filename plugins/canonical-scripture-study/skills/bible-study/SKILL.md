@@ -1,9 +1,11 @@
 ---
 name: bible-study
-description: "Plan and route source-grounded Bible study combining biblical theology, canonical theology and working translation. Use for a Bible reference, full study, focused study command, Next/next chapter, or selection of translation format in the Canonical Scripture Study plugin."
+description: "Plan and route source-grounded Bible study combining biblical theology, canonical theology and working translation. Use for a Bible reference, study question or follow-up discussion, full or focused study, Next/next chapter, or selection of translation format in the Canonical Scripture Study plugin."
 ---
 
 # Canonical Scripture Study
+
+For a study question or follow-up argument, answer the question directly using [the method](../../references/method.md) and study_dialogue_policy. Follow the reader's intended claim and retained clarifications; bring in necessary context and correct the actual faulty step. Do not turn every follow-up into a new complete passage study or run a free-form question through the passage parser. Retrieve only the evidence needed, and use the exegesis or theology-review skill for the relevant reasoning. Formal passage-study commands follow the workflow below.
 
 Resolve the user's command with study_plan or the CLI plan. For a bare passage, COMPLETE the Standard study (working translation, relevant notes and concise explanation); a plan or orientation alone is not the requested result. Honour Standard, Detailed or Full from the returned study_depth and response_sections; retain the focused command rather than turning it into a full study. For an explicit command, complete that task without forcing all the prose of a full study. Normalize ordinary phrasing into the documented command when necessary.
 

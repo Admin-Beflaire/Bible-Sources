@@ -1,4 +1,4 @@
-# Canonical Scripture Study — Preview 0.1.8
+# Canonical Scripture Study — Preview 0.1.9
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -34,7 +34,9 @@ The code and local runtime are published. A [free Cloudflare hosting package](cl
 
 ## Preview version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.8** on Preview). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.9** on Preview). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+
+Preview 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
 Changes to tools, shared MCP instructions or bundled on-demand study instructions take effect on the deployed server. Existing ChatGPT connections pointing to the same HTTPS `/mcp` endpoint do **not** need to be recreated. After a deployment, open the existing ChatGPT plugin connection and choose **Refresh** to rescan tool metadata and instructions, then test in a new conversation. The available UI may vary. The displayed plugin name/icon and any separately imported packaged skill files are not automatically replaced by a Worker deployment. Version changes may be visible through the `study_health` tool rather than the ChatGPT plugin card.
 
@@ -72,7 +74,7 @@ For word-study citations, each important contextual sense should cite a real pas
 
 English and Dutch aliases are supported. The host can normalize other languages into the documented commands and pass a language code.
 
-The next-passage suggestion consults curated literary units before defaulting to a modern chapter boundary. After Genesis 1:1–3, the default suggestion is Genesis 1:4–2:3 to finish the seven-day literary unit; after Genesis 1 alone, Genesis 2:1–3 finishes that unit. An explicit `Next chapter 2` remains a chapter request, and `Genesis 1–2` preserves its explicitly requested chapter portions. The current study is never silently expanded. Where no reliable, bounded literary unit is indexed, retain the size-safe fallback and review local discourse. The curated literary unit list is intentionally incomplete.
+The next-passage suggestion consults curated literary units before defaulting to a modern chapter boundary. After an exact study of Genesis 1:1–3, it recommends Genesis 1:4–2:3; after `Genesis 1, exact`, it recommends Genesis 2:1–3. An ordinary `Genesis 1` study already includes 1:1–2:3 and recommends Genesis 2:4–25. An explicit `Next chapter 2` remains a chapter request, and `Genesis 1–2` preserves its requested chapter portions. Explain scope adjustments before studying them. Where no reliable, bounded unit is indexed, review local discourse and retain a size-safe fallback; the curated index is intentionally incomplete.
 
 Large requests become a sequence: **Genesis 1–2** gives Genesis 1, then Genesis 2 on **Next**. **Genesis 1:1–2:3** remains a single portion, followed by Genesis 2:4–25. A request for the whole of Isaiah starts at Isaiah 1. Psalm 119 uses its 22 eight-verse stanzas; Luke 1 uses 1–25, 26–56 and 57–80. Ten long chapters have curated study boundaries; others use explicitly provisional size boundaries that the host should review against discourse. Do not reject a valid request solely for length or silently discard the remainder.
 
@@ -82,7 +84,7 @@ Save `continuation_state` from a plan response. In the CLI, put this object (not
 python3 scripts/bible.py plan Next --state state.json
 ```
 
-The host retains this state between turns; the read-only server does not store a user's conversation. A normal output is one chapter with up to five adjacent verses, with a soft size ceiling of 45 verses. Dense linguistic or interlinear output may need smaller sequential portions, even inside that ceiling. Suggest the complete literary unit without silently expanding the user's reference. Detect dependent openings such as Romans 12's “therefore” and explain their context before translation.
+The host retains this state between turns; the read-only server does not store the conversation. Retrieval is bounded, normally around a chapter with a soft ceiling of 45 verses; a selected literary unit may cross chapter breaks and need sequential packets. Dense linguistic or interlinear output may need smaller portions. Explain literary boundaries and respect exact scope. For dependent openings such as Romans 12’s “therefore,” retrieve enough prior discourse to explain the argument before translation.
 
 ## Translation and study method
 
@@ -98,7 +100,7 @@ The skills form a modular pipeline: fetch and check alignment, collate, evaluate
 
 Reading evaluation preserves a named base unless a documented assessment supports another attested reading. Christological usefulness, difficulty, brevity and numerical agreement never automatically elect a reading. The 17-entry textual-case registry flags special review; it does not automatically make the longest reading earliest. Bracket disputed study inclusions only from exact, identified source text. See [the method](references/method.md) and [translation key](references/translation-key.md).
 
-Retrieval uses commit `df1ed50b4aa532c14c9587106b75693414aaa622`. A full checkout reads local spans; a standalone installed runtime lazily retrieves pinned GitHub metadata and byte spans and caches them. Set `BIBLE_STUDY_DATA` to a checkout or `BIBLE_STUDY_CACHE` to a cache directory. `BIBLE_STUDY_OFFLINE=1` requires already cached data. Metadata and returned spans are SHA-256 verified. No text normalization or source corrections are applied. [Runtime details](references/runtime.md) describe tools, provenance and limits.
+Retrieval uses commit `054a5226027deb13827a04a6e68c56cbd3702f37`. A full checkout reads local spans; a standalone installed runtime lazily retrieves pinned GitHub metadata and byte spans and caches them. Set `BIBLE_STUDY_DATA` to a checkout or `BIBLE_STUDY_CACHE` to a cache directory. `BIBLE_STUDY_OFFLINE=1` requires already cached data. Metadata and returned spans are SHA-256 verified. No text normalization or source corrections are applied. [Runtime details](references/runtime.md) describe tools, provenance and limits.
 
 Included readers cover WLC/OSHB, UXLC, all TAHOT fields, Brenton Greek, SBLGNT and its edition-comparison apparatus, and enriched DSS exports. The ordinary reference router covers 66 base books; additional Greek books and Psalm 151 need separate native-edition access (`Reader.native_chapter` in Python), and do not yet have dedicated CLI/MCP routing. Native numbering remains explicit: **book routes and equal verse numbers do not constitute reviewed cross-edition equivalence**. WLC/UXLC are related transcriptions, not independent witnesses. Greek surface tokenization provides stable derived IDs and exact character offsets, not an invented lemma/morphology layer.
 

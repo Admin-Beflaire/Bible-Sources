@@ -1,11 +1,13 @@
 ---
 name: bible-theology-review
-description: "Check a working translation, exegesis or theological claim against actual wording and biblical/canonical context. Use for theology checks, contested interpretations, formation conclusions or the final review stage."
+description: "Check a working translation, exegesis or theological argument against actual wording, reasoning and biblical/canonical context. Use for study questions, follow-up arguments, theology checks, contested interpretations, formation conclusions or the final review stage."
 ---
 
 # Review theology
 
 Read [the method](../../references/method.md) and the consequential translation key/notes. Reconstruct the actual claim fairly in context before evaluating it. Check whether the selected reading, grammatical sense and canonical connection support that claim. Keep uncertainty where the evidence does not settle it.
+
+Apply study_dialogue_policy. Evaluate the cumulative argument, not a stronger substitute claim. A description of a person's activity is not automatically an exhaustive definition or a claim about that person's origin. Separate explicit contextual statements from reasoned theological conclusions, and assess each observation's evidential contribution without requiring it to prove the doctrine alone. Explain a false premise, invalid inference, ignored context or meaningful counter-evidence at the point it affects the conclusion; help repair the argument while preserving sound observations. Retain clarifications and resolved qualifications. Do not infer stronger claims after clarification or swing into agreement unsupported by evidence.
 
 Prefer the project's working biblical/canonical theology when defensible; correct it with source evidence and coherent contextual argument. Do not invent the unseen complete website claim profile. Do not use Calvinism, Arminianism, Catholicism, Orthodoxy or another systematic tradition as the default premise or teaching curriculum. Discuss a tradition when requested or relevant to reception; evaluate its argument rather than rejecting it by label or age.
 

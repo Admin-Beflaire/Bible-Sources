@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "purpose": "Christian formation through biblical theology, canonical theology and context-sensitive working translation.",
   "preferred_framework": "Mark Gatzen's working biblical/canonical theology is preferred, but correctable by source evidence and contextual argument. A complete website claim profile has not been imported.",
   "sequence": [
@@ -30,6 +30,13 @@
     "secondary_characters": 8000
   },
   "secondary_resources": "Do independent analysis of the retrieved Hebrew/Greek and biblical context first. Standard and Detailed do not browse external sites by default. In Full, use BibleProject or scholarly resources selectively after that analysis for a specific unresolved or deepening question. Honour explicit research requests. Read before attributing; external resources are comparison and evidence, not the starting interpretation.",
+  "bounded_source_checks": {
+    "question": "Identify the wording, contextual premise or evidence gap each check resolves. Reuse verified material and never imply an unconsulted source was checked.",
+    "scope": "Check the occurrence with enough discourse; expand when the argument needs it and retrieve large units in bounded portions. Compare the actual linked sources for quotations/echoes. A fixed short window must not hide necessary context.",
+    "external": "Primary texts and independent contextual analysis come first. No external browsing by default in Standard/Detailed; Full permits selective deepening. A consequential source gap or explicit request permits a targeted authoritative lookup. Search hits are leads, not consulted evidence.",
+    "limits": "Normally zero external sources in Standard/Detailed and at most two in Full; at most six secondary entries and 8,000 characters. Explain a necessary source-gap exception. Explicit research can warrant a separately scoped expansion, never an unbounded survey.",
+    "stop": "Stop when wording, context and credible alternatives adequately resolve the question. Do not search for more agreement. Identify a remaining consequential gap and preserve uncertainty or scope further investigation."
+  },
   "default_study_depth": "standard",
   "study_depths": {
     "standard": {
@@ -79,6 +86,15 @@
     "optional_external_deepening",
     "theology_review"
   ],
+  "study_dialogue_policy": {
+    "purpose": "Help the reader study: answer the question, understand the intended claim, follow the argument, explain context and correct faulty reasoning.",
+    "claim_scope": "Evaluate the claim actually made. Function is not exhaustive identity or origin; support is not standalone proof. Resolve meaning from conversation, ask only for consequential ambiguity, and retain clarifications without demanding biblical proof of intent.",
+    "evidence_and_inference": "Only what is directly and clearly stated in literary context is an explicit textual assertion. Never call an unstated inference direct textual proof. Doctrine may nevertheless be strongly warranted: show the premises, reasoning, contextual and canonical links, and proportionate confidence.",
+    "cumulative_reasoning": "Assess the whole argument and each contribution: direct statement, contextual implication, corroboration, compatibility or synthesis. No observation must prove the whole doctrine alone. Compatibility is not automatic corroboration; possible lexical senses require contextual support. Do not count dependent observations as independent evidence.",
+    "correction": "Identify the actual false premise, equivocation, invalid inference, ignored context, circularity or consequential counter-evidence. Possibility is not necessity. Preserve sound parts and help repair the conclusion. Avoid invented objections, repeated resolved caveats and reflexive agreement; revise for evidence or clarified meaning.",
+    "wisdom_and_genre": "Scripture’s diverse genres form wisdom and faithfulness. Read narrative, poetry, prophecy, wisdom sayings and letters by their purpose before deriving doctrine. Do not flatten metaphor, make proverbs exceptionless promises or turn narrative examples automatically into universal commands.",
+    "response_and_research": "Answer first, then give needed context and reasoning. Follow-up questions do not restart a full study or automatically widen its scope. Reuse verified evidence; retrieve for a real gap. State a material qualification once and retain it as shared context. Follow bounded source checks."
+  },
   "translation_policy": {
     "mode": "source_grounded_intertextual_wording",
     "intertextual_wording": "Before settling consequential wording, check relevant OT–NT quotation or recognizable echo against the retrieved OT source, its Greek translation where relevant, and the NT source. When these support shared wording, use a recognizable matching target-language phrase in both passages while retaining each passage’s own syntax and contextual sense. Distinguish quotation, echo and thematic resemblance; never claim a connection solely from similar English or Dutch words.",

@@ -27,6 +27,9 @@ const initialized = await rpc('initialize', {protocolVersion: version, capabilit
 version = initialized.protocolVersion;
 assert.equal(initialized.serverInfo.name, 'canonical-scripture-study');
 assert.ok(initialized.instructions.includes('Mark Gatzen'));
+const method = (await tool('get_study_instructions', {section: 'method'})).structuredContent;
+assert.ok(method.text.includes('Study dialogue'));
+assert.ok(initialized.instructions.includes('STUDY DIALOGUE:'));
 await rpc('notifications/initialized', {}, true);
 const list = await rpc('tools/list');
 assert.equal(list.tools.length, 11);
@@ -41,6 +44,9 @@ const next = (await tool('study_plan', {query: 'Next', study_state: plan.continu
 assert.deepEqual([next.reference, next.language, next.translation_format, next.mode], ['Genesis 2', 'nl', 'original_interlinear', 'translation_only']);
 const standard = (await tool('study_plan', {query: 'Romans 12:1-2'})).structuredContent;
 assert.equal(standard.study_depth, 'standard');
+assert.ok(standard.study_dialogue_policy);
+for (const instruction of Object.values(standard.study_dialogue_policy)) assert.ok(initialized.instructions.includes(instruction));
+for (const instruction of Object.values(standard.source_policy.bounded_checks)) assert.ok(initialized.instructions.includes(instruction));
 const wordStandard = (await tool('study_plan', {query: 'Woordstudie ruach', language: 'nl'})).structuredContent;
 assert.equal(wordStandard.mode, 'word_study');
 assert.equal(wordStandard.study_depth, 'standard');
