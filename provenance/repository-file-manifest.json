@@ -1390,9 +1390,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/CHANGELOG.md",
-      "bytes": 8573,
-      "sha256": "2f1cdf4ebad2b18ab9431ba80d863e2c5f3093e9be899591496f62d09038a8fe",
-      "git_blob_sha": "764219c380bf80a7568f8bf554f5797d1789bff7"
+      "bytes": 8590,
+      "sha256": "da7877f652f2b3e3d50118d403f1f0ab5d84c63dc97e422b8f303990f7ac491f",
+      "git_blob_sha": "a81488047c3e703bceccb91a1ef85e7e33f613c3"
     },
     {
       "path": "plugins/canonical-scripture-study/LICENSE",
@@ -1540,9 +1540,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/README.md",
-      "bytes": 12767,
-      "sha256": "3ed0dcef59612effabf887349158cd273f97a0f14511d25880d70a2bac382405",
-      "git_blob_sha": "c5199f997deee800d1df91bc93f3609dadb28752"
+      "bytes": 12784,
+      "sha256": "5d9ffd5879bf359f3d62b687056775c1796b6985286b3f34b5c45c9efa7a21a8",
+      "git_blob_sha": "765a581f2dac032e7daac069625b4efa8dc4600e"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/mcp.remote.example.json",
@@ -1630,9 +1630,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/src/worker.js",
-      "bytes": 12551,
-      "sha256": "c3ad3eac5bc0cd6b4d44db3768dbc70f8992e740689c50a4a3d22b8dfba844ee",
-      "git_blob_sha": "01fc1a260a2133096869b3af30794333e42a659c"
+      "bytes": 13051,
+      "sha256": "464d066a36854f4010459d4f771976fd8f43c656ce13cd3c29a8e6b0144291bc",
+      "git_blob_sha": "595ee4af5b23a16276b54d62255975cc3d0f7e74"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/tests/protocol.test.mjs",

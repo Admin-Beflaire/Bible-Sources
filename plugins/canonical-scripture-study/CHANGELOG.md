@@ -4,7 +4,7 @@
 
 - Limit authenticated MCP POSTs with a Cloudflare Rate Limiting binding: 120 per verified user per 60 seconds, separate Preview/production namespaces, HTTP 429 with Retry-After and fail-closed binding errors. Keys use hashed verified identity rather than a shared proxy IP or raw token.
 - Stop streamed request reads at 128 KiB, including requests without Content-Length; stop source asset reads at their registered byte length and retain SHA-256 verification.
-- Assemble immutable MCP instructions once per isolate, minify the Worker and expose verified-cache metrics.
+- Assemble immutable MCP instructions and tool schemas once per isolate, minify the Worker and expose verified-cache metrics.
 - Enable stored invocation logs with URL query redaction and structured tool timing/outcome/byte metrics without logging prompts, arguments, source content, identities or tokens. Authenticated study_health reports runtime controls.
 - Prevent HTTP caching of MCP responses; retain Access/OAuth settings and disabled production workers.dev endpoint.
 - Add rate-limit, identity, streamed-body and cache-integrity regressions; refresh hosting documentation. Study behavior and sources are unchanged except version metadata. Production stays 0.1.8.
