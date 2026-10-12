@@ -1,5 +1,6 @@
 import bundle from '../generated/bundle.json' with {type: 'json'};
 import {config, StudyError} from './common.js';
+import {readBoundedBody, BodyLimitError} from './http.js';
 export {bundle};
 const decoder = new TextDecoder('utf-8', {fatal: true, ignoreBOM: true});
 export const decode = bytes => decoder.decode(bytes);
@@ -20,6 +21,7 @@ export class SourceStore {
     if (this.profile.commit !== bundle.source_commit) throw new StudyError('source_profile', 'Rebuild deployment assets for the configured source commit.');
     this.root = null;
     this.requestAssets = new Map();
+    this.metrics = {asset_fetches: 0, cache_hits: 0, asset_bytes: 0};
   }
   static safePath(path) {
     if (typeof path !== 'string' || !path || path.includes('\\') || path.startsWith('/') || path.split('/').includes('..')) throw new StudyError('source_path', 'Source paths must stay within the pinned repository.');
@@ -30,13 +32,19 @@ export class SourceStore {
     const meta = Object.hasOwn(bundle.asset_hashes, path) ? bundle.asset_hashes[path] : null;
     if (!meta) throw new StudyError('unregistered_source', 'Asset is not registered in this pinned deployment.');
     const key = `${this.profile.commit}:${meta.sha256}`;
-    if (cache.has(key)) {const bytes = cache.get(key); cache.delete(key); cache.set(key, bytes); return bytes;}
+    if (cache.has(key)) {const bytes = cache.get(key); cache.delete(key); cache.set(key, bytes); this.metrics.cache_hits++; return bytes;}
     if (this.requestAssets.has(key)) return this.requestAssets.get(key);
     if (this.requestAssets.size >= 40) throw new StudyError('retrieval_budget', 'Retrieve a smaller portion or fewer supporting records per call.');
     const pending = (async () => {
       const response = await this.assets.fetch(new Request(`https://assets.internal/${path}`));
+      this.metrics.asset_fetches++;
       if (!response.ok) throw new StudyError('source_missing', `Pinned deployment asset unavailable: ${path}`);
-      const bytes = new Uint8Array(await response.arrayBuffer());
+      let bytes;
+      try {bytes = await readBoundedBody(response.body, meta.bytes);} catch (error) {
+        if (error instanceof BodyLimitError) throw new StudyError('source_hash', 'Deployment asset exceeds its verified byte length.');
+        throw error;
+      }
+      this.metrics.asset_bytes += bytes.length;
       if (bytes.length !== meta.bytes) throw new StudyError('source_hash', 'Deployment asset length does not match its verified build manifest.');
       await verify(bytes, meta.sha256);
       if (cache.has(key)) {cacheBytes -= cache.get(key).length; cache.delete(key);}

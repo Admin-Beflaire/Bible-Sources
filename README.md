@@ -10,16 +10,18 @@ Public source data and study software for AI-assisted Bible study, maintained by
 
 ### Releases and connections
 
-Release state documented on **11 October 2026**:
+Release state documented on **12 October 2026**:
 
 | Connection | Git branch | Version | MCP endpoint |
 | --- | --- | --- | --- |
 | Production | `main` | **0.1.8** | [study.canonical-theology.com/mcp](https://study.canonical-theology.com/mcp) |
-| Preview | `preview` | **0.1.9** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
+| Preview | `preview` | **0.1.10** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
 
 Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production 0.1.8 was promoted through [PR #5](https://github.com/aertheron/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/aertheron/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
 
 The existing connections use Cloudflare Access OAuth. The Worker also validates the Access JWT signature, issuer, audience and expiry at its origin; `/mcp` fails closed when authentication/configuration is missing. Public `/health` exposes only basic deployment status. Reuse the existing endpoint after a release, refresh the plugin's tool metadata/instructions where the host provides that control, and test in a new conversation. A Worker release does not automatically change the ChatGPT plugin card's name/icon or separately imported skill files.
+
+Preview 0.1.10 adds Cloudflare runtime controls: 120 authenticated MCP POST requests per user per minute, separate Preview/production counters, streamed 128 KiB request bounds, verified-source cache metrics, minified code and stored invocation/tool logs for CPU, wall time, failures and cache use. Counters are approximate and local to each Cloudflare location. Authenticated MCP responses are `no-store`; only verified public source bytes are cached. Custom logs omit prompts, tool arguments, source text, identities and tokens; invocation URL query strings are redacted. See the [hosting and monitoring guide](plugins/canonical-scripture-study/cloudflare/README.md).
 
 ### What the study plugin does
 

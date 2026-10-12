@@ -18,6 +18,22 @@ const assets = {fetch: async request => {
   return new Response(readFileSync(resolve(here, '../generated/assets', path)));
 }};
 const make = () => new Engine(new SourceStore(assets));
+test('Verified warm source bytes avoid another asset fetch; failures are never cached', async () => {
+  clearCache();
+  const pointer = Object.values(bundle.chapters)[0];
+  let fetches = 0;
+  const counted = {fetch: request => {fetches++; return assets.fetch(request);}};
+  const cold = new SourceStore(counted), warm = new SourceStore(counted);
+  assert.deepEqual(await cold.span(pointer), await warm.span(pointer));
+  assert.equal(fetches, 1);
+  assert.equal(cold.metrics.asset_fetches, 1);
+  assert.equal(warm.metrics.cache_hits, 1);
+  clearCache();
+  const corrupt = {fetch: async () => new Response('too long'.repeat(pointer.byte_length))};
+  await assert.rejects(new SourceStore(corrupt).span(pointer), e => e.code === 'source_hash');
+  await new SourceStore(counted).span(pointer);
+  assert.equal(fetches, 2);
+});
 async function call({kind, args}) {
   const e = make();
   const functions = {plan: e.plan.bind(e), passage: e.reader.passage.bind(e.reader), apparatus: e.reader.apparatus.bind(e.reader), dss: e.reader.dss.bind(e.reader), word: e.knowledge.word.bind(e.knowledge), lexical: e.knowledge.lexical.bind(e.knowledge), trajectory: e.knowledge.trajectory.bind(e.knowledge), evaluate: evaluateVariant, handoff: validateHandoff, portions: e.refs.portions.bind(e.refs), native: e.reader.nativeChapter.bind(e.reader)};

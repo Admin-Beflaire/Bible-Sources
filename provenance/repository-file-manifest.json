@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "prepared_date": "2026-10-11",
+  "prepared_date": "2026-10-12",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -34,9 +34,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 20304,
-      "sha256": "2046a21202efaf25d994e10144f79bc23946d06098d0cb4c4bcc02f3d9848aa0",
-      "git_blob_sha": "b062acf2b6254aceef0889e7d135d64f59bf8f99"
+      "bytes": 20975,
+      "sha256": "be56b3b10f851deb343ad3ba0c5caf3692b31a9f2838650543d643da41536af8",
+      "git_blob_sha": "b50282cfbbc6160c12ff758b71f776050bf41414"
     },
     {
       "path": "indexes/book-catalog.json",
@@ -1390,9 +1390,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/CHANGELOG.md",
-      "bytes": 7420,
-      "sha256": "7cb19d9ae36f04c6fd1800d08a40a2298c0914286b7be2c82f20866b2ffca1be",
-      "git_blob_sha": "2cf497e63b7c12a3a2ed681c379a122c9991eb14"
+      "bytes": 8573,
+      "sha256": "2f1cdf4ebad2b18ab9431ba80d863e2c5f3093e9be899591496f62d09038a8fe",
+      "git_blob_sha": "764219c380bf80a7568f8bf554f5797d1789bff7"
     },
     {
       "path": "plugins/canonical-scripture-study/LICENSE",
@@ -1402,9 +1402,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/README.md",
-      "bytes": 15412,
-      "sha256": "5556a021e446ee7e24677513f553d354306c629104dfbaf3fe488f650ee7b7a2",
-      "git_blob_sha": "0d1c6edda24eff1546d2f2bc9575201794a0b179"
+      "bytes": 15780,
+      "sha256": "437de5131e0303f10c7cf8fdf41c7f27f11806aeb8d787d6d811076db9ebefc5",
+      "git_blob_sha": "e4e145c7c107c51bc3f55be7b9cf61538b970607"
     },
     {
       "path": "plugins/canonical-scripture-study/REVIEW.md",
@@ -1414,9 +1414,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/__init__.py",
-      "bytes": 81,
-      "sha256": "08e52fa6ac9c33d3cbdf02c101db525a3122316b551cea2cb71ee1dd32f9b69b",
-      "git_blob_sha": "c095c86f5ebe0ff8a9ae08cdf2b610914e8845a8"
+      "bytes": 82,
+      "sha256": "c9301152ae86cc52daec954efea1b8a789f488ac947b4f2ee7a00d3b335ce0d5",
+      "git_blob_sha": "40903a4675ab72aa4146e12fd715d54ca69ae868"
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/__main__.py",
@@ -1456,9 +1456,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/config/method.json",
-      "bytes": 8338,
-      "sha256": "c0483b005b8a864f335f016fbb103e57d45e50c2c3e3ae4fab7e9c11b86562a2",
-      "git_blob_sha": "eacf0efd2f59f003992cab013fea43def7b18547"
+      "bytes": 8339,
+      "sha256": "823858ce5ff96d73c8985ef0b57573d694b544877bcdded41fae9faf5e21c695",
+      "git_blob_sha": "1be6a6c8b3a66f8d107eb8b0e71d96e82a86eb9a"
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/config/source-profile.json",
@@ -1540,9 +1540,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/README.md",
-      "bytes": 9811,
-      "sha256": "041c244373a59430fb40edffad4f1f4a2ad36d61dd25441616f09132f4038505",
-      "git_blob_sha": "1d465428f8cd21984dfd0dd9ad1f88769be7c11a"
+      "bytes": 12767,
+      "sha256": "3ed0dcef59612effabf887349158cd273f97a0f14511d25880d70a2bac382405",
+      "git_blob_sha": "c5199f997deee800d1df91bc93f3609dadb28752"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/mcp.remote.example.json",
@@ -1552,15 +1552,15 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/package-lock.json",
-      "bytes": 152196,
-      "sha256": "704e2fedabf3f6b42552874469c33c1d5b6eda891e18b8b8899c43f8303a09f3",
-      "git_blob_sha": "9195df61130edf398a2d7c1ba5a82d20242cee5b"
+      "bytes": 152198,
+      "sha256": "71c818aec832f85710ba7d5f7b267ff9063e7ca6b8403d2de4cbcc500c00c8fc",
+      "git_blob_sha": "944b4221e861daccd11ecece44a719fb8627582b"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/package.json",
-      "bytes": 689,
-      "sha256": "da8bfd6416b0fc971657821647260040796b689bf0f1ed01fc048d25a77f5595",
-      "git_blob_sha": "a0b6b4c74ed1fe027117d62fe7b50e194db728ef"
+      "bytes": 690,
+      "sha256": "cf5b0b3117e1f3c89a68e81455bca80f542e8b29cd8cde39fe0cd3fff55af8af",
+      "git_blob_sha": "e932c016d6bd416a054ffb6295567fd5539878f8"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/scripts/build-data.mjs",
@@ -1570,9 +1570,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/scripts/smoke.mjs",
-      "bytes": 9291,
-      "sha256": "506d98014f1cca5edcf5b6245004fc36b2b6f885381f7a7e8f01a5f881c0c61d",
-      "git_blob_sha": "934e8b911934c477d5d463f44febba4bd4266086"
+      "bytes": 9429,
+      "sha256": "67e273e3e20a943b649254da50e4da50a0548cbe75b6d3613bca6582a180950a",
+      "git_blob_sha": "f38d6c43920b0462eeb1faa2aadbbfb86b3b0da4"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/src/common.js",
@@ -1599,6 +1599,12 @@
       "git_blob_sha": "c46f22ea352443d34cfc08caa8b02a51e222ccbf"
     },
     {
+      "path": "plugins/canonical-scripture-study/cloudflare/src/http.js",
+      "bytes": 2008,
+      "sha256": "0a13cfa3c066a0a47fcbfdb18a8e0a3cbc8566a4ad82b12419586beb4cc2542d",
+      "git_blob_sha": "8aee708c4da267771d3c5a8112be4736beeb36d3"
+    },
+    {
       "path": "plugins/canonical-scripture-study/cloudflare/src/knowledge.js",
       "bytes": 5314,
       "sha256": "5cce7d3239cb9c24fee84a57307a53bcb1198755f6a7d2a1cd7ea002410e5784",
@@ -1618,21 +1624,21 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/src/store.js",
-      "bytes": 4633,
-      "sha256": "57dc240414ec2576118b668425accc46782369cd94d098d744b578212d73dc8a",
-      "git_blob_sha": "595ef78ac8c254e6a20aa9c39efa388526b47981"
+      "bytes": 5075,
+      "sha256": "4d22bd3c14d0c4b6fa490199dfc7c8752ac8689f210852ac1cabd70b914a9532",
+      "git_blob_sha": "ce74006eb140c00320943aa2c30baf5fbaeb8d44"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/src/worker.js",
-      "bytes": 11083,
-      "sha256": "cbd4392adc4b071c6e53c98e899531018dd5398c4382dff457ee8683f9f1e8b5",
-      "git_blob_sha": "d20847a48c82d387338ec031606fa387999a7b91"
+      "bytes": 12551,
+      "sha256": "c3ad3eac5bc0cd6b4d44db3768dbc70f8992e740689c50a4a3d22b8dfba844ee",
+      "git_blob_sha": "01fc1a260a2133096869b3af30794333e42a659c"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/tests/protocol.test.mjs",
-      "bytes": 3667,
-      "sha256": "eda89eadd3b9c05ba8b5322f9a8baf627407b3ed548f0dd6aa4e58fef9cc6400",
-      "git_blob_sha": "fbeae103e09d0601bac7c6237dec27ffa7619e86"
+      "bytes": 5907,
+      "sha256": "46e04cff587071eb98e91e0f233eadb4b646bbee1309680dccbb3a9ee15ac100",
+      "git_blob_sha": "05f2f63463f163390727831055fcb25760cadc5e"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/tests/python-oracle.py",
@@ -1642,15 +1648,15 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/tests/runtime.test.mjs",
-      "bytes": 16679,
-      "sha256": "834623d76058619dab1861540e7ac41e0f44511474f0bccc7505eaf6b1ca8b83",
-      "git_blob_sha": "bd281d0462114843e037d539e80f6d95cd9d3192"
+      "bytes": 17500,
+      "sha256": "04715c6c495ee32937e37cd6144cd2a698309e694fc69225c648df19292ca4a3",
+      "git_blob_sha": "f80c6059e1e1bb44f2e16a1fe821d86d9f7f6361"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/wrangler.jsonc",
-      "bytes": 596,
-      "sha256": "a551adb37779b7ef98a50c2593f6d78a7c29a362d5d3a7ca2b53bde260da2846",
-      "git_blob_sha": "0362d1609679367c32dc06d97c9900f14d728fef"
+      "bytes": 1360,
+      "sha256": "a64bbc57521f29fc6b462401cb735dd0db1a7301161a81d77672091ff6c6e423",
+      "git_blob_sha": "991bd5178dce3d1a6ff48ff2621e2e7868ce3c7e"
     },
     {
       "path": "plugins/canonical-scripture-study/examples/README.md",
@@ -1678,15 +1684,15 @@
     },
     {
       "path": "plugins/canonical-scripture-study/plugin.json",
-      "bytes": 1293,
-      "sha256": "3672c119d4e1838fc5bd35fb2436d0ac182bc1d61114a0f294f1faff60262869",
-      "git_blob_sha": "5a47803a81cbb52b761cc5d2fd4b23140b3a6b01"
+      "bytes": 1294,
+      "sha256": "b6ba89e647421e83d130a1c57c01d8b5fcde7905280aa0b20b7c41a8a5e3f10a",
+      "git_blob_sha": "b215de9e9d802d9a66f46a8a2d318569ac5a2b9b"
     },
     {
       "path": "plugins/canonical-scripture-study/pyproject.toml",
-      "bytes": 673,
-      "sha256": "8979d9e83888b1555589bc6dff1215b00eb7d8d34460060f0cf181c9d92b6f9c",
-      "git_blob_sha": "07a9bbfd670b5f4060c31a23d9cb895d7a12eb04"
+      "bytes": 674,
+      "sha256": "c19e63911999c9a72269730cff9e0fb55141f753e58dd0a706f29105da98520d",
+      "git_blob_sha": "68d5d7248cd24339614a977b9c09d9b1d973cf0c"
     },
     {
       "path": "plugins/canonical-scripture-study/references/handoffs.md",
@@ -1696,9 +1702,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/references/method.md",
-      "bytes": 12524,
-      "sha256": "e9acc578833aa3b411524626c9f995a1ebfcf863c8c8f6f8ad3c688e12893848",
-      "git_blob_sha": "d3711889ca40d9d355494626bcea5e5f52801971"
+      "bytes": 12525,
+      "sha256": "9db7add909a021ca1d2e63214c9b377f3f0d46f0258020babbd7c062a3e83e30",
+      "git_blob_sha": "462688ffe476ddd4084af5aafbbf3783a81e40fa"
     },
     {
       "path": "plugins/canonical-scripture-study/references/runtime.md",

@@ -35,6 +35,8 @@ const list = await rpc('tools/list');
 assert.equal(list.tools.length, 11);
 assert.ok(list.tools.every(t => t.annotations.readOnlyHint && !t.annotations.destructiveHint && t.outputSchema));
 const health = (await tool('study_health')).structuredContent;
+assert.equal(health.runtime_controls.rate_limiter_configured, true);
+assert.equal(health.runtime_controls.max_request_bytes, 128 * 1024);
 assert.equal(health.indexed_chapters, 4150);
 assert.equal(health.plugin_version, manifest.version);
 assert.equal(health.deployment.paid_services_required, false);

@@ -1,4 +1,4 @@
-# Canonical Scripture Study — Preview 0.1.9
+# Canonical Scripture Study — Preview 0.1.10
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -34,9 +34,11 @@ The code and local runtime are published. A [free Cloudflare hosting package](cl
 
 ## Preview version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.9** on Preview). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.10** on Preview). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
-Preview 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
+The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
+
+Preview 0.1.10 adds per-user Cloudflare rate limiting (120 authenticated MCP POSTs/minute), bounded streamed requests, minified code, verified-source cache metrics and stored monitoring logs. See the [runtime controls and monitoring guide](cloudflare/README.md#runtime-controls-and-monitoring). Production remains 0.1.8 pending promotion.
 
 Changes to tools, shared MCP instructions or bundled on-demand study instructions take effect on the deployed server. Existing ChatGPT connections pointing to the same HTTPS `/mcp` endpoint do **not** need to be recreated. After a deployment, open the existing ChatGPT plugin connection and choose **Refresh** to rescan tool metadata and instructions, then test in a new conversation. The available UI may vary. The displayed plugin name/icon and any separately imported packaged skill files are not automatically replaced by a Worker deployment. Version changes may be visible through the `study_health` tool rather than the ChatGPT plugin card.
 
