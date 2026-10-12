@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "canonical-scripture-study-public",
+  "main": "src/public.js",
+  "compatibility_date": "2026-10-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "preview_urls": false,
+  "minify": true,
+  "keep_vars": true,
+  "vars": {"PUBLIC_HOST": "mcp.canonical-theology.com"},
+  "routes": [{"pattern": "mcp.canonical-theology.com", "custom_domain": true}],
+  "assets": {"directory": "./generated/assets", "binding": "ASSETS", "run_worker_first": true},
+  "kv_namespaces": [{"binding": "CONNECTOR_RANGES", "id": "2ebc42696c964429a3f4950f3c22ef93"}],
+  "ratelimits": [
+    {"name": "PUBLIC_IP_LIMITER", "namespace_id": "73001903", "simple": {"limit": 600, "period": 60}},
+    {"name": "PUBLIC_SERVICE_LIMITER", "namespace_id": "73001904", "simple": {"limit": 1200, "period": 60}}
+  ],
+  "triggers": {"crons": ["17 */6 * * *"]},
+  "observability": {"enabled": true, "head_sampling_rate": 1, "redact_query_string": true, "logs": {"enabled": true, "invocation_logs": true}}
+}

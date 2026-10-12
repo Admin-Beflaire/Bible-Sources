@@ -25,7 +25,8 @@ export async function readBoundedBody(body, limit) {
 
 export async function enforceRateLimit(request, payload, issuer, binding) {
   if (!binding?.limit) return new Response('Rate limiter not configured', {status: 503});
-  // Use verified claims, never a user-supplied ID, raw token or shared proxy IP.
+  // Callers supply a verified Access identity or an edge-verified network key;
+  // never use a client-supplied ID or raw token.
   const identity = payload.sub || payload.email || payload.common_name || 'authenticated-service';
   const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${issuer}\n${identity}`));
   const key = `mcp:${new URL(request.url).hostname}:${Array.from(new Uint8Array(digest), b => b.toString(16).padStart(2, '0')).join('')}`;

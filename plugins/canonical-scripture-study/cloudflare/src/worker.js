@@ -37,10 +37,10 @@ const toolSchemas = {
   'check_handoff': z.object({packet: record}).strict(),
   'get_study_instructions': z.object({section: z.enum(sections).default('bible-study')}).strict(),
 };
-export function createServer(assets, rateLimiter) {
+export function createServer(assets, rateLimiter, options = {}) {
   const engine = new Engine(new SourceStore(assets));
   const server = new McpServer({name: 'canonical-scripture-study', version: VERSION}, {instructions});
-  const tool = (name, description, fn) => server.registerTool(name, {description, inputSchema: toolSchemas[name], outputSchema: record, annotations}, async args => {
+  const tool = (name, description, fn) => server.registerTool(name, {description, inputSchema: toolSchemas[name], outputSchema: record, annotations, ...(options.noAuth ? {_meta: {securitySchemes: [{type: 'noauth'}]}} : {})}, async args => {
     const start = performance.now(), before = {...engine.store.metrics};
     let result;
     try {result = await fn(args);} catch (error) {
@@ -51,7 +51,7 @@ export function createServer(assets, rateLimiter) {
     console.log(JSON.stringify({event: 'study_tool', version: VERSION, tool: name, outcome: result.error ? 'error' : 'ok', error_code: result.error?.code, elapsed_ms: Math.round((performance.now() - start) * 100) / 100, response_bytes: new TextEncoder().encode(text).byteLength, ...Object.fromEntries(Object.entries(engine.store.metrics).map(([key, value]) => [key, value - before[key]]))}));
     return {content: [{type: 'text', text}], structuredContent: result, ...(result.error ? {isError: true} : {})};
   });
-  tool('study_health', 'Describe actual source coverage, pinned revision and deployment limits.', () => ({...engine.health(), runtime_controls: {rate_limiter_configured: Boolean(rateLimiter?.limit), max_request_bytes: 128 * 1024, verified_source_cache_bytes: 8 * 1024 * 1024}}));
+  tool('study_health', 'Describe actual source coverage, pinned revision and deployment limits.', () => ({...engine.health(), runtime_controls: {rate_limiter_configured: Boolean(rateLimiter?.limit), max_request_bytes: 128 * 1024, verified_source_cache_bytes: 8 * 1024 * 1024, ...options.runtimeControls}}));
   tool('study_plan', 'Route Standard/Detailed/Full studies and focused Standard/Full word studies, returning depth, citation and delivery contracts. A bare passage needs a completed Standard study, not just an outline; Next means another passage.', a => engine.plan(a.query, a.active_reference ?? null, a.language, a.translation_format, a.study_state ?? null, a.study_depth ?? null));
   tool('fetch_passage', 'Fetch the first bounded portion from public editions; native labels do not certify alignment.', a => engine.reader.passage(a.reference, a.sources ?? null, a.detail));
   tool('fetch_apparatus', 'Fetch SBLGNT edition-comparison entries; this is not a full manuscript apparatus.', a => engine.reader.apparatus(a.reference));

@@ -1,17 +1,18 @@
 # Cloudflare hosting and runtime controls
 
-Canonical Scripture Study runs on Cloudflare Workers and Workers Static Assets. ChatGPT performs translation, exegesis and theology; the Worker retrieves bounded verified evidence and makes no model API calls. No model API key, R2, Containers or database binding is required.
+Canonical Scripture Study runs on Cloudflare Workers and Workers Static Assets. ChatGPT performs translation, exegesis and theology; the Worker retrieves bounded verified evidence and makes no model API calls. The private channels require no model API key, R2, Containers or database. The public service uses one KV namespace containing only OpenAI's public connector network ranges.
 
 | Channel | Branch | MCP endpoint | Git deploy command |
 | --- | --- | --- | --- |
 | Production | `main` | https://study.canonical-theology.com/mcp | `npx wrangler deploy` |
 | Preview | `preview` | https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp | `npx wrangler preview` |
+| Public MCP | `preview` | https://mcp.canonical-theology.com/mcp | `npx wrangler deploy --config wrangler.public.jsonc` |
 
-Both connections use the existing Access application and Managed OAuth. The unneeded production workers.dev route is disabled; origin JWT validation also protects Preview. Reuse the existing access configuration and endpoints. See the root [release table](../../../README.md#releases-and-connections) for deployed versions.
+The private Production and Preview connections use the existing Access application and Managed OAuth. The separate public MCP service uses a connector network allowlist without user authentication. Its workers.dev and version preview URLs are disabled. The unneeded production workers.dev route is disabled; origin JWT validation also protects Preview. Reuse the existing access configuration and endpoints. See the root [release table](../../../README.md#releases-and-connections) for deployed versions.
 
 ## Existing Git deployment
 
-The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Both `main` and `preview` retain version 0.1.10; the Worker, MCP URLs, Access application and rate-limit namespaces remain the same. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview and the separate public MCP Worker use 0.1.11 from `preview`. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
 
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
@@ -46,11 +47,29 @@ For a new deployment:
 
 For a new deployment, configure `TEAM_DOMAIN`, `POLICY_AUD` and the `MCP_RATE_LIMITER` binding before serving MCP requests. Otherwise the MCP endpoint intentionally stops responding to valid tool calls. Cloudflare Access handles the OAuth browser flow and forwards a signed JWT in `Cf-Access-Jwt-Assertion`; the Worker validates the JWT signature, issuer, audience and expiry before it runs tools. ChatGPT's OAuth access token is not itself a JWT for this Worker to verify.
 
-For future public release, keep JWT validation but replace the single-email Access policy with a suitable public-user authentication policy and identity provider. Do not provide Cloudflare-account access to end users.
+The separately deployed public service below does not use this Access application. End users do not need a Cloudflare account or access to the maintainer’s account.
+
+## Public MCP without an additional sign-in
+
+Connect **https://mcp.canonical-theology.com/mcp** with **No authentication**. OAuth discovery, authorization, token, registration URLs, client IDs, secrets and scopes are not needed. [mcp.public.json](../mcp.public.json) contains the remote configuration; use it as `mcp.json` in a separate public submission package. The original `mcp.json` continues to configure local stdio. Deploying this service does not publish a Plugins Directory listing.
+
+`src/public.js` checks the edge-provided `CF-Connecting-IP` for every `/mcp` method before quotas, body reads or tool execution. Only ranges from **https://openai.com/chatgpt-connectors.json** are accepted. It ignores user agents and forwarded IP headers, rejects Worker subrequests and rejects hostnames other than `PUBLIC_HOST`. Requests outside the ranges return 403. Missing, malformed or more than 48-hour-old policy returns 503. IPv4 and IPv6 prefixes are validated; malformed addresses and unrestricted `/0` policies are rejected.
+
+The scheduled handler downloads the official list every six hours at minute 17 UTC (`17 */6 * * *`), with a 15-second timeout and 64 KiB response bound. Validation precedes the KV write. A failed refresh retains the last good policy until it expires, then the endpoint fails closed. Freshness uses the last successful download, not the document's publication date. In-memory/KV policy caching is bounded to 60 seconds. KV is eventually consistent, so removals may take time to propagate.
+
+The provisioned `CONNECTOR_RANGES` namespace is `canonical-scripture-study-public-connector-ranges`. Before an initial deployment, seed its `chatgpt-connectors:v1` key with `{ "source": "https://openai.com/chatgpt-connectors.json", "fetchedAt": <current Unix milliseconds>, "document": <validated downloaded JSON> }`. A new account must provision its own namespace and rate-limit IDs. Do not serve an unseeded policy or whitelist local test IPs.
+
+The public limiter uses separate namespaces: `73001903` allows 600 MCP requests per connector IP per minute; `73001904` allows 1,200 per minute across this service at each Cloudflare location. All MCP methods count. Keys are hashed canonical edge-verified addresses or the fixed service identity. These shared, approximate counters cannot provide per-user quotas without user identity. Missing/unavailable bindings fail closed; excess requests receive 429 with `Retry-After: 60`. Streamed POST bodies remain limited to 128 KiB. Public tools declare `noauth`, expose the same eleven read-only tools and verified evidence, and return `Cache-Control: no-store`.
+
+The restriction identifies OpenAI's connector infrastructure, not a particular ChatGPT user, organization or approved app installation. Users of that infrastructure can access this read-only service. It is enforced in the Worker, so denied requests still invoke the Worker and count toward platform quotas; it is not an edge WAF rule or a global spending cap. No paid plan has been enabled. The public source repository remains independently readable.
+
+`GET /` and `GET /health` expose basic status; raw assets and other paths return 404. `run_worker_first: true` prevents Static Assets from bypassing the guard. The optional `OPENAI_DOMAIN_CHALLENGE` variable serves only the portal-provided token at `GET /.well-known/openai-apps-challenge`; no token has been set by this release. Keep both `workers_dev` and `preview_urls` disabled. Private Access/JWT checks remain enabled in `src/worker.js`.
+
+A positive live MCP test must originate from ChatGPT's connector network; a locally injected `CF-Connecting-IP` tests code paths only. Check public `study_health` for the release and `connector_network_allowlist` controls. Monitor `connector_policy_refreshed`, `connector_policy_refresh_failed` and `connector_policy_unavailable` events, and verify the installed Cron trigger and policy freshness.
 
 ## Runtime controls and monitoring
 
-Version 0.1.10 on both channels uses `MCP_RATE_LIMITER`, configured at both the top level and in `previews` in `wrangler.jsonc`. Each verified user can make 120 authenticated MCP POST requests per 60 seconds. Initialization and notifications count. HTTP 429 responses include `Retry-After: 60`; retry after that delay. Missing or unavailable bindings return 503 rather than silently removing protection. Authentication precedes rate limiting. Keys hash verified identity and include the hostname; they never use raw tokens, user-supplied IDs or shared ChatGPT proxy IPs. Valid service assertions without a user identifier share a service bucket.
+The private channels retain the 0.1.10 controls and use `MCP_RATE_LIMITER`, configured at both the top level and in `previews` in `wrangler.jsonc`. Each verified user can make 120 authenticated MCP POST requests per 60 seconds. Initialization and notifications count. HTTP 429 responses include `Retry-After: 60`; retry after that delay. Missing or unavailable bindings return 503 rather than silently removing protection. Authentication precedes rate limiting. Keys hash verified identity and include the hostname; they never use raw tokens, user-supplied IDs or shared ChatGPT proxy IPs. Valid service assertions without a user identifier share a service bucket.
 
 Namespaces `73001901` (Preview) and `73001902` (Production) isolate counters. Cloudflare counters are approximate, eventually consistent and local to each Cloudflare location. This protects against bursts; it is not global usage accounting, an account-wide daily CPU/request cap or a replacement for edge DDoS protection. Access-managed OAuth discovery, authorization, token and registration endpoints do not pass through the MCP limiter.
 
@@ -66,9 +85,9 @@ These controls do not upgrade the account or provision paid storage/model servic
 
 The build verifies 103 metadata files and 64,108 source spans, producing 13,369 evidence assets; the largest is 782,080 bytes. The builder checks configured ceilings of 20,000 files and 25 MiB/file. Current counts appear in `generated/build-report.json`. Generated Wrangler types confirm `MCP_RATE_LIMITER: RateLimit` and `ASSETS: Fetcher`.
 
-Release checks cover 38 Python tests, 14 Worker test groups and 1,956 Python/Worker parity comparisons, including chapter boundaries, all 50 word studies and selected lexical IDs. Protocol tests use locally generated signed assertions and exercise eleven tools, twelve resources, authentication failures, overload, streaming limits and source tampering. These local checks and dry runs are distinct from live Cloudflare CPU measurements.
+Release checks cover 38 Python tests, 19 Worker test groups and 1,956 Python/Worker parity comparisons, including chapter boundaries, all 50 word studies and selected lexical IDs. Protocol tests use locally generated signed assertions and exercise eleven tools, twelve resources, authentication failures, overload, streaming limits and source tampering. Public regressions also cover network boundaries, stale/malformed policy, bounded refresh and last-good retention, bypass hosts, quotas, body limits and the no-sign-in MCP lifecycle. These local checks and dry runs are distinct from live Cloudflare CPU measurements.
 
-Run `npm test` for regressions, `npm run build` for a deployment dry run, and `npm run dev` for local Wrangler. For local authenticated tests, use the protocol test's generated signing keys; never commit a real Access assertion. `npm run smoke -- <endpoint>` requires an authenticated transport; the protocol test wraps that script locally. Connected Cloudflare and Canonical Scripture Study plugins can perform live verification without exposing credentials.
+Run `npm test` for regressions, `npm run build` for the private deployment dry run, `npm run build:public` for the public dry run, and `npm run dev` for local private Wrangler. For local authenticated tests, use the protocol test's generated signing keys; never commit a real Access assertion. `npm run smoke -- <endpoint>` requires an authenticated transport; the protocol test wraps that script locally. Connected Cloudflare and Canonical Scripture Study plugins can perform live verification without exposing credentials.
 
 ## Data and state
 
@@ -78,6 +97,7 @@ Every retrieved asset is SHA-256 checked against the build manifest before parsi
 
 Official setup references, checked 12 October 2026:
 
+- [OpenAI connector IP ranges](https://developers.openai.com/api/docs/guides/ip-addresses)
 - [Workers Rate Limiting](https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/)
 - [Workers Logs](https://developers.cloudflare.com/workers/observability/logs/workers-logs/)
 - [Workers best practices](https://developers.cloudflare.com/workers/best-practices/workers-best-practices/)

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.11 — Preview and separate public MCP — 2026-10-12
+
+- Add a standalone public Worker at `mcp.canonical-theology.com/mcp`, with no extra sign-in and eleven read-only tools declaring no authentication. Preserve the private Production/Preview Access configuration; Production remains 0.1.10.
+- Restrict all public MCP methods to edge-verified addresses in OpenAI's official connector ranges. Reject forwarded-header spoofing, Worker subrequests and alternate hostnames; disable workers.dev/preview URLs and static-route bypass.
+- Refresh a validated, bounded network-policy snapshot in KV every six hours; retain last-good policy on failed refresh and fail closed after 48 hours or on missing/malformed policy.
+- Add shared connector-IP/service burst limits (600/1,200 requests per minute per Cloudflare location), retaining streamed 128 KiB body limits, no-store responses and verified evidence retrieval.
+- Add public remote configuration, separate Git build/deploy setup, network/noauth protocol regressions and documentation. This deployment does not publish a directory listing. Study instructions, source texts and pinned source hashes remain unchanged.
+
 ## 0.1.10 — Production and Preview — 2026-10-12
 
 - Limit authenticated MCP POSTs with a Cloudflare Rate Limiting binding: 120 per verified user per 60 seconds, separate Preview/production namespaces, HTTP 429 with Retry-After and fail-closed binding errors. Keys use hashed verified identity rather than a shared proxy IP or raw token.

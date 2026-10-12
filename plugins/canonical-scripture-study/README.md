@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.10
+# Canonical Scripture Study — 0.1.11
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -30,15 +30,17 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production and Preview both run 0.1.10, with separate endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview and the separate public endpoint run 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+
+The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.10** on both Production and Preview). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.11** on Preview/public MCP; Production remains **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
-Version 0.1.10 adds per-user Cloudflare rate limiting (120 authenticated MCP POSTs/minute), bounded streamed requests, minified code, verified-source cache metrics and stored monitoring logs. See the [runtime controls and monitoring guide](cloudflare/README.md#runtime-controls-and-monitoring). Production and Preview include the same study policies and runtime controls.
+Version 0.1.10 adds per-user Cloudflare rate limiting (120 authenticated MCP POSTs/minute), bounded streamed requests, minified code, verified-source cache metrics and stored monitoring logs. See the [runtime controls and monitoring guide](cloudflare/README.md#runtime-controls-and-monitoring). Production and private Preview retain the same study policies and private runtime controls.
 
 Changes to tools, shared MCP instructions or bundled on-demand study instructions take effect on the deployed server. Existing ChatGPT connections pointing to the same HTTPS `/mcp` endpoint do **not** need to be recreated. After a deployment, open the existing ChatGPT plugin connection and choose **Refresh** to rescan tool metadata and instructions, then test in a new conversation. The available UI may vary. The displayed plugin name/icon and any separately imported packaged skill files are not automatically replaced by a Worker deployment. Version changes may be visible through the `study_health` tool rather than the ChatGPT plugin card.
 
