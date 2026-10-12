@@ -34,9 +34,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 22226,
-      "sha256": "ca5c7192af1919d5f9f7767bc28723d1358d98f631cdebb6baae84ec2d132f52",
-      "git_blob_sha": "df92c3bb81b4db7c3727ffdfc0962c24d0d5eeb3"
+      "bytes": 22841,
+      "sha256": "20ab41d4841c88d2dc586bef6681c8c2ac498dce278d9550e7174930673f0dc1",
+      "git_blob_sha": "5ef2ba6271fe506fe011c0a514a1b4d66dd6fa01"
     },
     {
       "path": "indexes/book-catalog.json",
@@ -1402,15 +1402,21 @@
     },
     {
       "path": "plugins/canonical-scripture-study/README.md",
-      "bytes": 16538,
-      "sha256": "9c133f172e027cb743f2ad19e002d17d61cac9f311011a7a794227df646a6b28",
-      "git_blob_sha": "8530566ae5f1c28cc5abb38d0577948243910ef1"
+      "bytes": 16884,
+      "sha256": "caf982a1fd522db1f730a80163e803eeba462e9443cbdcd7809844d62c51c058",
+      "git_blob_sha": "6931188718e62afd6b74143c2916d4199fb59019"
     },
     {
       "path": "plugins/canonical-scripture-study/REVIEW.md",
       "bytes": 2416,
       "sha256": "b25a930b722eafc15c08eaf38dc04f85db03ee3fa8c694cfa58e1157be32e5a7",
       "git_blob_sha": "b1de74d066ff5c36e834313bf3602baf657c921a"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/assets/logo-256.png",
+      "bytes": 73660,
+      "sha256": "3414ef31f495b7324c79535d93d8b8d2273d69d4c16aa9b0b7ec1d16afae06ec",
+      "git_blob_sha": "03427cb22c253fcb628cc5f2eb53d54f09f6dee8"
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/__init__.py",
@@ -1719,6 +1725,66 @@
       "git_blob_sha": "29fad39f9a5c9fbf34ca09178ff5e473a6f158e3"
     },
     {
+      "path": "plugins/canonical-scripture-study/publication/README.md",
+      "bytes": 2005,
+      "sha256": "c441c212f4b11916b1a07a4b811f3f58921e8629a67ee655a800f2ea7a1b26ef",
+      "git_blob_sha": "c7bccf8a71f9cb7c1d3b3dd679a3d2856ab7260d"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/build-package.py",
+      "bytes": 5657,
+      "sha256": "918d593c24eb4d191e00611558ee5c2f0647623b2b89a217176ca60b237a6a07",
+      "git_blob_sha": "ceb56f34668bd0cf488d1d7ca6b66dca7f662d31"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/demo-walkthrough.md",
+      "bytes": 3040,
+      "sha256": "f3ad8cc49c7bba4f762634d4c6a3be0162af694aac667c5f52b84183f5208af6",
+      "git_blob_sha": "868628a9665009a43205154f28b2951cedb77b2c"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/package-README.md",
+      "bytes": 1884,
+      "sha256": "9f86026da30754a2196c2ae9ebb4750036b26160c0eff0394fffcba9f1f118a6",
+      "git_blob_sha": "46a029d361a5ada9b0a2dc079db6d528e69cfe57"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/plugin.public.json",
+      "bytes": 8584,
+      "sha256": "96ee3b30687047ab80a39e01c458c312be247148787d1886c0d36838a446e785",
+      "git_blob_sha": "fdddd5ec2294b561eac668ff33ffa331ba8d6f62"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/site-pages/canonical-scripture-study.en.md",
+      "bytes": 3147,
+      "sha256": "ebd25ac47d05b9adbec88095168806fe26f2265080b3a0b97e2bedd8119b6839",
+      "git_blob_sha": "7a76d742a3fbf2b9307912b67fec99b770d8b5da"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/site-pages/plugin-privacy.en.md",
+      "bytes": 4757,
+      "sha256": "c7d3d076ca2f8b39231ff087cd00555e2b4f01e8cb57674357726bd9abfe8618",
+      "git_blob_sha": "75cbee1d3eb50a5a2e7c427b1ad69def782bb33e"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/site-pages/plugin-support.en.md",
+      "bytes": 2132,
+      "sha256": "a38e2b9908e12eb30b58fbe5d02d542b91dcb9e15e78a03dfcc18f5fe9f0c270",
+      "git_blob_sha": "77594af2d05867908443f4a6f80a4650a65254d4"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/site-pages/plugin-terms.en.md",
+      "bytes": 2894,
+      "sha256": "ccb607534a594bb9ffb968662d6caa058c07f6b87e52a9774df04a1c78029bb5",
+      "git_blob_sha": "e063e4c23558d18202cc73a1414748452c1a5171"
+    },
+    {
+      "path": "plugins/canonical-scripture-study/publication/verification.json",
+      "bytes": 3370,
+      "sha256": "3c9bbd827c049bb2b1996045d08ceda5dbb40f52d809f3a284c856046c702d4a",
+      "git_blob_sha": "676d96faa24c0f4d5a18bd073116bdf9ad23b2dc"
+    },
+    {
       "path": "plugins/canonical-scripture-study/pyproject.toml",
       "bytes": 674,
       "sha256": "f6941684d90c84b67d22b8b00a84c06b5a6316d0e101f6f851997de73b200911",
@@ -1738,9 +1804,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/references/runtime.md",
-      "bytes": 5801,
-      "sha256": "a61b6525e1911162e69394f640ef03730e2f4f5008bf4f57d51e61a9bc89d2e5",
-      "git_blob_sha": "b604f4eaa2e5e7d202294895374063f7e8a11a4e"
+      "bytes": 5804,
+      "sha256": "ba95ce90d6a823264ce941c73fb9acd64c7bc26bcd408bfc636f1d50362a1ee8",
+      "git_blob_sha": "71dd94758187c27757545f615324ba68fe192656"
     },
     {
       "path": "plugins/canonical-scripture-study/references/translation-key.md",

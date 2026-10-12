@@ -34,6 +34,8 @@ The code and local runtime are published. A [free Cloudflare hosting package](cl
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
+Public submission is prepared separately in [publication/](publication/README.md), with its own remote manifest, approved bright icon, review cases and EU country targeting. The verified publisher pages are live; a real demo recording and the final portal checks remain required. The public directory listing has not been submitted or approved.
+
 ## Deployed version and updating ChatGPT
 
 The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (currently **0.1.11** on Preview/public MCP; Production remains **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.

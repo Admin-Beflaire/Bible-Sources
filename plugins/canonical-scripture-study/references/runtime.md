@@ -1,6 +1,6 @@
 # Runtime and retrieval
 
-Resolve the plugin root as two directories above the active skill folder. Prefer the ten MCP tools when available. Otherwise run `python3 <plugin-root>/scripts/bible.py ...` in an authorized execution environment. Do not claim to have retrieved data if neither route is available. The core uses only Python's standard library; the optional server uses MCP 2.3.
+Resolve the plugin root as two directories above the active skill folder. Prefer the hosted MCP tools when available. Otherwise run `python3 <plugin-root>/scripts/bible.py ...` in an authorized execution environment. Do not claim to have retrieved data if neither route is available. The core uses only Python's standard library; the optional server uses MCP 2.3.
 
 | MCP tool | CLI |
 | --- | --- |

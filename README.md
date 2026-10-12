@@ -26,6 +26,8 @@ Version 0.1.10 added the private Cloudflare runtime controls retained by both ch
 
 Version 0.1.11 adds a separate public MCP endpoint with **No authentication** and no extra end-user sign-in. Every MCP request must originate from OpenAI's published ChatGPT connector ranges; ordinary Internet requests are denied. A scheduled refresh updates those ranges every six hours, retaining a valid last-good policy and failing closed after 48 hours without a successful refresh. Shared connector-IP and service rate limits replace per-user quotas for this endpoint. The network restriction cannot identify a particular user or app installation. Private Access settings remain intact. See [the public MCP guide](plugins/canonical-scripture-study/cloudflare/README.md#public-mcp-without-an-additional-sign-in) and [remote configuration](plugins/canonical-scripture-study/mcp.public.json). This deployment is preparation for public availability; it does not create a Plugins Directory listing.
 
+The [public-submission source](plugins/canonical-scripture-study/publication/) contains a separate remote package manifest, an approved bright 256 × 256 icon, five positive and three negative review cases, free-access declaration and initial targeting for all 27 EU member countries. Plugin-specific website, support, privacy and terms pages are deployed on Canonical Theology. The initial directory submission still needs a real demo recording, saved-version connection/case checks, scans and the publisher’s attestations; it has not been submitted or approved. Private/local package bindings remain separate.
+
 ### What the study plugin does
 
 | Request | Result |

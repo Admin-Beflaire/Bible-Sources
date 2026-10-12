@@ -1,0 +1,97 @@
+{
+  "checked_date": "2026-10-12",
+  "publisher": {
+    "name": "Mark Gatzen",
+    "identity_status": "Confirmed verified by publisher; portal not independently inspected"
+  },
+  "listing_urls": {
+    "websiteURL": {
+      "url": "https://canonical-theology.com/canonical-scripture-study/",
+      "status": "Verified",
+      "http_status": 200,
+      "marker": "Canonical Scripture Study",
+      "final_url": "https://canonical-theology.com/canonical-scripture-study/"
+    },
+    "supportURL": {
+      "url": "https://canonical-theology.com/canonical-scripture-study/support/",
+      "status": "Verified",
+      "http_status": 200,
+      "marker": "Get help",
+      "final_url": "https://canonical-theology.com/canonical-scripture-study/support/"
+    },
+    "privacyPolicyURL": {
+      "url": "https://canonical-theology.com/canonical-scripture-study/privacy/",
+      "status": "Verified",
+      "http_status": 200,
+      "marker": "What the service receives",
+      "final_url": "https://canonical-theology.com/canonical-scripture-study/privacy/"
+    },
+    "termsOfServiceURL": {
+      "url": "https://canonical-theology.com/canonical-scripture-study/terms/",
+      "status": "Verified",
+      "http_status": 200,
+      "marker": "Source rights",
+      "final_url": "https://canonical-theology.com/canonical-scripture-study/terms/"
+    }
+  },
+  "demo": {
+    "status": "Not run",
+    "note": "No real recording or recording URL supplied; walkthrough prepared"
+  },
+  "review_cases": [
+    {
+      "case": "P1",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "P2",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "P3",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "P4",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "P5",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "N1",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "N2",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    },
+    {
+      "case": "N3",
+      "status": "Not run",
+      "note": "Natural-language cases must be run against the saved submission version"
+    }
+  ],
+  "technical_evidence": {
+    "local_regressions": "38 Python tests, 19 Worker groups, 1,956 parity cases passed for 0.1.11",
+    "public_runtime": "Live health verified at 0.1.11; outside-network requests and forwarded-IP spoofing denied; direct workers.dev disabled",
+    "new_public_chatgpt_connection": "Not independently tested; existing connected tools target private endpoints"
+  },
+  "dashboard": {
+    "state": "Not uploaded or submitted",
+    "pending": [
+      "Real demo recording and accessible URL",
+      "Connection and case checks against saved version",
+      "Required scans and publisher legal/policy attestations",
+      "Review approval followed by publication"
+    ]
+  }
+}
