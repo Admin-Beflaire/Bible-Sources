@@ -25,7 +25,7 @@ def main():
         (dest / f"{name}.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     paths = list((root / "indexes").rglob("*")) + list((root / "sources/sblgnt/apparatus").glob("*.txt")) + [root / "resources/research-links.json"]
     hashes = {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths) if p.is_file()}
-    profile = {"schema_version": "0.1.0", "profile": "shared-public", "repository": "aertheron/Bible-Sources", "commit": args.commit, "metadata_hashes": hashes, "dss_linguistic_headers": {}}
+    profile = {"schema_version": "0.1.0", "profile": "shared-public", "repository": "Admin-Beflaire/Bible-Sources", "commit": args.commit, "metadata_hashes": hashes, "dss_linguistic_headers": {}}
     for path in sorted((root / "sources/dss/2.0.1/enriched/linguistics/books").glob("*.txt")):
         with path.open("rb") as f:
             start = f.read(8192)

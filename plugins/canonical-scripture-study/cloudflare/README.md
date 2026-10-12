@@ -11,6 +11,8 @@ Both connections use the existing Access application and Managed OAuth. The unne
 
 ## Existing Git deployment
 
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Both `main` and `preview` retain version 0.1.10; the Worker, MCP URLs, Access application and rate-limit namespaces remain the same. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
 Changes go to Preview first, followed by live checks after a successful build. Production promotion is a separately authorized merge to `main`. Source preparation is deterministic and asset uploads reuse unchanged files. Recreating the ChatGPT connection or changing its icon is unnecessary.

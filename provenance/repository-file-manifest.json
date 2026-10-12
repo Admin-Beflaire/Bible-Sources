@@ -34,9 +34,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 21115,
-      "sha256": "e88a831484d8e72eff5d83cbd6490fae88cf8539d14c1d60dc9a5274e19eaebb",
-      "git_blob_sha": "d4b7056f077b5b28f886184ea00a58ef7267d287"
+      "bytes": 21125,
+      "sha256": "18d90ec3c12bc50f624ff1af626fb63ae4132809fe2fb5ff6f28ae071f72b019",
+      "git_blob_sha": "a289eadfa31aafa7b42ae7ec351031d91d50fc2c"
     },
     {
       "path": "indexes/book-catalog.json",
@@ -1462,9 +1462,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/config/source-profile.json",
-      "bytes": 31922,
-      "sha256": "5935e30aa065cd8cfe95a178bff4454541d76966f5e32b232c151a5a521553a8",
-      "git_blob_sha": "583741b6a4eb943082449fb73bb857ae745f45d6"
+      "bytes": 31927,
+      "sha256": "7e1035c8b95553a63fe3bf3d4330cbca03bbcfd60eeaee93b3d6828eaae19a6f",
+      "git_blob_sha": "184105e97f985cfab44d248f6bfca166bb4b4863"
     },
     {
       "path": "plugins/canonical-scripture-study/bible_study/config/textual-cases.json",
@@ -1540,9 +1540,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/README.md",
-      "bytes": 12804,
-      "sha256": "4959356cf1418230fbe0ee8c1b586483e19555c9816281f80268051d585f3c09",
-      "git_blob_sha": "cb78da55527db839ee405be5dde1f6b9a497cee8"
+      "bytes": 13249,
+      "sha256": "8c6e284866bfeea17a1df73515aab135e6d6715f382586cedf76a469db606f07",
+      "git_blob_sha": "cba127c8079d7d49bf3a87d4457b1cb9ef75610e"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/mcp.remote.example.json",
@@ -1666,15 +1666,15 @@
     },
     {
       "path": "plugins/canonical-scripture-study/examples/fetch-handoff.json",
-      "bytes": 1743,
-      "sha256": "510704b7c1b051ea7792c7eb28796776d781aefb196af743ab2cd853baa17165",
-      "git_blob_sha": "3215376361ea2541b081f2d86733f8fe9a2d8e2f"
+      "bytes": 1753,
+      "sha256": "157d7edee7ff02359250d999d08063f715ad37e9f753020091e162910030d291",
+      "git_blob_sha": "7ec2e4d3b2852dc0e6e515a16449838ffc157307"
     },
     {
       "path": "plugins/canonical-scripture-study/examples/variant-assessment.json",
-      "bytes": 859,
-      "sha256": "1fb1f2a2b62f0ce561ff25495c01c1bce23c91658e1ba0a32edad811b5d7d3ae",
-      "git_blob_sha": "77fc287ce1d7d7b788821188208ef3b36c8770ed"
+      "bytes": 864,
+      "sha256": "71291fa1d74976b6de1646e59b9221452480a2affedbb5fa890b0817e11a040c",
+      "git_blob_sha": "130c96d616f1feb0c53dc2ff1efede7c047bced2"
     },
     {
       "path": "plugins/canonical-scripture-study/mcp.json",
@@ -1684,9 +1684,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/plugin.json",
-      "bytes": 1294,
-      "sha256": "b6ba89e647421e83d130a1c57c01d8b5fcde7905280aa0b20b7c41a8a5e3f10a",
-      "git_blob_sha": "b215de9e9d802d9a66f46a8a2d318569ac5a2b9b"
+      "bytes": 1299,
+      "sha256": "f9fbec99a0542759e72a62a0b367a429ff1a9496b809f1555eae5930bd65b7fd",
+      "git_blob_sha": "80bc9c150b9875fa26051f933e7a63749276b853"
     },
     {
       "path": "plugins/canonical-scripture-study/pyproject.toml",
@@ -1720,9 +1720,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/schemas/handoff.schema.json",
-      "bytes": 8511,
-      "sha256": "502455e8395aa2702ade3b69dd988d8f6895e389d7fbddf1cee2ec115889453d",
-      "git_blob_sha": "b61aa08dd3d03780fc6c11cc075b767cca166d5c"
+      "bytes": 8516,
+      "sha256": "af9dac34b3cac0f99d8e0a24010397edb3110cca4e4221d8c98a2ebba0caf21c",
+      "git_blob_sha": "4dafc98d6b9a2a130e53dc04bd2f2557ace130a2"
     },
     {
       "path": "plugins/canonical-scripture-study/scripts/bible.py",
@@ -1732,9 +1732,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/scripts/build_source_profile.py",
-      "bytes": 6039,
-      "sha256": "b6c537636b0158a2a85b7fd4d6ae41c0c026e66ddd171f95f7866d93576b1a89",
-      "git_blob_sha": "94b48498e7be8ad9b1a68ffea7cc880b372855e2"
+      "bytes": 6044,
+      "sha256": "d9588dd04d2087b5e8019282bda3b68c639e6f4d1e958405c4909f66c9708927",
+      "git_blob_sha": "e1aa9a287d8155f30f665bcb806cc995ec9318a8"
     },
     {
       "path": "plugins/canonical-scripture-study/skills/bible-dss-research/SKILL.md",

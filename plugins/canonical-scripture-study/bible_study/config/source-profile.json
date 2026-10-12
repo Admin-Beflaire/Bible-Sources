@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "profile": "shared-public",
-  "repository": "aertheron/Bible-Sources",
+  "repository": "Admin-Beflaire/Bible-Sources",
   "commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
   "metadata_hashes": {
     "indexes/book-catalog.json": "cc3516a7df31ef64db0923682aa7a4e95c914cd445a3c5423bc500beaea5eea4",
