@@ -62,7 +62,7 @@ for field in ['logo', 'composerIcon']:
     path = interface[field].removeprefix('./')
     assert not path.startswith('/') and '..' not in Path(path).parts
     blob = files[path]
-    assert blob[:8] == b'\x89PNG\r\n\x1a\n' and len(blob) <= 5 * 1024 * 1024
+    assert blob[:8] == b'\x89PNG\r\n\x1a\n' and len(blob) < 10000
     width, height = struct.unpack('>II', blob[16:24])
     assert width == height == 256
 assert not any('.app.json' in name or '.codex-plugin' in name for name in files)

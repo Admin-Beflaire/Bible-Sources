@@ -3,7 +3,7 @@
 Publisher: Mark Gatzen (individual; verification complete as confirmed by the
 publisher on 12 October 2026). Initial availability: the 27 European Union
 member countries. Free, with no purchases or paid plugin features. Support:
-public GitHub issues. The publisher approved the brighter 256 × 256 icon.
+public GitHub issues. The publisher approved the brighter 256 × 256 icon. Its indexed PNG is 6,618 bytes, below the requested 10 KB limit.
 
 `plugin.public.json` is a separate upload manifest. The source's private/local
 manifest and existing app connections are preserved. `../mcp.public.json`
