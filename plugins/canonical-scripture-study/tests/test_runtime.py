@@ -146,6 +146,26 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(self.engine.plan("Translate Genesis 1, full")["study_depth"], "full")
         self.assertEqual(self.engine.plan("help")["default_study_depth"], "standard")
 
+    def test_section_bounded_delivery_preserves_depth_scope_and_focused_tasks(self):
+        for command in ("Genesis 1", "Detailed study Genesis 1", "Full study Genesis 1", "Translate Genesis 1"):
+            with self.subTest(command=command):
+                plan = self.engine.plan(command)
+                policy = plan["delivery"]["research_policy"]
+                self.assertIn("only variants", policy["translation"])
+                self.assertIn("defer full word studies", policy["defer"])
+                self.assertIn("numbered footnotes", policy["output"])
+                self.assertIn("not quotas", policy["scope"])
+                self.assertEqual(plan["delivery"]["milestones"][1]["id"], "translation_ready")
+                self.assertLessEqual(len(json.dumps(plan, ensure_ascii=False)), 16000)
+        full = self.engine.plan("Full study Genesis 1")
+        self.assertEqual(full["reference"], "Genesis 1:1-2:3")
+        self.assertEqual(full["study_depth"], "full")
+        self.assertEqual(full["budgets"]["canonical_anchors"], 6)
+        for command in ("Full word study ruach", "Exegesis only Romans 12:1-2", "Theme study salvation"):
+            plan = self.engine.plan(command)
+            self.assertNotIn("translation", plan["delivery"]["research_policy"])
+            self.assertNotIn("translation_ready", [m["id"] for m in plan["delivery"]["milestones"]])
+
     def test_word_study_standard_full_and_citation_contracts(self):
         basic = self.engine.plan("Woordstudie ruach", language="nl")
         self.assertEqual(basic["mode"], "word_study")

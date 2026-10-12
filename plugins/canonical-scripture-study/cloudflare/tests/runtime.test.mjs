@@ -18,6 +18,25 @@ const assets = {fetch: async request => {
   return new Response(readFileSync(resolve(here, '../generated/assets', path)));
 }};
 const make = () => new Engine(new SourceStore(assets));
+test('Section-bounded delivery retains Full scope and focused-task contracts', async () => {
+  for (const command of ['Genesis 1', 'Detailed study Genesis 1', 'Full study Genesis 1', 'Translate Genesis 1']) {
+    const plan = await make().plan(command);
+    assert.match(plan.delivery.research_policy.translation, /only variants/);
+    assert.match(plan.delivery.research_policy.defer, /defer full word studies/);
+    assert.match(plan.delivery.research_policy.output, /numbered footnotes/);
+    assert.equal(plan.delivery.milestones[1].id, 'translation_ready');
+    assert.ok(JSON.stringify(plan).length <= 16000);
+  }
+  const full = await make().plan('Full study Genesis 1');
+  assert.equal(full.reference, 'Genesis 1:1-2:3');
+  assert.equal(full.study_depth, 'full');
+  assert.equal(full.budgets.canonical_anchors, 6);
+  for (const command of ['Full word study ruach', 'Exegesis only Romans 12:1-2', 'Theme study salvation']) {
+    const plan = await make().plan(command);
+    assert.ok(!Object.hasOwn(plan.delivery.research_policy, 'translation'));
+    assert.ok(!plan.delivery.milestones.some(m => m.id === 'translation_ready'));
+  }
+});
 test('Verified warm source bytes avoid another asset fetch; failures are never cached', async () => {
   clearCache();
   const pointer = Object.values(bundle.chapters)[0];

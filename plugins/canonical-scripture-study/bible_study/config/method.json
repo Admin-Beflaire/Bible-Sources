@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.11",
+  "schema_version": "0.1.12",
   "purpose": "Christian formation through biblical theology, canonical theology and context-sensitive working translation.",
   "preferred_framework": "Mark Gatzen's working biblical/canonical theology is preferred, but correctable by source evidence and contextual argument. A complete website claim profile has not been imported.",
   "sequence": [
@@ -30,6 +30,14 @@
     "secondary_characters": 8000
   },
   "secondary_resources": "Do independent analysis of the retrieved Hebrew/Greek and biblical context first. Standard and Detailed do not browse external sites by default. In Full, use BibleProject or scholarly resources selectively after that analysis for a specific unresolved or deepening question. Honour explicit research requests. Read before attributing; external resources are comparison and evidence, not the starting interpretation.",
+  "delivery_research": {
+    "scope": "Research only for the next undelivered section. Name the specific question each retrieval resolves, reuse verified evidence, and stop once wording, context and meaningful alternatives support that section. Budgets are ceilings, not quotas.",
+    "translation": "At every depth, first verify the primary passage, necessary preceding discourse and only variants, lexical questions or quotation/echo forms that could materially change translation or footnotes. A review flag is a lead, not a demand to fetch every witness. Preserve unresolved alternatives; never skip a consequential check to meet a timer.",
+    "defer": "Before translation, defer full word studies, historical surveys, canonical dossiers, theology and external commentary unless a specific unresolved rendering requires a targeted check. Full increases explanation depth, not pretranslation research.",
+    "output": "After a brief scope orientation, deliver the complete translation with numbered footnotes attached to affected verses. Put the central thesis after local explanation. Do not replace footnotes with a long textual essay before explanation.",
+    "later_sections": "For local explanation, historical context and canonical synthesis, research only the next section's question, deliver it when checked, then proceed. Explain a finding once; later synthesis connects findings rather than repeats them. Final review targets new or inconsistent claims rather than restarting all research.",
+    "host_limits": "Interleave verified output and research only when the host supports it; otherwise use one ordered streamed answer with bounded necessary research. Complete the current request autonomously. Never promise background jobs, automatic later turns or a guaranteed response time. Next advances the passage."
+  },
   "bounded_source_checks": {
     "question": "Identify the wording, contextual premise or evidence gap each check resolves. Reuse verified material and never imply an unconsulted source was checked.",
     "scope": "Check the occurrence with enough discourse; expand when the argument needs it and retrieve large units in bounded portions. Compare the actual linked sources for quotations/echoes. A fixed short window must not hide necessary context.",

@@ -108,6 +108,7 @@ def workflow(mode, depth):
             "fallback_surface": "single_streamed_answer_with_milestones",
             "requires_user_prompt_between_milestones": False,
             "background_jobs": False,
+            "research_policy": method["delivery_research"] if mode in ("study_plan", "standard_study", "detailed_study", "full_study", "translation_only") else {key: method["delivery_research"][key] for key in ("scope", "later_sections", "host_limits")},
             "milestones": [DELIVERY_MILESTONES[id] for id in FOCUSED_MILESTONES.get(mode, ["orientation", "translation_ready", "explanation_ready", "synthesis_ready"])],
             "instruction": "Complete every applicable milestone for the current passage without waiting for user input. Prefer a short visible orientation, then separate visible assistant updates as each verified result is ready; present the translation and notes before deeper explanation. If the host cannot issue successive assistant messages, stream a single answer in the same order. Never claim later tool calls or background work will happen after the reply ends. Next means a different passage, not the next study phase.",
         },

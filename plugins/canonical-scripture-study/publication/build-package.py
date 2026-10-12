@@ -15,6 +15,7 @@ parser.add_argument('--allow-incomplete', action='store_true')
 args = parser.parse_args()
 manifest = json.loads((PUB / 'plugin.public.json').read_text())
 mcp = json.loads((ROOT / 'mcp.public.json').read_text())
+assert manifest['version'] == json.loads((ROOT / 'plugin.json').read_text())['version'], 'Public submission snapshot must be updated and verified for the current source version before rebuilding'
 extension = manifest['extensions']['com.openai']
 interface = extension['interface']
 assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', manifest['name'])

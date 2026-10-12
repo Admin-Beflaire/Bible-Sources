@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.12 — Preview delivery — 2026-10-12
+
+- Add a shared section-bounded research policy to MCP initialization, Worker/Python plans and study instructions. Before translation, check only primary wording, necessary discourse and consequential variants, lexical questions or wording links; preserve unresolved alternatives.
+- Deliver translation with numbered footnotes before a central thesis. Defer wider historical, lexical and canonical research to the section that needs it; reuse evidence, treat budgets as ceilings, and avoid repeated synthesis.
+- Preserve Full depth, enclosing literary units, focused-task milestones and autonomous completion. Host-controlled streaming remains a limitation; no guaranteed latency or background model work is promised.
+- Suspend automatic public-server builds with user approval while Preview is evaluated. Public remains 0.1.11; Production remains 0.1.10. Source pin, texts and access settings are unchanged.
+
 ## 0.1.11 — Preview and separate public MCP — 2026-10-12
 
 - Add a standalone public Worker at `mcp.canonical-theology.com/mcp`, with no extra sign-in and eleven read-only tools declaring no authentication. Preserve the private Production/Preview Access configuration; Production remains 0.1.10.
