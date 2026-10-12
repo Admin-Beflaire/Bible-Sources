@@ -34,9 +34,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 20975,
-      "sha256": "be56b3b10f851deb343ad3ba0c5caf3692b31a9f2838650543d643da41536af8",
-      "git_blob_sha": "b50282cfbbc6160c12ff758b71f776050bf41414"
+      "bytes": 21115,
+      "sha256": "e88a831484d8e72eff5d83cbd6490fae88cf8539d14c1d60dc9a5274e19eaebb",
+      "git_blob_sha": "d4b7056f077b5b28f886184ea00a58ef7267d287"
     },
     {
       "path": "indexes/book-catalog.json",
@@ -1390,9 +1390,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/CHANGELOG.md",
-      "bytes": 8590,
-      "sha256": "da7877f652f2b3e3d50118d403f1f0ab5d84c63dc97e422b8f303990f7ac491f",
-      "git_blob_sha": "a81488047c3e703bceccb91a1ef85e7e33f613c3"
+      "bytes": 8708,
+      "sha256": "2c6631bf0146ade7af05083dc6042a3505200ffddfb5591aa278742d0275a175",
+      "git_blob_sha": "94ca3f175d4bec82af75ba5a6436fc5e885f70ac"
     },
     {
       "path": "plugins/canonical-scripture-study/LICENSE",
@@ -1402,9 +1402,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/README.md",
-      "bytes": 15780,
-      "sha256": "437de5131e0303f10c7cf8fdf41c7f27f11806aeb8d787d6d811076db9ebefc5",
-      "git_blob_sha": "e4e145c7c107c51bc3f55be7b9cf61538b970607"
+      "bytes": 15837,
+      "sha256": "9df49115a55477609ff2f5885236f3866e87941b6953ed87243cb042a4861b98",
+      "git_blob_sha": "b0abc6081bed66681f8a0f8417fa7485efa679a7"
     },
     {
       "path": "plugins/canonical-scripture-study/REVIEW.md",
@@ -1540,9 +1540,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/README.md",
-      "bytes": 12784,
-      "sha256": "5d9ffd5879bf359f3d62b687056775c1796b6985286b3f34b5c45c9efa7a21a8",
-      "git_blob_sha": "765a581f2dac032e7daac069625b4efa8dc4600e"
+      "bytes": 12804,
+      "sha256": "4959356cf1418230fbe0ee8c1b586483e19555c9816281f80268051d585f3c09",
+      "git_blob_sha": "cb78da55527db839ee405be5dde1f6b9a497cee8"
     },
     {
       "path": "plugins/canonical-scripture-study/cloudflare/mcp.remote.example.json",
