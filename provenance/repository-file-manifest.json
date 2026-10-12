@@ -1780,9 +1780,9 @@
     },
     {
       "path": "plugins/canonical-scripture-study/publication/verification.json",
-      "bytes": 3370,
-      "sha256": "3c9bbd827c049bb2b1996045d08ceda5dbb40f52d809f3a284c856046c702d4a",
-      "git_blob_sha": "676d96faa24c0f4d5a18bd073116bdf9ad23b2dc"
+      "bytes": 4981,
+      "sha256": "59dc082bfa9c334b45754b1f0c32a58ce35ded885ed2ef48555b7d585494ef91",
+      "git_blob_sha": "190baee770c919e34f53b5a8aefea15dd202aff5"
     },
     {
       "path": "plugins/canonical-scripture-study/pyproject.toml",

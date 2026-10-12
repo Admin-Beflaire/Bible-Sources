@@ -83,7 +83,39 @@
   "technical_evidence": {
     "local_regressions": "38 Python tests, 19 Worker groups, 1,956 parity cases passed for 0.1.11",
     "public_runtime": "Live health verified at 0.1.11; outside-network requests and forwarded-IP spoofing denied; direct workers.dev disabled",
-    "new_public_chatgpt_connection": "Not independently tested; existing connected tools target private endpoints"
+    "new_public_chatgpt_connection": "Passed live checks through the selected Canonical Scripture Study public connection on 12 October 2026. study_health reports 0.1.11, connector_network_allowlist and user_authentication=false. Simultaneous health and source calls succeeded.",
+    "live_mcp": {
+      "status": "Passed",
+      "tools_checked": [
+        "study_health",
+        "study_plan",
+        "fetch_passage",
+        "fetch_apparatus",
+        "fetch_dss",
+        "lookup_word",
+        "lookup_lexical",
+        "lookup_trajectory",
+        "evaluate_reading",
+        "check_handoff",
+        "get_study_instructions"
+      ],
+      "checks": [
+        "Full Genesis 1 selects Genesis 1:1–2:3; WLC and LXX return all 34 verses each",
+        "Focused Genesis/John translation keeps requested references and retrieves both Greek openings",
+        "Ruach curated study and Full-depth policy retrieved",
+        "Philippians 4:10–13 contextual evidence retrieved",
+        "Exact Dutch original-interlinear state retains language/format on Next to Genesis 1:4–2:3",
+        "SBLGNT edition apparatus, DSS, lexical and trajectory evidence retrieved",
+        "Reading assessment and handoff validation succeed with actual retrieved John evidence",
+        "Genesis 999:1 returns a controlled invalid_chapter error",
+        "Concurrent requests succeed"
+      ],
+      "limits": [
+        "These are live tool/contract checks, not completed natural-language review cases or saved-submission validation",
+        "Raw Study-prefixed planner calls returned unknown_book; normalized reference arguments succeeded",
+        "The cause of the user-reported chat UI stream errors remains unconfirmed"
+      ]
+    }
   },
   "dashboard": {
     "state": "Not uploaded or submitted",
