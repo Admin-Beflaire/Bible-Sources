@@ -1,5 +1,13 @@
 # Preview delivery candidate
 
+## 0.1.15 translation-delivery corrections (Preview only)
+
+Use one bounded working-translation pass: preserve enclosing literary or explicit exact scope and the translation key; retrieve the primary text once; investigate only a specific consequential source/grammar question; choose a single defensible main translation with verse-linked numbered footnotes; perform one completeness check; call Ready and deliver. There is no `check_handoff` tool in Preview. Do not restart translation for routine stylistic refinement, repeat active skill reads, or call `evaluate_reading` merely to footnote another attested construction.
+
+A user-selected witness restriction (such as WLC only) limits source consultation, **not** the translation key, scope rules or already supported OT–NT verbal connections. Retain such connections without routine NT retrieval and never claim that an unconsulted edition was checked. Prefer “In the beginning God created…” in Genesis 1:1, with a grammatical note for the temporal-clause alternative. Keep material divergence and uncertainty.
+
+Use one real start clock and one real pre-output Ready check; the interval is not the time at which the client finished rendering the output. Report only observed tool metrics, failures, and user-provided Worked-for timings. Initial exploratory reports are 6m10s (Full, first part), 3m42s (translation-only with comparisons) and 1m56s (WLC-only); **not controlled benchmarks**. Re-run identical passage, request/scope, model/effort and source configuration several times; record complete output as well as Worked-for before claiming improvement. Cross-edition verse mapping follows later. Public build automation remains intentionally suspended; Production/public are out of scope.
+
 The first improvement is stage-specific research and delivery. Alignment safeguards,
 workload measurements, concordance and dossier expansion follow after delivery testing.
 
