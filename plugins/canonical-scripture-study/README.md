@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.15
+# Canonical Scripture Study — 0.1.16 candidate
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -30,7 +30,7 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.15 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview is verified at 0.1.15 and targets candidate 0.1.16 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.15**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview candidate **0.1.16**, last live verification **0.1.15**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -106,7 +106,7 @@ The preferred method serves Mark Gatzen's Christian formation project. It is an 
 
 ## Evidence and architecture
 
-The skills form a modular pipeline: fetch and check alignment, collate, evaluate, translate/annotate, synthesize, review. [Strict JSON envelopes](schemas/handoff.schema.json) retain source evidence, alternatives, uncertainty and dependencies. Checks enforce fields, scope and packet size; they do not certify linguistic truth. The host must check source coverage and alignment.
+The skills form a modular pipeline: fetch and check alignment, collate, evaluate, translate/annotate, synthesize, review. Ordinary study output does not require structural handoffs. The legacy [JSON envelope schema](schemas/handoff.schema.json) supports actual structured integrations; private Preview removes check_handoff. Source integrity, coverage and linguistic review still apply.
 
 Reading evaluation preserves a named base unless a documented assessment supports another attested reading. Christological usefulness, difficulty, brevity and numerical agreement never automatically elect a reading. The 17-entry textual-case registry flags special review; it does not automatically make the longest reading earliest. Bracket disputed study inclusions only from exact, identified source text. See [the method](references/method.md) and [translation key](references/translation-key.md).
 
@@ -124,7 +124,7 @@ Code/skills are MIT licensed. Dataset licences remain separate, including **CC B
 
 Run core checks with `python3 -m unittest discover -s tests -v`; run `python3 tests/mcp_smoke.py` after installing the MCP extra. [REVIEW.md](REVIEW.md) records what the MVP does and what it does not establish.
 
-## Preview debug experiment — 0.1.14
+## Preview delivery and diagnostics — 0.1.16 candidate
 
 Preview supplies the complete active skills and translation key in the planner's
 `instruction_bundle`, without requiring a separate call for every instruction.
@@ -135,12 +135,12 @@ Debug reporting is on in private Preview only. It describes observed operations,
 source/record counts, server timings, cache metrics and actual failures, not hidden
 internal reasoning. `Debug off` and `Debug on` change visible reporting in the current
 conversation; they do not toggle a server-wide setting or store a user preference.
-Every successful Preview result includes a real `preview_clock` and debug results
+Successful and domain-error Preview results include a real `preview_clock`; debug results
 include compact `preview_debug` metrics. Arguments and conversation content are not
 added to hosting logs.
 
 For a connection with older tool metadata, the existing `study_plan` supports `Clock`
-and `Ready`, `Next`, `Resume` using `study_state: {preview_delivery: delivery_state}`.
+and `Ready`, `Next`, `Resume`, `Next passage` using `study_state: {preview_delivery: delivery_state}`.
 It also declares the continuation UI, so rendering no longer depends only on the new
 study_delivery tool. Refresh metadata to expose that UI and the typed evaluation
 schema. Retaining an attested base with an alternative footnote does not require a
@@ -151,3 +151,9 @@ Footnote markers must appear beside affected verse wording, with concise matchin
 notes. Copy the returned part sequence exactly. A closing timestamp must come from a
 fresh post-output clock call when the host supports it. Otherwise a footer explicitly
 says Last server check and does not pretend to measure rendering completion.
+
+Preview planning is metadata-only and returns a valid `retrieval_plan`; inspect dependent openings in the retrieved passage. Restrict editions with `sources`, or comma options such as `WLC only` or `sources WLC+LXX` when cached metadata lacks the new argument. The state retains restrictions through Next, Resume and Next passage. Translation rules, English default and scope remain active. Choose one main rendering and reuse established wording links.
+
+Preview has 12 tools: the regular eleven minus check_handoff, plus two delivery/clock tools. Typed edition/detail schemas improve call discovery. Metrics are request-local and include operation IDs, real request/return clocks, actual source/record counts and failures. Ready means awaiting host output, and the server explicitly reports that output completion was not observed. Reuse the freshly returned clock instead of adding a duplicate Clock call.
+
+See [release status](../../development/release-status.md) for implemented/tested/deployed distinctions, and [benchmarks](../../development/benchmark-protocol.md) for the exploratory observations and controlled local replay. Controlled host timing and client delivery remain unverified.

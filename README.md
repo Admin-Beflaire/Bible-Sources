@@ -10,15 +10,15 @@ Public source data and study software for AI-assisted Bible study, maintained by
 
 ### Releases and connections
 
-Release state documented on **12 October 2026**:
+Live release state verified on **13 October 2026**; candidate 0.1.16 is locally tested and awaits Preview deployment:
 
 | Connection | Git branch | Version | MCP endpoint |
 | --- | --- | --- | --- |
 | Production | `main` | **0.1.10** | [study.canonical-theology.com/mcp](https://study.canonical-theology.com/mcp) |
-| Preview | `preview` | **0.1.11** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
+| Preview | `preview` | **0.1.15** (verified; 0.1.16 candidate) | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
 | Public MCP | `preview` | **0.1.11** | [mcp.canonical-theology.com/mcp](https://mcp.canonical-theology.com/mcp) |
 
-Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10; Preview and the separate public endpoint use 0.1.11. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
+Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview is verified at 0.1.15, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Candidate 0.1.16 removes Preview handoff validation, retains source restrictions and translation rules, and improves observable clocks and diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
 
 The private Production and Preview connections use Cloudflare Access OAuth. The Worker also validates the Access JWT signature, issuer, audience and expiry at its origin; `/mcp` fails closed when authentication/configuration is missing. Public `/health` exposes only basic deployment status. Reuse the existing endpoint after a release, refresh the plugin's tool metadata/instructions where the host provides that control, and test in a new conversation. A Worker release does not automatically change the ChatGPT plugin card's name/icon or separately imported skill files.
 
@@ -39,11 +39,11 @@ The [public-submission source](plugins/canonical-scripture-study/publication/) c
 | Full word study / Volledige woordstudie | Inventory of all supported attested senses in consulted evidence, occurrence-level context, participants/relationships, related concepts and separate theological interpretation. The 4–6 initial examples are not a hard coverage limit. |
 | Translate / interlinear | Plain working translation, transliteration interlinear, or original-language interlinear with original → transliteration → contextual gloss and readable clause wording. |
 | Exegesis, context/history, theme, theology check, variants or DSS research | A focused explanation or evidence assessment rather than an automatically expanded full study. |
-| Next / Next chapter / Next: reference | Another passage, retaining mode, depth, language and translation format through the supplied continuation state. |
+| Next / Next chapter / Next: reference | Private Preview advances study parts first, then the passage; Next passage explicitly skips to another passage. Other channels retain passage continuation. |
 
 English is the default; request Dutch or another language explicitly. Ordinary passage studies select and explain the smallest supported enclosing literary unit: `Genesis 1` becomes **Genesis 1:1–2:3**, including the seventh day. `Genesis 1:1–3, exact` retains that range; its Next recommendation is **Genesis 1:4–2:3**. Focused translations retain their requested passage. The curated unit index is incomplete, so other boundaries require source-based discourse review. Explicit multi-chapter and whole-book requests become bounded sequences rather than loading the entire book into one response.
 
-Working translations render YHWH as **Yahweh** and preserve consequential source distinctions. Supported OT–NT quotations or echoes retain recognizable target-language wording where the source grammar permits it. Notes explain traditional and scholarly alternatives and any consolidated working choice; real differences between Hebrew, Greek witnesses and NT reuse remain visible. A shared English phrase alone does not establish a source connection.
+Working translations render YHWH as **Yahweh** and preserve consequential source distinctions. Supported OT–NT quotations or echoes retain recognizable target-language wording where the source grammar permits it. Choose one defensible main translation and footnote meaningful alternatives. Genesis 1:1 prefers “In the beginning God created…” with the temporal alternative in a note. Reuse established source-supported wording links without routine new retrieval; preserve real Hebrew/Greek/NT differences. Source restrictions retain translation rules and literary scope. A shared English phrase alone does not establish a source connection.
 
 Version 0.1.9 introduced a general **study-dialogue policy**: answer questions, understand the claim actually intended, follow cumulative arguments, retain clarifications and correct the specific faulty premise or inference. Only what is directly and clearly stated in context is presented as an explicit textual assertion; doctrine and theology may still be strongly warranted through explained contextual and canonical reasoning. The policy respects the wisdom-forming purpose of Scripture's different genres and distinguishes direct statements, implications, corroboration, compatibility and synthesis. Follow-up questions receive focused answers rather than restarting the complete study template.
 
@@ -78,7 +78,7 @@ The [Cloudflare package](plugins/canonical-scripture-study/cloudflare/) supplies
 | `lookup_lexical` | Selected attributed STEP/Open Scriptures records by ID. |
 | `lookup_trajectory` | Bounded canonical seed dossiers with anchor pointers. |
 | `evaluate_reading` | Validate a documented evidence-based reading assessment. |
-| `check_handoff` | Check stage fields, types, scope and packet size. |
+| `check_handoff` | Legacy structured-packet check on regular servers; removed from private Preview in candidate 0.1.16. |
 | `get_study_instructions` | Retrieve published stage skills or method/translation references. |
 
 All hosted tools are read-only. The eight [skills](plugins/canonical-scripture-study/skills/) cover study routing, source retrieval, textual comparison, reading evaluation, translation, exegesis, theology review and DSS research. JSON/schema checks establish contract integrity, not linguistic or theological truth.
@@ -156,7 +156,7 @@ npm run build
 
 `npm test` prepares source assets and runs runtime/protocol checks; `npm run build` prepares assets and performs a Wrangler deployment dry run. The existing Cloudflare Workers Builds configuration watches `main` for Production and the configured `preview` branch for Preview. Check the intended service and authentication bindings before any manual deployment. See the [plugin guide](plugins/canonical-scripture-study/README.md) for the optional Python MCP adapter and [Cloudflare guide](plugins/canonical-scripture-study/cloudflare/README.md) for hosting details.
 
-Release checks currently cover **38 Python tests**, **19 Worker test groups** and **1,956 Python/Worker parity cases**: planning/continuation, source packets, all 50 curated studies, selected lexical IDs, source-tampering guards, packet limits and authenticated MCP behavior. A deployment dry run checks packaging; authenticated live calls are checked after release. Dialogue instructions are exercised on source-based question/argument examples. These checks do not certify every generated study, guarantee host-model behavior or establish CPU use under every real-world request.
+Release checks currently cover **39 Python tests**, **29 Worker tests** and **1,956 Python/Worker parity cases**: planning/continuation, source packets, all 50 curated studies, selected lexical IDs, source-tampering guards, packet limits and authenticated MCP behavior. A deployment dry run checks packaging; authenticated live calls are checked after release. Dialogue instructions are exercised on source-based question/argument examples. These checks do not certify every generated study, guarantee host-model behavior or establish CPU use under every real-world request.
 
 The source profile pins revision `054a5226027deb13827a04a6e68c56cbd3702f37`, distinct from the software release commit. Metadata and returned source spans are SHA-256 verified. Local checkouts read source bytes directly; standalone Python installations can lazily retrieve/cache pinned material. The Worker serves **13,369 prepared evidence assets**, checking each against its compiled hash. The builder checks configured file-count and individual-file limits; the whole corpus is not loaded into the model context.
 
@@ -172,3 +172,5 @@ The source profile pins revision `054a5226027deb13827a04a6e68c56cbd3702f37`, dis
 - Source licences remain separate, especially the DSS noncommercial terms. Worker free-plan CPU and usage constraints require observation during real studies; no automatic paid-plan upgrade is implemented.
 
 See [runtime access](plugins/canonical-scripture-study/references/runtime.md), [method](plugins/canonical-scripture-study/references/method.md), [translation key](plugins/canonical-scripture-study/references/translation-key.md), [source terms](ATTRIBUTION.md) and [review notes](plugins/canonical-scripture-study/REVIEW.md) for detailed contracts and limitations.
+
+Development instructions stay in [AGENTS.md](AGENTS.md), with current [decisions](development/decisions.md), [backlog](development/backlog.md), [release status](development/release-status.md) and [benchmark evidence](development/benchmark-protocol.md). They are not bundled into runtime study instructions.

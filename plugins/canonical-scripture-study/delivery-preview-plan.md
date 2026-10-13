@@ -1,6 +1,6 @@
 # Preview delivery candidate
 
-## 0.1.15 translation-delivery corrections (Preview only)
+## 0.1.16 translation-delivery corrections (Preview only)
 
 Use one bounded working-translation pass: preserve enclosing literary or explicit exact scope and the translation key; retrieve the primary text once; investigate only a specific consequential source/grammar question; choose a single defensible main translation with verse-linked numbered footnotes; perform one completeness check; call Ready and deliver. There is no `check_handoff` tool in Preview. Do not restart translation for routine stylistic refinement, repeat active skill reads, or call `evaluate_reading` merely to footnote another attested construction.
 
@@ -26,8 +26,7 @@ now occupies a separate user turn:
 Standard and Detailed omit the separate historical part. Translation-only is one
 part. Focused word/theme/dialogue tasks retain their own task structure and are timed
 without being forced into passage translation. Load only the named active skills.
-Structural handoff validation remains available when an actual contract requires it;
-do not routinely generate and validate three large packets before output.
+Candidate 0.1.16 removes check_handoff from private Preview and removes routine stage-envelope construction. Source integrity, coverage and strict reading-selection evidence checks remain required.
 
 ## Timing and controls
 
@@ -82,3 +81,9 @@ Test again in a refreshed fresh chat without adding corrective workflow instruct
 Check actual call count, repeated reads, contract failures, stage titles, marked notes,
 clock checks, button invocation/rendering, and time to first/full text separately.
 No end-to-end speed improvement or cross-client UI success is claimed by local tests.
+
+## 0.1.16 corrections — implemented and locally tested, deployment pending
+
+Use metadata-only planning and the returned retrieval_plan. Source restrictions persist in delivery state and do not disable translation rules or literary scope. Do not reload bundled instructions, routinely research established OT–NT wording links, build handoffs or refine multiple competing drafts. Prefer Genesis 1:1 “In the beginning God created…” with the temporal alternative in a footnote.
+
+Reuse the just-returned real server clock for visible progress; metrics are request-local and failures retain their clock. Ready explicitly awaits host output. Label server checks honestly and never invent final-character completion. See [current release status](../../development/release-status.md) and [benchmark protocol](../../development/benchmark-protocol.md). The three reported Worked for times remain exploratory.

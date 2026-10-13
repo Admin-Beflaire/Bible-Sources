@@ -12,7 +12,7 @@ The private Production and Preview connections use the existing Access applicati
 
 ## Existing Git deployment
 
-The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview targets 0.1.15 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview is verified at 0.1.15 and targets candidate 0.1.16 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
 
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
@@ -85,7 +85,7 @@ These controls do not upgrade the account or provision paid storage/model servic
 
 The build verifies 103 metadata files and 64,108 source spans, producing 13,369 evidence assets; the largest is 782,080 bytes. The builder checks configured ceilings of 20,000 files and 25 MiB/file. Current counts appear in `generated/build-report.json`. Generated Wrangler types confirm `MCP_RATE_LIMITER: RateLimit` and `ASSETS: Fetcher`.
 
-Release checks cover 38 Python tests, 19 Worker test groups and 1,956 Python/Worker parity comparisons, including chapter boundaries, all 50 word studies and selected lexical IDs. Protocol tests use locally generated signed assertions and exercise eleven tools, twelve resources, authentication failures, overload, streaming limits and source tampering. Public regressions also cover network boundaries, stale/malformed policy, bounded refresh and last-good retention, bypass hosts, quotas, body limits and the no-sign-in MCP lifecycle. These local checks and dry runs are distinct from live Cloudflare CPU measurements.
+Release checks cover 39 Python tests, 29 Worker tests and 1,956 Python/Worker parity comparisons, including chapter boundaries, all 50 word studies and selected lexical IDs. Protocol tests use locally generated signed assertions and exercise eleven tools, twelve resources, authentication failures, overload, streaming limits and source tampering. Public regressions also cover network boundaries, stale/malformed policy, bounded refresh and last-good retention, bypass hosts, quotas, body limits and the no-sign-in MCP lifecycle. These local checks and dry runs are distinct from live Cloudflare CPU measurements.
 
 Run `npm test` for regressions, `npm run build` for the private deployment dry run, `npm run build:public` for the public dry run, and `npm run dev` for local private Wrangler. For local authenticated tests, use the protocol test's generated signing keys; never commit a real Access assertion. `npm run smoke -- <endpoint>` requires an authenticated transport; the protocol test wraps that script locally. Connected Cloudflare and Canonical Scripture Study plugins can perform live verification without exposing credentials.
 
@@ -112,7 +112,7 @@ Official setup references, checked 12 October 2026:
 
 Only `previews.vars` enables `PREVIEW_DELIVERY=true`. Normal private production and
 public deployments do not enable it; the noauth server additionally refuses this
-feature regardless of that flag. Preview registers 13 tools (the original eleven
+feature regardless of that flag. Candidate Preview registers 12 tools (the original eleven minus `check_handoff`,
 plus `preview_timestamp` and `study_delivery`) and one additional UI resource.
 
 For passage studies the active part is returned by `study_plan`, which loads only
@@ -150,3 +150,11 @@ supply Clock and Ready/Next/Resume so a stale tool scan does not block delivery.
 metadata still requires a connection refresh. Evaluation uses a fully typed Preview
 schema and unchanged strict semantic validation. No full verse mapping is introduced
 in this delivery release; that work remains next after delivery evaluation.
+
+### Preview translation corrections (0.1.16 candidate)
+
+Preview planning uses local metadata without retrieving an opening verse. Its explicit retrieval plan uses named editions and text/linguistic detail. Inspect dependent openings after retrieving the active passage and retain needed preceding context. Sources-only restrictions preserve the translation key, literary scope and continuation; cached connections can use comma source options.
+
+Preview removes check_handoff, retains strict reading-selection evidence checks, and supplies request-local metrics and correlation IDs without transcript logging. Both successful and domain-error results carry real clocks. Ready is explicitly awaiting host output; the UI describes elapsed time between server checks without claiming to measure text generation or output completion.
+
+Private/public dry runs passed for the candidate. They do not deploy either service. [Release status](../../../development/release-status.md) records the live checks and deployment; [benchmark protocol](../../../development/benchmark-protocol.md) separates exploratory host observations, local runtime replays and still-pending controlled host tests.

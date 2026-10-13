@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.16 — Preview translation contracts and diagnostics — 2026-10-13
+
+- Remove check_handoff from private Preview and routine envelope construction; keep legacy regular-server tooling and strict source/reading checks.
+- Plan from local scope metadata without opening-verse retrieval. Return valid named edition/detail calls and retain source restrictions through Next, Resume and Next passage. Keep translation rules and literary scope active under restricted evidence.
+- Choose one defensible main rendering, reuse established source-supported wording links, and prefer Genesis 1:1 In the beginning God created… with the temporal alternative in a footnote.
+- Add request-local diagnostic metrics, correlation IDs, actual edition/record counts and clocks on domain errors. Reuse returned clock checks and distinguish Ready from unobservable output completion.
+- Record baseline/candidate local retrieval replays and a controlled host benchmark protocol. Existing Worked for times remain exploratory; no host-speed improvement is claimed.
+- Local verification: 39 Python tests, 29 Worker tests, 1,956 parity cases, private/public dry runs. Preview deployment pending; Production stays 0.1.10, public stays 0.1.11 and public automatic builds remain suspended.
+
 ## 0.1.15 — Preview translation delivery simplification — 2026-10-13
 
 - Use a single bounded primary-source retrieval, targeted consequential checks, one main working translation, numbered verse-linked notes, one completeness check, then Ready and delivery. Keep active-part research separate from subsequent exegesis, history and synthesis.

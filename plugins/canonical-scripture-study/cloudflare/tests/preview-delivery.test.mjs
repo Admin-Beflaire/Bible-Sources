@@ -61,23 +61,68 @@ test('Focused tasks and regular engine are preserved; malformed states fail rath
 test('Existing planner provides active skills, clock, readiness, continuation and debug preferences', async()=>{
   const e=make();const p=await previewPlan(e,{query:'Full study Genesis 1'},start);
   assert.deepEqual(Object.keys(p.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
-  assert.deepEqual(p.translation_workflow.steps, ['confirm_scope_and_translation_key', 'retrieve_bounded_primary_once', 'resolve_only_consequential_questions', 'draft_single_main_translation_with_verse_linked_notes', 'one_completeness_check_then_ready']);
-  assert.deepEqual(p.translation_workflow.retained_policy_under_source_restrictions, ['literary_and_exact_scope', 'translation_key', 'established_OT_NT_wording_links']);
-  assert.match(p.delivery.research, /do not routinely retrieve the NT/);
-  assert.match(p.delivery.instruction_priority, /single completeness review/);
-  assert.match(p.instruction_bundle['translation-key'], /In the beginning God created the heavens and the earth/);
+  assert.deepEqual(p.translation_workflow.steps,['confirm_scope_and_translation_key','retrieve_bounded_primary_once','resolve_only_consequential_questions','draft_single_main_translation_with_verse_linked_notes','one_completeness_check_then_ready']);
+  assert.deepEqual(p.translation_workflow.retained_policy_under_source_restrictions,['literary_and_exact_scope','translation_key','established_OT_NT_wording_links']);
+  assert.match(p.delivery.instruction_priority,/single completeness review/);
   assert.ok(!p.delivery.instruction_priority.includes('check_handoff'));
-  assert.match(p.delivery.timestamp.measures, /not client rendering/);
+  assert.match(p.instruction_bundle['translation-key'],/In the beginning God created the heavens and the earth/);
+  assert.deepEqual(p.retrieval_plan[0].arguments.sources,['WLC'],'Comparison editions need a specific question or request');
   assert.ok(Object.values(p.instruction_bundle).every(s=>typeof s==='string'&&s.length>100));
   const ready=await previewPlan(e,{query:'Ready',study_state:{preview_delivery:p.delivery_state}},start+1000);
-  assert.equal(ready.timestamp.stage_elapsed_seconds, 1);
-  assert.match(ready.instruction,/never label a pre-output check as output completion/);
   const next=await previewPlan(e,{query:'Next',study_state:{preview_delivery:ready.next_delivery_state}},start+2000);
   assert.equal(next.delivery.current_part,'local_explanation');assert.equal(next.reference,p.reference);
   assert.deepEqual(Object.keys(next.instruction_bundle),['bible-exegesis']);
   assert.equal((await previewPlan(e,{query:'Clock'},start)).status,'clock_check');
   assert.equal((await previewPlan(e,{query:'Debug off'},start)).debug_mode,false);
   assert.equal((await previewPlan(e,{query:'Debug on'},start)).debug_mode,true);
+});
+test('Restricted evidence keeps the translation key, literary scope, valid calls and continuation without planner retrieval', async () => {
+  const e = make();
+  let plan = await previewPlan(e, {query:'Full study Genesis 1, WLC only'}, start);
+  assert.equal(plan.reference,'Genesis 1:1-2:3');
+  assert.equal(plan.scope_policy.study_reference,'Genesis 1:1-2:3');
+  assert.equal(plan.language,'en');
+  assert.deepEqual(plan.source_policy.allowed_editions,['WLC']);
+  assert.equal(plan.source_policy.secondary_lookups_allowed,false);
+  assert.deepEqual(plan.retrieval_plan,[{tool:'fetch_passage',arguments:{reference:'Genesis 1:1-2:3',sources:['WLC'],detail:'text'}}]);
+  assert.match(plan.instruction_bundle['translation-key'], /In the beginning God created/);
+  assert.match(plan.instruction_bundle['bible-translation'], /Do not construct or validate a handoff/);
+  assert.equal(plan.context_preface.required,null,'The planner must not claim to have inspected source text');
+  assert.deepEqual(e.store.metrics,{asset_fetches:0,cache_hits:0,asset_bytes:0});
+  for (let i=0;i<4;i++) {
+    const ready=await deliveryAction(e,'ready',plan.delivery_state,start+(i+1)*1000);
+    assert.equal(ready.output_status,'awaiting_host_output');
+    assert.equal(ready.output_completion_observed,false);
+    const resumed=await deliveryAction(e,'resume',plan.delivery_state,start+(i+1)*1000);
+    assert.deepEqual(resumed.source_policy.allowed_editions,['WLC']);
+    plan=await deliveryAction(e,'next',ready.next_delivery_state,start+(i+1)*1000);
+    assert.deepEqual(plan.source_policy.allowed_editions,['WLC']);
+  }
+  assert.equal(plan.reference,'Genesis 2:4-25');
+  assert.deepEqual(e.store.metrics,{asset_fetches:0,cache_hits:0,asset_bytes:0});
+  const exact=await previewPlan(e,{query:'Full study Genesis 1:1-3, exact, WLC only',language:'nl',translation_format:'original_interlinear'},start);
+  assert.equal(exact.reference,'Genesis 1:1-3');
+  assert.equal(exact.retrieval_plan[0].arguments.detail,'linguistic');
+  const skipped=await previewPlan(e,{query:'Next passage',study_state:{preview_delivery:exact.delivery_state}},start+1000);
+  assert.equal(skipped.reference,'Genesis 1:4-2:3');
+  assert.equal(skipped.language,'nl');
+  assert.deepEqual(skipped.source_policy.allowed_editions,['WLC']);
+  const translated=await previewPlan(e,{query:'Translate Genesis 1:1-3, exact, sources WLC+LXX'},start);
+  assert.equal(translated.reference,'Genesis 1:1-3');
+  assert.deepEqual(translated.source_policy.allowed_editions,['WLC','LXX']);
+  const lxx=await previewPlan(e,{query:'Translate Genesis 1:1-3',sources:['LXX']},start);
+  assert.deepEqual(lxx.retrieval_plan[0].arguments.sources,['LXX']);
+  const legacy={...exact.delivery_state};delete legacy.sources;
+  const legacyNext=await deliveryAction(e,'next',legacy,start+1000);
+  assert.deepEqual(legacyNext.source_policy.allowed_editions,['WLC']);
+  const dss=await previewPlan(e,{query:'Translate Genesis 1:27, DSS-only'},start);
+  assert.equal(dss.retrieval_plan[0].tool,'fetch_dss');
+  assert.match(dss.coverage_instruction,/fragmentary evidence/);
+  const language=await previewPlan(e,{query:'Full study Genesis 1 in English using only WLC'},start);
+  assert.equal(language.language,'en');assert.deepEqual(language.source_policy.allowed_editions,['WLC']);
+  for (const args of [{query:'Genesis 1',sources:[]},{query:'Genesis 1',sources:['RAHLFS']},{query:'Genesis 1',sources:['WLC','WLC']},{query:'Genesis 1, WLC only',sources:['LXX']},{query:'Genesis 1',sources:['SBLGNT']}]) {
+    await assert.rejects(previewPlan(e,args,start),err=>err.code==='sources');
+  }
 });
 test('Source-limited Preview queries retain translation key, exact scope and witness through Next', async () => {
   const e = make();
