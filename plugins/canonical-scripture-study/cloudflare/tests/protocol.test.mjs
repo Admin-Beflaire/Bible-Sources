@@ -90,7 +90,7 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
   const actualFetch=globalThis.fetch;globalThis.fetch=async()=>Response.json({keys:[jwk]});
   const assets={fetch:async req=>new Response(readFileSync(resolve(here,'../generated/assets',new URL(req.url).pathname.slice(1))))};
   const normal={ASSETS:assets,TEAM_DOMAIN:issuer,POLICY_AUD:audience,MCP_RATE_LIMITER:{limit:async()=>({success:true})}};
-  const preview={...normal,PREVIEW_DELIVERY:'true'};const ctx={waitUntil:()=>{}};let id=0;
+  const preview={...normal,PREVIEW_DELIVERY:'true',PREVIEW_DEBUG:'true'};const ctx={waitUntil:()=>{}};let id=0;
   const rpc=async(env,method,params={})=>{
     const req=new Request('https://study.example.test/mcp',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json, text/event-stream','Cf-Access-Jwt-Assertion':await sign()},body:JSON.stringify({jsonrpc:'2.0',id:++id,method,params})});
     const response=await worker.fetch(req,env,ctx);assert.equal(response.status,200);const text=await response.text();
@@ -105,6 +105,10 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const clock=(await rpc(preview,'tools/call',{name:'preview_timestamp',arguments:{}})).structuredContent;assert.match(clock.display,/Europe\/Amsterdam/);
     const plan=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 1 in English'}})).structuredContent;
     assert.equal(plan.delivery.current_part,'translation_notes');
+    assert.deepEqual(Object.keys(plan.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
+    assert.equal(plan.preview_debug.operation,'study_plan');assert.ok(plan.preview_debug.server_execution_ms>=0);
+    const planTool=tools.find(t=>t.name==='study_plan');assert.equal(planTool._meta.ui.resourceUri,descriptor._meta.ui.resourceUri);
+    const evalTool=tools.find(t=>t.name==='evaluate_reading');assert.deepEqual(evalTool.inputSchema.properties.record.properties.significance.enum,['semantic','theological','insignificant','uncertain']);
     const ready=(await rpc(preview,'tools/call',{name:'study_delivery',arguments:{action:'ready',delivery_state:plan.delivery_state}})).structuredContent;
     assert.equal(ready.next_title,'Local explanation and literary structure');
     const resource=await rpc(preview,'resources/read',{uri:descriptor._meta.ui.resourceUri});assert.equal(resource.contents[0].mimeType,'text/html;profile=mcp-app');
@@ -112,6 +116,16 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,11);
     assert.ok(!normalTools.some(t=>t.name==='preview_timestamp'));
     const instructions=(await rpc(preview,'tools/call',{name:'get_study_instructions',arguments:{section:'bible-study'}})).structuredContent;
-    assert.ok(instructions.text.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
+    assert.ok(instructions.text.startsWith('Preview study routing:'));
+    assert.equal(instructions.instruction_source,'router_use_active_plan_bundle');
+    const full=(await rpc(preview,'tools/call',{name:'get_study_instructions',arguments:{section:'bible-translation',detail:'full'}})).structuredContent;
+    assert.ok(full.text.includes('translation rules and key'));
+    assert.ok(full.text.length>instructions.text.length);
+    const fallback=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Ready',study_state:{preview_delivery:plan.delivery_state}}})).structuredContent;
+    assert.equal(fallback.status,'host_reports_part_ready');
+    const clocks=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Clock'}})).structuredContent;
+    assert.equal(clocks.status,'clock_check');
+    const health=(await rpc(preview,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.equal(health.runtime_controls.preview_debug_mode,true);
+    const normalHealth=(await rpc(normal,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.ok(!normalHealth.preview_debug&&!normalHealth.preview_clock);
   }finally{globalThis.fetch=actualFetch;}
 });

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.14 — Preview debug and delivery repairs — 2026-10-13
+
+- Bundle only active-stage instructions in the planner and make default Preview instruction reads compact routers, with explicit full access for a concrete missing instruction.
+- Add Preview-only verbose observable-operation reporting, compact tool timings/cache metrics/source counts, per-result server clock checks and conversation-level Debug on/off requests. Do not expose hidden reasoning or add argument/transcript logs.
+- Provide Clock and Ready/Next/Resume through the existing planner as a cached-tool fallback; attach the continuation UI to that planner as well as study_delivery. UI still depends on host support and refreshed metadata.
+- Expose the complete typed evaluation contract and avoid unnecessary formal evaluation when retaining the primary text with a factual alternative note. Preserve strict evidence checks for actual selection assessments.
+- Require verse-linked footnote markers, concise matching notes and the exact returned part sequence. Label pre-output footer timestamps honestly; request a fresh post-output clock only when supported.
+- Keep public 0.1.11 and Production 0.1.10 unchanged; publication and verse mapping remain on hold during delivery testing.
+
 ## 0.1.13 — Preview timing and study parts — 2026-10-13
 
 - Add Preview-only Amsterdam timestamps, with explicit server-check and rendering limits. Call the clock before each visible assistant message.

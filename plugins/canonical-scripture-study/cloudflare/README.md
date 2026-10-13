@@ -12,7 +12,7 @@ The private Production and Preview connections use the existing Access applicati
 
 ## Existing Git deployment
 
-The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview targets 0.1.13 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview targets 0.1.14 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
 
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
@@ -136,3 +136,17 @@ that call and after it, including subsequent text generation and client renderin
 The button separately shows its local click time. Never infer a full response duration
 from a later user message timestamp. Directory publication remains on hold while the
 improvements are evaluated; the existing public runtime remains 0.1.11.
+
+### Preview debug mode and cached-tool fallback (0.1.14)
+
+`previews.vars.PREVIEW_DEBUG=true` enables compact observed-operation metrics and
+verbose diagnostic reporting instructions. Public/noauth and normal private servers
+never receive these debug fields. No new storage or transcript logging is added.
+Debug off/on affects visible reporting within the conversation, not a server setting.
+
+Preview's planner bundles the complete active skill documents. Instruction reads are
+short routers by default, with explicit full reads available. The existing planner can
+supply Clock and Ready/Next/Resume so a stale tool scan does not block delivery. UI
+metadata still requires a connection refresh. Evaluation uses a fully typed Preview
+schema and unchanged strict semantic validation. No full verse mapping is introduced
+in this delivery release; that work remains next after delivery evaluation.

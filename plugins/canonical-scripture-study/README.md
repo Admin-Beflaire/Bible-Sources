@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.13
+# Canonical Scripture Study — 0.1.14
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -30,7 +30,7 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.13 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.14 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.13**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.14**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -123,3 +123,31 @@ Rahlfs stays outside the public profile. Swete is not ingested. The apparatus is
 Code/skills are MIT licensed. Dataset licences remain separate, including **CC BY-NC 4.0 for DSS**. See the repository's attribution and source terms.
 
 Run core checks with `python3 -m unittest discover -s tests -v`; run `python3 tests/mcp_smoke.py` after installing the MCP extra. [REVIEW.md](REVIEW.md) records what the MVP does and what it does not establish.
+
+## Preview debug experiment — 0.1.14
+
+Preview supplies the complete active skills and translation key in the planner's
+`instruction_bundle`, without requiring a separate call for every instruction.
+Default instruction reads return a short router; request `detail: full` only for a
+specific missing document. Other channels retain their original instruction access.
+
+Debug reporting is on in private Preview only. It describes observed operations,
+source/record counts, server timings, cache metrics and actual failures, not hidden
+internal reasoning. `Debug off` and `Debug on` change visible reporting in the current
+conversation; they do not toggle a server-wide setting or store a user preference.
+Every successful Preview result includes a real `preview_clock` and debug results
+include compact `preview_debug` metrics. Arguments and conversation content are not
+added to hosting logs.
+
+For a connection with older tool metadata, the existing `study_plan` supports `Clock`
+and `Ready`, `Next`, `Resume` using `study_state: {preview_delivery: delivery_state}`.
+It also declares the continuation UI, so rendering no longer depends only on the new
+study_delivery tool. Refresh metadata to expose that UI and the typed evaluation
+schema. Retaining an attested base with an alternative footnote does not require a
+formal evaluation call; primary-reading changes or textual assessment still use the
+strict evidence contract.
+
+Footnote markers must appear beside affected verse wording, with concise matching
+notes. Copy the returned part sequence exactly. A closing timestamp must come from a
+fresh post-output clock call when the host supports it. Otherwise a footer explicitly
+says Last server check and does not pretend to measure rendering completion.

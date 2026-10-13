@@ -58,6 +58,18 @@ test('Focused tasks and regular engine are preserved; malformed states fail rath
   }
   await assert.rejects(deliveryAction(e,'invalid',full.delivery_state,start), err=>err.code==='delivery_action');
 });
+test('Existing planner provides active skills, clock, readiness, continuation and debug preferences', async()=>{
+  const e=make();const p=await previewPlan(e,{query:'Full study Genesis 1'},start);
+  assert.deepEqual(Object.keys(p.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
+  assert.ok(Object.values(p.instruction_bundle).every(s=>typeof s==='string'&&s.length>100));
+  const ready=await previewPlan(e,{query:'Ready',study_state:{preview_delivery:p.delivery_state}},start+1000);
+  const next=await previewPlan(e,{query:'Next',study_state:{preview_delivery:ready.next_delivery_state}},start+2000);
+  assert.equal(next.delivery.current_part,'local_explanation');assert.equal(next.reference,p.reference);
+  assert.deepEqual(Object.keys(next.instruction_bundle),['bible-exegesis']);
+  assert.equal((await previewPlan(e,{query:'Clock'},start)).status,'clock_check');
+  assert.equal((await previewPlan(e,{query:'Debug off'},start)).debug_mode,false);
+  assert.equal((await previewPlan(e,{query:'Debug on'},start)).debug_mode,true);
+});
 test('Widget sends a user-triggered Next through the standard bridge and blocks duplicate clicks', async () => {
   const elements = Object.fromEntries(['title','clock','elapsed','next','hint','error'].map(id=>[id,{textContent:'',hidden:false,disabled:false}]));
   const listeners = {}, messages = [], parent = {postMessage: message=>messages.push(message)};

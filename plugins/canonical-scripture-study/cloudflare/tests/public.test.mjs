@@ -79,7 +79,7 @@ test('No-sign-in public MCP exposes eleven noauth tools and returns verified evi
     assert.ok(p && !p.error); return p.result;
   };
   const init = await rpc('initialize', {protocolVersion: '2025-06-18', capabilities: {}, clientInfo: {name: 'public-study-test', version: '1'}});
-  assert.equal(init.serverInfo.version, '0.1.13');
+  assert.equal(init.serverInfo.version, '0.1.14');
   const list = await rpc('tools/list'); assert.equal(list.tools.length, 11);
   assert.ok(list.tools.every(t => t._meta?.securitySchemes?.[0]?.type === 'noauth'));
   const health = (await rpc('tools/call', {name: 'study_health', arguments: {}})).structuredContent;
