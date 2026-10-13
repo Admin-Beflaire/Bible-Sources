@@ -10,15 +10,15 @@ Public source data and study software for AI-assisted Bible study, maintained by
 
 ### Releases and connections
 
-Live release state verified on **13 October 2026**; candidate 0.1.16 is locally tested and awaits Preview deployment:
+Live release state verified on **13 October 2026, 21:16 CEST**:
 
 | Connection | Git branch | Version | MCP endpoint |
 | --- | --- | --- | --- |
 | Production | `main` | **0.1.10** | [study.canonical-theology.com/mcp](https://study.canonical-theology.com/mcp) |
-| Preview | `preview` | **0.1.15** (verified; 0.1.16 candidate) | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
+| Preview | `preview` | **0.1.16** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
 | Public MCP | `preview` | **0.1.11** | [mcp.canonical-theology.com/mcp](https://mcp.canonical-theology.com/mcp) |
 
-Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview is verified at 0.1.15, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Candidate 0.1.16 removes Preview handoff validation, retains source restrictions and translation rules, and improves observable clocks and diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
+Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview runs 0.1.16, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Preview 0.1.16 removes Preview handoff validation, retains source restrictions and translation rules, and improves observable clocks and diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
 
 The private Production and Preview connections use Cloudflare Access OAuth. The Worker also validates the Access JWT signature, issuer, audience and expiry at its origin; `/mcp` fails closed when authentication/configuration is missing. Public `/health` exposes only basic deployment status. Reuse the existing endpoint after a release, refresh the plugin's tool metadata/instructions where the host provides that control, and test in a new conversation. A Worker release does not automatically change the ChatGPT plugin card's name/icon or separately imported skill files.
 
@@ -78,7 +78,7 @@ The [Cloudflare package](plugins/canonical-scripture-study/cloudflare/) supplies
 | `lookup_lexical` | Selected attributed STEP/Open Scriptures records by ID. |
 | `lookup_trajectory` | Bounded canonical seed dossiers with anchor pointers. |
 | `evaluate_reading` | Validate a documented evidence-based reading assessment. |
-| `check_handoff` | Legacy structured-packet check on regular servers; removed from private Preview in candidate 0.1.16. |
+| `check_handoff` | Legacy structured-packet check on regular servers; omitted from private Preview. |
 | `get_study_instructions` | Retrieve published stage skills or method/translation references. |
 
 All hosted tools are read-only. The eight [skills](plugins/canonical-scripture-study/skills/) cover study routing, source retrieval, textual comparison, reading evaluation, translation, exegesis, theology review and DSS research. JSON/schema checks establish contract integrity, not linguistic or theological truth.

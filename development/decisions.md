@@ -4,7 +4,7 @@
 
 Private Preview is the development target. Production remains 0.1.10 and the public/video server remains 0.1.11 until explicit promotion. Public directory publication and automatic public builds remain on hold. Only main and preview are permanent branches. See [release status](release-status.md) for verified deployments.
 
-## Translation delivery — implemented in candidate 0.1.16
+## Translation delivery — implemented, tested and deployed in private Preview 0.1.16
 
 Deliver translation and numbered consequential footnotes first. Research later study parts separately and continue with Next. Keep the returned part sequence; Ready is preparation for host output, not proof of delivery. The server cannot observe final-character or client-rendering completion.
 

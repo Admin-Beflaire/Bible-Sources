@@ -12,7 +12,7 @@ The private Production and Preview connections use the existing Access applicati
 
 ## Existing Git deployment
 
-The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview is verified at 0.1.15 and targets candidate 0.1.16 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview runs 0.1.16 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
 
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
@@ -112,7 +112,7 @@ Official setup references, checked 12 October 2026:
 
 Only `previews.vars` enables `PREVIEW_DELIVERY=true`. Normal private production and
 public deployments do not enable it; the noauth server additionally refuses this
-feature regardless of that flag. Candidate Preview registers 12 tools (the original eleven minus `check_handoff`,
+feature regardless of that flag. Private Preview registers 12 tools (the original eleven minus `check_handoff`,
 plus `preview_timestamp` and `study_delivery`) and one additional UI resource.
 
 For passage studies the active part is returned by `study_plan`, which loads only
@@ -151,7 +151,7 @@ metadata still requires a connection refresh. Evaluation uses a fully typed Prev
 schema and unchanged strict semantic validation. No full verse mapping is introduced
 in this delivery release; that work remains next after delivery evaluation.
 
-### Preview translation corrections (0.1.16 candidate)
+### Preview translation corrections (0.1.16)
 
 Preview planning uses local metadata without retrieving an opening verse. Its explicit retrieval plan uses named editions and text/linguistic detail. Inspect dependent openings after retrieving the active passage and retain needed preceding context. Sources-only restrictions preserve the translation key, literary scope and continuation; cached connections can use comma source options.
 

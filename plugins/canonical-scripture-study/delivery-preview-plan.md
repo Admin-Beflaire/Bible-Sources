@@ -57,7 +57,7 @@ to the test prompt: they must come from the plugin. Public submission remains pa
 
 ## Deployment boundary
 
-Private Preview receives 0.1.14 from the preview branch, enabled only by
+Private Preview receives 0.1.16 from the preview branch, enabled only by
 `previews.vars.PREVIEW_DELIVERY`. Public remains 0.1.11 and Production 0.1.10. The
 public build trigger remains suspended with user authorization. Restore its original
 `path_includes: ["*"]` only upon approved public promotion. Source corpus, source pin,
@@ -82,7 +82,7 @@ Check actual call count, repeated reads, contract failures, stage titles, marked
 clock checks, button invocation/rendering, and time to first/full text separately.
 No end-to-end speed improvement or cross-client UI success is claimed by local tests.
 
-## 0.1.16 corrections — implemented and locally tested, deployment pending
+## 0.1.16 corrections — implemented, locally tested and deployed to private Preview
 
 Use metadata-only planning and the returned retrieval_plan. Source restrictions persist in delivery state and do not disable translation rules or literary scope. Do not reload bundled instructions, routinely research established OT–NT wording links, build handoffs or refine multiple competing drafts. Prefer Genesis 1:1 “In the beginning God created…” with the temporal alternative in a footnote.
 
