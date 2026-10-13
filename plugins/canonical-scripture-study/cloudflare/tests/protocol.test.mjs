@@ -100,12 +100,14 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
   try{
     const init=await rpc(preview,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'preview-test',version:'1'}});
     assert.ok(init.instructions.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
-    const tools=(await rpc(preview,'tools/list')).tools;assert.equal(tools.length,13);
+    const tools=(await rpc(preview,'tools/list')).tools;assert.equal(tools.length,12);
+    assert.ok(!tools.some(t=>t.name==='check_handoff'), 'Preview must not expose structural handoff validation');
     const descriptor=tools.find(t=>t.name==='study_delivery');assert.ok(descriptor._meta.ui.resourceUri.startsWith('ui://'));
     const clock=(await rpc(preview,'tools/call',{name:'preview_timestamp',arguments:{}})).structuredContent;assert.match(clock.display,/Europe\/Amsterdam/);
     const plan=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 1 in English'}})).structuredContent;
     assert.equal(plan.delivery.current_part,'translation_notes');
     assert.deepEqual(Object.keys(plan.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
+    assert.equal(plan.translation_workflow.handoff_validation,'not_used_in_preview');
     assert.equal(plan.preview_debug.operation,'study_plan');assert.ok(plan.preview_debug.server_execution_ms>=0);
     const planTool=tools.find(t=>t.name==='study_plan');assert.equal(planTool._meta.ui.resourceUri,descriptor._meta.ui.resourceUri);
     const evalTool=tools.find(t=>t.name==='evaluate_reading');assert.deepEqual(evalTool.inputSchema.properties.record.properties.significance.enum,['semantic','theological','insignificant','uncertain']);
@@ -114,6 +116,7 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const resource=await rpc(preview,'resources/read',{uri:descriptor._meta.ui.resourceUri});assert.equal(resource.contents[0].mimeType,'text/html;profile=mcp-app');
     await rpc(normal,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'normal-test',version:'1'}});
     const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,11);
+    assert.ok(normalTools.some(t=>t.name==='check_handoff'), 'Private Production keeps its registered tools');
     assert.ok(!normalTools.some(t=>t.name==='preview_timestamp'));
     const instructions=(await rpc(preview,'tools/call',{name:'get_study_instructions',arguments:{section:'bible-study'}})).structuredContent;
     assert.ok(instructions.text.startsWith('Preview study routing:'));
