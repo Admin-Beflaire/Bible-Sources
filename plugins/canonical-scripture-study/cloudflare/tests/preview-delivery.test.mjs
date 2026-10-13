@@ -61,8 +61,17 @@ test('Focused tasks and regular engine are preserved; malformed states fail rath
 test('Existing planner provides active skills, clock, readiness, continuation and debug preferences', async()=>{
   const e=make();const p=await previewPlan(e,{query:'Full study Genesis 1'},start);
   assert.deepEqual(Object.keys(p.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
+  assert.deepEqual(p.translation_workflow.steps, ['confirm_scope_and_translation_key', 'retrieve_bounded_primary_once', 'resolve_only_consequential_questions', 'draft_single_main_translation_with_verse_linked_notes', 'one_completeness_check_then_ready']);
+  assert.deepEqual(p.translation_workflow.retained_policy_under_source_restrictions, ['literary_and_exact_scope', 'translation_key', 'established_OT_NT_wording_links']);
+  assert.match(p.delivery.research, /do not routinely retrieve the NT/);
+  assert.match(p.delivery.instruction_priority, /single completeness review/);
+  assert.match(p.instruction_bundle['translation-key'], /In the beginning God created the heavens and the earth/);
+  assert.ok(!p.delivery.instruction_priority.includes('check_handoff'));
+  assert.match(p.delivery.timestamp.measures, /not client rendering/);
   assert.ok(Object.values(p.instruction_bundle).every(s=>typeof s==='string'&&s.length>100));
   const ready=await previewPlan(e,{query:'Ready',study_state:{preview_delivery:p.delivery_state}},start+1000);
+  assert.equal(ready.timestamp.stage_elapsed_seconds, 1);
+  assert.match(ready.instruction,/never label a pre-output check as output completion/);
   const next=await previewPlan(e,{query:'Next',study_state:{preview_delivery:ready.next_delivery_state}},start+2000);
   assert.equal(next.delivery.current_part,'local_explanation');assert.equal(next.reference,p.reference);
   assert.deepEqual(Object.keys(next.instruction_bundle),['bible-exegesis']);
