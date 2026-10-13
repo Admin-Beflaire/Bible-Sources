@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.14
+# Canonical Scripture Study — 0.1.15
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -30,7 +30,7 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.14 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.15 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.14**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.15**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
