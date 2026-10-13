@@ -79,6 +79,24 @@ test('Existing planner provides active skills, clock, readiness, continuation an
   assert.equal((await previewPlan(e,{query:'Debug off'},start)).debug_mode,false);
   assert.equal((await previewPlan(e,{query:'Debug on'},start)).debug_mode,true);
 });
+test('Source-limited Preview queries retain translation key, exact scope and witness through Next', async () => {
+  const e = make();
+  const exact = await previewPlan(e, {query: 'Translate Genesis 1:1-3, exact, using only WLC'}, start);
+  assert.equal(exact.mode, 'translation_only');
+  assert.equal(exact.reference, 'Genesis 1:1-3');
+  assert.deepEqual(exact.source_restriction.allowed_sources, ['WLC']);
+  assert.deepEqual(Object.keys(exact.instruction_bundle), ['bible-source-retrieval','bible-translation','translation-key']);
+  assert.match(exact.instruction_bundle['translation-key'], /In the beginning God created/);
+  const alternate = await previewPlan(e, {query: 'Full study Genesis 1, WLC-only'}, start);
+  assert.equal(alternate.reference, 'Genesis 1:1-2:3');
+  assert.deepEqual(alternate.source_restriction.allowed_sources, ['WLC']);
+  const next = await deliveryAction(e, 'next', alternate.delivery_state, start + 1000);
+  assert.equal(next.delivery.current_part, 'local_explanation');
+  assert.deepEqual(next.source_restriction.allowed_sources, ['WLC']);
+  const later = await previewPlan(e, {query: 'Full study Genesis 1, using WLC only'}, start);
+  assert.deepEqual(later.source_restriction.allowed_sources, ['WLC']);
+  await assert.rejects(deliveryAction(e, 'next', {...alternate.delivery_state, source_restriction:'MADE_UP'}, start + 1000), err=>err.code==='delivery_state');
+});
 test('Widget sends a user-triggered Next through the standard bridge and blocks duplicate clicks', async () => {
   const elements = Object.fromEntries(['title','clock','elapsed','next','hint','error'].map(id=>[id,{textContent:'',hidden:false,disabled:false}]));
   const listeners = {}, messages = [], parent = {postMessage: message=>messages.push(message)};
