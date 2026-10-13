@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.15 — Preview translation delivery simplification — 2026-10-13
+
+- Use a single bounded primary-source retrieval, targeted consequential checks, one main working translation, numbered verse-linked notes, one completeness check, then Ready and delivery. Keep active-part research separate from subsequent exegesis, history and synthesis.
+- Remove the structural `check_handoff` tool from **Preview only**. Production and public tools and rules are not changed. Retain `evaluate_reading` for actual primary-reading changes, not ordinary footnotes.
+- Keep translation-key guidance, literary/exact scope and established source-supported OT–NT wording links under explicit witness restrictions. Do not routinely refetch NT parallels, LXX, DSS or lexicons to confirm already established wording.
+- Prefer Genesis 1:1 “In the beginning God created…” in the working text, noting “When God began to create…” as a defensible Hebrew alternative; reject a forced composite primary rendering or an assumed ex nihilo argument.
+- Clarify timestamps as server checks, including the pre-output Ready check, not total render duration. Make Preview diagnostics compact and based only on observed operations.
+- Add Preview contract tests for bounded workflow, source restrictions, omitted handoff tool, translation key and timestamp semantics. These tests require execution; automatic builds alone do not establish host-model performance.
+- Preserve private Production 0.1.10, public 0.1.11 and the suspended public automatic build filter; no public release or publication approval.
+
 ## 0.1.14 — Preview debug and delivery repairs — 2026-10-13
 
 - Bundle only active-stage instructions in the planner and make default Preview instruction reads compact routers, with explicit full access for a concrete missing instruction.
