@@ -11,6 +11,20 @@ const passageModes = new Set(['study_plan', 'standard_study', 'detailed_study', 
 const titles = {translation_notes: 'Translation and footnotes', local_explanation: 'Local explanation and literary structure', historical_context: 'Historical-cultural context', canonical_synthesis: 'Canonical synthesis and formation'};
 const instructionBundle = names => Object.fromEntries(names.map(section=>[section,bundle.documents[`skills/${section}/SKILL.md`]??bundle.documents[`references/${section}.md`]]));
 const focusedInstructions = {word_study:['bible-exegesis'],theme_study:['bible-exegesis','bible-theology-review'],variant_reconciliation:['bible-textual-comparison','bible-reading-evaluation'],theology_check:['bible-theology-review'],dss_research:['bible-dss-research']};
+const restrictedWitnesses = new Set(['WLC', 'UXLC', 'TAHOT', 'LXX', 'SBLGNT', 'DSS']);
+function extractSourceRestriction(query) {
+  const patterns = [
+    /(?:,?\s+)(?:using|with|from)\s+only\s+(WLC|UXLC|TAHOT|LXX|SBLGNT|DSS)\s*$/i,
+    /(?:,?\s+)(?:using|with|from)\s+(WLC|UXLC|TAHOT|LXX|SBLGNT|DSS)\s+only\s*$/i,
+    /(?:,?\s+)(WLC|UXLC|TAHOT|LXX|SBLGNT|DSS)(?:-only|\s+only)\s*$/i,
+  ];
+  for (const pattern of patterns) {
+    const match = pattern.exec(query);
+    if (match) return {query: query.slice(0, match.index).trim().replace(/,\s*$/, ''), witness: match[1].toUpperCase()};
+  }
+  return {query, witness: null};
+}
+
 function stages(mode, depth) {
   if (mode === 'translation_only') return ['translation_notes'];
   if (mode === 'context_history') return ['historical_context'];
@@ -26,7 +40,7 @@ export function timestamp(now = Date.now(), startedAt = null) {
   return {iso: date.toISOString(), display: `${parts.day}-${parts.month}-${parts.year} ${parts.hour}:${parts.minute}:${parts.second} (${parts.timeZoneName}, Europe/Amsterdam)`, time_zone: 'Europe/Amsterdam', ...(startedAt ? {stage_elapsed_seconds: Math.round((now - Date.parse(startedAt)) / 100) / 10} : {}), measures: 'Server clock check; not client rendering or final-message completion.'};
 }
 function validateState(engine, state, now) {
-  if (!state || Object.keys(state).sort().join(',') !== 'passage_state,schema_version,stage_index,started_at' || state.schema_version !== 1 || !Number.isInteger(state.stage_index) || typeof state.started_at !== 'string' || !Number.isFinite(Date.parse(state.started_at)) || Date.parse(state.started_at) > now || now - Date.parse(state.started_at) > 30 * 86400000) throw new StudyError('delivery_state', 'Use the exact recent delivery_state returned by Preview.');
+  if (!state || Object.keys(state).some(key => !['passage_state','schema_version','stage_index','started_at','source_restriction'].includes(key)) || !['passage_state','schema_version','stage_index','started_at'].every(key => Object.hasOwn(state,key)) || (state.source_restriction !== undefined && !restrictedWitnesses.has(state.source_restriction)) || state.schema_version !== 1 || !Number.isInteger(state.stage_index) || typeof state.started_at !== 'string' || !Number.isFinite(Date.parse(state.started_at)) || Date.parse(state.started_at) > now || now - Date.parse(state.started_at) > 30 * 86400000) throw new StudyError('delivery_state', 'Use the exact recent delivery_state returned by Preview.');
   const passage = engine.state(state.passage_state);
   if (!passageModes.has(passage.request_mode)) throw new StudyError('delivery_state', 'This focused task does not use passage delivery parts.');
   const sequence = stages(passage.request_mode, passage.study_depth);
@@ -44,7 +58,7 @@ function partPlan(plan, state, now) {
   const rest = Object.fromEntries(['mode','reference','requested_reference','language','translation_format','study_depth','scope_policy','context_preface','textual_review_flags','continuation_state','translation_policy','budgets'].filter(key=>Object.hasOwn(plan,key)).map(key=>[key,plan[key]]));
   const instruction_bundle = instructionBundle(partRules[id].instructions);
   const translation_workflow = id === 'translation_notes' ? {steps: ['confirm_scope_and_translation_key', 'retrieve_bounded_primary_once', 'resolve_only_consequential_questions', 'draft_single_main_translation_with_verse_linked_notes', 'one_completeness_check_then_ready'], additional_witness_rule: 'Targeted consequential checks only, subject to source restrictions.', retained_policy_under_source_restrictions: ['literary_and_exact_scope', 'translation_key', 'established_OT_NT_wording_links'], handoff_validation: 'not_used_in_preview'} : undefined;
-  return bounded({...rest, instruction_bundle, ...(translation_workflow ? {translation_workflow} : {}), part_sequence: sequence.map(part=>({id:part,title:titles[part]})), next_passage: plan.next, delivery_state: state, delivery: {mode: 'preview_one_part_per_turn', current_part: id, title: titles[id], part_number: state.stage_index + 1, total_parts: sequence.length, ...partRules[id], timestamp: timestamp(now, state.started_at), requires_next_for_more_parts: state.stage_index + 1 < sequence.length, instruction_priority: PREVIEW_ROUTER + ' Complete the active part only. For translation use one main rendering and a single completeness review, then mark Ready and deliver without another revision loop. Use the exact part titles; numbered footnote markers belong at affected wording and matching notes follow. Do not duplicate decisions in tables or conclusions.'}}, 30000);
+  return bounded({...rest, instruction_bundle, ...(translation_workflow ? {translation_workflow} : {}), ...(state.source_restriction ? {source_restriction: {allowed_sources: [state.source_restriction], excludes_other_witnesses: true, instruction: 'Fetch only the named witness. Preserve the translation key, literary/exact scope and established wording links without claiming new checks of excluded witnesses.'}} : {}), part_sequence: sequence.map(part=>({id:part,title:titles[part]})), next_passage: plan.next, delivery_state: state, delivery: {mode: 'preview_one_part_per_turn', current_part: id, title: titles[id], part_number: state.stage_index + 1, total_parts: sequence.length, ...partRules[id], timestamp: timestamp(now, state.started_at), requires_next_for_more_parts: state.stage_index + 1 < sequence.length, instruction_priority: PREVIEW_ROUTER + ' Complete the active part only. For translation use one main rendering and a single completeness review, then mark Ready and deliver without another revision loop. Use the exact part titles; numbered footnote markers belong at affected wording and matching notes follow. Do not duplicate decisions in tables or conclusions.'}}, 30000);
 }
 export async function previewPlan(engine, args, now = Date.now()) {
   const command = args.query.trim().toLowerCase();
@@ -52,12 +66,15 @@ export async function previewPlan(engine, args, now = Date.now()) {
   if (command === 'clock') return {status:'clock_check', timestamp:timestamp(now), instruction:'Use this real timestamp as the next message first line. It is not an exact rendering-completion time.'};
   if (['ready','next','resume'].includes(command) && args.study_state?.preview_delivery) return deliveryAction(engine,command,args.study_state.preview_delivery,now);
   // Normalize the ordinary trailing language wording seen in the reported test.
-  const match = /\s+in (English|Engels|Dutch|Nederlands)\.?$/i.exec(args.query);
-  const query = match ? args.query.slice(0, match.index) : args.query;
+  const sourceConstraint = extractSourceRestriction(args.query);
+  const match = /\s+in (English|Engels|Dutch|Nederlands)\.?$/i.exec(sourceConstraint.query);
+  const query = match ? sourceConstraint.query.slice(0, match.index) : sourceConstraint.query;
   const language = match ? /english|engels/i.test(match[1]) ? 'en' : 'nl' : args.language;
   const plan = await engine.plan(query, args.active_reference ?? null, language, args.translation_format, args.study_state ?? null, args.study_depth ?? null);
-  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}),preview_timestamp:timestamp(now)},30000);
-  return partPlan(plan, {schema_version: 1, passage_state: plan.continuation_state, stage_index: 0, started_at: new Date(now).toISOString()}, now);
+  const witness = sourceConstraint.witness ?? args._retained_restriction ?? null;
+  if (witness && !restrictedWitnesses.has(witness)) throw new StudyError('source_restriction', 'Unknown restricted witness.');
+  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}), ...(witness ? {source_restriction: {allowed_sources: [witness], excludes_other_witnesses: true}} : {}),preview_timestamp:timestamp(now)},30000);
+  return partPlan(plan, {schema_version: 1, passage_state: plan.continuation_state, stage_index: 0, started_at: new Date(now).toISOString(), ...(witness ? {source_restriction: witness} : {})}, now);
 }
 export async function deliveryAction(engine, action, state, now = Date.now()) {
   if (!['next', 'resume', 'ready'].includes(action)) throw new StudyError('delivery_action', 'Use next, resume or ready.');
@@ -67,9 +84,9 @@ export async function deliveryAction(engine, action, state, now = Date.now()) {
     return {status: 'host_reports_part_ready', timestamp: timestamp(now, state.started_at), completed_part: sequence[state.stage_index], completed_title: titles[sequence[state.stage_index]], next_title: hasNext ? titles[sequence[state.stage_index + 1]] : 'Next passage', passage_complete: !hasNext, next_delivery_state: {...state}, next_action: 'next', button_label: hasNext ? `Next: ${titles[sequence[state.stage_index + 1]]}` : 'Next passage', instruction: 'Begin substantive output with timestamp.display. Deliver only the current part and then stop. Retain next_delivery_state for Next. If the host supports a clock call after substantive streaming, issue it and append the fresh timestamp in a separate closing message. Otherwise end with Last server check: timestamp.display; never label a pre-output check as output completion. Readiness is reported by the host; this tool does not certify the translation or interpretation.'};
   }
   if (action === 'next' && state.stage_index + 1 === sequence.length) {
-    return previewPlan(engine, {query: 'Next', study_state: passage, language: passage.language, translation_format: passage.translation_format}, now);
+    return previewPlan(engine, {query: 'Next', study_state: passage, language: passage.language, translation_format: passage.translation_format, _retained_restriction: state.source_restriction ?? null}, now);
   }
   const index = action === 'next' ? state.stage_index + 1 : state.stage_index;
   const plan = await engine.passagePlan(passage.request_mode, passage.current_reference, passage.language, passage.translation_format, passage.original_reference, passage.pending_references, null, passage.study_depth);
-  return partPlan(plan, {schema_version: 1, passage_state: passage, stage_index: index, started_at: new Date(now).toISOString()}, now);
+  return partPlan(plan, {schema_version: 1, passage_state: passage, stage_index: index, started_at: new Date(now).toISOString(), ...(state.source_restriction ? {source_restriction: state.source_restriction} : {})}, now);
 }
