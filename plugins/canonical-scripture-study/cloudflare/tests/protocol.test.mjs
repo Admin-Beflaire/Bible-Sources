@@ -85,3 +85,33 @@ test('Access validation refuses missing, expired, wrong-audience and forged asse
     assert.equal((await worker.fetch(new Request('https://study.example.test/health'), {}, {})).status, 200);
   } finally {globalThis.fetch = actualFetch;}
 });
+
+test('Preview-only timing, part plans and UI are isolated from normal server on the same assets', async () => {
+  const actualFetch=globalThis.fetch;globalThis.fetch=async()=>Response.json({keys:[jwk]});
+  const assets={fetch:async req=>new Response(readFileSync(resolve(here,'../generated/assets',new URL(req.url).pathname.slice(1))))};
+  const normal={ASSETS:assets,TEAM_DOMAIN:issuer,POLICY_AUD:audience,MCP_RATE_LIMITER:{limit:async()=>({success:true})}};
+  const preview={...normal,PREVIEW_DELIVERY:'true'};const ctx={waitUntil:()=>{}};let id=0;
+  const rpc=async(env,method,params={})=>{
+    const req=new Request('https://study.example.test/mcp',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json, text/event-stream','Cf-Access-Jwt-Assertion':await sign()},body:JSON.stringify({jsonrpc:'2.0',id:++id,method,params})});
+    const response=await worker.fetch(req,env,ctx);assert.equal(response.status,200);const text=await response.text();
+    const data=response.headers.get('Content-Type')?.includes('text/event-stream')?text.split(/\r?\n\r?\n/).map(event=>event.split(/\r?\n/).filter(line=>line.startsWith('data:')).map(line=>line.slice(5).trimStart()).join('\n')).filter(Boolean).map(JSON.parse).find(packet=>packet.id===id):JSON.parse(text);
+    assert.ok(data&&!data.error);return data.result;
+  };
+  try{
+    const init=await rpc(preview,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'preview-test',version:'1'}});
+    assert.ok(init.instructions.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
+    const tools=(await rpc(preview,'tools/list')).tools;assert.equal(tools.length,13);
+    const descriptor=tools.find(t=>t.name==='study_delivery');assert.ok(descriptor._meta.ui.resourceUri.startsWith('ui://'));
+    const clock=(await rpc(preview,'tools/call',{name:'preview_timestamp',arguments:{}})).structuredContent;assert.match(clock.display,/Europe\/Amsterdam/);
+    const plan=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 1 in English'}})).structuredContent;
+    assert.equal(plan.delivery.current_part,'translation_notes');
+    const ready=(await rpc(preview,'tools/call',{name:'study_delivery',arguments:{action:'ready',delivery_state:plan.delivery_state}})).structuredContent;
+    assert.equal(ready.next_title,'Local explanation and literary structure');
+    const resource=await rpc(preview,'resources/read',{uri:descriptor._meta.ui.resourceUri});assert.equal(resource.contents[0].mimeType,'text/html;profile=mcp-app');
+    await rpc(normal,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'normal-test',version:'1'}});
+    const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,11);
+    assert.ok(!normalTools.some(t=>t.name==='preview_timestamp'));
+    const instructions=(await rpc(preview,'tools/call',{name:'get_study_instructions',arguments:{section:'bible-study'}})).structuredContent;
+    assert.ok(instructions.text.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
+  }finally{globalThis.fetch=actualFetch;}
+});

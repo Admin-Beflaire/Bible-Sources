@@ -12,7 +12,7 @@ The private Production and Preview connections use the existing Access applicati
 
 ## Existing Git deployment
 
-The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview targets 0.1.12 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
+The repository is [Admin-Beflaire/Bible-Sources](https://github.com/Admin-Beflaire/Bible-Sources), transferred on 12 October 2026. The existing Cloudflare build connection now uses this owner. Production on `main` remains 0.1.10. Preview targets 0.1.13 from `preview`; the separate public MCP Worker remains on 0.1.11. Its automatic build path filter was suspended with user approval while Preview delivery is evaluated. Restore its original `path_includes: ["*"]` only when promoting an approved public release. The private endpoints, Access application and rate-limit namespaces are preserved. The pinned source commit and source hashes are retained, with evidence links identifying the new repository location.
 
 GitHub integration uses root `plugins/canonical-scripture-study/cloudflare`, Node 22+, `npm ci`, build command `npm run prepare:data` and the channel-specific deploy command above. Preview auto-builds are enabled. The full repository checkout supplies pinned source data. Preserve `ASSETS`, `TEAM_DOMAIN`, `POLICY_AUD` and `MCP_RATE_LIMITER`. `keep_vars` preserves dashboard text variables; Preview specifies Access variables explicitly.
 
@@ -107,3 +107,32 @@ Official setup references, checked 12 October 2026:
 - [Workers Git build configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/)
 - [Add a custom MCP server in ChatGPT](https://developers.openai.com/api/docs/guides/custom-mcp-server)
 - [Package the complete plugin](https://developers.openai.com/plugins/build/plugins)
+
+## Preview timing and staged delivery
+
+Only `previews.vars` enables `PREVIEW_DELIVERY=true`. Normal private production and
+public deployments do not enable it; the noauth server additionally refuses this
+feature regardless of that flag. Preview registers 13 tools (the original eleven
+plus `preview_timestamp` and `study_delivery`) and one additional UI resource.
+
+For passage studies the active part is returned by `study_plan`, which loads only
+its relevant skills. Full uses translation/footnotes, local explanation, historical
+context, then canonical synthesis/formation. Each part ends the turn. Next uses the
+exact `next_delivery_state` to continue the same passage; the final Next advances
+the passage. An interrupted part can be resumed. State remains in the conversation
+and tool output; no server-side study store, user identifier or transcript log is added.
+
+The UI resource is self-contained, has no external connections, and sends a
+user-triggered Next through the MCP Apps bridge with a ChatGPT compatibility fallback.
+It does not control ChatGPT's native suggested-response buttons. Actual rendering
+and follow-up support must be tested in the user's web, desktop and mobile clients.
+Typed Next remains the fallback. Refresh the existing Preview connection to scan the
+new tools and resource, then test in a new conversation.
+
+Timestamps use DD-MM-YYYY and a 24-hour clock in Europe/Amsterdam, including daylight
+saving time. First-tool and pre-output timestamps are server checks. The ready call
+measures part preparation from the plan/continuation call; it excludes time before
+that call and after it, including subsequent text generation and client rendering.
+The button separately shows its local click time. Never infer a full response duration
+from a later user message timestamp. Directory publication remains on hold while the
+improvements are evaluated; the existing public runtime remains 0.1.11.

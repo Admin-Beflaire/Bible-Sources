@@ -3,61 +3,55 @@
 The first improvement is stage-specific research and delivery. Alignment safeguards,
 workload measurements, concordance and dossier expansion follow after delivery testing.
 
-## Execution
+## Execution in 0.1.13
 
-1. Give a short scope orientation, including a justified literary-unit adjustment.
-2. Retrieve primary wording and necessary prior discourse. Compare only witnesses,
-   lexical evidence or wording links that can change the translation or its notes.
-   Investigate consequential differences; label unresolved alternatives honestly.
-3. Present the complete working translation with numbered footnotes referring to
-   affected verses. A central thesis or interpretive essay must not precede it.
-4. Research and deliver local explanation, literary structure and relevant terms.
-   Research historical context only for the question being explained. Reuse evidence.
-5. Research and deliver bounded canonical/theological development. Explain findings
-   once and use the synthesis to connect them. Review new or inconsistent claims.
+Preview overrides the earlier one-turn experiment after the user's 0.1.12 transcript
+showed all research still occurred before translation output. Each passage study part
+now occupies a separate user turn:
 
-Full retains depth. Research budgets are ceilings, not quotas. Focused tasks retain
-their own milestones; a word study is not forced into a passage translation.
+1. Clock check first, brief stamped scope orientation, relevant translation skills,
+   primary sources and consequential decisions, then complete translation/footnotes.
+2. Next: local explanation, literary structure and relevant names/terms.
+3. Next in Full: bounded historical-cultural comparison.
+4. Next: bounded canonical synthesis, theology, formation and a compact conclusion.
 
-## Host capability and fallback
+Standard and Detailed omit the separate historical part. Translation-only is one
+part. Focused word/theme/dialogue tasks retain their own task structure and are timed
+without being forced into passage translation. Load only the named active skills.
+Structural handoff validation remains available when an actual contract requires it;
+do not routinely generate and validate three large packets before output.
 
-Prefer visible completed sections interleaved with later tool calls in the same turn
-when ChatGPT supports it. Otherwise use an ordered streamed answer with bounded
-necessary research. The server supplies instructions and evidence; it cannot force
-ChatGPT to publish an intermediate message or guarantee a 30-second translation.
-Do not promise background jobs or automatic subsequent turns. Next changes passage.
+## Timing and controls
 
-## Preview evaluation
+`preview_timestamp` supplies the first line of each visible assistant message using
+DD-MM-YYYY HH:mm:ss in Europe/Amsterdam, with daylight saving time. The stage start
+and ready timestamps measure preparation between server checks, not the complete
+request-to-rendering interval. No precise final-character timestamp is available.
+Never invent timing or estimate completion from the next user message's time.
 
-Use fresh Preview chats and ordinary requests, without adding instructions that
-compensate for missing plugin behavior:
+`study_delivery` ready returns a continuation card and exact state; Next continues
+the same passage until its final part, then advances the passage. Resume repeats
+an interrupted part. Explicit Next passage uses ordinary passage continuation.
+A supported MCP UI sends a user-triggered follow-up; typed Next is the fallback.
+This is a plugin card, not control over native ChatGPT suggestion buttons.
 
-- Full study Genesis 1 in English: complete Genesis 1:1–2:3, consequential opening
-  and seventh-day notes, then literary/history/canonical development.
-- Full study Philippians 4:10–13, exact: translation before interpretation, bounded
-  local context, then a follow-up about contentment and improving circumstances.
-- Translate Acts 8:37: handle the known textual issue without manufacturing a
-  reading or treating speed as grounds to skip consequential evidence.
-- Full word study ruach: retain occurrence-level semantic coverage and citations,
-  without forcing a passage-translation stage.
+## Evaluation
 
-Record time to first substantive translation, time to completion, tool/research
-sequence, unnecessary retrievals, numbered-note placement, repeated explanations,
-scope completeness and delivery failures. Thirty seconds is a target to measure,
-not a guarantee or reason to weaken evidence. A faster but incomplete response fails.
+Local tests cover daylight saving time, malformed states, idempotent retry, ordered
+part progression, literary-unit/depth/language/format retention, actual MCP descriptors,
+private Preview isolation, default/public tools, and widget bridge/fallback behavior.
+These checks do not certify model delivery or rendering in each ChatGPT client.
 
-Local contract/parity/protocol tests cannot certify model delivery. Mark host
-evaluations pending until actual Preview conversations have completed.
-
-Local checks on 12 October 2026 passed: 39 Python runtime tests, 20 Worker test
-groups and 1,956 Python/Worker parity cases. MCP initialization carries the same
-research policy as the plan. No source texts or source hashes changed.
+In fresh Preview chats, test Full Genesis 1, Full Philippians 4:10–13 exact, Translate
+Acts 8:37, and Full word study ruach. Record first translation latency, each part's
+start/output stamps, full completion, repeated research, numbering of footnotes and
+button behavior on web, Windows and phone. Do not add corrective workflow instructions
+to the test prompt: they must come from the plugin. Public submission remains paused.
 
 ## Deployment boundary
 
-Private Preview receives 0.1.12 from the preview branch. The public video server
-remains on 0.1.11 and Production on 0.1.10. On 12 October 2026 the user explicitly
-authorized disabling automatic public builds. The public build trigger retains its
-original branch, commands and bindings; its path filter is temporarily
-`__manual_public_release_only__/**`. Restore `path_includes: ["*"]` when the user
-approves public promotion. Live Preview host evaluation remains pending.
+Private Preview receives 0.1.13 from the preview branch, enabled only by
+`previews.vars.PREVIEW_DELIVERY`. Public remains 0.1.11 and Production 0.1.10. The
+public build trigger remains suspended with user authorization. Restore its original
+`path_includes: ["*"]` only upon approved public promotion. Source corpus, source pin,
+Access settings and existing rate limits are unchanged.

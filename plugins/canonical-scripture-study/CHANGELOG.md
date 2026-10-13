@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.13 — Preview timing and study parts — 2026-10-13
+
+- Add Preview-only Amsterdam timestamps, with explicit server-check and rendering limits. Call the clock before each visible assistant message.
+- Return only the active passage-study part, load its relevant skills, and stop after its output. Preserve the literary unit, depth, language and translation format through typed Next or an optional UI continuation button; resume interrupted parts without advancing.
+- Add a self-contained MCP UI using standard follow-up messaging with a ChatGPT compatibility fallback. No server study storage, additional identity data, external UI dependencies or background model work.
+- Gate the two additional tools and UI resource behind the private Preview environment flag; default/private production and public noauth delivery contracts remain unchanged.
+- Reduce Preview initialization instructions and make structural handoff validation conditional rather than routine. Normalize the trailing language phrase seen in the user test. Public stays 0.1.11, Production 0.1.10; publication remains on hold.
+
 ## 0.1.12 — Preview delivery — 2026-10-12
 
 - Add a shared section-bounded research policy to MCP initialization, Worker/Python plans and study instructions. Before translation, check only primary wording, necessary discourse and consequential variants, lexical questions or wording links; preserve unresolved alternatives.

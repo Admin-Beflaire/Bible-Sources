@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.12
+# Canonical Scripture Study — 0.1.13
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -30,7 +30,7 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.12 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview targets 0.1.13 and the separate public endpoint remains 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.12**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.13**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -48,7 +48,9 @@ Changes to tools, shared MCP instructions or bundled on-demand study instruction
 
 The [Preview delivery plan](delivery-preview-plan.md) bounds research to the next undelivered section. At every depth, check only evidence consequential to translation before presenting the complete working translation with numbered footnotes; defer historical surveys, full word studies and canonical/theological research to the section that needs them. Reuse checked evidence and avoid repeating findings. Full retains its depth.
 
-The default delivery contract prefers successive visible assistant messages (orientation, verified translation and notes, exegesis, synthesis) within one user request. If ChatGPT cannot generate successive messages, provide the same content as a progressively streamed answer. MCP tools cannot themselves post chat messages or start background model work. `Next` still means the next Bible passage only.
+Preview 0.1.13 adds a Preview-only override: Amsterdam server timestamps, one passage-study part per user turn, and a Next control where the host supports MCP UI. Type `Next` to advance the current study part; after the final part it advances the passage. `Next passage` explicitly skips to another passage. `preview_timestamp` and `study_delivery` are registered only when `PREVIEW_DELIVERY=true` on the private Preview deployment. Neither is registered on the public server, even if its environment is misconfigured. Refresh Preview tool metadata before testing. Timestamps measure clock checks and preparation up to a ready call, not the exact moment ChatGPT finishes rendering a response.
+
+Outside that Preview override, the default delivery contract prefers successive visible assistant messages (orientation, verified translation and notes, exegesis, synthesis) within one user request. If ChatGPT cannot generate successive messages, provide the same content as a progressively streamed answer. MCP tools cannot themselves post chat messages or start background model work. `Next` still means the next Bible passage only.
 
 ## Commands and continuation
 
