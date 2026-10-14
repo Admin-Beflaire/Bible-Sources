@@ -1,5 +1,11 @@
 # Development decisions
 
+## Complete Genesis Work observation — 14 October 2026, 20:20 CEST
+
+The supplied final part completes the four-part Genesis 1:1–2:3 output, with a reported 1m31s and a correct next-passage suggestion. Its narrative development, explained textual relationships, Christ/Spirit synthesis and formation are already present and should be preserved. The coverage design should make them consistent rather than characterize them as absent. The main content addition is organized word-study/reference support; keep the initial translation workflow intact. Existing internal-rule/publisher-presentation drafts remain unreleased, and progress timestamps remain an open issue.
+
+The four reported durations sum to 5m14s, excluding waiting between turns. This is an exploratory observation, not a speed benchmark or verified Chat/Work difference. The final retrieval total is consistent with the named ranges, but the supplied UI/diagnostics do not constitute a complete backend trace. Final next-passage execution and Chat remain unobserved. Details are in the [host observation](host-observation-genesis1-2026-10-14.md). No release or runtime change accompanies this record; manuscript variance retains its mapping prerequisite.
+
 ## Full-study coverage from the original studies — proposed — 14 October 2026
 
 Inspected the versioned Theology 1.4.2 project source and the nine Theology/Christology/Pneumatology main, exegesis and reference source/site pages. The [coverage design](full-study-reference-design.md) records the four original layers: concise statements, readable biblical explanation, detailed textual/canonical analysis, and supporting reference material. The website combines the first two; newer original papers govern their content. This is structural review, not complete doctrinal-profile import or validation of every source assertion.

@@ -63,7 +63,7 @@ Do not copy the originals' bibliography as evidence of new consultation. Their B
 
 Current Preview Full delivery has four parts: translation/footnotes, local explanation/literary structure, historical-cultural context, and canonical synthesis/formation. Broad guidance already allows much of this analysis, but active contracts do not explicitly require distinct narrative/intertextual/Christ-Spirit treatments or a consolidated reference layer. The final part currently bundles theology-review only; a future implementation should also supply the needed exegetical guidance within the active instruction budget.
 
-The user's Genesis test has supplied the first three parts. The canonical part remains unobserved. These are contract gaps from source inspection, not a claim that unseen output omitted the analysis.
+The user's complete [Genesis Work observation](host-observation-genesis1-2026-10-14.md) now includes all four parts. The final part supplies narrative development, explained intertextual links, Christ/Spirit integration and formation. Preserve that successful coverage and make it consistent through explicit guidance; do not describe those dimensions as absent. The main content addition is organized word-study/reference support. Progress timestamps and the earlier rule/publisher narration still require attention. One successful run does not establish consistent delivery across requests or hosts.
 
 | Delivered part | Proposed explicit Full coverage |
 | --- | --- |
@@ -86,4 +86,4 @@ The additional section, translation variance across manuscripts, remains blocked
 
 Implement explicit Full coverage in shared depth/method guidance and active output contracts, with relevant instruction bundles. Keep Standard/Detailed and focused requests proportionate. Apply prepared Scripture-focused presentation rules silently and integrate secondary research with accurate attribution.
 
-Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. Keep this planning unreleased during the current 0.1.17 study; Production/public promotion still requires explicit authorization.
+Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study after release for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. The initial 0.1.17 study is now fully observed; this planning remains unreleased and Production/public promotion still requires explicit authorization.

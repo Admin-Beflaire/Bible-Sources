@@ -4,6 +4,8 @@
 
 The [coverage design](../../development/full-study-reference-design.md) records the inspected Theology 1.4.2 original and the three studies' source/site structures. Preserve first-part translation delivery; make later linguistic analysis, historical context, narrative development, intertextual connections, Christ/Spirit integration and useful reference material explicit. This is documentation only, with no active-stage or continuation change. Systematic manuscript comparison remains dependent on the mapping index below.
 
+The [complete Genesis Work observation](../../development/host-observation-genesis1-2026-10-14.md) includes all four parts. The final part already develops narrative/intertextual/Christ-Spirit connections and formation; preserve that substance while adding organized reference support and making Full coverage consistent. Progress timestamps and the earlier presentation issues remain open. The reported 46s + 55s + 2m2s + 1m31s total 5m14s across parts, excluding waits, not a controlled benchmark. The final next-passage suggestion is observed; its execution and Chat are not.
+
 ## Planned later: translation variance across manuscripts
 
 Build the full verse-mapping index for the supported source corpus before adding this separate study section. The feature is planned only; neither mappings nor a new delivery part are implemented by this note.
