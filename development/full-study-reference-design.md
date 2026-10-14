@@ -1,6 +1,6 @@
 # Full-study coverage from the original canonical studies
 
-Status: source/site review completed; coverage implemented and locally tested in the 0.1.18 candidate. Private Preview deployment and a fresh full host study are pending. No additional delivery part or manuscript-comparison feature is enabled. Updated 14 October 2026.
+Status: source/site review completed; coverage implemented, tested and privately deployed in Preview 0.1.18. Live contracts pass; a fresh full host study is pending. No additional delivery part or manuscript-comparison feature is enabled. Updated 14 October 2026.
 
 ## Evidence inspected
 
@@ -59,11 +59,11 @@ The versioned Theology reference section specifically contains word studies, an 
 
 Do not copy the originals' bibliography as evidence of new consultation. Their BHS/BHQ, Rahlfs-Hanhart, NA28/UBS5 or lexicon references do not establish plugin access to those works. Name actual retrieved WLC/OSHB, Brenton Greek, SBLGNT or other material correctly. Distinguish manuscript, modern edition, lexical source, project-curated record and secondary interpretation.
 
-## Implemented coverage in the 0.1.18 candidate
+## Implemented coverage in Preview 0.1.18
 
 Full delivery retains four parts: translation/footnotes, local explanation/literary structure, historical-cultural context, and canonical synthesis/formation. Shared method/depth guidance and active contracts now explicitly develop the distinct analytical dimensions and consolidated reference layer. The Full final part bundles exegesis and theology-review guidance within the existing instruction budget. Standard/Detailed and focused requests retain proportionate scope.
 
-The user's complete [Genesis Work observation](host-observation-genesis1-2026-10-14.md) now includes all four parts. The final part supplies narrative development, explained intertextual links, Christ/Spirit integration and formation. Preserve that successful coverage and make it consistent through explicit guidance; do not describe those dimensions as absent. The main content addition is organized word-study/reference support. The candidate also reinforces timestamp-first progress and silent, independently integrated study explanation. One successful run does not establish consistent delivery across requests or hosts.
+The user's complete [Genesis Work observation](host-observation-genesis1-2026-10-14.md) now includes all four parts. The final part supplies narrative development, explained intertextual links, Christ/Spirit integration and formation. Preserve that successful coverage and make it consistent through explicit guidance; do not describe those dimensions as absent. The main content addition is organized word-study/reference support. Version 0.1.18 also reinforces timestamp-first progress and silent, independently integrated study explanation. One successful run does not establish consistent delivery across requests or hosts.
 
 | Delivered part | Explicit Full coverage |
 | --- | --- |
@@ -86,4 +86,4 @@ The additional section, translation variance across manuscripts, remains blocked
 
 Implemented shared depth/method guidance, active contracts and instruction bundles, with proportionate Standard/Detailed and focused tasks. Tests verify stage count, retained scope/language/sources, instruction size, evidence reuse and continuation compatibility. All 47 Python tests, 35 Worker tests and 1,956 parity cases pass. A fresh-context composition from the exact active final-part bundle and supplied source packets included useful term/passage/source reference material without rule or publisher narration; it does not establish real host rendering or timing.
 
-Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study after release for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. The initial 0.1.17 study is fully observed; the 0.1.18 candidate still needs private deployment and a fresh visible-output check. Production/public promotion requires explicit authorization.
+Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study after release for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. The initial 0.1.17 study is fully observed; 0.1.18 is privately deployed with live contract verification and still needs a fresh visible-output check. Production/public promotion requires explicit authorization.
