@@ -1,5 +1,11 @@
 # Development decisions
 
+## Full-study coverage from the original studies — proposed — 14 October 2026
+
+Inspected the versioned Theology 1.4.2 project source and the nine Theology/Christology/Pneumatology main, exegesis and reference source/site pages. The [coverage design](full-study-reference-design.md) records the four original layers: concise statements, readable biblical explanation, detailed textual/canonical analysis, and supporting reference material. The website combines the first two; newer original papers govern their content. This is structural review, not complete doctrinal-profile import or validation of every source assertion.
+
+Make source-language/contextual analysis, historical comparison, narrative development, intertextual evidence and Christ/Spirit integration explicit in later Full parts. Conclude with relevant word studies, explained key passages/tables, necessary abbreviations and actual sources, preserving the initial primary-source translation and concise notes. Existing rendering alternatives differ from manuscript variants; the new systematic manuscript section remains dependent on the full mapping index. Coverage is proposed only: no runtime, stage, version or deployment change.
+
 ## Future manuscript/translation-variance section — planned only — 14 October 2026
 
 Add a separate section for translation variance across manuscripts after a full verse-mapping index has been built for the supported source corpus. This dependency is explicit: do not implement or activate the new section now. Keep the current primary-source working translation and notes first; the user values its observed speed. Proposed placement is immediately after that first section and before local explanation. Depth/focused-command defaults will be settled with the later feature rather than changing them now.

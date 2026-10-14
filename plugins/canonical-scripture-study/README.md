@@ -98,6 +98,8 @@ The host retains this state between turns; the read-only server does not store t
 
 ## Translation and study method
 
+The proposed [Full-study coverage design](../../development/full-study-reference-design.md) draws on the original Theology 1.4.2 and the Theology/Christology/Pneumatology source/site structure. It identifies explicit analytical dimensions and a supporting reference appendix while preserving primary translation first. The coverage changes are not implemented or deployed; the later manuscript-comparison section still requires the full mapping index.
+
 Use plain working translation, transliteration interlinear, or original-language interlinear. The last displays **original → transliteration → contextual gloss**, followed by a readable clause translation where helpful. Translate into English, Dutch or another requested language and label substantial output as a working translation.
 
 Render YHWH as Yahweh. Preserve distinctions between Sheol, Hades, Gehenna, Tartarus and abyss; explain their contextual use. Do not force one gloss onto nephesh, psychē, aiōnios or other contested terms. Matthew 6:13 and James 1 use a related Greek testing/tempting family; agency, desire and context matter. A perceived translated contradiction must be checked against the actual forms and argument.

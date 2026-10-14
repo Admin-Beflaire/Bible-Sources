@@ -1,5 +1,9 @@
 # Preview delivery candidate
 
+## Proposed Full-study coverage from the original canonical studies
+
+The [coverage design](../../development/full-study-reference-design.md) records the inspected Theology 1.4.2 original and the three studies' source/site structures. Preserve first-part translation delivery; make later linguistic analysis, historical context, narrative development, intertextual connections, Christ/Spirit integration and useful reference material explicit. This is documentation only, with no active-stage or continuation change. Systematic manuscript comparison remains dependent on the mapping index below.
+
 ## Planned later: translation variance across manuscripts
 
 Build the full verse-mapping index for the supported source corpus before adding this separate study section. The feature is planned only; neither mappings nor a new delivery part are implemented by this note.

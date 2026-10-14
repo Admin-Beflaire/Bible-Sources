@@ -77,3 +77,9 @@ The screenshot's search summary lists 33 websites; this is not evidence that 33 
 ## Planning update — manuscript/translation variance — 14 October 2026, 19:40 CEST
 
 Record a future separate comparison section, dependent on the full verse-mapping index for supported sources. Preserve the initial primary-source working translation and notes. The feature, placement/depth details and mappings are not implemented; only planning documents are changed. No runtime, version or deployment change is made. Private Preview 0.1.17 and Production 0.1.10 were rechecked at 17:41Z; the public connector health call remains unavailable, with its last successful version check recorded above.
+
+## Full-study source review — 14 October 2026, evening
+
+Inspected the supplied Theology 1.4.2 original, the nine English main/exegesis/reference source files at canonical-theology commit `63802bd2f205b411ab4af536aed716040e667cad`, their website pages and the available unversioned Theology Library files. The [coverage design](full-study-reference-design.md) records the original layers, analytical dimensions, reference components and proposed staged Full coverage. This is documentation only: no runtime implementation, stage change, version bump or deployment. Existing presentation code drafts remain unreleased.
+
+Read-only live checks at 17:52:39Z confirm private Preview **0.1.17** and private Production **0.1.10**. Public study_health again returned an internal connector error; its last successful version verification remains **0.1.11** above. Cloudflare confirms private Preview automatic builds enabled and public publication still suspended by `__manual_public_release_only__/**`, with public previews disabled. No remote branch or hosting configuration is changed. Documentation validation is `git diff --check`; runtime tests need not be rerun for this planning-only change. Real canonical-stage delivery remains pending in the user's current study.
