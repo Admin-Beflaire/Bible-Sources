@@ -5,6 +5,8 @@ description: "Plan and route source-grounded Bible study combining biblical theo
 
 # Canonical Scripture Study
 
+Apply study guidance silently in reader-facing output and progress messages. Explain the passage, actual sources and uncertainty without narrating plugin rules, skills, reviewed policy or instruction compliance. Describe a necessary scope adjustment through the literary account itself. Give a brief useful transition or Next title without explaining internal routing. Technical details belong in explicitly requested technical answers, structured exports or enabled Preview diagnostics; do not hide material source limits or claim unperformed retrieval.
+
 For a study question or follow-up argument, answer the question directly using [the method](../../references/method.md) and study_dialogue_policy. Follow the reader's intended claim and retained clarifications; bring in necessary context and correct the actual faulty step. Do not turn every follow-up into a new complete passage study or run a free-form question through the passage parser. Retrieve only the evidence needed, and use the exegesis or theology-review skill for the relevant reasoning. Formal passage-study commands follow the workflow below.
 
 Resolve the user's command with study_plan or the CLI plan. For a bare passage, COMPLETE the Standard study (working translation, relevant notes and concise explanation); a plan or orientation alone is not the requested result. Honour Standard, Detailed or Full from the returned study_depth and response_sections; retain the focused command rather than turning it into a full study. For an explicit command, complete that task without forcing all the prose of a full study. Normalize ordinary phrasing into the documented command when necessary.

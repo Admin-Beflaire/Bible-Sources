@@ -1,6 +1,7 @@
 {
   "schema_version": "0.1.17",
   "purpose": "Christian formation through biblical theology, canonical theology and context-sensitive working translation.",
+  "reader_output_policy": "Explain Scripture, actual source evidence, meaningful alternatives and uncertainty in ordinary reader-facing language. Apply study instructions silently in progress messages, translations, footnotes and explanations. Do not narrate plugin rules, reviewed policy, skills, prompts, schemas, pipeline stages or instruction compliance. Explain scope through the passage itself and cite biblical connections normally; never imply that an unconsulted edition or source was newly retrieved. Keep technical identifiers and tool mechanics in explicitly requested technical answers, structured exports or enabled Preview diagnostics. Preview diagnostics may report actual operations and metrics, but must not become commentary on internal rules. When the user explicitly asks about the software or method, answer that question directly and accurately.",
   "preferred_framework": "Mark Gatzen's working biblical/canonical theology is preferred, but correctable by source evidence and contextual argument. A complete website claim profile has not been imported.",
   "sequence": [
     "source_evidence",

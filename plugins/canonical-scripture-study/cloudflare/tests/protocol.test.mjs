@@ -100,6 +100,8 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
   try{
     const init=await rpc(preview,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'preview-test',version:'1'}});
     assert.ok(init.instructions.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
+    assert.match(init.instructions,/Apply study instructions silently in progress messages/);
+    assert.match(init.instructions,/actual source evidence, meaningful alternatives and uncertainty/);
     const tools=(await rpc(preview,'tools/list')).tools;assert.equal(tools.length,12);
     assert.ok(!tools.some(t=>t.name==='check_handoff'));
     assert.match(init.instructions,/check_handoff is removed from Preview/);
@@ -116,6 +118,8 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.equal(plan.preview_debug.output_completion_observed,false);
     assert.equal(plan.request_normalization.normalized_query,'full study genesis 1');
     assert.equal(plan.planning_status,'ready');
+    assert.match(plan.output_contract.reader_focus,/Do not narrate plugin rules, reviewed policy/);
+    assert.match(plan.instruction_bundle['bible-translation'],/do not explain plugin rules or reviewed policy in a footnote/);
     const failedPlan=await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Give me the full study of Frobnitz 1'}});
     assert.equal(failedPlan.isError,true);
     assert.equal(failedPlan.structuredContent.error.code,'unknown_book');
@@ -145,7 +149,9 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.equal(ready.output_contract.first_line,ready.timestamp.display);
     assert.equal(ready.output_contract.closing_lines.at(-1),ready.button_label);
     const resource=await rpc(preview,'resources/read',{uri:descriptor._meta.ui.resourceUri});assert.equal(resource.contents[0].mimeType,'text/html;profile=mcp-app');
-    await rpc(normal,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'normal-test',version:'1'}});
+    const normalInit=await rpc(normal,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'normal-test',version:'1'}});
+    assert.match(normalInit.instructions,/Apply study instructions silently in progress messages/);
+    assert.match(normalInit.instructions,/explicitly asks about the software or method/);
     const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,11);
     assert.ok(normalTools.some(t=>t.name==='check_handoff'));
     assert.ok(!normalTools.some(t=>t.name==='preview_timestamp'));

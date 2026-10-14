@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — Scripture-focused presentation — 2026-10-14
+
+- Apply study guidance silently in progress messages, translations, notes and explanations. Explain Scripture and actual evidence without narrating plugin rules, reviewed policy, skills, schemas or instruction compliance. Explicit software/method questions and enabled Preview technical diagnostics remain supported.
+- Add the shared policy to regular and Preview initialization, active Preview layouts/Ready and focused plans, and the study/translation skills and references. Known biblical connections are explained as connections, without implying new retrieval or narrating how instructions supplied them.
+- Prepared and locally tested: 39 Python tests, 34 Worker tests and 1,956 parity cases passed. No deployment while the user completes the 0.1.17 host study. Generated host behavior still needs a fresh check after release. Production/public promotion remains unauthorized.
+
 ## 0.1.17 — Preview request and output recovery — 2026-10-14
 
 - Accept ordinary English/Dutch request phrasing, including the observed “Give me the full study of genesis 1”, around documented commands. Preserve explicit scope, depth, language, format, source restrictions and continuation; never guess an unknown book. Keep regular Worker/Python parsing unchanged.

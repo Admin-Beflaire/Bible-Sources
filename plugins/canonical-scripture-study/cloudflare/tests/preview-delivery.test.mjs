@@ -49,6 +49,7 @@ test('Focused tasks and regular engine are preserved; malformed states fail rath
   assert.equal(regular.delivery.mode, 'progressive_in_current_turn');
   const focused = await previewPlan(e, {query:'Full word study ruach'}, start);
   assert.equal(focused.mode,'word_study');
+  assert.match(focused.reader_output_policy,/Apply study instructions silently/);
   assert.ok(!focused.delivery_state);
   const translation = await previewPlan(e, {query:'Translate Acts 8:37'}, start);
   assert.equal(translation.delivery.total_parts,1);
@@ -134,12 +135,15 @@ test('Ready refreshes the concrete layout, concise note policy, contextual wordi
   assert.match(plan.output_contract.wording_checks[0].instruction,/that has life/);
   const ready = await previewPlan(e,{query:'Ready',study_state:{preview_delivery:plan.delivery_state}},start+61000);
   assert.equal(ready.output_contract.first_line,ready.timestamp.display);
+  assert.equal(ready.output_contract.reader_focus,plan.output_contract.reader_focus);
+  assert.match(ready.output_contract.reader_focus,/actual source evidence, meaningful alternatives and uncertainty/);
   assert.notEqual(ready.output_contract.first_line,plan.output_contract.first_line);
   assert.deepEqual(ready.output_contract.closing_lines,[`Last server check: ${ready.timestamp.display}`,'Next: Local explanation and literary structure']);
   assert.equal(ready.output_completion_observed,false);
   assert.deepEqual(ready.next_delivery_state,plan.delivery_state);
   const next = await deliveryAction(e,'next',ready.next_delivery_state,start+62000);
   assert.equal(next.output_contract.heading,'## Genesis 1:1-2:3 — Local explanation and literary structure');
+  assert.equal(next.output_contract.reader_focus,plan.output_contract.reader_focus);
   assert.ok(!next.output_contract.footnotes&&!next.output_contract.wording_checks);
   const exact = await previewPlan(e,{query:'Please translate Genesis 1:1-3'},start);
   assert.ok(!exact.output_contract.wording_checks);

@@ -1,5 +1,5 @@
 // Preview-only, client-carried delivery state. No user content or timings are stored.
-import {bounded, StudyError} from './common.js';
+import {bounded, config, StudyError} from './common.js';
 import {bundle} from './store.js';
 import {normalizePreviewRequest, planningRecovery} from './preview-request.js';
 
@@ -76,7 +76,8 @@ function outputContract(engine, state, now) {
   return {
     first_line: clock.display,
     heading: `## ${passage.current_reference} — ${titles[id]}`,
-    source_line: 'Name only actually consulted editions using returned edition_label and dataset_id. Label reused evidence as reused; do not claim a planned or excluded edition was consulted.',
+    reader_focus: config('method').reader_output_policy,
+    source_line: 'Name only actually consulted editions using their reader-facing edition_label. Keep dataset_id in enabled diagnostics or an explicit technical export. Cite known biblical connections normally without narrating reviewed policy or claiming a new source retrieval.',
     scope_preface: 'At most two sentences for a necessary literary-unit adjustment or dependent opening, then begin the active part. Do not put a stage overview table before the translation.',
     section_order: id === 'translation_notes' ? ['Working translation', 'Numbered footnotes', 'Compact observed diagnostics', 'Server-check footer and exact continuation label'] : [titles[id], 'Compact observed diagnostics', 'Server-check footer and exact continuation label'],
     ...(id === 'translation_notes' ? {
@@ -126,7 +127,7 @@ async function planRequest(engine, args, now) {
   const query = /^(?:next|volgende) passage$/i.test(normalized) ? 'Next' : normalized;
   const plan = await engine.plan(query, args.active_reference ?? null, language, args.translation_format, retained?.passage_state ?? args.study_state ?? null, args.study_depth ?? null, {inspectOpening:false});
   if (plan.status === 'needs_input') return {...plan,...planningRecovery('needs_input'),planning_status:'needs_input',preview_timestamp:timestamp(now)};
-  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{planning_status:'ready',can_retrieve:true,instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}),...(options.sources?{source_restriction:{allowed_sources:options.sources,excludes_other_witnesses:true}}:{}),preview_timestamp:timestamp(now)},30000);
+  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{planning_status:'ready',can_retrieve:true,reader_output_policy:config('method').reader_output_policy,instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}),...(options.sources?{source_restriction:{allowed_sources:options.sources,excludes_other_witnesses:true}}:{}),preview_timestamp:timestamp(now)},30000);
   return partPlan(engine, plan, {schema_version: 1, passage_state: plan.continuation_state, stage_index: 0, started_at: new Date(now).toISOString(),...sourceState(options.sources)}, now);
 }
 export async function deliveryAction(engine, action, state, now = Date.now()) {

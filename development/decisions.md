@@ -1,5 +1,11 @@
 # Development decisions
 
+## Scripture-focused presentation — prepared locally, not deployed — 14 October 2026
+
+The reader sees Scripture, source evidence, meaningful alternatives and uncertainty. Apply study instructions silently in progress messages, translation notes and explanations; do not narrate plugin rules, reviewed policy, skills, prompts, schemas or instruction compliance. Describe scope through the literary account and give a useful Next title without explaining internal routing. Explicit software/method questions can receive direct technical answers. Enabled Preview diagnostics retain actual operations and metrics; they do not become commentary on rules. This shared runtime rule is intended for all study modes and any later explicitly authorized Production/public release.
+
+The supplied Work first-part output used the intended 34-verse unit, preferred opening and natural Genesis 1:30 prose, paragraph notes, a timestamp/footer, source attribution and correct Next title. It also exposed internal rules in progress text and reviewed policy in footnote 1; progress timestamps were missing. Reported Worked for: 46s, exploratory and not a controlled Chat/Work comparison. Remaining parts and Chat behavior are not yet verified. Prepare/test the presentation correction locally and keep live Preview 0.1.17 fixed during the current host test.
+
 ## Release boundaries — 13 October 2026
 
 Private Preview is the development target. Production remains 0.1.10 and the public/video server remains 0.1.11 until explicit promotion. Public directory publication and automatic public builds remain on hold. Only main and preview are permanent branches. See [release status](release-status.md) for verified deployments.
