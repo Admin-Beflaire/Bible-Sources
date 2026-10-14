@@ -10,7 +10,7 @@ Public source data and study software for AI-assisted Bible study, maintained by
 
 ### Releases and connections
 
-Live release state verified on **13 October 2026, 21:16 CEST**:
+Live release state reverified before changes on **14 October 2026, 08:41 CEST**:
 
 | Connection | Git branch | Version | MCP endpoint |
 | --- | --- | --- | --- |
@@ -19,6 +19,8 @@ Live release state verified on **13 October 2026, 21:16 CEST**:
 | Public MCP | `preview` | **0.1.11** | [mcp.canonical-theology.com/mcp](https://mcp.canonical-theology.com/mcp) |
 
 Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview runs 0.1.16, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Preview 0.1.16 removes Preview handoff validation, retains source restrictions and translation rules, and improves observable clocks and diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
+
+Preview 0.1.17 is an implemented and locally tested candidate awaiting private deployment verification. It repairs conversational request routing and failed-plan recovery, returns a concrete output layout with concise notes and real clocks, and names the actual consulted editions. A fresh host study is still required to verify the resulting prose and visible delivery.
 
 The private Production and Preview connections use Cloudflare Access OAuth. The Worker also validates the Access JWT signature, issuer, audience and expiry at its origin; `/mcp` fails closed when authentication/configuration is missing. Public `/health` exposes only basic deployment status. Reuse the existing endpoint after a release, refresh the plugin's tool metadata/instructions where the host provides that control, and test in a new conversation. A Worker release does not automatically change the ChatGPT plugin card's name/icon or separately imported skill files.
 
@@ -156,7 +158,7 @@ npm run build
 
 `npm test` prepares source assets and runs runtime/protocol checks; `npm run build` prepares assets and performs a Wrangler deployment dry run. The existing Cloudflare Workers Builds configuration watches `main` for Production and the configured `preview` branch for Preview. Check the intended service and authentication bindings before any manual deployment. See the [plugin guide](plugins/canonical-scripture-study/README.md) for the optional Python MCP adapter and [Cloudflare guide](plugins/canonical-scripture-study/cloudflare/README.md) for hosting details.
 
-Release checks currently cover **39 Python tests**, **29 Worker tests** and **1,956 Python/Worker parity cases**: planning/continuation, source packets, all 50 curated studies, selected lexical IDs, source-tampering guards, packet limits and authenticated MCP behavior. A deployment dry run checks packaging; authenticated live calls are checked after release. Dialogue instructions are exercised on source-based question/argument examples. These checks do not certify every generated study, guarantee host-model behavior or establish CPU use under every real-world request.
+Release checks currently cover **39 Python tests**, **34 Worker tests** and **1,956 Python/Worker parity cases**: planning/continuation, conversational routing/recovery, active output layouts, source packets and edition identity, all 50 curated studies, selected lexical IDs, source-tampering guards, packet limits and authenticated MCP behavior. A deployment dry run checks packaging; authenticated live calls are checked after release. Dialogue instructions are exercised on source-based question/argument examples. These checks do not certify every generated study, guarantee host-model behavior or establish CPU use under every real-world request.
 
 The source profile pins revision `054a5226027deb13827a04a6e68c56cbd3702f37`, distinct from the software release commit. Metadata and returned source spans are SHA-256 verified. Local checkouts read source bytes directly; standalone Python installations can lazily retrieve/cache pinned material. The Worker serves **13,369 prepared evidence assets**, checking each against its compiled hash. The builder checks configured file-count and individual-file limits; the whole corpus is not loaded into the model context.
 

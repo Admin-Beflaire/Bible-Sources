@@ -33,3 +33,13 @@ While this candidate was being prepared, Preview advanced to **0.1.15**, commit 
 Live contract checks: WLC-only Full Genesis 1 selects Genesis 1:1–2:3, retains the active translation key and exact main-rendering rule, and reports zero planner asset reads/cache hits. Its returned retrieval call supplies 31 WLC records for chapter 1 plus three for 2:1–3. Ready reports awaiting_host_output and output_completion_observed=false, with the correct next title. Next stays on the passage's local-explanation part; Next passage advances to Genesis 2:4–25 while retaining WLC. An exact translation keeps Genesis 1:1–3. Request-local diagnostic IDs, clocks and record counts are present.
 
 These are live server-contract checks, not a generated translation quality assessment, a client UI test or a controlled host performance benchmark. Documentation-only follow-up commits may rebuild the same 0.1.16 runtime; the release source and verification above remain identified explicitly.
+
+## Verified before 0.1.17 changes — 14 October 2026, 08:41 CEST
+
+Connected study_health rechecked private Preview **0.1.16** at 06:41:36Z, private Production **0.1.10**, and public/video **0.1.11**. Preview branch head was `ee11faece9033d03825a5f2a00feba5c55b5ab51`; main remained `fed918d04ca9975e93e4fd72e6861b8481948639`. Cloudflare confirmed private automatic Preview builds enabled and public automatic publication still suspended by `__manual_public_release_only__/**`, with public previews disabled. The pinned source revision is unchanged.
+
+## Preview 0.1.17 candidate — implemented and locally tested
+
+Fixes the reproducible conversational planner failure, supplies explicit planner recovery, returns concrete active output layouts from planning and Ready, reinforces natural Genesis 1:30 working prose, and identifies actual returned editions. The regular parser and source evidence are preserved. No additional routine validation call, public deployment or Production promotion is included.
+
+Local checks passed: 39 Python tests, 34 Worker tests, 1,956 Python/Worker parity cases and private/public Wrangler deployment dry runs (packaging only). Conversational routing tests also exposed and fixed a trailing-comma error when retaining language options. Private Preview deployment/live verification is pending. Rechecked at 06:59:18Z before release: Preview 0.1.16, Production 0.1.10, public 0.1.11; public watch-path suspension and disabled public previews remain intact. Real host-study delivery and performance remain unverified; retest the same original request in a fresh Preview conversation after release.

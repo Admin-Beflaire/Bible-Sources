@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.17 — Preview request and output recovery — 2026-10-14
+
+- Accept ordinary English/Dutch request phrasing, including the observed “Give me the full study of genesis 1”, around documented commands. Preserve explicit scope, depth, language, format, source restrictions and continuation; never guess an unknown book. Keep regular Worker/Python parsing unchanged.
+- Return explicit repair/clarification and planner-retry guidance for errors and incomplete input. A routing document or direct passage fetch cannot replace a successful active plan and its translation key. This is a host contract, not a new stateful server enforcement layer.
+- Return a concrete active-part output_contract from both planning and Ready: real first-line server timestamp, H2 heading, concise paragraph footnotes, actual source attribution, compact observed diagnostics and exact Next label. Defer extended later-part discussions and remind the host to render Genesis 1:30 naturally, rather than “living life”. No new validator or routine tool call.
+- Label returned Preview source packets by their actual pinned dataset, including Brenton Greek Septuagint, and count consulted records across chapter boundaries. Preserve text, evidence and unverified alignment status.
+- Local verification passed: 39 Python tests, 34 Worker tests, 1,956 parity cases and private/public Wrangler dry runs (packaging only). Private Preview deployment/live verification pending. Production remains 0.1.10, public remains 0.1.11, and automatic public builds remain suspended. Host output behavior and performance require a fresh real-study check.
+
 ## 0.1.16 — Preview translation contracts and diagnostics — 2026-10-13
 
 - Retain Preview’s handoff-tool omission and remove routine envelope construction throughout active skills; keep legacy regular-server tooling and strict source/reading checks.

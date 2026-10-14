@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.16
+# Canonical Scripture Study — 0.1.17
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter, Worker package and MCP `study_health.plugin_version` use the same semantic version (Preview release **0.1.16**, public MCP **0.1.11** and Production **0.1.10**). The running MCP server uses the deployed Git commit, not the version of this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter and Worker package use the same semantic version (**0.1.17** candidate). The latest verified live Preview is **0.1.16**, public MCP **0.1.11** and Production **0.1.10**. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -124,12 +124,16 @@ Code/skills are MIT licensed. Dataset licences remain separate, including **CC B
 
 Run core checks with `python3 -m unittest discover -s tests -v`; run `python3 tests/mcp_smoke.py` after installing the MCP extra. [REVIEW.md](REVIEW.md) records what the MVP does and what it does not establish.
 
-## Preview delivery and diagnostics — 0.1.16
+## Preview delivery and diagnostics — 0.1.17
 
 Preview supplies the complete active skills and translation key in the planner's
 `instruction_bundle`, without requiring a separate call for every instruction.
 Default instruction reads return a short router; request `detail: full` only for a
 specific missing document. Other channels retain their original instruction access.
+
+The Preview router recognizes ordinary English/Dutch phrasing around documented commands, including `Give me the full study of genesis 1`. It retains the enclosing-unit policy and explicit options. Errors and incomplete input return a `recovery` instruction requiring repair or clarification and another successful `study_plan` before retrieval. `get_study_instructions` cannot replace that plan. Unknown books remain errors; the router does not guess a different passage.
+
+Planning and Ready return an `output_contract` for the active part, refreshed with the real Ready timestamp before output. It specifies a first-line clock, H2 heading, brief scope preface, actual edition attribution, numbered paragraph footnotes (usually two to four sentences), observed diagnostics and exact Next label. Extended word studies, anthropology and doctrinal discussions belong in the appropriate later part. Preview source packets include `edition_label` and aggregate `consulted_editions`; the Greek LXX dataset is Brenton/eBible grcbrent. Missing coverage is not reported as a consulted edition. These are host instructions; the server does not certify the generated prose.
 
 Debug reporting is on in private Preview only. It describes observed operations,
 source/record counts, server timings, cache metrics and actual failures, not hidden

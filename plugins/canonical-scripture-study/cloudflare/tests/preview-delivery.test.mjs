@@ -76,6 +76,76 @@ test('Existing planner provides active skills, clock, readiness, continuation an
   assert.equal((await previewPlan(e,{query:'Debug off'},start)).debug_mode,false);
   assert.equal((await previewPlan(e,{query:'Debug on'},start)).debug_mode,true);
 });
+test('Conversational study requests reach the active translation key without changing scope or preferences', async () => {
+  const e = make();
+  const observed = await previewPlan(e, {query:'Give me the full study of genesis 1'}, start);
+  assert.equal(observed.mode,'full_study');
+  assert.equal(observed.study_depth,'full');
+  assert.equal(observed.reference,'Genesis 1:1-2:3');
+  assert.equal(observed.requested_reference,'genesis 1');
+  assert.equal(observed.request_normalization.normalized_query,'full study genesis 1');
+  assert.equal(observed.planning_status,'ready');
+  assert.match(observed.instruction_bundle['translation-key'],/In the beginning God created/);
+  for (const query of ['Could you please give me a full Bible study of Genesis 1 in English using only WLC?', 'Geef me de volledige studie van Genesis 1, WLC only.']) {
+    const p = await previewPlan(e,{query},start);
+    assert.equal(p.mode,'full_study');assert.equal(p.reference,observed.reference);
+    assert.deepEqual(p.source_policy.allowed_editions,['WLC']);
+  }
+  const exact = await previewPlan(e,{query:'Please show me a detailed study of Romans 12:1-2, exact, original interlinear, in Dutch, SBLGNT only.'},start);
+  assert.equal(exact.reference,'Romans 12:1-2');assert.equal(exact.study_depth,'detailed');
+  assert.equal(exact.language,'nl');assert.equal(exact.translation_format,'original_interlinear');
+  assert.deepEqual(exact.source_policy.allowed_editions,['SBLGNT']);
+  const song = await previewPlan(e,{query:'Please translate Song of Songs 1:1-3.'},start);
+  assert.equal(song.requested_reference,'Song of Songs 1:1-3');
+  const numbered = await previewPlan(e,{query:'Give me a standard study of 1 John 1:1-3, exact'},start);
+  assert.equal(numbered.reference,'1 John 1:1-3');
+  const word = await previewPlan(e,{query:'Could you give me a full word study of ruach?'},start);
+  assert.equal(word.mode,'word_study');assert.equal(word.topic,'ruach');assert.equal(word.study_depth,'full');
+  assert.ok(!word.delivery_state);
+  const next = await previewPlan(e,{query:'Please Next',study_state:{preview_delivery:observed.delivery_state}},start+1000);
+  assert.equal(next.delivery.current_part,'local_explanation');assert.equal(next.reference,observed.reference);
+  assert.deepEqual(e.store.metrics,{asset_fetches:0,cache_hits:0,asset_bytes:0});
+});
+test('Failed and incomplete plans require repair and retry instead of bypassing the active bundle', async () => {
+  const e = make();
+  for (const query of ['Give me the full study of Frobnitz 1','Please translate Genesis 99']) {
+    await assert.rejects(previewPlan(e,{query},start), error => {
+      assert.equal(error.previewRecovery.planning_status,'failed');
+      assert.equal(error.previewRecovery.can_retrieve,false);
+      assert.equal(error.previewRecovery.recovery.retry_tool,'study_plan');
+      assert.match(error.previewRecovery.recovery.success_required_before,/direct fetch is not/);
+      assert.ok(!error.previewRecovery.instruction_bundle&&!error.previewRecovery.delivery_state);
+      return true;
+    });
+  }
+  const missing = await previewPlan(e,{query:'Give me the full study'},start);
+  assert.equal(missing.status,'needs_input');assert.equal(missing.can_retrieve,false);
+  assert.equal(missing.recovery.retry_tool,'study_plan');
+  await assert.rejects(previewPlan(e,{query:'Please '.repeat(400)+'Full study Genesis 1'},start),err=>err.code==='query');
+  assert.deepEqual(e.store.metrics,{asset_fetches:0,cache_hits:0,asset_bytes:0});
+});
+test('Ready refreshes the concrete layout, concise note policy, contextual wording check and exact continuation', async () => {
+  const e = make();const plan = await previewPlan(e,{query:'Give me the full study of genesis 1'},start);
+  assert.equal(plan.output_contract.heading,'## Genesis 1:1-2:3 — Translation and footnotes');
+  assert.equal(plan.output_contract.first_line,timestamp(start).display);
+  assert.match(plan.output_contract.footnotes.format,/no separate heading/);
+  assert.match(plan.output_contract.footnotes.length,/two to four sentences/);
+  assert.equal(plan.output_contract.wording_checks[0].reference,'Genesis 1:30');
+  assert.match(plan.output_contract.wording_checks[0].instruction,/that has life/);
+  const ready = await previewPlan(e,{query:'Ready',study_state:{preview_delivery:plan.delivery_state}},start+61000);
+  assert.equal(ready.output_contract.first_line,ready.timestamp.display);
+  assert.notEqual(ready.output_contract.first_line,plan.output_contract.first_line);
+  assert.deepEqual(ready.output_contract.closing_lines,[`Last server check: ${ready.timestamp.display}`,'Next: Local explanation and literary structure']);
+  assert.equal(ready.output_completion_observed,false);
+  assert.deepEqual(ready.next_delivery_state,plan.delivery_state);
+  const next = await deliveryAction(e,'next',ready.next_delivery_state,start+62000);
+  assert.equal(next.output_contract.heading,'## Genesis 1:1-2:3 — Local explanation and literary structure');
+  assert.ok(!next.output_contract.footnotes&&!next.output_contract.wording_checks);
+  const exact = await previewPlan(e,{query:'Please translate Genesis 1:1-3'},start);
+  assert.ok(!exact.output_contract.wording_checks);
+  const done = await deliveryAction(e,'ready',exact.delivery_state,start+1000);
+  assert.equal(done.output_contract.closing_lines.at(-1),'Next passage');
+});
 test('Restricted evidence keeps the translation key, literary scope, valid calls and continuation without planner retrieval', async () => {
   const e = make();
   let plan = await previewPlan(e, {query:'Full study Genesis 1, WLC only'}, start);

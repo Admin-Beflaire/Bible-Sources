@@ -1,4 +1,4 @@
-# Translation policy and key 0.1.16
+# Translation policy and key 0.1.17
 
 Label substantial output **Working translation**, or **Werkvertaling** in Dutch. Treat it as a study aid with revisable decisions, not an official translation. Produce natural requested-language prose while preserving defensible repetition, imagery, contrast, wordplay and argument. Keep source text, selected reading and contextual sense separate.
 
@@ -16,7 +16,7 @@ Preserve **Sheol, Hades, Gehenna, Tartarus and abyss** as distinct terms with co
 
 Translate nephesh/psychē contextually: life, person, living being, self and other senses depend on the occurrence. Do not force transliteration or “soul” everywhere. Keep the source term visible in the term key where a traditional target word could confuse the reading. Apply the same discipline to heart, spirit, flesh, faith, works, righteousness, justification and other common labels.
 
-Check translation against the explanation: an argued sense of kabash as subdue/control must not silently become merely cultivate in Genesis 1:28. Render nephesh chayyah naturally in its sentence rather than the awkward gloss “living life.” A shared term for animals and humans supports a contextual living-being sense; it does not by itself settle every question about human ontology. Preserve defensible poetic choices such as “wild and waste” for tohu va-bohu while checking each occurrence.
+Check translation against the explanation: an argued sense of kabash as subdue/control must not silently become merely cultivate in Genesis 1:28. Render nephesh chayyah naturally in its sentence rather than the awkward gloss “living life.” In Genesis 1:30 the relative clause can read “that has life”; keep the contextual sense rather than copying a word-by-word gloss into working prose. A shared term for animals and humans supports a contextual living-being sense; it does not by itself settle every question about human ontology. Preserve defensible poetic choices such as “wild and waste” for tohu va-bohu while checking each occurrence.
 
 Preserve established source-supported **OT–NT quotation or recognizable verbal echo** wording without routinely retrieving its sources again. Reuse the reviewed policy or evidence already in the conversation. Check a new or disputed link only if it materially affects this translation, within the user's source restriction. Keep a supported shared phrase recognizable while preserving each text's syntax and contextual meaning. Distinguish quotation, echo and thematic resemblance; later usage does not decide earlier grammar. Translate real differences and explain them in a note. Do not claim reused policy evidence was newly consulted.
 
@@ -26,7 +26,7 @@ For Genesis 1:1 prefer **“In the beginning God created the heavens and the ear
 
 For any consequential syntactic choice, explain the grammar briefly in the affected verse’s numbered footnote and note a defensible alternative. Do not choose syntax merely because it prevents an unwanted doctrinal inference, and do not claim either rendering by itself proves creation from nothing or eternal matter.
 
-Source restrictions limit consulted evidence; they do not disable this translation key, literary-unit policy or language preference. A WLC-only translation retains these rules, uses only permitted source evidence, and labels unperformed comparisons. Put numbered footnote markers beside affected wording and matching concise notes after the translation. Check consequential choices once; reopen a choice for new evidence or a specific inconsistency.
+Source restrictions limit consulted evidence; they do not disable this translation key, literary-unit policy or language preference. A WLC-only translation retains these rules, uses only permitted source evidence, and labels unperformed comparisons. Put numbered footnote markers beside affected wording and matching concise paragraph notes after the translation, usually two to four sentences; preserve consequential alternatives and defer extended later-part discussions. Check consequential choices once; reopen a choice for new evidence or a specific inconsistency.
 
 Do not derive a sentence's meaning by adding all senses of a root, by etymology alone or by later doctrinal usage. aiōnios does not mean either “endless” or “age-long” automatically in every occurrence. Explain a consequential ambiguity rather than hiding it beneath a preferred fixed gloss.
 

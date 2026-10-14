@@ -7,6 +7,7 @@
 | Full-study first part | 6m10s | Exploratory; prompt/model/client/other controls not established. |
 | Translation-only with comparisons | 3m42s | Exploratory; not a controlled comparison with the other scenarios. |
 | WLC-only translation | 1m56s | Exploratory; source scope differs from the comparison run. |
+| Preview 0.1.16 Genesis 1 full-study request | 1m16s | Exploratory screenshot; the observed run included a failed plan and different retrieval behavior, so it is not a controlled speed comparison. |
 
 Do not treat these as a baseline proving a later speed improvement.
 
