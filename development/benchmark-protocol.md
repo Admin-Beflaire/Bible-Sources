@@ -9,6 +9,8 @@
 | WLC-only translation | 1m56s | Exploratory; source scope differs from the comparison run. |
 | Preview 0.1.16 Genesis 1 full-study request | 1m16s | Exploratory screenshot; the observed run included a failed plan and different retrieval behavior, so it is not a controlled speed comparison. |
 | Preview 0.1.17 first part in Work | 46s | Exploratory user screenshot/output, 14 October 18:38 CEST; original conversational prompt, WLC/OSHB evidence, model unspecified. Complete selected unit and intended final layout; progress timestamps/rules commentary and remaining parts still need review. |
+| Preview 0.1.17 local explanation in Work | 55s | Exploratory continuation, 14 October; same passage and correct next title. Output reports reuse of earlier evidence. |
+| Preview 0.1.17 historical-cultural context in Work | 2m2s | Exploratory continuation, 14 October, final server-check label 19:12 CEST; additional biblical and external research. Correct next title; unwanted publisher-review framing. |
 
 Do not treat these as a baseline proving a later speed improvement.
 

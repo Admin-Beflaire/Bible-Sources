@@ -4,6 +4,7 @@
 
 - Apply study guidance silently in progress messages, translations, notes and explanations. Explain Scripture and actual evidence without narrating plugin rules, reviewed policy, skills, schemas or instruction compliance. Explicit software/method questions and enabled Preview technical diagnostics remain supported.
 - Add the shared policy to regular and Preview initialization, active Preview layouts/Ready and focused plans, and the study/translation skills and references. Known biblical connections are explained as connections, without implying new retrieval or narrating how instructions supplied them.
+- Integrate secondary research into an independent Scripture-grounded explanation in the host's own wording. Preserve source citations, quotation attribution and meaningful limits; do not organize ordinary studies as a review or rebuttal of BibleProject or another publisher. Direct assessments remain available when requested. Clarify this distinction in exegesis and theology-review guidance.
 - Prepared and locally tested: 39 Python tests, 34 Worker tests and 1,956 parity cases passed. No deployment while the user completes the 0.1.17 host study. Generated host behavior still needs a fresh check after release. Production/public promotion remains unauthorized.
 
 ## 0.1.17 — Preview request and output recovery — 2026-10-14

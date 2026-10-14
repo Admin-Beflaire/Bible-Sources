@@ -6,6 +6,12 @@ The reader sees Scripture, source evidence, meaningful alternatives and uncertai
 
 The supplied Work first-part output used the intended 34-verse unit, preferred opening and natural Genesis 1:30 prose, paragraph notes, a timestamp/footer, source attribution and correct Next title. It also exposed internal rules in progress text and reviewed policy in footnote 1; progress timestamps were missing. Reported Worked for: 46s, exploratory and not a controlled Chat/Work comparison. Remaining parts and Chat behavior are not yet verified. Prepare/test the presentation correction locally and keep live Preview 0.1.17 fixed during the current host test.
 
+## Secondary research in study prose — prepared, not deployed — 14 October 2026
+
+Use BibleProject and other appropriate secondary research to inform an independent explanation in the host's own wording. Develop the argument from biblical and historical evidence, attach meaningful uncertainty and counter-evidence to the interpretation, and credit actual sources through citations, footnotes or a compact Sources consulted list. Do not turn ordinary studies into reports of what a publisher says or critiques of that publisher; direct comparisons/reviews belong to explicit requests. Preserve quotation attribution and distinctive sourced proposals. This is a presentation rule, not permission to copy wording, conceal attribution or adopt unsupported claims.
+
+The next Work outputs retained Genesis 1:1–2:3 and the proper part sequence: local explanation (55s) and historical-cultural context (2m2s). The historical output includes useful primary-text comparison and sanctuary connections, but makes BibleProject's claims and their evaluation a visible subject. The user accepts the remainder and requests integrated source use. Canonical synthesis, final continuation and Chat behavior remain under test. Keep this and the internal-rule correction unreleased while that test continues.
+
 ## Release boundaries — 13 October 2026
 
 Private Preview is the development target. Production remains 0.1.10 and the public/video server remains 0.1.11 until explicit promotion. Public directory publication and automatic public builds remain on hold. Only main and preview are permanent branches. See [release status](release-status.md) for verified deployments.

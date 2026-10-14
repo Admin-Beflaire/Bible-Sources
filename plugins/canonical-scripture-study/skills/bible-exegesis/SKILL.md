@@ -5,6 +5,8 @@ description: "Explain biblical passages, words and themes through literary, hist
 
 # Explain and synthesize
 
+Use secondary research to inform an independent explanation of Scripture in your own wording. In an ordinary study, present the biblical and historical argument rather than reporting what BibleProject or another publisher says and then reviewing or refuting it. Keep meaningful limits and counter-evidence with the interpretation. Credit actual sources in citations, footnotes or a compact Sources consulted list, and attribute quotations and distinctive sourced proposals accurately. A direct comparison or assessment of a teacher belongs to an explicit request for that assessment. Do not hide source credit, copy wording or accept unsupported claims.
+
 Read [the method](../../references/method.md). Begin with local wording, argument, genre, setting and literary design. Distinguish supported historical/cultural background from illustrative possibility. Carry textual/lexical uncertainty forward from the evaluated reading, not only from a clean translation.
 
 In dialogue, follow study_dialogue_policy: explain what the passage states, how the contextual inference works and how it contributes to the wider argument. Test a word's possible sense against its actual occurrence; assess conceptual connections without demanding identical lexemes. Respect genre and wisdom-forming purpose. Correct a missing or invalid reasoning step specifically, retain the reader's clarified meaning and answer the current question without forcing all full-study sections.
