@@ -38,8 +38,22 @@ These are live server-contract checks, not a generated translation quality asses
 
 Connected study_health rechecked private Preview **0.1.16** at 06:41:36Z, private Production **0.1.10**, and public/video **0.1.11**. Preview branch head was `ee11faece9033d03825a5f2a00feba5c55b5ab51`; main remained `fed918d04ca9975e93e4fd72e6861b8481948639`. Cloudflare confirmed private automatic Preview builds enabled and public automatic publication still suspended by `__manual_public_release_only__/**`, with public previews disabled. The pinned source revision is unchanged.
 
-## Preview 0.1.17 candidate — implemented and locally tested
+## Preview 0.1.17 — implemented, tested and deployed privately
 
 Fixes the reproducible conversational planner failure, supplies explicit planner recovery, returns concrete active output layouts from planning and Ready, reinforces natural Genesis 1:30 working prose, and identifies actual returned editions. The regular parser and source evidence are preserved. No additional routine validation call, public deployment or Production promotion is included.
 
-Local checks passed: 39 Python tests, 34 Worker tests, 1,956 Python/Worker parity cases and private/public Wrangler deployment dry runs (packaging only). Conversational routing tests also exposed and fixed a trailing-comma error when retaining language options. Private Preview deployment/live verification is pending. Rechecked at 06:59:18Z before release: Preview 0.1.16, Production 0.1.10, public 0.1.11; public watch-path suspension and disabled public previews remain intact. Real host-study delivery and performance remain unverified; retest the same original request in a fresh Preview conversation after release.
+Local checks passed: 39 Python tests, 34 Worker tests, 1,956 Python/Worker parity cases and private/public Wrangler deployment dry runs (packaging only). Conversational routing tests also exposed and fixed a trailing-comma error when retaining language options. Rechecked at 06:59:18Z before release: Preview 0.1.16, Production 0.1.10, public 0.1.11; public watch-path suspension and disabled public previews remained intact.
+
+### Deployment and live contracts — 14 October 2026, 09:06 CEST
+
+| Channel | Live version | Evidence |
+| --- | --- | --- |
+| Private Preview | **0.1.17** | Release commit `3bfb59bbedc8f202fe0d5b27c615b526bff8a227`; successful Cloudflare build `1589e3f4-dc30-4349-ab7f-8ce6fdb259bf`, stopped 07:03:31.030Z; connected study_health at 07:04:23.013Z. |
+| Private Production | **0.1.10** | Connected study_health rechecked after deployment at approximately 07:05:10Z; main unchanged. |
+| Public/video | **0.1.11** | Connected study_health rechecked after deployment at approximately 07:05:10Z; public automatic build suspension preserved. |
+
+The exact prompt `Give me the full study of genesis 1` now returns Full Genesis 1:1–2:3, English/plain format, three active instruction documents including the translation key, zero planner asset reads and the concrete translation-part layout. An unknown-book fixture remains an error with can_retrieve=false, explicit planner-retry guidance, a clock and observed failure diagnostics. The router document explicitly cannot replace a successful plan.
+
+Source fixtures retrieved 34 WLC records across Genesis 1:1–2:3 and three records each from WLC/Brenton Greek for an explicit exact Genesis 1:1–3 comparison. Returned edition labels and aggregate counts match actual datasets; alignment remains unverified. Ready refreshed first_line and Last server check to its actual 07:05:34.036Z clock, retained the exact next title, and reported output completion unobserved. Next returned local explanation on the same passage at Full depth. A separate Dutch/original-interlinear/WLC+LXX fixture retained exact scope and preferences through Next and Next passage.
+
+These are server-contract fixtures, not a generated study, host call-count measurement, UI certification or speed benchmark. Real host delivery and performance remain unverified: refresh Preview metadata and retest the original prompt in a fresh conversation, checking natural Genesis 1:30 prose, paragraph-note length, clocks/diagnostics, edition names, exact stage titles and Next. Documentation-only follow-up commits may rebuild the same runtime; the tested release source and deployment are recorded above.

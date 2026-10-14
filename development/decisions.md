@@ -22,7 +22,7 @@ Prefer Genesis 1:1 “In the beginning God created…” and footnote the meanin
 
 Private Preview reports request-local tool metrics, a correlation ID, actual edition/record counts and failures, and real Amsterdam server clock checks. Error results also carry a clock. Reuse a freshly returned clock for progress instead of making a redundant clock call. Label a pre-output footer Last server check. A supported post-output check is labelled Server check after output; neither is an exact rendering-completion measurement. Do not disclose hidden reasoning or log prompts, arguments, identities or source text.
 
-## Request and output recovery — implemented in Preview 0.1.17 candidate
+## Request and output recovery — implemented, tested and deployed in private Preview 0.1.17
 
 The 13 October 0.1.16 Genesis 1 host check exposed a reproducible planner failure for “Give me the full study of genesis 1”. The sampled initial operation trace showed unknown_book, a router-document read and then direct source retrieval, without a successful active plan before that retrieval. The supplied output had complete translation and verse-linked markers, but lacked visible clocks/diagnostics, used expanded heading-per-note discussions, changed stage titles and retained “living life” in Genesis 1:30. Its opening rendering was correct. Sampled logs do not establish a complete host call count or the absence of every later Ready call.
 
@@ -30,7 +30,7 @@ Normalize recognizable English/Dutch request phrasing around documented commands
 
 Return the concrete active output layout at planning and refresh it at Ready: actual timestamp, H2 heading, consulted edition identity, concise numbered paragraph notes, compact observed diagnostics and exact continuation label. Preserve consequential alternatives; defer extended anthropology, doctrinal arguments, historical surveys and full word studies to their own parts. Reinforce contextual Genesis 1:30 wording without imposing one fixed nephesh gloss. Source labels describe the actual dataset (including Brenton Greek Septuagint), preserve all original evidence, and make no alignment claim.
 
-Regression and live contract checks can establish these mechanisms. A fresh host study must still establish visible delivery, wording, note length and client behavior. No host-speed improvement is inferred from the new exploratory 1m16s display.
+Regression and live contract checks passed for these mechanisms, including the exact original request, active translation key, error recovery, actual edition labels, refreshed Ready layout and retained Next preferences. A fresh host study must still establish visible delivery, wording, note length and client behavior. No host-speed improvement is inferred from the new exploratory 1m16s display.
 
 ## Performance evidence
 

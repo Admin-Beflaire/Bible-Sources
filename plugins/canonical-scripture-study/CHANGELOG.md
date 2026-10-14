@@ -6,7 +6,7 @@
 - Return explicit repair/clarification and planner-retry guidance for errors and incomplete input. A routing document or direct passage fetch cannot replace a successful active plan and its translation key. This is a host contract, not a new stateful server enforcement layer.
 - Return a concrete active-part output_contract from both planning and Ready: real first-line server timestamp, H2 heading, concise paragraph footnotes, actual source attribution, compact observed diagnostics and exact Next label. Defer extended later-part discussions and remind the host to render Genesis 1:30 naturally, rather than “living life”. No new validator or routine tool call.
 - Label returned Preview source packets by their actual pinned dataset, including Brenton Greek Septuagint, and count consulted records across chapter boundaries. Preserve text, evidence and unverified alignment status.
-- Local verification passed: 39 Python tests, 34 Worker tests, 1,956 parity cases and private/public Wrangler dry runs (packaging only). Private Preview deployment/live verification pending. Production remains 0.1.10, public remains 0.1.11, and automatic public builds remain suspended. Host output behavior and performance require a fresh real-study check.
+- Verification passed: 39 Python tests, 34 Worker tests, 1,956 parity cases and private/public Wrangler dry runs (packaging only). Private Preview deployed from `3bfb59bbedc8f202fe0d5b27c615b526bff8a227`; successful build and live contracts verified on 14 October. Production remains 0.1.10, public remains 0.1.11, and automatic public builds remain suspended. Host output behavior and performance require a fresh real-study check.
 
 ## 0.1.16 — Preview translation contracts and diagnostics — 2026-10-13
 

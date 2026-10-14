@@ -10,17 +10,17 @@ Public source data and study software for AI-assisted Bible study, maintained by
 
 ### Releases and connections
 
-Live release state reverified before changes on **14 October 2026, 08:41 CEST**:
+Live release state verified after deployment on **14 October 2026, 09:06 CEST**:
 
 | Connection | Git branch | Version | MCP endpoint |
 | --- | --- | --- | --- |
 | Production | `main` | **0.1.10** | [study.canonical-theology.com/mcp](https://study.canonical-theology.com/mcp) |
-| Preview | `preview` | **0.1.16** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
+| Preview | `preview` | **0.1.17** | [preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp](https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp) |
 | Public MCP | `preview` | **0.1.11** | [mcp.canonical-theology.com/mcp](https://mcp.canonical-theology.com/mcp) |
 
-Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview runs 0.1.16, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Preview 0.1.16 removes Preview handoff validation, retains source restrictions and translation rules, and improves observable clocks and diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
+Use the connected plugin's `study_health` tool to check the actual running version and source revision. A Git commit becomes live only after a successful Cloudflare build. Changes are tested in Preview before an explicitly authorized promotion to `main`; only these two branches are retained. Production retains 0.1.10, private Preview runs 0.1.17, and the separate public endpoint retains 0.1.11. Public automatic builds remain suspended. Preview retains the 0.1.16 handoff-tool omission, source restrictions, translation rules and observable diagnostics; host performance remains unverified. All include the 0.1.9 study-dialogue and bounded-source policies. Production 0.1.8 was previously promoted through [PR #5](https://github.com/Admin-Beflaire/Bible-Sources/pull/5). See [release notes](plugins/canonical-scripture-study/CHANGELOG.md) and the [Preview source](https://github.com/Admin-Beflaire/Bible-Sources/tree/preview/plugins/canonical-scripture-study).
 
-Preview 0.1.17 is an implemented and locally tested candidate awaiting private deployment verification. It repairs conversational request routing and failed-plan recovery, returns a concrete output layout with concise notes and real clocks, and names the actual consulted editions. A fresh host study is still required to verify the resulting prose and visible delivery.
+Preview 0.1.17 is implemented, tested and deployed privately. The exact observed conversational prompt now returns the Full Genesis 1:1–2:3 plan with its active translation key and zero planner asset reads. Live checks verified failed-plan recovery, actual edition labels, Ready's fresh output layout and retained Next preferences. A fresh host study is still required to verify generated prose and visible delivery.
 
 The private Production and Preview connections use Cloudflare Access OAuth. The Worker also validates the Access JWT signature, issuer, audience and expiry at its origin; `/mcp` fails closed when authentication/configuration is missing. Public `/health` exposes only basic deployment status. Reuse the existing endpoint after a release, refresh the plugin's tool metadata/instructions where the host provides that control, and test in a new conversation. A Worker release does not automatically change the ChatGPT plugin card's name/icon or separately imported skill files.
 
