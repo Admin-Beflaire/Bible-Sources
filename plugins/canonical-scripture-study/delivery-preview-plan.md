@@ -1,5 +1,15 @@
 # Preview delivery candidate
 
+## Planned later: translation variance across manuscripts
+
+Build the full verse-mapping index for the supported source corpus before adding this separate study section. The feature is planned only; neither mappings nor a new delivery part are implemented by this note.
+
+Retain primary-source working translation and concise notes as the first delivered section. Proposed later order: translation/footnotes; mapped manuscript and translation differences; local explanation; historical-cultural context where applicable; canonical synthesis and formation. Set depth/focused-command applicability when implementing the feature.
+
+Use reviewed relations between native source references, with provenance and explicit uncertainty for split, merged, reordered or unresolved spans. Missing coverage is not a textual omission. Explain meaningful reading differences and their translation consequences while distinguishing manuscripts, editions/transcriptions and translation traditions. Preserve requested source restrictions and identify any warranted revision to the earlier working rendering. Adding a delivery part will require safe handling of retained older continuation state.
+
+The current Preview sequence remains unchanged. See the dependency in the [development backlog](../../development/backlog.md).
+
 ## 0.1.16 translation-delivery corrections (Preview only)
 
 Use one bounded working-translation pass: preserve enclosing literary or explicit exact scope and the translation key; retrieve the primary text once; investigate only a specific consequential source/grammar question; choose a single defensible main translation with verse-linked numbered footnotes; perform one completeness check; call Ready and deliver. There is no `check_handoff` tool in Preview. Do not restart translation for routine stylistic refinement, repeat active skill reads, or call `evaluate_reading` merely to footnote another attested construction.

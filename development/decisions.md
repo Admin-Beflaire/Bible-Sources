@@ -1,5 +1,13 @@
 # Development decisions
 
+## Future manuscript/translation-variance section — planned only — 14 October 2026
+
+Add a separate section for translation variance across manuscripts after a full verse-mapping index has been built for the supported source corpus. This dependency is explicit: do not implement or activate the new section now. Keep the current primary-source working translation and notes first; the user values its observed speed. Proposed placement is immediately after that first section and before local explanation. Depth/focused-command defaults will be settled with the later feature rather than changing them now.
+
+The future comparison should identify actually aligned readings, their sources, meaningful translation effects, evidence and uncertainty. Distinguish a manuscript from its modern editions/transcriptions and from a translation tradition; do not count WLC and UXLC as independent manuscripts. Keep native references and provenance, handle split/merged/reordered spans, and distinguish absent coverage from a verified textual omission. A complete index must make unresolved relations and source gaps explicit rather than asserting equivalence from matching verse numbers.
+
+Preserve source restrictions and the initial translation's supported alternatives. If later evidence warrants a revision, identify the affected rendering and explain it rather than silently replacing it. Future staged delivery must also preserve continuation correctly when a new section is inserted; do not reinterpret old numeric stage indices silently. No mapping implementation, new tool, version bump or deployment is included in this planning decision.
+
 ## Scripture-focused presentation — prepared locally, not deployed — 14 October 2026
 
 The reader sees Scripture, source evidence, meaningful alternatives and uncertainty. Apply study instructions silently in progress messages, translation notes and explanations; do not narrate plugin rules, reviewed policy, skills, prompts, schemas or instruction compliance. Describe scope through the literary account and give a useful Next title without explaining internal routing. Explicit software/method questions can receive direct technical answers. Enabled Preview diagnostics retain actual operations and metrics; they do not become commentary on rules. This shared runtime rule is intended for all study modes and any later explicitly authorized Production/public release.
