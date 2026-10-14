@@ -101,6 +101,7 @@ def workflow(mode, depth):
     return {
         "study_depth": depth,
         "depth_label": profile["label"],
+        **({"full_study_policy": method["full_study_policy"]} if depth == "full" and mode in {"study_plan", "standard_study", "detailed_study", "full_study", "exegesis_only"} else {}),
         "response_sections": WORD_STUDY_SECTIONS[depth] if mode == "word_study" else focused.get(mode, profile["sections"]),
         "delivery": {
             "mode": "progressive_in_current_turn",

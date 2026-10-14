@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.17
+# Canonical Scripture Study — 0.1.18
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter and Worker package use the same semantic version (**0.1.17**). The verified live Preview is **0.1.17**, public MCP **0.1.11** and Production **0.1.10**. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter and Worker package use the same candidate semantic version (**0.1.18**). The verified live Preview is **0.1.17**, public MCP **0.1.11** and Production **0.1.10**. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -64,7 +64,7 @@ Natural language is the interface; these are routing aliases, not registered nat
 | --- | --- |
 | Standard study / bare passage | Working translation, relevant notes, brief context and explanation |
 | Detailed study | Adds consequential terms, historical/cultural context, visible literary structure and bounded canonical links |
-| Full study | Context, translation, notes, local exegesis, biblical/canonical development, theology review |
+| Full study | Translation/notes, local language analysis, historical context, narrative/intertextual development, Christ/Spirit integration, theology/formation and supporting reference material |
 | Translation only / Translate | Working translation in the chosen format with necessary context and notes |
 | Word study / Woordstudie | **Standard** by default: concise meaning range, 2–3 key verse examples, verified source notes, brief synthesis |
 | Full word study / Volledige woordstudie | **Full**: all supported attested senses, context and participant/relationship nuances, related concepts, verified lexical evidence, and distinct canonically grounded theological synthesis |
@@ -98,7 +98,7 @@ The host retains this state between turns; the read-only server does not store t
 
 ## Translation and study method
 
-The proposed [Full-study coverage design](../../development/full-study-reference-design.md) draws on the original Theology 1.4.2 and the Theology/Christology/Pneumatology source/site structure. It identifies explicit analytical dimensions and a supporting reference appendix while preserving primary translation first. The coverage changes are not implemented or deployed; the later manuscript-comparison section still requires the full mapping index.
+The [Full-study coverage](../../development/full-study-reference-design.md) implemented in the 0.1.18 candidate draws on the original Theology 1.4.2 and the Theology/Christology/Pneumatology source/site structure. Develop consequential words, grammar, names and images locally. Explain narrative/covenantal development, actual intertextual relationships and warranted Christ/Spirit integration. Finish the existing final part with key terms/forms/contextual senses, explained key passages, relevant thematic tables, necessary abbreviations and sources actually consulted. Reuse checked evidence and the established working rendering; explain any warranted revision. Do not retrieve again merely to populate tables, invent lexicon access or copy the original bibliography. Standard/Detailed and focused tasks remain proportionate; systematic manuscript comparison stays inactive.
 
 Use plain working translation, transliteration interlinear, or original-language interlinear. The last displays **original → transliteration → contextual gloss**, followed by a readable clause translation where helpful. Translate into English, Dutch or another requested language and label substantial output as a working translation.
 
@@ -126,7 +126,7 @@ Code/skills are MIT licensed. Dataset licences remain separate, including **CC B
 
 Run core checks with `python3 -m unittest discover -s tests -v`; run `python3 tests/mcp_smoke.py` after installing the MCP extra. [REVIEW.md](REVIEW.md) records what the MVP does and what it does not establish.
 
-## Preview delivery and diagnostics — 0.1.17
+## Preview delivery and diagnostics — 0.1.18 candidate
 
 Preview supplies the complete active skills and translation key in the planner's
 `instruction_bundle`, without requiring a separate call for every instruction.
@@ -164,12 +164,14 @@ Preview has 12 tools: the regular eleven minus check_handoff, plus two delivery/
 
 Preview 0.1.17 passed 39 Python tests, 34 Worker tests, 1,956 parity cases and private/public packaging dry runs. The private build succeeded and live checks verified the original conversational prompt, active key, planner recovery, edition labels, Ready layout and Next preferences. See [release status](../../development/release-status.md) for release evidence, and [benchmarks](../../development/benchmark-protocol.md) for exploratory observations and local replay. One complete [Genesis Work study](../../development/host-observation-genesis1-2026-10-14.md) is now observed, including remaining presentation gaps. Actual next-passage execution, Chat and controlled host timing remain unverified; any later release still needs a fresh visible-output check.
 
-### Unreleased presentation correction
+### 0.1.18 presentation and Full reference correction
 
-The first Work host check produced the complete translation part in a reported 46s with the intended scope, opening, natural Genesis 1:30 wording, paragraph notes, diagnostics and Next title. Its progress text and John 1 footnote also narrated internal study rules/reviewed policy. A local correction applies study guidance silently across study modes and progress messages, while retaining actual source attribution, meaningful alternatives, uncertainty and enabled Preview diagnostics. It is not deployed; live Preview remains 0.1.17. Production/public promotion is still separate and requires explicit authorization.
+The complete 0.1.17 Work study delivered four parts on Genesis 1:1–2:3 in reported durations of 46s, 55s, 2m2s and 1m31s (5m14s total, excluding waits; exploratory only). It established useful translation and canonical coverage, but included internal-rule narration, a publisher assessment and missing progress clocks. The candidate applies study guidance silently, integrates useful secondary research into an independent Scripture-grounded explanation and retains appropriate citations, attribution and warranted limits. Direct publisher assessment remains available when explicitly requested.
 
-Subsequent Work outputs delivered local explanation in a reported 55s, historical-cultural context in 2m2s and canonical synthesis in 1m31s, retaining the passage and correct continuation labels. The historical section became partly a report and critique of BibleProject. The draft directs the host to integrate useful secondary research into its own Scripture-grounded explanation, retain warranted limits and source credit, and assess a teacher directly only when requested. Source citations, quotations and a compact Sources consulted list remain appropriate. The final part already supplies narrative, intertextual and Christ/Spirit analysis with formation. Consolidated reference support and progress timestamps still need attention; Chat and the actual next-passage transition remain unverified.
+Planning now provides a concrete timestamp-first progress layout, and every returned clock reminds the host to use it for orientation and progress as well as substantive output. Reuse the newest tool clock without redundant calls. Full studies keep the same four parts and retained state; the final part bundles exegesis and theology guidance and adds the reference appendix described above. Source restrictions, translation-first retrieval and focused-task scope remain intact.
+
+Validation passed: 47 Python tests, 35 Worker tests, 1,956 parity cases, deterministic mapping rebuild and private/public packaging dry runs. A fresh-context model composition using supplied source packets included the reference layer without rule/publisher narration; this is a limited example, not a real host UI check or speed benchmark. Deployment and a fresh complete host study remain pending. Production/public promotion requires separate authorization.
 
 ### Planned later: manuscript and translation differences
 
-A separate section for translation variance across manuscripts depends on a full verse-mapping index for the supported source corpus. Keep the initial primary-source working translation and notes first. The later section will compare aligned readings, explain meaningful translation consequences and label source identity, uncertainty and coverage limits. Its proposed place is after translation and before local explanation. The feature and mapping index are not implemented; the current delivery sequence is unchanged. See the [backlog](../../development/backlog.md).
+A separate section for translation variance across manuscripts depends on a full verse-mapping index for the supported source corpus. Keep the initial primary-source working translation and notes first. The later section will compare aligned readings, explain meaningful translation consequences and label source identity, uncertainty and coverage limits. Its proposed place is after translation and before local explanation. The comparison feature remains inactive and the four-part sequence is unchanged. The [development index](../../indexes/verse-mapping/README.md) now contains the complete pinned native inventory (106,223 verse references across five editions) and registers all 66,557 DSS physical records, including unassigned/nonbiblical material. Eleven model-reviewed pilot correspondences have exact endpoint evidence. This is a foundation, not a complete or human-reviewed alignment. See the [backlog](../../development/backlog.md).

@@ -1,0 +1,843 @@
+{
+  "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+  "relations": [
+    {
+      "id": "genesis-1-1-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:1"
+          ],
+          "reading_text_sha256": "707c96583d95fb1957b4916673ab36ec2d6cfdc168b97a7f7e2125f4d0f23647"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "uxlc-2.4",
+            "Gen",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/uxlc-2.4/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 24761,
+            "sha256": "a00058c2bb8709724667b7cdb71334cd11cd1e8d0958a7f44a423d9d34fbba64"
+          },
+          "record_ids": [
+            "uxlc-2.4:Gen:1:1"
+          ],
+          "reading_text_sha256": "707c96583d95fb1957b4916673ab36ec2d6cfdc168b97a7f7e2125f4d0f23647"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-2-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:2"
+          ],
+          "reading_text_sha256": "b98a95e859e0e89df38725b20422e520b2d40e65c4dcce402c920a2c596b53f3"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "uxlc-2.4",
+            "Gen",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/uxlc-2.4/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 24761,
+            "sha256": "a00058c2bb8709724667b7cdb71334cd11cd1e8d0958a7f44a423d9d34fbba64"
+          },
+          "record_ids": [
+            "uxlc-2.4:Gen:1:2"
+          ],
+          "reading_text_sha256": "f85df461cd35652a655a1636965f57a6cc82a2aa04b5d73556f9ce884ff4317e"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-3-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:3"
+          ],
+          "reading_text_sha256": "15da9f05ea03b1fbc8f4414eca91856d9951bd98efb5de14cc731fd2bab4a044"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "uxlc-2.4",
+            "Gen",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/uxlc-2.4/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 24761,
+            "sha256": "a00058c2bb8709724667b7cdb71334cd11cd1e8d0958a7f44a423d9d34fbba64"
+          },
+          "record_ids": [
+            "uxlc-2.4:Gen:1:3"
+          ],
+          "reading_text_sha256": "15da9f05ea03b1fbc8f4414eca91856d9951bd98efb5de14cc731fd2bab4a044"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-1-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:1"
+          ],
+          "reading_text_sha256": "707c96583d95fb1957b4916673ab36ec2d6cfdc168b97a7f7e2125f4d0f23647"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "TAHOT",
+            "Gen",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/tahot/books/Genesis.txt",
+            "byte_offset": 13578,
+            "byte_length": 98211,
+            "sha256": "33892585fd07fe762e24735dcb59f54675d04bab3d3c5766fe6d4088270e603a"
+          },
+          "record_ids": [
+            "TAHOT:Gen.1.1#01=L",
+            "TAHOT:Gen.1.1#02=L",
+            "TAHOT:Gen.1.1#03=L",
+            "TAHOT:Gen.1.1#04=L",
+            "TAHOT:Gen.1.1#05=L",
+            "TAHOT:Gen.1.1#06=L",
+            "TAHOT:Gen.1.1#07=L"
+          ],
+          "reading_text_sha256": "17783b385db6da67e1e6eff7bc67021eea6dfbd1077f703de2cf12a05cd69368"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-2-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:2"
+          ],
+          "reading_text_sha256": "b98a95e859e0e89df38725b20422e520b2d40e65c4dcce402c920a2c596b53f3"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "TAHOT",
+            "Gen",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/tahot/books/Genesis.txt",
+            "byte_offset": 13578,
+            "byte_length": 98211,
+            "sha256": "33892585fd07fe762e24735dcb59f54675d04bab3d3c5766fe6d4088270e603a"
+          },
+          "record_ids": [
+            "TAHOT:Gen.1.2#01=L",
+            "TAHOT:Gen.1.2#02=L",
+            "TAHOT:Gen.1.2#03=L",
+            "TAHOT:Gen.1.2#04=L",
+            "TAHOT:Gen.1.2#05=L",
+            "TAHOT:Gen.1.2#06=L",
+            "TAHOT:Gen.1.2#07=L",
+            "TAHOT:Gen.1.2#08=L",
+            "TAHOT:Gen.1.2#09=L",
+            "TAHOT:Gen.1.2#10=L",
+            "TAHOT:Gen.1.2#11=L",
+            "TAHOT:Gen.1.2#12=L",
+            "TAHOT:Gen.1.2#13=L",
+            "TAHOT:Gen.1.2#14=L"
+          ],
+          "reading_text_sha256": "51053d291b8193c85eedd20428635193e64560ef72f9d25026d5d0dd09d761e2"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-3-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:3"
+          ],
+          "reading_text_sha256": "15da9f05ea03b1fbc8f4414eca91856d9951bd98efb5de14cc731fd2bab4a044"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "TAHOT",
+            "Gen",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/tahot/books/Genesis.txt",
+            "byte_offset": 13578,
+            "byte_length": 98211,
+            "sha256": "33892585fd07fe762e24735dcb59f54675d04bab3d3c5766fe6d4088270e603a"
+          },
+          "record_ids": [
+            "TAHOT:Gen.1.3#01=L",
+            "TAHOT:Gen.1.3#02=L",
+            "TAHOT:Gen.1.3#03=L",
+            "TAHOT:Gen.1.3#04=L",
+            "TAHOT:Gen.1.3#05=L",
+            "TAHOT:Gen.1.3#06=L"
+          ],
+          "reading_text_sha256": "0a0c3ad0ed8a666915572020e7d74d0a737b408ef572079fab27c2f5119a2d8d"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-1-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:1"
+          ],
+          "reading_text_sha256": "707c96583d95fb1957b4916673ab36ec2d6cfdc168b97a7f7e2125f4d0f23647"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "LXX-GRCBRENT-20260408",
+            "GEN",
+            1,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/lxx/brenton/verses/GEN.jsonl",
+            "byte_offset": 0,
+            "byte_length": 23144,
+            "sha256": "f686c66fd6f4449a2c8658ca81c646d4b8bf7fdba1955f9fd32dc40a28c0eaa2"
+          },
+          "record_ids": [
+            "LXX-GRCBRENT-20260408:GEN:1:1"
+          ],
+          "reading_text_sha256": "7ac70a2d7e91732d42c91f659fdb117e45eb853a05ffb09cc41dcb515794082a"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-2-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:2"
+          ],
+          "reading_text_sha256": "b98a95e859e0e89df38725b20422e520b2d40e65c4dcce402c920a2c596b53f3"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "LXX-GRCBRENT-20260408",
+            "GEN",
+            1,
+            "2"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/lxx/brenton/verses/GEN.jsonl",
+            "byte_offset": 0,
+            "byte_length": 23144,
+            "sha256": "f686c66fd6f4449a2c8658ca81c646d4b8bf7fdba1955f9fd32dc40a28c0eaa2"
+          },
+          "record_ids": [
+            "LXX-GRCBRENT-20260408:GEN:1:2"
+          ],
+          "reading_text_sha256": "bba364b6f763fde3d086356d59544bab2844ade465ac81539c6859dfaabfd28d"
+        }
+      ]
+    },
+    {
+      "id": "genesis-1-3-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Gen",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Gen.jsonl",
+            "byte_offset": 0,
+            "byte_length": 173759,
+            "sha256": "7394611450eca8408875a61f4362070420695f72badb00189262b442169a9a7c"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Gen:1:3"
+          ],
+          "reading_text_sha256": "15da9f05ea03b1fbc8f4414eca91856d9951bd98efb5de14cc731fd2bab4a044"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "LXX-GRCBRENT-20260408",
+            "GEN",
+            1,
+            "3"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/lxx/brenton/verses/GEN.jsonl",
+            "byte_offset": 0,
+            "byte_length": 23144,
+            "sha256": "f686c66fd6f4449a2c8658ca81c646d4b8bf7fdba1955f9fd32dc40a28c0eaa2"
+          },
+          "record_ids": [
+            "LXX-GRCBRENT-20260408:GEN:1:3"
+          ],
+          "reading_text_sha256": "4bcdd8e6bde63db2995016ca52213aa69da90dc76314b9e2c31c58dc04e18f52"
+        }
+      ]
+    },
+    {
+      "id": "psalm-23-1-wlc-greek-22-1",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Ps",
+          23,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "PSA",
+          22,
+          "1"
+        ]
+      ],
+      "order_relation": "renumbered",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of the exact pinned Hebrew and Greek native verses, including heading and chapter boundaries."
+      },
+      "note": "Both extents include the Davidic psalm heading and the opening Yahweh/Lord-as-shepherd declaration. Native chapter numbers differ; do not extend this offset to other psalms automatically.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Ps",
+            23,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Ps.jsonl",
+            "byte_offset": 1155889,
+            "byte_length": 24353,
+            "sha256": "a55d948cabb9b11a1815694da55cbad76e083d01dd4820404756aa141a92178f"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Ps:23:1"
+          ],
+          "reading_text_sha256": "72ec7f59826d9efd72ce092655a920e60ab0433e44d338e8e8f392358debe10c"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "LXX-GRCBRENT-20260408",
+            "PSA",
+            22,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/lxx/brenton/verses/PSA.jsonl",
+            "byte_offset": 175434,
+            "byte_length": 3749,
+            "sha256": "eadc52ef75207a9f2f2b83df750690cd44560861b954f2bfa8b4468edd41e109"
+          },
+          "record_ids": [
+            "LXX-GRCBRENT-20260408:PSA:22:1"
+          ],
+          "reading_text_sha256": "de2e74e78a6957b1f603f2c34fc6afd64f56534e98ec6333ecdcdec9f7ff8b72"
+        }
+      ]
+    },
+    {
+      "id": "psalm-10-1-wlc-greek-9-22",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Ps",
+          10,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "PSA",
+          9,
+          "22"
+        ]
+      ],
+      "order_relation": "renumbered",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of the exact pinned Hebrew and Greek native verses, including heading and chapter boundaries."
+      },
+      "note": "Both extents ask why Yahweh/Lord stands far away and overlooks trouble. The Hebrew new-psalm opening occurs within Greek Psalm 9; this does not review the whole joined psalm.",
+      "cardinality": "one_to_one",
+      "scope": "corresponding_verse_extent_not_identical_wording_or_independent_witness_vote",
+      "left_evidence": [
+        {
+          "native_reference": [
+            "wlc-4.20-oshb",
+            "Ps",
+            10,
+            "1"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/leningrad/verses/wlc-4.20-oshb/Ps.jsonl",
+            "byte_offset": 400574,
+            "byte_length": 73610,
+            "sha256": "e1332f9ffcdb642499880ebd39adcd6d383cf2b5e8c23f274cd5f3739359237d"
+          },
+          "record_ids": [
+            "wlc-4.20-oshb:Ps:10:1"
+          ],
+          "reading_text_sha256": "2af432304b3b40f7239b4f0db1fa96d176ce8dc0956eedefcd942aebae3265c0"
+        }
+      ],
+      "right_evidence": [
+        {
+          "native_reference": [
+            "LXX-GRCBRENT-20260408",
+            "PSA",
+            9,
+            "22"
+          ],
+          "chapter_evidence": {
+            "repository": "Admin-Beflaire/Bible-Sources",
+            "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+            "file": "sources/lxx/brenton/verses/PSA.jsonl",
+            "byte_offset": 48456,
+            "byte_length": 22470,
+            "sha256": "b0c7daad186cc0f113d4d41f0d0cfbfc9a5036f266750779058ae94f5d0376bd"
+          },
+          "record_ids": [
+            "LXX-GRCBRENT-20260408:PSA:9:22"
+          ],
+          "reading_text_sha256": "4b3009c0c6ea8771fbcef019275ed03540aa93e39ba390453bb24f8fe4dcc33b"
+        }
+      ]
+    }
+  ]
+}

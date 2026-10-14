@@ -21,6 +21,14 @@ class RuntimeTests(unittest.TestCase):
     def setUpClass(cls):
         cls.engine = Engine()
 
+    def test_full_passage_reference_policy_does_not_expand_focused_tasks(self):
+        full = self.engine.plan('Full study Genesis 1')
+        self.assertIn('reference_material', full['response_sections'])
+        self.assertIn('reference_material', full['full_study_policy'])
+        for query in ['Genesis 1', 'Detailed study Genesis 1', 'Translate Genesis 1', 'Full word study ruach']:
+            focused = self.engine.plan(query)
+            self.assertNotIn('full_study_policy', focused)
+
     def test_creation_unit_is_kept(self):
         p = self.engine.plan("Translate Genesis 1:1-2:3")
         self.assertEqual(p["reference"], "Genesis 1:1-2:3")

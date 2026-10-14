@@ -1,11 +1,14 @@
 # Changelog
 
-## Unreleased — Scripture-focused presentation — 2026-10-14
+## 0.1.18 — Full references, presentation and mapping foundation — 2026-10-14
 
 - Apply study guidance silently in progress messages, translations, notes and explanations. Explain Scripture and actual evidence without narrating plugin rules, reviewed policy, skills, schemas or instruction compliance. Explicit software/method questions and enabled Preview technical diagnostics remain supported.
 - Add the shared policy to regular and Preview initialization, active Preview layouts/Ready and focused plans, and the study/translation skills and references. Known biblical connections are explained as connections, without implying new retrieval or narrating how instructions supplied them.
 - Integrate secondary research into an independent Scripture-grounded explanation in the host's own wording. Preserve source citations, quotation attribution and meaningful limits; do not organize ordinary studies as a review or rebuttal of BibleProject or another publisher. Direct assessments remain available when requested. Clarify this distinction in exegesis and theology-review guidance.
-- Prepared and locally tested: 39 Python tests, 34 Worker tests and 1,956 parity cases passed. No deployment while the user completes the 0.1.17 host study. Generated host behavior still needs a fresh check after release. Production/public promotion remains unauthorized.
+- Make timestamp-first orientation/progress explicit in the planner output and every returned clock; reuse the latest actual tool clock without redundant calls.
+- Add explicit Full passage/exegesis analysis and reference coverage based on the original Theology/Christology/Pneumatology structures. Develop consequential terms locally; append term/passage/thematic tables, necessary abbreviations and actually consulted sources after formation in the existing final part. Retain working renderings, identify warranted revisions and reuse evidence. Preserve four-part continuation and proportionate focused/Standard/Detailed output.
+- Start an offline, pinned verse-mapping index: 106,223 native references across five editions, registration of 66,557 DSS physical records, eleven evidence-linked model-reviewed pilot correspondences and deterministic build/check/lookup commands. Preserve native headings/suffixes, reconstruction, source identity and unresolved coverage. Neither matching labels nor missing records establish a textual variant.
+- Validation passed: 47 Python tests, 35 Worker tests, 1,956 parity cases, deterministic mapping rebuild, modified-skill validation and private/public packaging dry runs. A limited fresh-context model composition included the new reference material; real host presentation and performance still need a fresh study. Private deployment is pending; Production/public promotion remains unauthorized and public automatic builds suspended. Systematic manuscript comparison remains inactive until the full map is reviewed.
 
 ## 0.1.17 — Preview request and output recovery — 2026-10-14
 

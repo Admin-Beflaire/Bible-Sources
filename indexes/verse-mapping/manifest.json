@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "status": "partial_mapping_index_with_complete_native_inventory",
+  "source_repository": "Admin-Beflaire/Bible-Sources",
+  "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+  "chapter_index_sha256": "a8d21b41f89d002991710f01ea9cbd541b4bc21c88913da4800dc13c86d09aed",
+  "source_profile_sha256": "7e1035c8b95553a63fe3bf3d4330cbca03bbcfd60eeaee93b3d6828eaae19a6f",
+  "coverage": {
+    "LXX-GRCBRENT-20260408": {
+      "books": 52,
+      "chapters": 1103,
+      "native_verses": 28597
+    },
+    "SBLGNT": {
+      "books": 27,
+      "chapters": 260,
+      "native_verses": 7939
+    },
+    "TAHOT": {
+      "books": 39,
+      "chapters": 929,
+      "native_verses": 23261
+    },
+    "uxlc-2.4": {
+      "books": 39,
+      "chapters": 929,
+      "native_verses": 23213
+    },
+    "wlc-4.20-oshb": {
+      "books": 39,
+      "chapters": 929,
+      "native_verses": 23213
+    }
+  },
+  "DSS": {
+    "physical_records": 66557,
+    "unresolved_native_references": 43128,
+    "numeric_reference_annotations": 23429,
+    "fully_reconstructed_letter_records": 5602
+  },
+  "DSS_index_tables": 124,
+  "model_reviewed_pilot_relations": 11,
+  "reviewed_alignment_complete": false,
+  "comparison_delivery_enabled": false,
+  "witness_relationships": {
+    "wlc-4.20-oshb+uxlc-2.4": "related_transcriptions_of_the_same_Leningrad_manuscript",
+    "LXX-GRCBRENT-20260408": "Greek_translation_tradition_in_a_modern_edition",
+    "TAHOT": "annotated_Hebrew_edition_not_an_independent_manuscript_vote",
+    "SBLGNT": "modern_critical_edition_not_a_single_manuscript",
+    "DSS-2.0.1": "individual_scrolls_with_physical_and_reconstruction_status"
+  },
+  "open_work": [
+    "Review remaining verse correspondences from source wording and boundaries.",
+    "Handle split, merged, reordered and partial spans without inferring equivalence from labels.",
+    "Review DSS reference annotations against actual physical readings and reconstruction.",
+    "Keep edition-only books, headings, suffixes, unavailable records and unresolved alignments explicit."
+  ],
+  "files": {
+    "native-DSS-2.0.1.json": {
+      "sha256": "b90122162883bac0fb19811c95b7409ef87a0e58cb537073e0c103730557f819",
+      "bytes": 28988
+    },
+    "native-LXX-GRCBRENT-20260408.json": {
+      "sha256": "abec52e52769296f42e85abb67751932393472aeab5cd55e72376e47ae96bde9",
+      "bytes": 141504
+    },
+    "native-SBLGNT.json": {
+      "sha256": "a36b32012bdeabbe42d0b1e56dd44569507a034a93ebbbeac0bcd5880712cee3",
+      "bytes": 39346
+    },
+    "native-TAHOT.json": {
+      "sha256": "cf4ecb2cf0e20364b5d280071ae1602cd432d0e4985ebff08e71bdb1136905bb",
+      "bytes": 114701
+    },
+    "native-uxlc-2.4.json": {
+      "sha256": "4ad79f6a18e18ce3a302f721d61419992f6da4176cbbef0f37a918d60472fd92",
+      "bytes": 114594
+    },
+    "native-wlc-4.20-oshb.json": {
+      "sha256": "adf6af9d22567481349702bb10cf7fa85a1d0f89b5bd35f4e1ad0feab73b712c",
+      "bytes": 114599
+    },
+    "pilot-relations.json": {
+      "sha256": "ef9f5de91a84d1a129fcb365bedaec88575a342d82edd071a60e3a2e866284de",
+      "bytes": 27301
+    }
+  }
+}

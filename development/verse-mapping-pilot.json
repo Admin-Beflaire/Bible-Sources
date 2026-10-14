@@ -1,0 +1,315 @@
+{
+  "schema_version": "0.1.0",
+  "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+  "review_scope": "Model-reviewed pilot of verse extents only; not independent textual witnesses, textual identity or a complete map.",
+  "relations": [
+    {
+      "id": "genesis-1-1-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth."
+    },
+    {
+      "id": "genesis-1-2-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity."
+    },
+    {
+      "id": "genesis-1-3-wlc-uxlc-2.4",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "uxlc-2.4",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "same_manuscript_transcriptions",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment."
+    },
+    {
+      "id": "genesis-1-1-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth."
+    },
+    {
+      "id": "genesis-1-2-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity."
+    },
+    {
+      "id": "genesis-1-3-wlc-TAHOT",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "TAHOT",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "annotated_Hebrew_edition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment."
+    },
+    {
+      "id": "genesis-1-1-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents introduce divine creation of heavens and earth."
+    },
+    {
+      "id": "genesis-1-2-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents describe the earth, darkness, deep and divine wind/Spirit over waters. Greek invisible/unfurnished wording differs from Hebrew tohu va-bohu; correspondence is not textual identity."
+    },
+    {
+      "id": "genesis-1-3-wlc-LXX-GRCBRENT-20260408",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          1,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of exact pinned native wording, record boundaries and context; limited to this verse extent."
+      },
+      "note": "Both extents give the command for light and its fulfillment."
+    },
+    {
+      "id": "psalm-23-1-wlc-greek-22-1",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Ps",
+          23,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "PSA",
+          22,
+          "1"
+        ]
+      ],
+      "order_relation": "renumbered",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of the exact pinned Hebrew and Greek native verses, including heading and chapter boundaries."
+      },
+      "note": "Both extents include the Davidic psalm heading and the opening Yahweh/Lord-as-shepherd declaration. Native chapter numbers differ; do not extend this offset to other psalms automatically."
+    },
+    {
+      "id": "psalm-10-1-wlc-greek-9-22",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Ps",
+          10,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "PSA",
+          9,
+          "22"
+        ]
+      ],
+      "order_relation": "renumbered",
+      "witness_relationship": "Greek_translation_tradition",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-14",
+        "basis": "Inspection of the exact pinned Hebrew and Greek native verses, including heading and chapter boundaries."
+      },
+      "note": "Both extents ask why Yahweh/Lord stands far away and overlooks trouble. The Hebrew new-psalm opening occurs within Greek Psalm 9; this does not review the whole joined psalm."
+    }
+  ]
+}

@@ -17,6 +17,39 @@ test('European timestamps preserve Amsterdam DST and distinguish clock checks fr
   assert.match(timestamp(Date.parse('2026-12-13T12:00:00Z')).display, /^13-12-2026 13:00:00 /);
   assert.equal(timestamp(start + 224000, new Date(start).toISOString()).stage_elapsed_seconds, 224);
   assert.match(timestamp(start).measures, /not client rendering/);
+  assert.match(timestamp(start).visible_message_rule, /including brief orientation and progress updates/);
+});
+
+test('Full passage coverage and references stay in the existing later parts and retain exact continuation', async () => {
+  const e=make();let p=await previewPlan(e,{query:'Full study Genesis 1, WLC only'},start);
+  assert.equal(p.delivery.total_parts,4);
+  assert.equal(p.progress_contract.first_line,p.output_contract.first_line);
+  assert.match(p.progress_contract.refresh,/Do not make an extra Clock call/);
+  assert.ok(!p.output_contract.full_study,'The initial translation must not acquire the later reference work');
+  p=await deliveryAction(e,'next',p.delivery_state,start+1000);
+  assert.match(p.output_contract.full_study.active_focus,/consequential words/);
+  p=await deliveryAction(e,'next',p.delivery_state,start+2000);
+  p=await deliveryAction(e,'next',p.delivery_state,start+3000);
+  assert.deepEqual(Object.keys(p.instruction_bundle),['bible-exegesis','bible-theology-review']);
+  assert.deepEqual(p.retrieval_plan,[]);
+  assert.equal(p.output_contract.section_order[4],'Reference material');
+  assert.ok(p.output_contract.full_study.reference_material.components.includes('sources_actually_consulted_across_the_study'));
+  assert.deepEqual(p.source_policy.allowed_editions,['WLC']);
+  assert.ok(JSON.stringify(p).length<30000);
+  const ready=await deliveryAction(e,'ready',p.delivery_state,start+61000);
+  assert.equal(ready.output_contract.progress.first_line,ready.timestamp.display);
+  assert.equal(ready.output_contract.section_order[4],'Reference material');
+  const next=await deliveryAction(e,'next',ready.next_delivery_state,start+62000);
+  assert.equal(next.reference,'Genesis 2:4-25');
+  assert.deepEqual(e.store.metrics,{asset_fetches:0,cache_hits:0,asset_bytes:0});
+  let standard=await previewPlan(e,{query:'Genesis 1'},start);
+  standard=await deliveryAction(e,'next',standard.delivery_state,start+1000);
+  standard=await deliveryAction(e,'next',standard.delivery_state,start+2000);
+  assert.deepEqual(Object.keys(standard.instruction_bundle),['bible-theology-review']);
+  assert.ok(!standard.output_contract.full_study);
+  assert.ok(!standard.output_contract.section_order.includes('Reference material'));
+  const word=await previewPlan(e,{query:'Full word study ruach'},start);
+  assert.ok(!word.full_study_policy&&!word.delivery_state);
 });
 test('Full study advances parts on the same passage, preserves preferences, and advances passage only last', async () => {
   const e = make(); let plan = await previewPlan(e, {query: 'Full study Genesis 1 in English'}, start);

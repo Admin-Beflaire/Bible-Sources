@@ -1,6 +1,6 @@
 # Full-study coverage from the original canonical studies
 
-Status: source/site review completed; coverage proposed, not implemented. No runtime, stage, version or deployment change. Recorded 14 October 2026.
+Status: source/site review completed; coverage implemented and locally tested in the 0.1.18 candidate. Private Preview deployment and a fresh full host study are pending. No additional delivery part or manuscript-comparison feature is enabled. Updated 14 October 2026.
 
 ## Evidence inspected
 
@@ -59,20 +59,20 @@ The versioned Theology reference section specifically contains word studies, an 
 
 Do not copy the originals' bibliography as evidence of new consultation. Their BHS/BHQ, Rahlfs-Hanhart, NA28/UBS5 or lexicon references do not establish plugin access to those works. Name actual retrieved WLC/OSHB, Brenton Greek, SBLGNT or other material correctly. Distinguish manuscript, modern edition, lexical source, project-curated record and secondary interpretation.
 
-## Current gaps and proposed delivery
+## Implemented coverage in the 0.1.18 candidate
 
-Current Preview Full delivery has four parts: translation/footnotes, local explanation/literary structure, historical-cultural context, and canonical synthesis/formation. Broad guidance already allows much of this analysis, but active contracts do not explicitly require distinct narrative/intertextual/Christ-Spirit treatments or a consolidated reference layer. The final part currently bundles theology-review only; a future implementation should also supply the needed exegetical guidance within the active instruction budget.
+Full delivery retains four parts: translation/footnotes, local explanation/literary structure, historical-cultural context, and canonical synthesis/formation. Shared method/depth guidance and active contracts now explicitly develop the distinct analytical dimensions and consolidated reference layer. The Full final part bundles exegesis and theology-review guidance within the existing instruction budget. Standard/Detailed and focused requests retain proportionate scope.
 
-The user's complete [Genesis Work observation](host-observation-genesis1-2026-10-14.md) now includes all four parts. The final part supplies narrative development, explained intertextual links, Christ/Spirit integration and formation. Preserve that successful coverage and make it consistent through explicit guidance; do not describe those dimensions as absent. The main content addition is organized word-study/reference support. Progress timestamps and the earlier rule/publisher narration still require attention. One successful run does not establish consistent delivery across requests or hosts.
+The user's complete [Genesis Work observation](host-observation-genesis1-2026-10-14.md) now includes all four parts. The final part supplies narrative development, explained intertextual links, Christ/Spirit integration and formation. Preserve that successful coverage and make it consistent through explicit guidance; do not describe those dimensions as absent. The main content addition is organized word-study/reference support. The candidate also reinforces timestamp-first progress and silent, independently integrated study explanation. One successful run does not establish consistent delivery across requests or hosts.
 
-| Delivered part | Proposed explicit Full coverage |
+| Delivered part | Explicit Full coverage |
 | --- | --- |
 | Translation and footnotes | Complete primary-source working translation, concise consequential notes and actual edition attribution. Preserve the currently observed first-part workflow. |
 | Local explanation and literary structure | Argument/movements, genre/design, verse-linked explanation and substantive contextual analysis of consequential words, grammar, names and images. |
 | Historical-cultural context | Specific comparisons and relevant setting, integrated into an independent explanation with appropriate source credit. |
 | Canonical synthesis and formation | Distinct narrative development, intertextual connections, Christ/Spirit integration where warranted, clear theological conclusions and proportionate formation. Finish with supporting reference material. |
 
-The reference appendix can initially sit within the final part: meaningful terms, an explained passage/connection table, relevant thematic tables, necessary abbreviations and actually consulted sources. Final length and any need for a separate reference part in larger studies remain implementation decisions. No additional stage is activated by this proposal.
+The reference appendix sits within the final part: meaningful terms, an explained passage/connection table, relevant thematic tables, necessary abbreviations and actually consulted sources. Preserve the established working rendering and explain warranted revisions. No additional stage or retained-state migration is introduced. Larger-study delivery may be reviewed after fresh host evidence.
 
 Reuse checked wording, contexts and sources. A two-entry curated-word retrieval budget is not a requirement to discuss only two meaningful words in the actual passage. Use the original evidence for consequential terms; scope any essential expanded retrieval explicitly. Do not repeat full earlier explanations merely to populate a reference table or claim an exhaustive concordance from partial resources.
 
@@ -82,8 +82,8 @@ The originals' reconciliation of renderings often concerns different translation
 
 The additional section, translation variance across manuscripts, remains blocked by the full verse-mapping index for supported sources. Proposed placement remains after primary translation/notes, before local explanation. First review native-reference relations, provenance, split/merged/reordered spans, unresolved alignments and source gaps. Preserve restrictions; missing coverage is not omission; WLC/UXLC are not independent manuscripts. Review older continuation-state compatibility before inserting any part.
 
-## Later implementation and verification
+## Verification and remaining host checks
 
-Implement explicit Full coverage in shared depth/method guidance and active output contracts, with relevant instruction bundles. Keep Standard/Detailed and focused requests proportionate. Apply prepared Scripture-focused presentation rules silently and integrate secondary research with accurate attribution.
+Implemented shared depth/method guidance, active contracts and instruction bundles, with proportionate Standard/Detailed and focused tasks. Tests verify stage count, retained scope/language/sources, instruction size, evidence reuse and continuation compatibility. All 47 Python tests, 35 Worker tests and 1,956 parity cases pass. A fresh-context composition from the exact active final-part bundle and supplied source packets included useful term/passage/source reference material without rule or publisher narration; it does not establish real host rendering or timing.
 
-Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study after release for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. The initial 0.1.17 study is now fully observed; this planning remains unreleased and Production/public promotion still requires explicit authorization.
+Verify affected routing, retained scope/language/sources, instruction size and continuation compatibility. Then inspect a complete fresh Full study after release for useful language analysis, explained canonical connections, accurate reference support and preserved first-part delivery. Contract tests do not establish host prose quality or speed. The initial 0.1.17 study is fully observed; the 0.1.18 candidate still needs private deployment and a fresh visible-output check. Production/public promotion requires explicit authorization.

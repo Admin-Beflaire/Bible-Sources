@@ -1,0 +1,794 @@
+{
+  "dataset_id": "DSS-2.0.1",
+  "identity": "scroll_and_record_id",
+  "reference_status": "modern_annotations_not_reviewed_cross_edition_alignment",
+  "evidence_access": "Read the pinned TSV row and its hash-verified source span; preserve reconstruction, uncertainty, fragment and line identity.",
+  "tables": [
+    {
+      "index": "indexes/dss/records/11Q1.tsv",
+      "sha256": "87851015212b8bb74f49b3a077798224fd4f54284e9d9d0585e380d464173891",
+      "physical_records": 29,
+      "unresolved_native_references": 29
+    },
+    {
+      "index": "indexes/dss/records/11Q2.tsv",
+      "sha256": "24663cc1c0ee078fbe3caea060c73e2a9829ff468071f1d76950cefb9f90f9fb",
+      "physical_records": 6,
+      "unresolved_native_references": 6
+    },
+    {
+      "index": "indexes/dss/records/11Q3.tsv",
+      "sha256": "4e5171754600a2164b63fcdad47cb1275607680715ef48d0202c70e0559084e9",
+      "physical_records": 9,
+      "unresolved_native_references": 9
+    },
+    {
+      "index": "indexes/dss/records/11Q4.tsv",
+      "sha256": "1d1dd8c8dd779e9a7792819f1abd75c7c636d917d09ccb3714cfec84a48046d4",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/11Q5.tsv",
+      "sha256": "80fed230e02d1e6b3f86d74f7397a685429ed7cf9440b2122e29fb162efdb241",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/11Q6.tsv",
+      "sha256": "ee37c16cde2918a2fcdf841d4228ffac61077f536e4f94e0c72115453488906e",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/11Q8.tsv",
+      "sha256": "6b00175f2799ef62ad54a42a2fc2fb7677a74464abde3739d364828b94aca8c5",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/1Kgs.tsv",
+      "sha256": "78b4435d1e2b73a3cc872cc9f7947c484a48605a500007768d417a3795fadd6b",
+      "physical_records": 110,
+      "numeric_reference_annotations": 110,
+      "fully_reconstructed_letter_records": 37
+    },
+    {
+      "index": "indexes/dss/records/1Q1.tsv",
+      "sha256": "b4af40020bb4dd4d3413ca50978f20706ff2d4043932a14ade01ad101366f987",
+      "physical_records": 22,
+      "unresolved_native_references": 22
+    },
+    {
+      "index": "indexes/dss/records/1Q10.tsv",
+      "sha256": "f15cc71628f9f34b1a6b5466b523b2da508edfa16b87d56112da4c419e227507",
+      "physical_records": 15,
+      "unresolved_native_references": 15
+    },
+    {
+      "index": "indexes/dss/records/1Q12.tsv",
+      "sha256": "6c8cc75960f896e6fe893a305b6758b318d61ff47721760aeed523db20cd7738",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/1Q13.tsv",
+      "sha256": "2ef98a54529aab718d0c548a284994c545657cde8000fc70ae31a0b267aa2c02",
+      "physical_records": 53,
+      "unresolved_native_references": 53
+    },
+    {
+      "index": "indexes/dss/records/1Q2.tsv",
+      "sha256": "ca37f2ea20f30d43b5506a970f0b01f7615e40f350a1a13f9875a93928b859c1",
+      "physical_records": 11,
+      "unresolved_native_references": 11
+    },
+    {
+      "index": "indexes/dss/records/1Q3.tsv",
+      "sha256": "dd8d320222c51b40e5f2ae50120291aeae107430b2072b6ae4739039839f36b2",
+      "physical_records": 25,
+      "unresolved_native_references": 25
+    },
+    {
+      "index": "indexes/dss/records/1Q4.tsv",
+      "sha256": "6660cc5031d79cfa28cc8e5e73c7eb396c157f974ff9117d0767ffb5edfd9ddc",
+      "physical_records": 59,
+      "unresolved_native_references": 59
+    },
+    {
+      "index": "indexes/dss/records/1Q5.tsv",
+      "sha256": "5a6bf26bff1885c01dec00fe6cbc1ba92100a303e7fe6389ab03baefda90049c",
+      "physical_records": 44,
+      "unresolved_native_references": 44
+    },
+    {
+      "index": "indexes/dss/records/1Q6.tsv",
+      "sha256": "eaa073a7960ec4ce558c07e711d7091975799cd31944b71954f22831b11025d3",
+      "physical_records": 56,
+      "unresolved_native_references": 56
+    },
+    {
+      "index": "indexes/dss/records/1Q8.tsv",
+      "sha256": "dcefedc90c66aca277e8b56c62870799d6fb3750ce91f527c95b557cc555ff0d",
+      "physical_records": 8,
+      "numeric_reference_annotations": 4,
+      "unresolved_native_references": 4
+    },
+    {
+      "index": "indexes/dss/records/1Q9.tsv",
+      "sha256": "04dd031d17d022d786b47026c06905e97e7273d4116ec87b08d281fe502c9f62",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/1Sam.tsv",
+      "sha256": "8cb74532c6fb33c6c135b1d0d44cbc5a0500978f978800cfff82e1a4878a639e",
+      "physical_records": 682,
+      "numeric_reference_annotations": 682,
+      "fully_reconstructed_letter_records": 157
+    },
+    {
+      "index": "indexes/dss/records/2Chr.tsv",
+      "sha256": "c087d8fa83da013a6c6d9547486f6a16f89616b92fac7906045fe38a2f68b9c5",
+      "physical_records": 9,
+      "numeric_reference_annotations": 9,
+      "fully_reconstructed_letter_records": 1
+    },
+    {
+      "index": "indexes/dss/records/2Kgs.tsv",
+      "sha256": "53c3e582ef218f4dd750601bd2049d25b8cef219b4a36d8c3078781764e14bcb",
+      "physical_records": 39,
+      "numeric_reference_annotations": 39,
+      "fully_reconstructed_letter_records": 16
+    },
+    {
+      "index": "indexes/dss/records/2Q13.tsv",
+      "sha256": "1d2ae31032819c95fd56b3ebae43a48cbe008abcc970ac36125c992fb0357fe7",
+      "physical_records": 29,
+      "unresolved_native_references": 29
+    },
+    {
+      "index": "indexes/dss/records/2Q17.tsv",
+      "sha256": "2a2978f9c85b5355685f37f1bc5c73008cbb1588e33c1cff336c48181017e843",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/2Q2.tsv",
+      "sha256": "58dd9a49d462df438d688a9c81f8c37a6250ca6c2eaa7ccbfb55144a229c8122",
+      "physical_records": 7,
+      "unresolved_native_references": 7
+    },
+    {
+      "index": "indexes/dss/records/2Q3.tsv",
+      "sha256": "d7b7c59adc6ca3f91d87c8defd608da67b42e2c499b1f269419747374b38be8a",
+      "physical_records": 10,
+      "unresolved_native_references": 10
+    },
+    {
+      "index": "indexes/dss/records/2Sam.tsv",
+      "sha256": "3de580fe1328fac7ed368b8f0f082d69e8553cbf3cb585b820ec0b032c3d8f83",
+      "physical_records": 875,
+      "numeric_reference_annotations": 875,
+      "fully_reconstructed_letter_records": 211
+    },
+    {
+      "index": "indexes/dss/records/4Q1.tsv",
+      "sha256": "dc21ce90cb37d17408830fd6d38da44b93c6bbc8cd9c7e6637610414b359b024",
+      "physical_records": 48,
+      "unresolved_native_references": 48
+    },
+    {
+      "index": "indexes/dss/records/4Q106.tsv",
+      "sha256": "0b4a4af0becca1caacafba97ebaf8552c5107d349b284ecb9f608ee1da228138",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q11.tsv",
+      "sha256": "4c7bf96a52e932ebbd806625abc3052a0e1407368f97ad97471f8514b86e7fd3",
+      "physical_records": 32,
+      "unresolved_native_references": 32
+    },
+    {
+      "index": "indexes/dss/records/4Q112.tsv",
+      "sha256": "dca70235f01654273661e7207356e7e9486251d4753c32da7bc97f4d71b7d992",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q113.tsv",
+      "sha256": "b8efa51db516ad21f392fb41062b889b7b22e6494f53a2ade7a299907f388e03",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q115.tsv",
+      "sha256": "8fb39fbb5c163c6854fbc498491ddfc050a770d5b1dc0cab2ffd92e397c11db3",
+      "physical_records": 24,
+      "unresolved_native_references": 24
+    },
+    {
+      "index": "indexes/dss/records/4Q118.tsv",
+      "sha256": "17e91d7411f08e2fcc3bf65bbe6c2968fb56e1e043a29dd9148bcd5e843d3834",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q14.tsv",
+      "sha256": "ce8ef1f91deae9f1dd5c715dc10a556d88f2955963210e2cccfe18e36c5b1df6",
+      "physical_records": 25,
+      "unresolved_native_references": 25
+    },
+    {
+      "index": "indexes/dss/records/4Q17.tsv",
+      "sha256": "f33371003365156a49200945a1e158115fef5ea8ba32fb92d08edb2872adc37a",
+      "physical_records": 5,
+      "unresolved_native_references": 5
+    },
+    {
+      "index": "indexes/dss/records/4Q2.tsv",
+      "sha256": "569731af2294f1b0aa5bb6e049a7509ec545cb855dc5a3a128f525e7e0356f36",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q20.tsv",
+      "sha256": "4c80bf674169bdc09e8a49186af6e92b93923fc7acc003bd9b6682c79c5fe489",
+      "physical_records": 7,
+      "unresolved_native_references": 7
+    },
+    {
+      "index": "indexes/dss/records/4Q23.tsv",
+      "sha256": "ce60e4c0102b69b78cb2ed9698b9d9995eda1fe1932111ff2d56168d3e7a2413",
+      "physical_records": 58,
+      "unresolved_native_references": 58
+    },
+    {
+      "index": "indexes/dss/records/4Q24.tsv",
+      "sha256": "20be2536cd5bb27275938ed337db528b1b6f19a88dbfca4c87d9bee38bece886",
+      "physical_records": 4,
+      "unresolved_native_references": 4
+    },
+    {
+      "index": "indexes/dss/records/4Q25.tsv",
+      "sha256": "efc7f88b08d5c4a3d3279569eacc5f245e1ec06d9006f2a6af9f0757a743c438",
+      "physical_records": 8,
+      "unresolved_native_references": 8
+    },
+    {
+      "index": "indexes/dss/records/4Q27.tsv",
+      "sha256": "7543e94ad48d17543b76ebd0ce3fe339a6f9c6bbe48ef8183f9b717a8993dfdf",
+      "physical_records": 57,
+      "unresolved_native_references": 57
+    },
+    {
+      "index": "indexes/dss/records/4Q30.tsv",
+      "sha256": "021c03035755062d6ff5fba9a68fe5877696e96e0064e5e8b8c3dc8e0431c73a",
+      "physical_records": 19,
+      "unresolved_native_references": 19
+    },
+    {
+      "index": "indexes/dss/records/4Q32.tsv",
+      "sha256": "0e71f3591572891b49aadb16e583b7a24b8b393c97049271f5955ccefb8d9bab",
+      "physical_records": 4,
+      "unresolved_native_references": 4
+    },
+    {
+      "index": "indexes/dss/records/4Q33.tsv",
+      "sha256": "0a26d3b0692b1a3bf67c650d2bb82793497bebf60a4beb9a7e608c457e5f5ee8",
+      "physical_records": 12,
+      "unresolved_native_references": 12
+    },
+    {
+      "index": "indexes/dss/records/4Q36.tsv",
+      "sha256": "68ae12ffda82da46e9e7e5d3f03ac0a56610fac9aa1c72d1bc43d3ff90b45375",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/4Q37.tsv",
+      "sha256": "582eacbe7cbd2a231076843e5e35f76f377490f13ae501661c2d53c5fdb89845",
+      "physical_records": 23,
+      "unresolved_native_references": 23
+    },
+    {
+      "index": "indexes/dss/records/4Q38a.tsv",
+      "sha256": "f7f4ab9b56108fb5c6888ad122c334cbd222005a81ae40ede712c36f7c124781",
+      "physical_records": 6,
+      "unresolved_native_references": 6
+    },
+    {
+      "index": "indexes/dss/records/4Q38c.tsv",
+      "sha256": "46be689d73fbb3550529c460879b254c86cdfc45f8030df398159ae4f78b13fe",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/4Q39.tsv",
+      "sha256": "bfebc7addcb6d027fbcf45280d9a0a16f9b712d4c52022668f4d19396d07b725",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/4Q43.tsv",
+      "sha256": "bd8d6b066ff42ac5a6b9a23980c6a1f43b2eeb80a39e92592b1179f794e4ce2b",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/4Q45.tsv",
+      "sha256": "76de13ced141d4c8726e4382e87a6d987581b76d19633d67913f8d9285133fd7",
+      "physical_records": 42,
+      "unresolved_native_references": 42
+    },
+    {
+      "index": "indexes/dss/records/4Q48.tsv",
+      "sha256": "956889c5067c78d003b37bf8f1cdeccb16c068d8f642d13efb4a160043f31786",
+      "physical_records": 9,
+      "unresolved_native_references": 9
+    },
+    {
+      "index": "indexes/dss/records/4Q5.tsv",
+      "sha256": "a2533442dbf668f2844f0becde10f57df73cb88f381713318cb5393eb21f768e",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/4Q53.tsv",
+      "sha256": "29ac749f6912ae946b2dfab4e18874d629ab190d77578458fd87e972bcc8f618",
+      "physical_records": 5,
+      "unresolved_native_references": 5
+    },
+    {
+      "index": "indexes/dss/records/4Q54.tsv",
+      "sha256": "6a55bcee6c25d2b2513e627224f35f79febcb780f3dea869844186170c367d86",
+      "physical_records": 4,
+      "unresolved_native_references": 4
+    },
+    {
+      "index": "indexes/dss/records/4Q55.tsv",
+      "sha256": "89bfc7e1e2568dc73296278af222fe8897728a4c30c178415ba14e4181d9cd1c",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/4Q56.tsv",
+      "sha256": "e6b44ff6368c2559e17ce6e481a49eac77cc4644b0db03321712b203287ae039",
+      "physical_records": 12,
+      "unresolved_native_references": 12
+    },
+    {
+      "index": "indexes/dss/records/4Q57.tsv",
+      "sha256": "83ef376291fc2f133523dba5119b7a4370980c41c5a5be5c24ae9dbaad7004a0",
+      "physical_records": 63,
+      "unresolved_native_references": 63
+    },
+    {
+      "index": "indexes/dss/records/4Q58.tsv",
+      "sha256": "5f95ca1a8c0a15cfea227eaec0c6f622854a0b895ed764e84e880ce1cc82a264",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q59.tsv",
+      "sha256": "27b0695a177c61caa5c7ca34275ba92f1813e8715c9ef8f5fbbec642d2cca207",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/4Q60.tsv",
+      "sha256": "0d4ec0138010c8eeb3dc7cc4432432ff37ba4439328781c015c39f25374fd047",
+      "physical_records": 16,
+      "unresolved_native_references": 16
+    },
+    {
+      "index": "indexes/dss/records/4Q68.tsv",
+      "sha256": "7ba9909c723d43710632ecfc4b936f52af7749fa34c60cc7a949d24a46e43694",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/4Q70.tsv",
+      "sha256": "2faa95b0818f6ae591ef16aed731caba1835249c56996afd0a0b0d4f9380ef47",
+      "physical_records": 29,
+      "unresolved_native_references": 29
+    },
+    {
+      "index": "indexes/dss/records/4Q72.tsv",
+      "sha256": "5580b33713e54ce774c49bb17d365cf13ff0a573b9797783fcb8aff6eddcf0e9",
+      "physical_records": 35,
+      "unresolved_native_references": 35
+    },
+    {
+      "index": "indexes/dss/records/4Q76.tsv",
+      "sha256": "4fbf64d83f541711f813781e8602ee3ac597a0b921ea541bbd72b2e9ceab0071",
+      "physical_records": 5,
+      "unresolved_native_references": 5
+    },
+    {
+      "index": "indexes/dss/records/4Q77.tsv",
+      "sha256": "c846c790c6baecd971682249c6771bfefe2cde131bf0f3a33a142a86770e72f0",
+      "physical_records": 5,
+      "unresolved_native_references": 5
+    },
+    {
+      "index": "indexes/dss/records/4Q78.tsv",
+      "sha256": "42ca11245cc39a6b73a5167278b97bc6e7d2ea8c90cdc0b5dec459bc5b569837",
+      "physical_records": 38,
+      "unresolved_native_references": 38
+    },
+    {
+      "index": "indexes/dss/records/4Q80.tsv",
+      "sha256": "9c05d16bb6a666f192fdcd128728c66525f88e66bdbf778ecd62f8602f690ec5",
+      "physical_records": 18,
+      "unresolved_native_references": 18
+    },
+    {
+      "index": "indexes/dss/records/4Q83.tsv",
+      "sha256": "f48626d784d049f5e8cc4fbb40dd5a7d47b505f5de66118f17c48c259315090f",
+      "physical_records": 12,
+      "unresolved_native_references": 12
+    },
+    {
+      "index": "indexes/dss/records/4Q84.tsv",
+      "sha256": "39db9951ff6963b7427e0a0a54abc975c31df01c3bd37d8014665adae01c2d99",
+      "physical_records": 7,
+      "unresolved_native_references": 7
+    },
+    {
+      "index": "indexes/dss/records/4Q85.tsv",
+      "sha256": "c4daa7b45ef0612257c67b4a2a3a19743516eba1f7dc0abc3a8551c7f50bf17f",
+      "physical_records": 20,
+      "unresolved_native_references": 20
+    },
+    {
+      "index": "indexes/dss/records/4Q88.tsv",
+      "sha256": "a530813025ef92fbec0b48d960c45555d4ac0bd7a7f6b0c6a54ed7d26f7f5fab",
+      "physical_records": 2,
+      "unresolved_native_references": 2
+    },
+    {
+      "index": "indexes/dss/records/4Q9.tsv",
+      "sha256": "987385532de48b45f2f5c00ec49110027d997c69ddf50fc4260381581fc6b8ba",
+      "physical_records": 10,
+      "unresolved_native_references": 10
+    },
+    {
+      "index": "indexes/dss/records/4Q91.tsv",
+      "sha256": "bdb5205beffcca93172b1b0ecdeee93e48a6fd5c5ef271bb2fd38ce7265bd080",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/4Q99.tsv",
+      "sha256": "70df87512bb9b7cabec002a126d8b9ecd6e9a82915dfe050f525b7df522453c3",
+      "physical_records": 8,
+      "unresolved_native_references": 8
+    },
+    {
+      "index": "indexes/dss/records/5/6Hev1a.tsv",
+      "sha256": "79074de9e8a92a3dcf1bdbf769be3f03cd628e8345771a16b1b4d9b047f87e31",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/5/6Hev1b.tsv",
+      "sha256": "7eb3714ddcb9434bdd8562a08fa5fe20110775041ffc6813b5d8f41d30f68367",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/5Q3.tsv",
+      "sha256": "675abd9a0d49451feac71a9262977e321d16bb02e968518a6e7cadb22f5c08ca",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/5Q4.tsv",
+      "sha256": "71939d89f55b5a6ef3b8ae4d66df3ea0be68d280bdaca00651a744704bf64055",
+      "physical_records": 12,
+      "unresolved_native_references": 12
+    },
+    {
+      "index": "indexes/dss/records/5Q6.tsv",
+      "sha256": "a7f4062a322f1abb2681ffe20c08543d17987dcd4d9ed478677181054bdc2252",
+      "physical_records": 22,
+      "unresolved_native_references": 22
+    },
+    {
+      "index": "indexes/dss/records/6Q4.tsv",
+      "sha256": "e5abd367c6bce91ba0e85af930b6bc177753883946d17d7f45b73c19882ffed9",
+      "physical_records": 107,
+      "unresolved_native_references": 107
+    },
+    {
+      "index": "indexes/dss/records/6Q7.tsv",
+      "sha256": "47591ce33bea0136688a5151917f79ac0ef0b39e26cecfb76540854ec3d31a6f",
+      "physical_records": 8,
+      "unresolved_native_references": 8
+    },
+    {
+      "index": "indexes/dss/records/8Q2.tsv",
+      "sha256": "704d70fa5cbed71d22a7cc4a0bc7a7513e6cf9e89af2d30286df4279d71a4382",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/8Q3.tsv",
+      "sha256": "d3a3083324135127038bd0b66072f1226c1caf7764f8c50260e15e0cd92f018f",
+      "physical_records": 88,
+      "unresolved_native_references": 88
+    },
+    {
+      "index": "indexes/dss/records/Amos.tsv",
+      "sha256": "ebed7feb110e4e789a3b564c7b98573ebaf92265b791f42b42b7cfcb0e93d2d6",
+      "physical_records": 362,
+      "numeric_reference_annotations": 362,
+      "fully_reconstructed_letter_records": 91
+    },
+    {
+      "index": "indexes/dss/records/Dan.tsv",
+      "sha256": "6503cdd93d4c04b08b79b7f827c1e08ed7b7df2e90de3f130a452078616d0b4b",
+      "physical_records": 671,
+      "numeric_reference_annotations": 671,
+      "fully_reconstructed_letter_records": 115
+    },
+    {
+      "index": "indexes/dss/records/Deut.tsv",
+      "sha256": "ce58ff5ef6ce2dfac61fc38a264b1fbee4792050b95f1efb9b2217768ccd14f0",
+      "physical_records": 3019,
+      "numeric_reference_annotations": 3019,
+      "fully_reconstructed_letter_records": 638
+    },
+    {
+      "index": "indexes/dss/records/Eccl.tsv",
+      "sha256": "22102635c951bfdda669895fbe5d8cc3d77725152707d7ea948e66e3d96083a4",
+      "physical_records": 73,
+      "numeric_reference_annotations": 73,
+      "fully_reconstructed_letter_records": 14
+    },
+    {
+      "index": "indexes/dss/records/Ex.tsv",
+      "sha256": "d9a1bb4270d8afa7214ed6a03b71e45bb1d1a0c8ed82e31f7e8f190e8750cfc9",
+      "physical_records": 2893,
+      "numeric_reference_annotations": 2893,
+      "fully_reconstructed_letter_records": 685
+    },
+    {
+      "index": "indexes/dss/records/Ezek.tsv",
+      "sha256": "59cc0a93aab3c031501358ccbf90937e50a9abeb2b78cd7c903b4dea963f38f9",
+      "physical_records": 345,
+      "numeric_reference_annotations": 345,
+      "fully_reconstructed_letter_records": 90
+    },
+    {
+      "index": "indexes/dss/records/Ezra.tsv",
+      "sha256": "95288789cdf807e8ee8f210caa249e6ed1ed4c1ae01698aa7b22cc72368b7a9c",
+      "physical_records": 39,
+      "numeric_reference_annotations": 39,
+      "fully_reconstructed_letter_records": 7
+    },
+    {
+      "index": "indexes/dss/records/Gen.tsv",
+      "sha256": "5e5a624bc9059dcd2e388a481d1a551469aa69d316ccf0c761b5497f650bfd27",
+      "physical_records": 842,
+      "numeric_reference_annotations": 842,
+      "fully_reconstructed_letter_records": 210
+    },
+    {
+      "index": "indexes/dss/records/Hab.tsv",
+      "sha256": "255178112a11e42b61b63d924ac7aa4c55c3c98bf1a76528622d402aaeb98d96",
+      "physical_records": 89,
+      "numeric_reference_annotations": 89,
+      "fully_reconstructed_letter_records": 15
+    },
+    {
+      "index": "indexes/dss/records/Hag.tsv",
+      "sha256": "cdabadff0203ebd5b28f5e79b9d0d800d29c2bf262729611b9c682ae5a3b6212",
+      "physical_records": 115,
+      "numeric_reference_annotations": 115,
+      "fully_reconstructed_letter_records": 20
+    },
+    {
+      "index": "indexes/dss/records/Hos.tsv",
+      "sha256": "1689dce9d2edc6cebaa9c20973434f69e33996eaa07ec35ac4deb58e3f062bd9",
+      "physical_records": 275,
+      "numeric_reference_annotations": 275,
+      "fully_reconstructed_letter_records": 105
+    },
+    {
+      "index": "indexes/dss/records/Is.tsv",
+      "sha256": "a7b8e0852868c2adc2da794a2e5b4169c747b5a72f2a001366717a9fcae5e41e",
+      "physical_records": 5313,
+      "numeric_reference_annotations": 5313,
+      "fully_reconstructed_letter_records": 684
+    },
+    {
+      "index": "indexes/dss/records/Jer.tsv",
+      "sha256": "27ede41cbe964f548912ab88a7d2c302c4248080776517c96e809733da9d4349",
+      "physical_records": 656,
+      "numeric_reference_annotations": 656,
+      "fully_reconstructed_letter_records": 166
+    },
+    {
+      "index": "indexes/dss/records/Job.tsv",
+      "sha256": "4c2a5e28d900f8ccbc1737ecd2b430405f125a6d8abc04d767381df10e83f9e9",
+      "physical_records": 104,
+      "numeric_reference_annotations": 104,
+      "fully_reconstructed_letter_records": 12
+    },
+    {
+      "index": "indexes/dss/records/Joel.tsv",
+      "sha256": "4e5e607e49031b7fd312c19810f206bf1fb151815dc880ca51a0eba21244f302",
+      "physical_records": 203,
+      "numeric_reference_annotations": 203,
+      "fully_reconstructed_letter_records": 53
+    },
+    {
+      "index": "indexes/dss/records/Jonah.tsv",
+      "sha256": "a7b3e5534ca223ccdb709c6d4070b5c6284c6c4342e5289d70132fe99a9d4e17",
+      "physical_records": 220,
+      "numeric_reference_annotations": 220,
+      "fully_reconstructed_letter_records": 23
+    },
+    {
+      "index": "indexes/dss/records/Josh.tsv",
+      "sha256": "831397784e43160fb425be4720b94514dbe40e9169cb9db9e0256d45d098317f",
+      "physical_records": 142,
+      "numeric_reference_annotations": 142,
+      "fully_reconstructed_letter_records": 31
+    },
+    {
+      "index": "indexes/dss/records/Judg.tsv",
+      "sha256": "8f531a390b141631be2dedc117cfe8a0fec3cdd65b0abd136ff9f6964e4755f6",
+      "physical_records": 116,
+      "numeric_reference_annotations": 116,
+      "fully_reconstructed_letter_records": 26
+    },
+    {
+      "index": "indexes/dss/records/Lam.tsv",
+      "sha256": "8782fbed99321d75fac2b3a9922a75da1c735a88fbfce234f7c6ef76744c430a",
+      "physical_records": 130,
+      "numeric_reference_annotations": 130,
+      "fully_reconstructed_letter_records": 23
+    },
+    {
+      "index": "indexes/dss/records/Lev.tsv",
+      "sha256": "c14009e396e6ded913b0b771cbf1468165f690677dc6fbbbe26353f5d20c4364",
+      "physical_records": 1188,
+      "numeric_reference_annotations": 1188,
+      "fully_reconstructed_letter_records": 285
+    },
+    {
+      "index": "indexes/dss/records/Mal.tsv",
+      "sha256": "95a70a9ac0144db441acc9e5ebf98b046533d7641977a17b2323c0a7442b23bd",
+      "physical_records": 95,
+      "numeric_reference_annotations": 95,
+      "fully_reconstructed_letter_records": 12
+    },
+    {
+      "index": "indexes/dss/records/Mic.tsv",
+      "sha256": "cafb39b6176ee9379caa70b9eb70107c5d044b3482d415ade95240f0ec9eb389",
+      "physical_records": 256,
+      "numeric_reference_annotations": 256,
+      "fully_reconstructed_letter_records": 29
+    },
+    {
+      "index": "indexes/dss/records/Mur1.tsv",
+      "sha256": "ed4db7bce7daac59e49a29423c94c4854b4aa1ddedd6a0d3a8d309e54399f230",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/Mur88.tsv",
+      "sha256": "65d5cc08f6b956ff66dc91db723b67ecb71becea54ace40115aba09c18a4bbdd",
+      "physical_records": 3,
+      "numeric_reference_annotations": 3
+    },
+    {
+      "index": "indexes/dss/records/Nah.tsv",
+      "sha256": "61f33396514ccb9f13f5884d50cd43fd2f8af110f07d438b989d73226ff29696",
+      "physical_records": 113,
+      "numeric_reference_annotations": 113,
+      "fully_reconstructed_letter_records": 15
+    },
+    {
+      "index": "indexes/dss/records/Num.tsv",
+      "sha256": "ea079d3ddd1e0e794be085c0cfd9a105fa9f3b35d4eee6a4e95d074291f4700a",
+      "physical_records": 1046,
+      "numeric_reference_annotations": 1046,
+      "fully_reconstructed_letter_records": 269
+    },
+    {
+      "index": "indexes/dss/records/Obad.tsv",
+      "sha256": "557b376fe622a757b577f98ec805b34e08e6d8177bcbef256b27d1e1b90641f5",
+      "physical_records": 81,
+      "numeric_reference_annotations": 81,
+      "fully_reconstructed_letter_records": 19
+    },
+    {
+      "index": "indexes/dss/records/PAM43113.tsv",
+      "sha256": "335c0116c8d93c71ec8e143ae18c1a9e24e363b0869b30e2ddbe842b7c83497e",
+      "physical_records": 119,
+      "unresolved_native_references": 119
+    },
+    {
+      "index": "indexes/dss/records/PAM43124.tsv",
+      "sha256": "6e4a760067895f2bf288318022899e996fe00fedea1f2501b144db4247420e26",
+      "physical_records": 31,
+      "unresolved_native_references": 31
+    },
+    {
+      "index": "indexes/dss/records/Prov.tsv",
+      "sha256": "613807c9465093a541816c575f430ba87ccbe1c9f23c12a05266310378cd2a51",
+      "physical_records": 70,
+      "numeric_reference_annotations": 70,
+      "fully_reconstructed_letter_records": 10
+    },
+    {
+      "index": "indexes/dss/records/Ps.tsv",
+      "sha256": "cd7527c09d8433a24f7dfd0a385a17692c915f09e6419cca6b21570b4eb374b2",
+      "physical_records": 2782,
+      "numeric_reference_annotations": 2782,
+      "fully_reconstructed_letter_records": 522
+    },
+    {
+      "index": "indexes/dss/records/Ruth.tsv",
+      "sha256": "74fac1acc73fb6ea097d79e8f0e7920106ce8db714d6563e5fd0c65817b6b435",
+      "physical_records": 109,
+      "numeric_reference_annotations": 109,
+      "fully_reconstructed_letter_records": 21
+    },
+    {
+      "index": "indexes/dss/records/Song.tsv",
+      "sha256": "008f5c04dae4b9b26fbbd48a708c05cb6f15da722eaa53bc138e7a77505592b8",
+      "physical_records": 124,
+      "numeric_reference_annotations": 124,
+      "fully_reconstructed_letter_records": 22
+    },
+    {
+      "index": "indexes/dss/records/X4.tsv",
+      "sha256": "c695856406df6cae54841fd09fe3628517d07c686960270bc9aca7645625ad00",
+      "physical_records": 5,
+      "unresolved_native_references": 5
+    },
+    {
+      "index": "indexes/dss/records/XHev/Se2.tsv",
+      "sha256": "74dc59b00e6f962d7c2ff6c5e20f139747b5a57a3508c96cd7dc1b4368367f1d",
+      "physical_records": 3,
+      "unresolved_native_references": 3
+    },
+    {
+      "index": "indexes/dss/records/XJudges.tsv",
+      "sha256": "e2d737a83d54aac77e8ab59b647070142938965f065358713c812053e3fec4a2",
+      "physical_records": 1,
+      "unresolved_native_references": 1
+    },
+    {
+      "index": "indexes/dss/records/Zech.tsv",
+      "sha256": "d157bbbe43a50918f763eda4b61dd1da95df854a2fc508630f386a7f7371666b",
+      "physical_records": 113,
+      "numeric_reference_annotations": 113,
+      "fully_reconstructed_letter_records": 25
+    },
+    {
+      "index": "indexes/dss/records/Zeph.tsv",
+      "sha256": "9ab1f7fd263124154568d16bb0f48c82395fe1045ce4f025a310cc353c4c6a2c",
+      "physical_records": 123,
+      "numeric_reference_annotations": 123,
+      "fully_reconstructed_letter_records": 22
+    },
+    {
+      "index": "indexes/dss/records/_unmapped_or_nonbiblical.tsv",
+      "sha256": "7756d09e156d7895ec722e76eca0abd9339786323a4163fa8fb5f1621daa53b1",
+      "physical_records": 41629,
+      "unresolved_native_references": 41629,
+      "fully_reconstructed_letter_records": 921
+    }
+  ],
+  "physical_records": 66557,
+  "unresolved_native_references": 43128,
+  "numeric_reference_annotations": 23429,
+  "fully_reconstructed_letter_records": 5602
+}

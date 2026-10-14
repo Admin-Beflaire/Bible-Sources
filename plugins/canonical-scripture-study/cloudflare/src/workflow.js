@@ -90,6 +90,7 @@ export function workflow(mode, depth) {
   return {
     study_depth: depth,
     depth_label: profile.label,
+    ...(depth === 'full' && ['study_plan','standard_study','detailed_study','full_study','exegesis_only'].includes(mode) ? {full_study_policy: method.full_study_policy} : {}),
     response_sections: mode === 'word_study' ? wordStudySections[depth] : focused[mode] ?? profile.sections,
     delivery: {
       mode: 'progressive_in_current_turn',

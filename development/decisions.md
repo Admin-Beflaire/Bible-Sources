@@ -67,3 +67,13 @@ Regression and live contract checks passed for these mechanisms, including the e
 ## Performance evidence
 
 The user-reported Worked for times (6m10s full-study first part, 3m42s comparison translation, 1m56s WLC-only) are exploratory, with insufficient controls for an improvement claim. Local before/after replays measure runtime overhead only. Controlled host runs must hold prompt, scope, language, format, model, client and debug setting constant within each scenario. See [benchmark protocol](benchmark-protocol.md). Cross-edition mapping follows delivery evaluation.
+
+## 0.1.18: preserve observed delivery, add reference support and start mapping
+
+Implement the authorized fixes after the complete four-part 0.1.17 Work observation. Apply internal study guidance silently and integrate useful secondary research into independent Scripture-grounded explanation, preserving credit and warranted limits. Reinforce timestamp-first orientation/progress through concrete plan layouts and every returned clock; this is a host instruction, not rendering enforcement.
+
+Adapt the original Theology 1.4.2 and Theology/Christology/Pneumatology exegesis/reference structure proportionately. Full passage/exegesis work develops consequential language locally and explains narrative, intertextual, Christ/Spirit and theological arguments. Append useful reference material within the existing final part, bundling both exegetical and theological guidance. Reuse evidence and established renderings; explain warranted revisions. Do not delay first translation, refetch to fill tables, invent lexicon consultation or force the appendix onto focused/Standard/Detailed requests. The four-part state schema remains compatible.
+
+Start verse mapping as an offline development artifact, outside the pinned source profile and live retrieval path. Inventory the exact native labels and all DSS record indexes; retain model-reviewed pilot relations with byte-span provenance and reading digests. Ordered endpoint lists permit complex extents, but structural support and equal numbering do not certify correspondence. Keep model review distinct from human review, manuscript identity distinct from edition identity, and unresolved annotation distinct from omission. All remaining correspondences and DSS physical-reference review are open. Systematic comparison stays inactive until the full map is reviewed.
+
+Release only to private Preview. Preserve Production/public versions, source pin, authentication, rate limits and public watch-path suspension. Record actual build and live checks after deployment; local tests and a fresh-context model example do not prove real host behavior or speed.

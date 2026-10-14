@@ -126,6 +126,7 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.equal(failedPlan.structuredContent.can_retrieve,false);
     assert.equal(failedPlan.structuredContent.recovery.retry_tool,'study_plan');
     assert.ok(failedPlan.structuredContent.preview_clock);
+    assert.match(failedPlan.structuredContent.preview_clock.visible_message_rule,/orientation and progress/);
     assert.equal(failedPlan.structuredContent.preview_debug.asset_fetches,0);
     const planTool=tools.find(t=>t.name==='study_plan');assert.equal(planTool._meta.ui.resourceUri,descriptor._meta.ui.resourceUri);
     assert.deepEqual(planTool.inputSchema.properties.sources.anyOf[0].items.enum,['WLC','UXLC','TAHOT','LXX','SBLGNT','DSS']);
@@ -136,6 +137,7 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.deepEqual(restricted.delivery_state.sources,['WLC']);
     const failed=(await rpc(preview,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 0',sources:['WLC']}})).structuredContent;
     assert.ok(failed.error&&failed.preview_clock);
+    assert.match(failed.preview_clock.visible_message_rule,/first line/);
     assert.equal(failed.preview_debug.outcome,'failed');
     assert.equal(failed.preview_debug.error_code,failed.error.code);
     const fetched=(await rpc(preview,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 1:1-3',sources:['WLC']}})).structuredContent;

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.17",
+  "schema_version": "0.1.18",
   "purpose": "Christian formation through biblical theology, canonical theology and context-sensitive working translation.",
   "reader_output_policy": "Explain Scripture, actual source evidence, meaningful alternatives and uncertainty in ordinary reader-facing language. Apply study instructions silently in progress messages, translations, footnotes and explanations. Do not narrate plugin rules, reviewed policy, skills, prompts, schemas, pipeline stages or instruction compliance. Explain scope through the passage itself and cite biblical connections normally; never imply that an unconsulted edition or source was newly retrieved. Keep technical identifiers and tool mechanics in explicitly requested technical answers, structured exports or enabled Preview diagnostics. Preview diagnostics may report actual operations and metrics, but must not become commentary on internal rules. When the user explicitly asks about the software or method, answer that question directly and accurately. Integrate useful secondary research into an independent, Scripture-centered explanation in your own wording. Support conclusions and meaningful limits with biblical or historical evidence; do not organize ordinary studies around what BibleProject or another publisher says, overstates or gets wrong. Preserve appropriate credit in citations, footnotes or Sources consulted, including accurate attribution of quotations and distinctive sourced proposals. Discuss or compare a teacher or publisher directly only when the user requests that assessment; do not copy its wording, adopt unsupported claims or hide consequential counter-evidence.",
   "preferred_framework": "Mark Gatzen's working biblical/canonical theology is preferred, but correctable by source evidence and contextual argument. A complete website claim profile has not been imported.",
@@ -81,7 +81,8 @@
         "literary_historical_context",
         "textual_review",
         "canonical_connections",
-        "theological_synthesis"
+        "theological_synthesis",
+        "reference_material"
       ],
       "canonical_anchors": 6,
       "word_entries": 2,
@@ -111,5 +112,30 @@
     "example": "For Genesis 1:1 prefer In the beginning God created… and footnote the temporal alternative When God began to create…. Retain the established In the beginning link with John 1:1 without routine new retrieval. John’s Greek does not settle the Hebrew syntax; neither rendering alone establishes creation from nothing or eternal matter.",
     "main_rendering": "Choose one defensible main working rendering from source grammar and context. Footnote meaningful alternatives rather than combining competing constructions or repeatedly refining drafts. Preserve real source distinctions.",
     "source_restrictions": "A sources-only request limits retrieved evidence while retaining the translation key, English default, literary-unit scope and continuation. Never claim an excluded source was consulted. Use reviewed translation policy without presenting it as newly retrieved evidence."
+  },
+  "full_study_policy": {
+    "analysis": [
+      "source_language_and_context",
+      "historical_cultural_context",
+      "narrative_and_covenantal_development",
+      "explained_intertextual_relationships",
+      "warranted_Christ_and_Spirit_integration",
+      "theological_conclusions_and_formation"
+    ],
+    "local_terms": "Develop consequential words, grammar, names and images in local explanation, with source forms/transliteration and verse-linked contextual senses. Do not delay initial translation or turn every word into an exhaustive word study.",
+    "reference_material": {
+      "placement": "After final synthesis and formation, within the existing final part.",
+      "components": [
+        "consequential_terms_with_forms_contextual_senses_and_verses",
+        "key_passages_with_connection_type_and_contribution",
+        "relevant_thematic_role_or_covenant_tables",
+        "necessary_abbreviations",
+        "sources_actually_consulted_across_the_study"
+      ],
+      "evidence_rule": "Reuse actual study evidence and source credit; do not refetch to populate tables, invent lexicon access, copy another bibliography or repeat earlier essays.",
+      "rendering_continuity": "Retain the established working rendering and notes; identify and explain a warranted revision rather than silently replacing a rendering in the reference table."
+    },
+    "scope": "Full passage studies and Full exegesis only; preserve source restrictions and proportional Standard/Detailed/focused outputs.",
+    "manuscript_variance": "Separate systematic manuscript comparison remains inactive until the full verse-mapping index is reviewed. Distinguish rendering alternatives from textual variants."
   }
 }
