@@ -72,30 +72,29 @@ const partRules = {
   historical_context: {output: 'Relevant historical-cultural context and specific comparisons; distinguish evidence from interpretation.', research: 'Reuse prior evidence. Investigate only concrete historical questions needed for this part; no general survey or collection of agreeing sources.', instructions: ['bible-exegesis'], stop: 'Once relevant historical context is checked and delivered, stop this turn.'},
   canonical_synthesis: {output: 'Bounded canonical development, theological synthesis, formation implications and a compact conclusion without repeating prior sections. At Full depth, distinguish narrative trajectory, intertextual evidence and Christ/Spirit integration, then finish with supporting reference material from actual study evidence.', research: 'Retrieve only the canonical anchors needed for this synthesis, reusing already checked passages. Review new or inconsistent claims; do not restart the full study or retrieve again merely to populate reference tables.', instructions: ['bible-theology-review'], stop: 'Once synthesis and applicable reference material are checked and delivered, this passage study is complete.'},
 };
-function outputContract(engine, state, now) {
+function outputContract(engine, state, now, debug = true) {
   const passage = state.passage_state, sequence = stages(passage.request_mode, passage.study_depth), id = sequence[state.stage_index];
   const clock = timestamp(now, state.started_at), next = sequence[state.stage_index + 1];
   const p = engine.refs.parse(passage.current_reference);
   const includesGen130 = p.book === 'Gen' && p.start_chapter === 1 && (p.start_verse <= 30 && (p.end_chapter > 1 || p.end_verse >= 30));
   return {
-    first_line: clock.display,
-    progress: progressContract(now),
+    ...(debug ? {first_line:clock.display,progress:progressContract(now)} : {}),
     heading: `## ${passage.current_reference} — ${titles[id]}`,
     reader_focus: config('method').reader_output_policy,
     source_line: 'Name only actually consulted editions using their reader-facing edition_label. Keep dataset_id in enabled diagnostics or an explicit technical export. Cite known biblical connections normally without narrating reviewed policy or claiming a new source retrieval.',
     scope_preface: 'At most two sentences for a necessary literary-unit adjustment or dependent opening, then begin the active part. Do not put a stage overview table before the translation.',
-    section_order: id === 'translation_notes' ? ['Working translation', 'Numbered footnotes', 'Compact observed diagnostics', 'Server-check footer and exact continuation label'] : [...(passage.study_depth === 'full' && id === 'canonical_synthesis' ? ['Narrative trajectory','Intertextual connections','Christ and the Spirit','Theological synthesis and formation','Reference material'] : [titles[id]]), 'Compact observed diagnostics', 'Server-check footer and exact continuation label'],
+    section_order: id === 'translation_notes' ? ['Working translation', 'Numbered footnotes', ...(debug?['Compact observed diagnostics','Server-check footer']:[]), 'Continuation label'] : [...(passage.study_depth === 'full' && id === 'canonical_synthesis' ? ['Narrative trajectory','Intertextual connections','Christ and the Spirit','Theological synthesis and formation','Reference material'] : [titles[id]]), ...(debug?['Compact observed diagnostics','Server-check footer']:[]), 'Continuation label'],
     ...(passage.study_depth === 'full' && ['local_explanation','canonical_synthesis'].includes(id) ? {full_study: {...config('method').full_study_policy, active_focus: id === 'local_explanation' ? 'Develop the consequential words, grammar, names and images in their actual verses. Keep later canonical synthesis for its own part.' : 'Explain the connections and theological conclusions, then consolidate reference support using earlier evidence and sources. Include the key-term table without repeating full earlier explanations.'}} : {}),
     ...(id === 'translation_notes' ? {
       footnotes: {format: 'Numbered paragraphs matching markers beside affected wording; no separate heading for each note.', length: 'Usually two to four sentences per note; expand only to explain a consequential grammatical or textual choice and its meaningful alternative.', scope: 'Explain the affected rendering, evidence and uncertainty. Defer extended word studies, anthropology, doctrinal argument and historical surveys to the relevant later part. Full depth does not turn translation footnotes into later study sections.'},
       ...(includesGen130 ? {wording_checks: [{reference: 'Genesis 1:30', instruction: 'Render the clause containing nephesh chayyah naturally in context (English working prose can say “that has life”). Do not leave the interlinear gloss “living life” in the working translation. Do not impose one fixed gloss or settle human ontology in this note.'}]} : {}),
     } : {}),
-    diagnostics: 'Use only observed operation IDs, successes/failures, actual editions and record counts, server execution and cache metrics. Do not invent totals or host/output completion times. Omit this summary when Debug off is retained in the conversation.',
-    closing_lines: [`Last server check: ${clock.display}`, next ? `Next: ${titles[next]}` : 'Next passage'],
+    ...(debug ? {diagnostics:'Report only observed diagnostic metrics and never invented host timings.'} : {}),
+    closing_lines: [...(debug ? [`Last server check: ${clock.display}`] : []), next ? `Next: ${titles[next]}` : 'Next passage'],
     instruction: 'Use the fresh output_contract returned by Ready immediately before output. Deliver only this part and stop; Ready does not certify the text or observe output completion.',
   };
 }
-function partPlan(engine, plan, state, now) {
+function partPlan(engine, plan, state, now, debug = true) {
   const sequence = stages(plan.mode, plan.study_depth), id = sequence[state.stage_index];
   const rest = Object.fromEntries(['mode','reference','requested_reference','language','translation_format','study_depth','scope_policy','literary_unit_suggestions','boundary_status','context_preface','textual_review_flags','continuation_state','translation_policy','budgets'].filter(key=>Object.hasOwn(plan,key)).map(key=>[key,plan[key]]));
   const activeRules = id === 'canonical_synthesis' && plan.study_depth === 'full' ? {...partRules[id], instructions:['bible-exegesis','bible-theology-review']} : partRules[id];
@@ -107,23 +106,23 @@ function partPlan(engine, plan, state, now) {
     instruction:'Source restrictions govern evidence retrieval, not translation rules, language, literary scope or continuation. Honour excluded comparisons and secondary lookups; label coverage limits and never say excluded sources were consulted.'};
   const retrieval_plan = id === 'translation_notes' ? sources[0]==='DSS' ? [{tool:'fetch_dss',arguments:{reference:plan.reference,cursor:0,limit:1,include_linguistics:true}}] : [{tool:'fetch_passage',arguments:{reference:plan.reference,sources,detail:plan.translation_format==='plain_working'?'text':'linguistic'}}] : [];
   const translation_workflow = id === 'translation_notes' ? {steps:['confirm_scope_and_translation_key','retrieve_bounded_primary_once','resolve_only_consequential_questions','draft_single_main_translation_with_verse_linked_notes','one_completeness_check_then_ready'],additional_witness_rule:'Targeted consequential checks only, subject to source restrictions.',retained_policy_under_source_restrictions:['literary_and_exact_scope','translation_key','established_OT_NT_wording_links'],handoff_validation:'not_used_in_preview'} : null;
-  return bounded({...rest, planning_status:'ready', can_retrieve:true, source_policy, retrieval_plan, instruction_bundle, ...(engine.refs.parse(plan.reference).book==='Gen'?{genesis_mapping_guidance:GENESIS_MAPPING_GUIDANCE}:{}), output_contract:outputContract(engine,state,now),progress_contract:progressContract(now),...(translation_workflow?{translation_workflow}:{}),...(restriction?{source_restriction:{allowed_sources:restriction,excludes_other_witnesses:true}}:{}),...(sources[0]==='DSS'?{coverage_instruction:'DSS is paginated fragmentary evidence. Do not invent a complete translation or substitute another witness for missing coverage.'}:{}), part_sequence: sequence.map(part=>({id:part,title:titles[part]})), next_passage: plan.next, delivery_state: state, delivery: {mode: 'preview_one_part_per_turn', current_part: id, title: titles[id], part_number: state.stage_index + 1, total_parts: sequence.length, ...activeRules, timestamp: timestamp(now, state.started_at), requires_next_for_more_parts: state.stage_index + 1 < sequence.length, instruction_priority:'Complete only this part using source_policy, retrieval_plan, output_contract and the bundled instructions. Make a single completeness review, mark Ready, deliver and stop. Copy the exact part sequence and keep numbered notes beside affected wording. Do not repeat decisions in another table or conclusion.'}}, 30000);
+  return bounded({...rest, planning_status:'ready', can_retrieve:true, source_policy, retrieval_plan, instruction_bundle, ...(engine.refs.parse(plan.reference).book==='Gen'?{genesis_mapping_guidance:GENESIS_MAPPING_GUIDANCE}:{}), output_contract:outputContract(engine,state,now,debug),...(debug?{progress_contract:progressContract(now)}:{}),...(translation_workflow?{translation_workflow}:{}),...(restriction?{source_restriction:{allowed_sources:restriction,excludes_other_witnesses:true}}:{}),...(sources[0]==='DSS'?{coverage_instruction:'DSS is paginated fragmentary evidence. Do not invent a complete translation or substitute another witness for missing coverage.'}:{}), part_sequence: sequence.map(part=>({id:part,title:titles[part]})), next_passage: plan.next, delivery_state: state, delivery: {mode: 'preview_one_part_per_turn', current_part: id, title: titles[id], part_number: state.stage_index + 1, total_parts: sequence.length, ...activeRules, ...(debug?{timestamp:timestamp(now,state.started_at)}:{}), requires_next_for_more_parts: state.stage_index + 1 < sequence.length, instruction_priority:'Complete only this part using source_policy, retrieval_plan, output_contract and the bundled instructions. Make a single completeness review, mark Ready, deliver and stop. Copy the exact part sequence and keep numbered notes beside affected wording. Do not repeat decisions in another table or conclusion.'}}, 30000);
 }
-export async function previewPlan(engine, args, now = Date.now()) {
+export async function previewPlan(engine, args, now = Date.now(), debug = true) {
   try {
     const query = normalizePreviewRequest(args.query);
-    const result = await planRequest(engine, {...args,query}, now);
+    const result = await planRequest(engine, {...args,query}, now, debug);
     return {...result,...(query !== args.query.trim() ? {request_normalization:{normalized_query:query,method:'recognized_request_phrasing'}} : {})};
   } catch (error) {
     if (error instanceof StudyError) error.previewRecovery = planningRecovery(error.code);
     throw error;
   }
 }
-async function planRequest(engine, args, now) {
+async function planRequest(engine, args, now, debug = true) {
   const command = args.query.toLowerCase();
   if (['debug','debug on','debug off'].includes(command)) return {status:'preview_debug_preferences',debug_mode:command!=='debug off',timestamp:timestamp(now),instruction:command==='debug off'?'Reduce visible diagnostic reporting in this conversation; preserve timestamps and evidence checks. No server-wide setting changed.':PREVIEW_DEBUG_INSTRUCTIONS};
   if (command === 'clock') return {status:'clock_check', timestamp:timestamp(now), instruction:'Use this real timestamp as the next message first line. It is not an exact rendering-completion time.'};
-  if (['ready','next','resume'].includes(command) && args.study_state?.preview_delivery) return deliveryAction(engine,command,args.study_state.preview_delivery,now);
+  if (['ready','next','resume'].includes(command) && args.study_state?.preview_delivery) return deliveryAction(engine,command,args.study_state.preview_delivery,now,debug);
   // Normalize the ordinary trailing language wording seen in the reported test.
   const retained = args.study_state?.preview_delivery;
   if (retained) validateState(engine, retained, now);
@@ -133,21 +132,21 @@ async function planRequest(engine, args, now) {
   const language = match ? /english|engels/i.test(match[1]) ? 'en' : 'nl' : args.language;
   const query = /^(?:next|volgende) passage$/i.test(normalized) ? 'Next' : normalized;
   const plan = await engine.plan(query, args.active_reference ?? null, language, args.translation_format, retained?.passage_state ?? args.study_state ?? null, args.study_depth ?? null, {inspectOpening:false});
-  if (plan.status === 'needs_input') return {...plan,...planningRecovery('needs_input'),planning_status:'needs_input',preview_timestamp:timestamp(now),progress_contract:progressContract(now)};
-  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{planning_status:'ready',can_retrieve:true,reader_output_policy:config('method').reader_output_policy,instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}),...(options.sources?{source_restriction:{allowed_sources:options.sources,excludes_other_witnesses:true}}:{}),preview_timestamp:timestamp(now),progress_contract:progressContract(now)},30000);
-  return partPlan(engine, plan, {schema_version: 1, passage_state: plan.continuation_state, stage_index: 0, started_at: new Date(now).toISOString(),...sourceState(options.sources)}, now);
+  if (plan.status === 'needs_input') return {...plan,...planningRecovery('needs_input'),planning_status:'needs_input',...(debug?{preview_timestamp:timestamp(now),progress_contract:progressContract(now)}:{})};
+  if (!plan.continuation_state || !passageModes.has(plan.mode)) return bounded({...plan,...(focusedInstructions[plan.mode]?{planning_status:'ready',can_retrieve:true,reader_output_policy:config('method').reader_output_policy,instruction_bundle:instructionBundle(focusedInstructions[plan.mode])}:{}),...(options.sources?{source_restriction:{allowed_sources:options.sources,excludes_other_witnesses:true}}:{}),...(debug?{preview_timestamp:timestamp(now),progress_contract:progressContract(now)}:{})},30000);
+  return partPlan(engine, plan, {schema_version: 1, passage_state: plan.continuation_state, stage_index: 0, started_at: new Date(now).toISOString(),...sourceState(options.sources)}, now, debug);
 }
-export async function deliveryAction(engine, action, state, now = Date.now()) {
+export async function deliveryAction(engine, action, state, now = Date.now(), debug = true) {
   if (!['next', 'resume', 'ready'].includes(action)) throw new StudyError('delivery_action', 'Use next, resume or ready.');
   const {passage, sequence} = validateState(engine, state, now);
   if (action === 'ready') {
     const hasNext = state.stage_index + 1 < sequence.length;
-    return {status: 'host_reports_part_ready', output_status:'awaiting_host_output', output_completion_observed:false, timestamp: timestamp(now, state.started_at), output_contract:outputContract(engine,state,now), completed_part: sequence[state.stage_index], completed_title: titles[sequence[state.stage_index]], next_title: hasNext ? titles[sequence[state.stage_index + 1]] : 'Next passage', passage_complete: !hasNext, next_delivery_state: {...state}, next_action: 'next', button_label: hasNext ? `Next: ${titles[sequence[state.stage_index + 1]]}` : 'Next passage', instruction: 'Use output_contract for the current part, beginning with its fresh first_line timestamp. Deliver only this part and stop. Retain next_delivery_state for Next. If a clock call after substantive streaming is supported, append that fresh timestamp labelled Server check after output. Otherwise retain the Last server check footer. Never label Ready as output completion. Readiness is reported by the host; this tool does not certify translation, interpretation or delivery.'};
+    return {status: 'host_reports_part_ready', output_status:'awaiting_host_output', output_completion_observed:false, ...(debug?{timestamp:timestamp(now,state.started_at)}:{}), output_contract:outputContract(engine,state,now,debug), completed_part: sequence[state.stage_index], completed_title: titles[sequence[state.stage_index]], next_title: hasNext ? titles[sequence[state.stage_index + 1]] : 'Next passage', passage_complete: !hasNext, next_delivery_state: {...state}, next_action: 'next', button_label: hasNext ? `Next: ${titles[sequence[state.stage_index + 1]]}` : 'Next passage', instruction: 'Use output_contract for the current part, beginning with its fresh first_line timestamp. Deliver only this part and stop. Retain next_delivery_state for Next. If a clock call after substantive streaming is supported, append that fresh timestamp labelled Server check after output. Otherwise retain the Last server check footer. Never label Ready as output completion. Readiness is reported by the host; this tool does not certify translation, interpretation or delivery.'};
   }
   if (action === 'next' && state.stage_index + 1 === sequence.length) {
-    return previewPlan(engine, {query: 'Next', study_state: passage, sources:retainedSources(state), language: passage.language, translation_format: passage.translation_format}, now);
+    return previewPlan(engine, {query: 'Next', study_state: passage, sources:retainedSources(state), language: passage.language, translation_format: passage.translation_format}, now, debug);
   }
   const index = action === 'next' ? state.stage_index + 1 : state.stage_index;
   const plan = await engine.passagePlan(passage.request_mode, passage.current_reference, passage.language, passage.translation_format, passage.original_reference, passage.pending_references, null, passage.study_depth, null, {inspectOpening:false});
-  return partPlan(engine, plan, {schema_version: 1, passage_state: passage, stage_index: index, started_at: new Date(now).toISOString(),...sourceState(retainedSources(state))}, now);
+  return partPlan(engine, plan, {schema_version: 1, passage_state: passage, stage_index: index, started_at: new Date(now).toISOString(),...sourceState(retainedSources(state))}, now, debug);
 }
