@@ -109,3 +109,9 @@ Milestone 2 adds 40 reviews and reaches 682 / 842, leaving 160. Resume at `8Q1 /
 Preserve cor=3 correction status in the Genesis 18:25 `8Q1 / L1603112-R002` record; its largely reconstructed corrected phrase is not an unqualified original reading. Preserve the extra unmarked את in the Genesis 22:14 naming sequence (`1Q1 / L1589613-R001`) rather than silently harmonizing it with WLC. A complete repeated name, common doing verb or isolated numeral may still leave the attribution provisional when the distinctive context is reconstructed.
 
 Milestone 3 reaches 722 / 842 from 40 new reviews (6 partial physical, 16 reconstruction-only, 18 provisional). The next unreviewed record is `1Q1 / L1589621-R002` (Genesis 24:23), with 120 remaining. The prior 682 reviews and edition maps are preserved. No source-pin, runtime, deployment-setting or publication change.
+
+## Genesis DSS milestone 4 — 15 October 2026
+
+Retain source-transcription differences without silently resolving their origin. The unmarked פנות in `4Q6 / L1593182-R001` differs from WLC בנות; no manuscript-image inspection establishes whether this reflects the witness or an export issue. The 4Q12 well narrative's אחרית / לוא and uncertain final י after יט also remain explicit. A distinctive payment-unit noun can support a partial lexical correspondence while a reconstructed amount remains unattested; an isolated generic amount can still have provisional verse placement. Heavily uncertain altar letters are never presented as unmarked wording.
+
+Milestone 4 adds 40 reviews (12 partial physical, 15 reconstruction-only, 13 provisional), reaching 762 / 842 and leaving 80. Resume at `2Q1 / L1592441-R001` (Genesis 36:6). Earlier reviews, edition maps, source pin and runtime/deployment settings are preserved.

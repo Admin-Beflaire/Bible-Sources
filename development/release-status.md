@@ -139,3 +139,9 @@ Deterministic mapping build/check, all **18 relevant mapping tests**, inventory/
 **Implemented, locally tested and committed development data on `preview`.** Starting checkpoint `789010c324a794aa33c0d5ddf6bb63a4555ca17d`: 682 / 842. Intermediate checkpoint `bab81a98a7e5b379fa3f5bc9e19bdf774be0e4da`: 702 / 842. Milestone endpoint: **722 / 842**, **120 remaining**. Added **6 partial physical / 16 reconstruction-only / 18 provisional** dispositions; cumulative totals are **313 / 195 / 214**. Next: `1Q1 / L1589621-R002`, Genesis 24:23.
 
 Deterministic build/check, all **18 relevant mapping tests**, prior-record/artifact preservation, inventory/count reconciliation and `git diff --check` passed. Previously authored/generated reviews, edition/native artifacts and source-profile bytes are preserved. No Worker/version/configuration change or runtime integration. No Cloudflare deployment or host-model performance claim is inferred from the GitHub commits.
+
+## Genesis DSS milestone 4 — 15 October 2026
+
+**Implemented, locally tested and committed development data on `preview`.** Starting checkpoint `078e8c1bf4df42a116754a64f74137cf82191017`: 722 / 842. Intermediate checkpoint `7e5a6fc506f3885cddd8cabb2de9d7beba0c60db`: 742 / 842. Milestone endpoint: **762 / 842**, **80 remaining**. Added **12 partial physical / 15 reconstruction-only / 13 provisional** dispositions; cumulative totals are **325 / 210 / 227**. Next: `2Q1 / L1592441-R001`, Genesis 36:6.
+
+Deterministic build/check, all **18 relevant mapping tests**, prior-record/artifact preservation, inventory/count reconciliation and `git diff --check` passed. Previous authored/generated reviews, completed edition/native maps and source-profile bytes are unchanged. No Worker/version/configuration change or runtime integration. No Cloudflare deployment or host-model performance claim is inferred from the GitHub commits.

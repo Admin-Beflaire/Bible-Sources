@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, DSS milestone 3 completed from preview `789010c324a794aa33c0d5ddf6bb63a4555ca17d`; intermediate committed checkpoint `bab81a98a7e5b379fa3f5bc9e19bdf774be0e4da`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 15 October 2026, DSS milestone 4 completed from preview `078e8c1bf4df42a116754a64f74137cf82191017`; intermediate committed checkpoint `7e5a6fc506f3885cddd8cabb2de9d7beba0c60db`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
 | WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
-| WLC/OSHB ↔ DSS physical records | 722 / 842 individually reviewed | 120 records remain; next `1Q1 / L1589621-R002` (Genesis 24:23) |
+| WLC/OSHB ↔ DSS physical records | 762 / 842 individually reviewed | 80 records remain; next `2Q1 / L1592441-R001` (Genesis 36:6) |
 
 Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
 The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 313, "reconstruction_only_reference": 195, "provisional_reference": 214}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 325, "reconstruction_only_reference": 210, "provisional_reference": 227}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -74,3 +74,11 @@ Executed deterministic build/check, all **18 mapping tests**, exact prior-record
 ## DSS milestone 4 — intermediate checkpoint, 15 October 2026
 
 Added the next 20 inventory reviews, `1Q1 / L1589621-R002` through `4Q6 / L1593180-R001`, from preview `078e8c1bf4df42a116754a64f74137cf82191017`. Outcomes: **6 partial physical / 9 reconstruction-only / 5 provisional**. Total: **742 / 842**, **100 remaining**. Next: `Murx / L1605156-R002` (Genesis 33:19). The overview remains at milestone 3 until the milestone 4 endpoint is reconciled. Deterministic build/check and all 18 mapping tests passed. Prior reviews and edition maps are preserved; no runtime integration or deployment claim.
+
+## DSS milestone 4 — completed, 15 October 2026
+
+Added **40** individual reviews in authoritative unreviewed inventory order, from `1Q1 / L1589621-R002` through `2Q1 / L1592440-R001`. Intermediate 20-record checkpoint: `7e5a6fc506f3885cddd8cabb2de9d7beba0c60db` (742 / 842). Milestone outcomes: **12 partial physical / 15 reconstruction-only / 13 provisional**. Total: **762 / 842**, **80 remaining**. Next: **`2Q1 / L1592441-R001`, Genesis 36:6**. Continue one approximately 40-record milestone per response.
+
+All previous 722 authored/generated reviews and completed edition/native maps remain unchanged. Notes retain 4Q12's אחרית / לוא forms and uncertain final י after יט, without normalizing to WLC. The unmarked פנות in `4Q6 / L1593182-R001` is preserved against WLC בנות as a transcription difference; no image-based decision establishes it as an actual manuscript variant or an export error. The heavily uncertain altar wording at `4Q6 / L1593180-R002` remains explicitly uncertain. The rare payment-unit noun in 4Q6 is distinguished from reconstructed hundred wording, and Murx's isolated amount remains provisionally placed. No complete purchase clause is invented from these fragments.
+
+Executed deterministic build/check, all **18 mapping tests**, exact prior-record/artifact preservation, next-40 inventory identity checks, count reconciliation and whitespace validation; all passed. 762 reviewed + 80 unreviewed = 842. Source pin, physical identities and source/anchor digests remain verifiable. Model transcription review does not claim human or image verification. Development index only; no runtime integration, deployment or host-performance claim.

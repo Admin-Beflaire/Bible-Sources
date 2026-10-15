@@ -746,23 +746,23 @@
       "book_id": "Gen",
       "file": "dss-Gen.json",
       "source_review_file": "development/verse-mapping-dss/Gen.json",
-      "source_review_sha256": "bda02bace863c1c3603aff807b982d4d87736221b545a1c43ff1c2c5d8590b95",
+      "source_review_sha256": "8bfaf507d5afb18dbe40a7fc22672c60c4fbce8095602e4197bbee96f58ed6b9",
       "indexed_physical_records": 842,
-      "reviewed_physical_records": 742,
-      "remaining_unreviewed_physical_records": 100,
+      "reviewed_physical_records": 762,
+      "remaining_unreviewed_physical_records": 80,
       "dispositions": {
-        "partial_physical_extent_reviewed": 319,
-        "reconstruction_only_reference": 204,
-        "provisional_reference": 219
+        "partial_physical_extent_reviewed": 325,
+        "reconstruction_only_reference": 210,
+        "provisional_reference": 227
       },
       "physical_alignment_complete": false,
       "next_unreviewed_physical_record": {
-        "scroll": "Murx",
-        "record_id": "L1605156-R002",
+        "scroll": "2Q1",
+        "record_id": "L1592441-R001",
         "source_annotation": {
           "book": "Gen",
-          "chapter": "33",
-          "verse": "19"
+          "chapter": "36",
+          "verse": "6"
         }
       }
     }
