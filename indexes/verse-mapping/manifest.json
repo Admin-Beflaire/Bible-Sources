@@ -221,24 +221,24 @@
       "bytes": 213165
     },
     "book-Gen-042.json": {
-      "sha256": "560a862ec30f47093b8284d41258ae2424afec270b821cf756dc766a8f1f6356",
-      "bytes": 100593
+      "sha256": "0a1199b6e29f8c5995d569ddb7098f22582e3973d1ce4fa044972b20fc92a94b",
+      "bytes": 142654
     },
     "book-Gen-043.json": {
-      "sha256": "3bc8407c4d138bb25458a13d3c805f7096facb1adceadb483b115ab0b798e1d2",
-      "bytes": 90436
+      "sha256": "3ad46f46f3f781b5e6a0cb47094dc0e830f8426246b6cefe8b5833ae64c99896",
+      "bytes": 128078
     },
     "book-Gen-044.json": {
-      "sha256": "8997fe96ed79c25cc715ec1b9a54fa45bff66974287675ab8717b5fd7758ff2e",
-      "bytes": 89698
+      "sha256": "a53f87870078d3e951f950c5e655e98b9f16356ef4d991197e0e6d75b0a77bbd",
+      "bytes": 127250
     },
     "book-Gen-045.json": {
-      "sha256": "2cc2856d924f39272be20a45648c8bd2f909201d49abcf3535389a468dfe2867",
-      "bytes": 74529
+      "sha256": "f27e5154adcee254a767fe335365ce8ccdac773e3567dec1eda3ecfb85dcf4f8",
+      "bytes": 105645
     },
     "book-Gen-046.json": {
-      "sha256": "33d8d9c2815263a80008047080b3f46fca0f6b9e9210d9809ca7cc3ac74eee19",
-      "bytes": 89322
+      "sha256": "429400e7bafdaa9842c13e654372409f305b2ac6346346282f98de234bb15d34",
+      "bytes": 127321
     },
     "book-Gen-047.json": {
       "sha256": "c58c34a0178f891fb1995684bc3ca1ff0b71e2904a481286c68fbd093600a452",
@@ -257,8 +257,8 @@
       "bytes": 69432
     },
     "book-progress.json": {
-      "sha256": "9c82531956acf92c505b6dbf9ecf03abf2ac6781993978f21e24d355a6e74477",
-      "bytes": 54168
+      "sha256": "e62457b47daadb8791b9bd580ed119c6ebec0e35701462878f62b7733daf3829",
+      "bytes": 33349
     },
     "dss-Gen.json": {
       "sha256": "77227055d98426cf76408f4b5678a4694e0351dba863396704e25a0784610d53",
@@ -294,10 +294,10 @@
     }
   },
   "book_mapping_progress": "book-progress.json",
-  "book_relations": 4299,
+  "book_relations": 4467,
   "DSS_individually_reviewed_physical_records": 10,
   "book_review_methods": {
-    "model_reviewed": 1270,
+    "model_reviewed": 1438,
     "text_verified": 3029
   }
 }
