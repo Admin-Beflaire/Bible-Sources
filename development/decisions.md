@@ -103,3 +103,9 @@ Keep corrected and removed sign features explicit alongside rec/unc status. In t
 Continue the same physical-record schema and model-review method. Preserve transcription differences even in a partial correspondence: additional ה before אף in `4Q10 / L1593333-R001`, and the plural kinds suffix in `6Q1 / L1602886-R002` against WLC's singular suffix. Do not promote a repeated noun such as מלאכתו, an isolated place expression such as ממצרים, or a single uncertain letter into a confident verse attribution. Physical line 0 and composite fragment labels remain unchanged.
 
 Milestone 2 adds 40 reviews and reaches 682 / 842, leaving 160. Resume at `8Q1 / L1603102-R001` (Genesis 17:13). The prior 642 reviews and completed edition maps remain unchanged; the source pin, runtime comparison gate and deployment settings remain untouched.
+
+## Genesis DSS milestone 3 — 15 October 2026
+
+Preserve cor=3 correction status in the Genesis 18:25 `8Q1 / L1603112-R002` record; its largely reconstructed corrected phrase is not an unqualified original reading. Preserve the extra unmarked את in the Genesis 22:14 naming sequence (`1Q1 / L1589613-R001`) rather than silently harmonizing it with WLC. A complete repeated name, common doing verb or isolated numeral may still leave the attribution provisional when the distinctive context is reconstructed.
+
+Milestone 3 reaches 722 / 842 from 40 new reviews (6 partial physical, 16 reconstruction-only, 18 provisional). The next unreviewed record is `1Q1 / L1589621-R002` (Genesis 24:23), with 120 remaining. The prior 682 reviews and edition maps are preserved. No source-pin, runtime, deployment-setting or publication change.
