@@ -136,3 +136,10 @@ Preserve the Genesis 41:7 transcription's ותבלען ending, additional blight
 Continue the bounded 20-record workflow from verified preview `75d6f33bfe5605f79995f146b06bbd016451f1c9`. Added 13 partial physical, 4 reconstruction-only and 3 provisional reviews, reaching 822 / 842 with 20 remaining. Resume at `4Q6 / L1593186-R002` (Genesis 48:3); final verification follows that review batch separately.
 
 Preserve 4Q3's cross-record cor=3 span, Mas1's unmarked את יעקוב versus reconstructed אביהם, and 4Q6's overlapping alt/rec flag without flattening them into ordinary surviving text. Local physical sequences can support partial mappings; repeated isolated names and predominantly insecure message fragments may retain provisional references. Preserve source wording and explicit uncertainties without forcing WLC harmonization. No source, runtime, comparison gate, deployment-setting or publication change.
+
+
+## Finish Genesis milestone 4 — 16 October 2026
+
+From verified preview `2a6ad998edf1ea205fbcf052ecbc1532d95c01c1`, the final 20-record batch adds 16 partial physical, 1 reconstruction-only and 3 provisional reviews. All 842 indexed Genesis DSS identities have dispositions; no unreviewed record remains. Completion of this inventory review does not mean every record has a confident physical alignment. Keep the existing physical-alignment/comparison flags false and reserve the separate full Genesis verification/documentation milestone for the next explicit continuation.
+
+Preserve differences in the damaged 48:6 reading, shorter transcribed 48:7/9 wording, 48:10 age term and embrace/kiss order without silently harmonizing with WLC or inferring image-confirmed manuscript omissions. Retain reconstructed alternatives and uncertainty. No runtime, source-pin, deployment-setting or publication change; do not start Exodus.

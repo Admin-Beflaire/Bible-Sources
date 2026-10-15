@@ -257,12 +257,12 @@
       "bytes": 98506
     },
     "book-progress.json": {
-      "sha256": "ded59391c5d33c473eaaeae141626dfd84c6c7867ab0669891fbd1bcff6c5b25",
-      "bytes": 19420
+      "sha256": "034105b5eace1f92b17e862703a38b9b877f555dc74cba383ed1ac9e9aa7361f",
+      "bytes": 19235
     },
     "dss-Gen.json": {
-      "sha256": "e1f346d9612c8a399e0a57ac056e07b959aff5a60e6496d5d00746aa96e7e491",
-      "bytes": 1843203
+      "sha256": "db90fcfceed20dec4f85cf6bd8aabd78ced5ec71bb7b8b4a45f2c12231826a28",
+      "bytes": 1891424
     },
     "native-DSS-2.0.1.json": {
       "sha256": "b90122162883bac0fb19811c95b7409ef87a0e58cb537073e0c103730557f819",
@@ -295,7 +295,7 @@
   },
   "book_mapping_progress": "book-progress.json",
   "book_relations": 4575,
-  "DSS_individually_reviewed_physical_records": 822,
+  "DSS_individually_reviewed_physical_records": 842,
   "book_review_methods": {
     "model_reviewed": 1546,
     "text_verified": 3029

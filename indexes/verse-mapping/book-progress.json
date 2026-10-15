@@ -746,25 +746,17 @@
       "book_id": "Gen",
       "file": "dss-Gen.json",
       "source_review_file": "development/verse-mapping-dss/Gen.json",
-      "source_review_sha256": "a5d9f9cce2086dfa9f96d96e8bf0d9a3daadc79f71ecf3bec101c7ac3521caf8",
+      "source_review_sha256": "bb4190f1563e6f9c322332d9d12cb3cc621c01259510c3b405d45351e1f9bf42",
       "indexed_physical_records": 842,
-      "reviewed_physical_records": 822,
-      "remaining_unreviewed_physical_records": 20,
+      "reviewed_physical_records": 842,
+      "remaining_unreviewed_physical_records": 0,
       "dispositions": {
-        "partial_physical_extent_reviewed": 349,
-        "reconstruction_only_reference": 233,
-        "provisional_reference": 240
+        "partial_physical_extent_reviewed": 365,
+        "reconstruction_only_reference": 234,
+        "provisional_reference": 243
       },
       "physical_alignment_complete": false,
-      "next_unreviewed_physical_record": {
-        "scroll": "4Q6",
-        "record_id": "L1593186-R002",
-        "source_annotation": {
-          "book": "Gen",
-          "chapter": "48",
-          "verse": "3"
-        }
-      }
+      "next_unreviewed_physical_record": null
     }
   ],
   "reviewed_alignment_complete": false,

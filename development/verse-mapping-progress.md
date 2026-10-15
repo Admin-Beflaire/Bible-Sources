@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, Finish Genesis milestone 3 (20-record schedule), based on verified preview `75d6f33bfe5605f79995f146b06bbd016451f1c9`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 16 October 2026, Finish Genesis milestone 4 (final 20-record review batch), based on verified preview `2a6ad998edf1ea205fbcf052ecbc1532d95c01c1`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. All indexed Genesis DSS records have dispositions; the separate final Genesis verification remains pending. Development index only; systematic study comparison remains inactive.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
 | WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
-| WLC/OSHB ↔ DSS physical records | 822 / 842 individually reviewed | 20 records remain; next `4Q6 / L1593186-R002` (Genesis 48:3) |
+| WLC/OSHB ↔ DSS physical records | 842 / 842 individual dispositions recorded | No unreviewed physical records; separate final Genesis verification pending |
 
 Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
 The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 349, "reconstruction_only_reference": 233, "provisional_reference": 240}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 365, "reconstruction_only_reference": 234, "provisional_reference": 243}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -111,3 +111,12 @@ Starting verified preview: `75d6f33bfe5605f79995f146b06bbd016451f1c9`, **802 / 8
 4Q3's correction span across Genesis 41:9-10 remains marked cor=3; corrected letters are neither ordinary unmarked text nor editorial reconstruction. The unmarked ונחלם ending differs from WLC ונחלמה; the fragment ending does not establish omission of the rest of 41:11. Mas1 preserves actual את יעקוב, while its following אביהם is wholly reconstructed; neither wording is silently harmonized with WLC. Reuben/Hanoch, Jemuel/Jamin and the damaged sons-of-Levi heading support partial genealogical correspondences. Egypt alone remains provisional. At 4Q6 48:1, a reconstructed alternative י retains both rec/alt flags; the father-illness clause is restored, while Joseph and portions of the two names have physical support. The heavily uncertain arrival report and damaged Israel/verb opening at 48:2 remain provisional; bed wording is reconstructed. No manuscript-image or human review is claimed.
 
 Validation: established build/check, all 18 existing mapping tests, exact next-20 identity and prior-802 preservation checks, no duplicates, source/anchor hashes, fragment/line identity, deterministic artifact integrity, count reconciliation and whitespace checks passed. Earlier Hebrew/Greek/native mapping artifacts, source pin, comparison gate and deployment settings remain unchanged. Development data only, with no runtime, Production/public deployment or host-model performance claim.
+
+
+## Finish Genesis milestone 4 — final 20-record review batch, 16 October 2026
+
+Starting verified preview: `2a6ad998edf1ea205fbcf052ecbc1532d95c01c1`, **822 / 842**. Reviewed exactly the final 20 unique inventory identities, `4Q6 / L1593186-R002` through `4Q6 / L1593199-R002`, fragment f1 physical lines 4-17, annotated Genesis 48:3-11. Outcomes: **16 partial physical / 1 reconstruction-only / 3 provisional**; cumulative **365 / 234 / 243**. Total: **842 / 842**, **0 remaining**. Next unreviewed record: **none**. The next user-authorized milestone is the separate full Genesis verification/documentation pass; it has not been completed in this review batch. Do not start Exodus.
+
+Preserve the reconstructed/alternative Luz and Simeon letters, damaged promises and uncertain אחרים against WLC אחריהם. The unmarked inheritance and later recognition/blessing wording support partial correspondences, retaining each physical record identity. The 48:7 transcription passes from אפרתה to היא בית לחם without WLC's intervening burial clause; at 48:9 it has ויאמר יוסף בני without WLC's אל אביו. At 48:10, fully unmarked מזקנה differs from WLC מזקן, and the transcribed embrace/kiss order is reversed against WLC. These are transcription-level differences and boundaries, not image-confirmed manuscript omissions or adjudicated textual variants. Preserve uncertain letters and reconstruction explicitly; no human or manuscript-image review is claimed.
+
+Validation: established build/check, all 18 existing mapping tests, exact final-20 identity and prior-822 authored/generated review preservation checks, no duplicates, source/anchor hashes, fragment/line identity, deterministic artifact integrity, count reconciliation and whitespace checks passed. All 842 inventory identities now have dispositions and the next-unreviewed field is null, while confident physical alignment remains incomplete by design. Existing Hebrew/Greek/native artifacts, source pin, comparison gate and deployment settings are unchanged. Development data only, with no runtime, Production/public deployment or host-model performance claim. The separate final verification will broaden the inventory, lookup and deterministic-rebuild audit and record its own committed outcome.

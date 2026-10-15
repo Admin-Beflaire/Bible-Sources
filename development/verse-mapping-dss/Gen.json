@@ -24663,6 +24663,606 @@
         "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
       },
       "note": "Unmarked ישרא וי, with final ל of ישראל uncertain at level 4, is compatible with the Israel/sitting transition in WLC Genesis 48:2 after the preceding damaged message. שב על המטה is entirely reconstructed (eight letter slots). This repeated damaged name and two-letter verb opening do not securely establish the sitting-on-the-bed clause; retain provisional placement without turning the restored bed wording into physical support."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593186-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "3"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "2c94aeb0125efa4e4db96900759bcef9cfec55857cd04f9b12109c9021b84052",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e13fd19cc44b6471361411b2aa64d0dc7dade5acb030a99886690e2b9639b2d6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only ל in the restored address preposition אל is non-reconstructed, and it is uncertain at level 2. The other sixteen letter slots, including Jacob, Joseph and divine אל, are reconstructed. This single doubtful letter cannot establish the speech introduction of WLC Genesis 48:3; retain its annotated placement provisionally rather than turning restored names into physical support."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593187-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "3"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "820c0abff4c3bd370238499b92ea32c8ce6f5a139798055a08986828f9a5a23f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e13fd19cc44b6471361411b2aa64d0dc7dade5acb030a99886690e2b9639b2d6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked שדי, most of נראה, כנען and most of ויברך support the appearance/blessing account of WLC Genesis 48:3. ר of נראה, א of אלי, ץ of ארץ and ך of ויברך are uncertain at level 2. The Luz expression is wholly reconstructed, including its final ה marked both alt=1 and rec=1; preserve that editorial alternative without presenting לוזה as physically attested wording against WLC בלוז. Thirteen of 31 letter slots are reconstructed, including the object אתי."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593187-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "4"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "42089375498f9cb4eb90dfa1a8029fb956f611be83f0ce67b2dc4d8bb883d118",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "17293af434a7b6052d4d4965b2079305b403acfcdb2b4978dd4eef964b773461"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All five letter slots of ויאמר are reconstructed. This supplies the speech introduction of WLC Genesis 48:4 at the end of physical line 5; no letters in this record attest that verb."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593188-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "4"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "8c4997e5a43fbdd741d0cbbc9c7ce380faf5a95e37cabd6ef464e708b4e9f166",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "17293af434a7b6052d4d4965b2079305b403acfcdb2b4978dd4eef964b773461"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only אלי ה is unmarked (four letters); מ of מפרך is uncertain at level 4 and ל before restored קהל at level 2. The other 31 letter slots, including fruitfulness, multiplication, assembly of peoples and giving clauses, are reconstructed. The local appearance/blessing context is compatible with WLC Genesis 48:4, but these generic remnants do not securely establish its specific promises; retain provisional placement."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593189-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "4"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "26b25a39729dcd53bab6b1ea4816aa257c7836ca16e6a7855aee84234834f344",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "17293af434a7b6052d4d4965b2079305b403acfcdb2b4978dd4eef964b773461"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked את ה and final ץ, with א of ארץ uncertain at level 2 and ר at level 4, are compatible with the land expression of WLC Genesis 48:4. The following הזאת לזרעך אחריך אחזת עולם is wholly reconstructed (22 letter slots). This short damaged common noun does not establish the descendants or perpetual-possession clause; preserve provisional placement and the distinction between letter remnants and restoration."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593190-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "5"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "c6e489355fc8f6885dd5330cbfbd8fb067cd4bdb4bcd114740b61ab1c6d53e54",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e7ab7d897a30bfef73af35e0642d684baf8ade22e38375e1218ec9c724e2295d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ועתה, parts of שני בני and ארץ מצרים support the two-sons/Egypt opening of WLC Genesis 48:5 in the local blessing/adoption sequence. ש and נ of שני are uncertain at levels 2 and 3, נ of בני at level 1, א and ר of ארץ at levels 4 and 2, and final ם of מצרים at level 2. The sons suffix, הנולדים לך ב and עד are reconstructed (fourteen letters total); the births wording is not physically attested by this record."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593191-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "5"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "9e2b067ebd85aea8c9b23d03678128bb907a5f09cafd42be988abb2e7afa09eb",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e7ab7d897a30bfef73af35e0642d684baf8ade22e38375e1218ec9c724e2295d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked בואי אליך, final ם of restored אפרים, מנשה and כ support the arrival/Manasseh comparison wording of WLC Genesis 48:5 across the local line sequence. The opening מ and צ of מצרימה and ר of ראובן are uncertain at level 2, while ו before מנשה is uncertain at level 1. מצרימה's remainder, לי הם, the first four Ephraim letters and אובן are reconstructed (sixteen letters). Preserve the fully unmarked plene בואי against WLC באי; do not imply that Ephraim or Reuben survives as a complete name here."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593192-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "5"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "2455710f16109ad593251a5c7fa4b43ef872cae9a5d0b8af7e9ce08edda56bfd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e7ab7d897a30bfef73af35e0642d684baf8ade22e38375e1218ec9c724e2295d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ון יהיו לי continues the damaged Simeon/comparison conclusion of WLC Genesis 48:5 after the preceding Manasseh comparison record. מ and ע of שמעון are uncertain at level 2; ו and ש are reconstructed. An additional כ before Simeon is also reconstructed and marked alt=1, unlike WLC ושמעון; preserve this alternative/restoration flag without claiming a surviving additional comparative prefix. Three letter slots are reconstructed, and the secure יהיו לי does not attest an entire verse."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593192-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "6"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "c570a03960e3771528fcf29e94caa77dac355698c882946d5fea46d4837009e3",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "a5f8250e025f06d05ddb3f28cbb12a76bb22518ba54e7331013319dc273c007e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ו, suffix ך, אשר הולדת and final ים identify a partial offspring/begotten clause corresponding to WLC Genesis 48:6, with the inheritance continuation on the next line. מולד is reconstructed and ת uncertain at level 2. Preserve the transcription's אחרים against WLC אחריהם: its א and ח are uncertain at level 4, ר at level 2, and ים unmarked. No ה is transcribed in that word; the uncertain reading has not been checked against manuscript images and must not be silently harmonized."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593193-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "6"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "0026b786c133471b60c3f08a61d87e029c1b3a04e37a49943d03052f7e6e5bb4",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "a5f8250e025f06d05ddb3f28cbb12a76bb22518ba54e7331013319dc273c007e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked יהיו על שם, חי within אחיהם, and יקראו בנחלתם identify the naming/inheritance continuation of WLC Genesis 48:6. א and ה of אחיהם are uncertain at level 2 and final ם reconstructed; initial לך is also reconstructed (three letters total). Preserve this partial correspondence separately from the preceding uncertain אחרים reading, without treating the restored possessive ending as secure physical text."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593193-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "e532235f279111250ab4dbf0f80fe6d2b1c3eb295878282a329832f1e630f75b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "0b9c4df2fdf86f645d92bb9d2e5dd6c894491f2607f7f28129a41336902391a3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All four letters of ואני are unmarked. Although this pronoun is generic by itself, its physical position directly after the inheritance clause and its continuation into the substantially preserved Paddan/death/Canaan account on the next line support the opening of WLC Genesis 48:7. The correspondence rests on that continuous physical sequence, not the modern reference label or the pronoun alone."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593194-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "d5fc81c3d40e714813ed484d0ae02d34e9fbfab458626955d860218abec2b7fe",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "0b9c4df2fdf86f645d92bb9d2e5dd6c894491f2607f7f28129a41336902391a3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked אי, מפדן מתה עלי, final ל of רחל and בארץ כנען בדרך support the journey/Rachel-death account of WLC Genesis 48:7. Initial בב and ר of רחל are reconstructed (three letters); ו in בואי is uncertain at level 1 and ח of רחל at level 4. All four letters of בעוד are uncertain (ב/ע/ד level 2, ו level 1). Preserve the transcribed plene בואי with uncertain ו against WLC באי, without making the entire Rachel name or the final time expression secure."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593195-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "f0ecb2b57755f7cb7b2e193e797b580810564ffdaef60441cfe5888b15ee0277",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "0b9c4df2fdf86f645d92bb9d2e5dd6c894491f2607f7f28129a41336902391a3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ארץ לבוא, most of אפרתה, and היא בית לחם support the Ephrath/Bethlehem identification in WLC Genesis 48:7. All five letters of כברתה are uncertain (כ/ב/ת/ה level 2, ר level 4); ת of אפרתה is also uncertain at level 2. Preserve the transcribed longer כברתה as doubtful, plene לבוא against WLC לבא, and unmarked היא against WLC consonantal הוא. The transcription passes directly from אפרתה to היא בית לחם, whereas WLC includes ואקברה שם בדרך אפרת between them. Do not restore that clause silently, or claim an image-confirmed manuscript omission from transcription alone; no letters in this record are marked reconstructed."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593195-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "8"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "46270d92ab0984c95eedec7ba5645f16351369271c134cd4c5bc15c743f010ae",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "8",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6787b6cf5bb4cc0c0ebc57fb68d19ae26e90fe98a3c73c4289860d98efd0db82"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All four letters of וירא are unmarked. The verb immediately follows the Ephrath/Bethlehem conclusion and continues on the next physical line with actual Israel/Joseph-sons/question wording, supporting the opening of WLC Genesis 48:8. This partial mapping depends on continuous physical wording, not this common verb in isolation."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593196-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "8"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ec65401b9699e8d95ac7163c10bf1081c3e96c26dd2b1cce6eca3908c552fe70",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "8",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6787b6cf5bb4cc0c0ebc57fb68d19ae26e90fe98a3c73c4289860d98efd0db82"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked את בני יוסף, most of ישראל ויאמר and מי אלה continue the recognition/question wording of WLC Genesis 48:8 from the preceding וירא record. ר and א of ישראל and final ר of ויאמר are uncertain at level 2. All 24 letter slots are non-reconstructed, but the three uncertainties remain explicit; the two physical records must not be collapsed into one identity."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593196-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "9"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "6398ccf7ae26ac6f39c087f714fe9d65480045a2eeb9c3ac135218215bed62e3",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "9",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "d692ae6e5a3ab6394e814d21597f06a25cd7a669e58269f80e6b414819290d5e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ויאמר, וסף and בני, with initial י of יוסף uncertain at level 1, support Josephs reply in WLC Genesis 48:9 after the preceding question. Preserve the shorter transcribed sequence ויאמר יוסף בני: WLC has אל אביו between יוסף and בני, while this record has no reconstructed slots supplying that address. This is a transcription/boundary observation, not a manuscript-image determination of omission."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593197-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "9"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ddcd431ec025293c4f4f89d18f15a3a2936597b884cbe4f0c29d70477b7dc1fb",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "9",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "d692ae6e5a3ab6394e814d21597f06a25cd7a669e58269f80e6b414819290d5e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked אשר נתן לי אלהים, most of the pronoun/location expression, and ויאמר קחם נא with much of אלי ואברכם continue the sons-given/blessing wording of WLC Genesis 48:9. Final ם of הם, ה of בזה and א of אלי are uncertain at level 2; ז of בזה is uncertain at level 1. All 37 letter slots are non-reconstructed, with 33 unmarked and four uncertain; preserve the speech transition and sign flags without treating uncertainty as secure reading."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593198-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "10"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "3b9d98bfc70c23f2846e1c717fa2aacd80d1fd5e025fee8a18129fe01cb232af",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "10",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "8f641cfddf86578b2b6df1f3bac32677bc79b6b9cbaf02aa0c5a28b1f71ce2f3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ועיני ישראל כבדו מזקנה, much of לא יוכל לראות and object ending תם identify the sight-limitation/approach account of WLC Genesis 48:10. Preserve fully unmarked מזקנה against WLC מזקן. ל of לא and א of אתם are uncertain at level 2; every letter of ויגש is uncertain (ו/י level 1, ג level 3, ש level 4). None of 37 letter slots is reconstructed, but the approach verb is not securely read in this transcription."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593199-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "10"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "092e08ba19e29a6c01b5fa8d3e209e8055e93b5d86adc5afced8f7d84f10add3",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "10",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "8f641cfddf86578b2b6df1f3bac32677bc79b6b9cbaf02aa0c5a28b1f71ce2f3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked אליו ויחבק and וישק with most of both להם endings correspond to the embracing/kissing conclusion of WLC Genesis 48:10. The ה in each להם is uncertain at level 2. Preserve the transcribed order ויחבק להם וישק להם (embrace then kiss), reversed relative to WLC וישק להם ויחבק להם; no harmonization or image-confirmed variant decision is claimed. All 19 letter slots are non-reconstructed."
+    },
+    {
+      "scroll": "4Q6",
+      "record_id": "L1593199-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          48,
+          "11"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "8817cdf8be13388c7c3ca3be3c7a089d4bd656c8a2061172cc1429a21baa0e71",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "48",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fb6d35429c92b9329026acb4159362205639b9cab37efdab753cfb6f5bc57fa4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-16",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ויאמר, most of ישראל, and יוסף support the speech introduction of WLC Genesis 48:11 after the embracing/kissing sequence. Final ל of ישראל is uncertain at level 2 and both letters of אל at level 4. The record ends with punctuation after Joseph; none of the following face/offspring speech from WLC is attested in this physical record, and no manuscript omission is inferred from that fragment boundary. All sixteen letter slots are non-reconstructed."
     }
   ]
 }
