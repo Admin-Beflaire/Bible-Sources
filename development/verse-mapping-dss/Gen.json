@@ -18063,6 +18063,606 @@
         "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
       },
       "note": "Place/El-Bethel naming retained with uncertain prepositions; altar and revealed-God explanation reconstructed. Transcription-unmarked glyph runs: קום | אל | בית | אל. Uncertain runs (not secure letters): ל | מ. Editorially reconstructed runs: ו | יבן | שם | מזבח | ו | יקרא."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593319-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "9"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ec7327327175a2cbc374d6eb9ca32e5633bda0f2baa1b2b085cf27af88703023",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "9",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "32df9690c1ea4d75965d9864fd192af4cba9fb6acb4b6c578cbb25cc446af103"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked ו תרא ה י supports the dry-land appearance clause; ב is uncertain and שה plus the fulfillment clause are reconstructed. Only this partial extent is supported. Transcription consonant runs: unmarked = ו | תרא | ה | י; uncertain = ב; reconstructed = שה | ו | יהי | כן."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593319-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "10"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "bd601fa3f6a5dcac27407fddf2eac2956ddcc939cf8aa7cb2f08eb1fdb3ba7ea",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "10",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "41870bc70f712c4c43b31da2461f5ca953dfe56eff6336c5c3f1200771c7fe5e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "The dry-land naming words ויקרא אלהים ליבשה ארץ are entirely reconstructed; no physical letters support the annotated verse. Transcription consonant runs: unmarked = none; uncertain = none; reconstructed = ו | יקרא | אלהים | ל | יבשה | ארץ."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593320-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "13"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "4c024a68fa3ec436668fb02006305b52952c653fd870d0cd3d98c47fe1fc9b9f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "13",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3cb52f80e9a8a5c7ce632103db80dcf0b6e293c46346f1d1f06828500bd87a45"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Only empty and unidentified uncertainty signs occur, with zero letter slots. The third-day attribution is editorial; no day formula survives as readable letters. Transcription consonant runs: unmarked = none; uncertain = none; reconstructed = none."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593321-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "14"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "f4436e1df8df9dbb900a724df969324a1962b903140faea9d5f132513f62dabe",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "14",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "090bfb1c11866d77db46818a60288cf6327d56bf0a02cef3a5fff9e2711e4d3d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked יהי מארות ברקיע השמים and הבדי support the luminaries-in-the-expanse clause. Divine-name י and final ל of הבדיל are uncertain; the speech opening and בין are reconstructed. Preserve מארות spelling. Transcription consonant runs: unmarked = ם | יהי | מארות | ב | רקיע | ה | שמים | ל | הבדי; uncertain = י | ל; reconstructed = ו | יאמר | אלה | בין."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593322-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "14"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "07ddb81a201609e6da14f6b1f7dbc36ea673147b9260fefbc6a75abf14a63a6a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "14",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "090bfb1c11866d77db46818a60288cf6327d56bf0a02cef3a5fff9e2711e4d3d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked הלילה, לאתות ולמעדים ולימים ול and adjoining glyphs support the signs/seasons/days clause. The day opening and נים ending are reconstructed; והיו and the first ש of years remain uncertain. Preserve the additional ל before years. Transcription consonant runs: unmarked = ן | ה | לילה | ל | אתות | ו | ל | מעדים | ו | ל | ימים | ו | ל; uncertain = י | ו | ה | יו | ש; reconstructed = ה | יום | ו | ב | נים."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593323-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "15"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "4fd6e21e45a078d908bdc9809cbe7d58f4e32622f545840708471961d71532ce",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "15",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "a58b4e8a3e5b6dffdb7ed533ac86b6d71c0ab09d1cd031c3c3b2ac0d8eb0485b"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked מארות, איר על ה אר and ויהי כן support the illumination/fulfillment clause. Most of רקיע and part of שמים are uncertain; the opening והיו ל and article before שמים are reconstructed. Transcription consonant runs: unmarked = מארות | ם | ל | איר | על | ה | אר | ו | יהי | כן; uncertain = ב | רק | י | ע | שמ | י | ה | ץ; reconstructed = ו | היו | ל | ה."
+    },
+    {
+      "scroll": "4Q10",
+      "record_id": "L1593323-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "16"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "f7abb536d11d3ae14760685d3c4424e6dbe5dce47c86cee4f71dd3d94de51a2e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "16",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "817d6787483ae065c1468bc47d07f0eac43becadfaac61a256928c8f93ec2046"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Only uncertain ו and י are nonreconstructed letters; עש is reconstructed. These cannot establish the distinctive making-of-the-two-lights clause. The same-line sequence after 1:15 is contextual support, not sufficient surviving wording. Transcription consonant runs: unmarked = none; uncertain = ו | י; reconstructed = עש."
+    },
+    {
+      "scroll": "1Q1",
+      "record_id": "L1589604-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "18"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "7e957e2a42700e5778edc8ed760af5f6c0fb6b1d18b679a6ed37edab55ed7590",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "5174ed20181a5db1f70601cdf7b0efb57bff5f4d4e88314c724448f05f2d357a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Only הים כי is unmarked, with the preceding אל of אלהים reconstructed. This common divine-name ending plus conjunction cannot securely distinguish this verse from repeated creation evaluations; the remainder of the formula is reconstructed. Transcription consonant runs: unmarked = הים | כי; uncertain = none; reconstructed = ו | ירא | אל | טוב."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593113-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "18"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "7471254d47c2e82fbd881aa41343adfd78338b9cabbeb4cc1da045fcd4b1d192",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "5174ed20181a5db1f70601cdf7b0efb57bff5f4d4e88314c724448f05f2d357a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked אור, חושך, וירא אלהים and intervening letters support the light/darkness distinction and evaluation sequence. The preceding night/separation clause is reconstructed; article ה, ב of בין and parts of כי טוב are uncertain. Transcription consonant runs: unmarked = אור | ו | ן | ה | חושך | ו | ירא | אלהים | ב; uncertain = ה | ב | כ | ט | ו; reconstructed = ו | ב | לילה | ו | ל | הבדיל | בין | י | י."
+    },
+    {
+      "scroll": "1Q1",
+      "record_id": "L1589604-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "7b3e951b74945d3bc3383565396dce3e6919a4008d7d699e17e59ab6e8bc37c9",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "cda41bb5d202a0bf02ab07102f32f4092f862885aaf6e7d63d8c34267cae6e12"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "The entire evening/morning/fourth-day formula is reconstructed. The source annotation does not establish physical fourth-day attestation. Transcription consonant runs: unmarked = none; uncertain = none; reconstructed = ו | יהי | ערב | ו | יהי | בקר | יום | רביעי."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593113-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "19"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "88043a67ae6193c97e5a22148665f04c9a84bfda423fbe644571de61cfc5ff3a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "cda41bb5d202a0bf02ab07102f32f4092f862885aaf6e7d63d8c34267cae6e12"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked ויהי, final ב of ערב and following ו יה support part of the evening/morning formula in the local 1:18–20 sequence. ע and final י are reconstructed and ר is uncertain; no unmarked fourth-day numeral is present. Transcription consonant runs: unmarked = ו | יהי | ב | ו | יה; uncertain = ר; reconstructed = ע | י."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593114-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "b20fb04109f68c54612c3c59466185f5908d4406ca339c643de244bb4f98870d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "cda41bb5d202a0bf02ab07102f32f4092f862885aaf6e7d63d8c34267cae6e12"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "בקר יום רביעי is entirely reconstructed. No physical letters support the morning or fourth-day wording in this line. Transcription consonant runs: unmarked = none; uncertain = none; reconstructed = בקר | יום | רביעי."
+    },
+    {
+      "scroll": "1Q1",
+      "record_id": "L1589604-R003",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "20"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "1a69941ab4471b1bb54708c1c46a5833d5b641854c3d7685e18de24c2695a00e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3d938fa8dcd4f783766554c7d5a673ddae02c66b75a0161b952e6202494004e4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "The speech opening ויאמר is entirely reconstructed, without physical letter support for the 1:20 annotation. Transcription consonant runs: unmarked = none; uncertain = none; reconstructed = ו | יאמר."
+    },
+    {
+      "scroll": "1Q1",
+      "record_id": "L1589605-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "b306887c4155239d38be50398baa7d1bd8c675b120f9270a9c86ca06c161b926",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3d938fa8dcd4f783766554c7d5a673ddae02c66b75a0161b952e6202494004e4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked רוצו ה מים ש supports the water-swarming clause, preserving the transcription spelling ישרוצו against WLC ישרצו. ר of שרץ is uncertain; יש, final ץ and the ensuing life/birds clause are reconstructed. Transcription consonant runs: unmarked = רוצו | ה | מים | ש; uncertain = ר; reconstructed = אלהים | יש | ץ | נפש | חיה | ו | עוף | יעופף | על | ה | ארץ | על | פני | רקיע | ה | שמים."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593114-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "145ea2678dbbac8fa87286be610c609086d1a82f888b82392ede76f92e66a26f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3d938fa8dcd4f783766554c7d5a673ddae02c66b75a0161b952e6202494004e4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked אלהים, המים and רץ together with the partial speech/swarming verbs support the water-swarming opening. Several verb letters and ש of שרץ are uncertain; שר within ישרצו is reconstructed. Transcription consonant runs: unmarked = ו | י | ר | אלהים | ו | ה | מים | רץ; uncertain = א | מ | י | צ | ש; reconstructed = שר."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593115-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "0f1d0a272b83cc75e4833eb2899cc55400a9f048539541af00730d316b05d05d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3d938fa8dcd4f783766554c7d5a673ddae02c66b75a0161b952e6202494004e4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked ל ה ארץ על פני, יע ה שמים support the birds-over-earth/expanse ending. The נפש חיה ועוף יעופף opening and ע of על are reconstructed; רק of רקיע is uncertain. Transcription consonant runs: unmarked = ל | ה | ארץ | על | פני | יע | ה | שמים; uncertain = רק; reconstructed = נפש | חיה | ו | עוף | יעופף | ע."
+    },
+    {
+      "scroll": "1Q1",
+      "record_id": "L1589606-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "21"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "d54c3862ca054015df9213b340e9250c0afccb3ad2d9be031766acfb17aa85db",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "01520c80082a02fcc123367d31c462f61411272125704a447c5a25e51c056963"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "A single unmarked ל within the otherwise reconstructed אלהים is the only physical letter. It cannot establish the creation-of-creatures attribution; the long reconstructed text is not surviving evidence. Transcription consonant runs: unmarked = ל; uncertain = none; reconstructed = ו | יברא | א | הים | את | ה | תנינם | ה | גדלים | ו | את | כל | נפש | ה | חיה | ה | רמשת | אשר | שרצו | ה | מים."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593115-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "21"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ef1e9c0483beda23253d547f63c355ca62a69e4ffe5aebdca141aae8d4eb12ca",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "01520c80082a02fcc123367d31c462f61411272125704a447c5a25e51c056963"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked להים את ה תנינים supports the God/sea-creatures sequence; וי and א in the creation verb and א in אלהים are reconstructed, while בר is uncertain. Preserve תנינים spelling without claiming the entire verb survives. Transcription consonant runs: unmarked = להים | את | ה | תנינים; uncertain = בר; reconstructed = ו | י | א | א."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593116-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "21"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "aaeba32c6cca2b0d06de6ff2ce43808178f16c4880a59c690574ec79a7d3c0af",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "01520c80082a02fcc123367d31c462f61411272125704a447c5a25e51c056963"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Unmarked חיה ה, ר/שת, אש, שרצו ה and later ני/הם ואת כל support the living-creatures/swarming/kinds sequence. מ of רמשת, ר of אשר and several kinds/water letters are uncertain; the opening through article ה before חיה is reconstructed. Transcription consonant runs: unmarked = חיה | ה | ר | שת | אש | שרצו | ה | מ | ני | הם | ו | את | כל; uncertain = מ | ר | י | י; reconstructed = ה | גדלים | ו | את | כל | נפש | ה | ם | ל | מ."
+    },
+    {
+      "scroll": "4Q4",
+      "record_id": "L1593117-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          1,
+          "21"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "fc0708571cf6457c1e8a4359e0f44b3a6de25bb46c9d8a8a2163eb92ad38b3c6",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "1",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "01520c80082a02fcc123367d31c462f61411272125704a447c5a25e51c056963"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
+      },
+      "note": "Only uncertain לה within reconstructed אלהים and uncertain י within כי remain as nonreconstructed letters. No unmarked letters support the winged-birds/evaluation attribution; placement remains provisional despite the adjacent line sequence. Transcription consonant runs: unmarked = none; uncertain = לה | י; reconstructed = עוף | כנף | ל | מינ | הו | ו | ירא | א | ים | כ | טוב."
     }
   ]
 }
