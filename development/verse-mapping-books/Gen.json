@@ -37821,6 +37821,4395 @@
       "expected_right_reading_sha256": [
         "7cba920fb64227228ac7aae109bf1094b6d5c159164e365628b85e5fa59643d0"
       ]
+    },
+    {
+      "id": "review-Gen-38-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah leaves his brothers and associates with Hirah the Adullamite.",
+      "expected_left_reading_sha256": [
+        "22147be885528c1be4be2b699d5786a629d71ec49b81b1b5e42a2527ff1bf046"
+      ],
+      "expected_right_reading_sha256": [
+        "d598555514e79f89c95be6e52ee6da548ba201b592a4cc35a9c652579f3dac95"
+      ]
+    },
+    {
+      "id": "review-Gen-38-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah takes a Canaanite woman; Hebrew Shua names her father, Greek feminine Saua names her.",
+      "expected_left_reading_sha256": [
+        "4b9e2b61d0cf5abbe8a1fe7ec10ae1cc400f02f7b8f1b5398ea671eab79201a7"
+      ],
+      "expected_right_reading_sha256": [
+        "ac6dda567b531e5f382a9febc772faa4b65495ead6a28f61360ba0371366dcf7"
+      ]
+    },
+    {
+      "id": "review-Gen-38-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "First son Er born and named.",
+      "expected_left_reading_sha256": [
+        "20c6c9b315b78d35188e46c4a04abb61969a975e4c8faa4528617b24fcaa4754"
+      ],
+      "expected_right_reading_sha256": [
+        "3e5a5031d8dd5fa87938c328b3f071396c96297ea84871192030d91721798f16"
+      ]
+    },
+    {
+      "id": "review-Gen-38-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Onan born and named.",
+      "expected_left_reading_sha256": [
+        "c7a8891ab086c354b9d36d914007bcbf8f0992918b78b85048d7150180f016af"
+      ],
+      "expected_right_reading_sha256": [
+        "11804d2ab7cf2302c2f9e25a0f2910ba1ecfa44a469cc190f9aeb174b7e69343"
+      ]
+    },
+    {
+      "id": "review-Gen-38-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shelah born and named at Chezib; Hebrew he was/Greek she was there and him/them differ.",
+      "expected_left_reading_sha256": [
+        "2d314ee1c77b82dd8c618fde68a30b80752728214ca2ffc28c4472dec88ab6c2"
+      ],
+      "expected_right_reading_sha256": [
+        "b97a8eb10686d4af3e2a89a01debe3cea28ea2f48d21e500cab405aa5cd35727"
+      ]
+    },
+    {
+      "id": "review-Gen-38-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar obtained for firstborn Er.",
+      "expected_left_reading_sha256": [
+        "544e90488591cd2233761856343d8d27dcadde99c8add415eb861b1eb10fb7a9"
+      ],
+      "expected_right_reading_sha256": [
+        "487dc2c3f30c9102da73b17f69fbaee0740c886794a33c0ddf074e8fdadc4ce6"
+      ]
+    },
+    {
+      "id": "review-Gen-38-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Er evil before Yahweh and killed; Greek God in the death clause.",
+      "expected_left_reading_sha256": [
+        "4329306d6853c9628c069baaba6b7985d1380e611c44142b083f095af9721676"
+      ],
+      "expected_right_reading_sha256": [
+        "41a6e288aceadfdc18211fb57c92c7b85133f799e87df6c9fb41222de8eb3ccc"
+      ]
+    },
+    {
+      "id": "review-Gen-38-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Onan commanded to marry his brother's wife and raise offspring for him.",
+      "expected_left_reading_sha256": [
+        "4db6f6fc3d2680e57d216684bca6a9f0950b2dea9bb24220d848af2cfe3a8a5b"
+      ],
+      "expected_right_reading_sha256": [
+        "9c7aff6b77718769ec3d69069dc1374e07b4ed331dd64b74e11e6a24e5420064"
+      ]
+    },
+    {
+      "id": "review-Gen-38-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Onan prevents offspring for his brother by spilling on the ground.",
+      "expected_left_reading_sha256": [
+        "79a2c130c4c2b0ce408e63946ee358486d98763b50994c9296c65a7bc5c4963b"
+      ],
+      "expected_right_reading_sha256": [
+        "e98f2b23340266cd1d7076cf797db41d70fa8e5ef438fe767d51415d0fedb527"
+      ]
+    },
+    {
+      "id": "review-Gen-38-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Deed evil before Yahweh/God and Onan also dies.",
+      "expected_left_reading_sha256": [
+        "a4a2288b08284333c27b266a294902ec71a2a1e32a84e88de06cef56feb89eb2"
+      ],
+      "expected_right_reading_sha256": [
+        "86fcdff456d657ddbe10a47def06258f1f951dd12ae158aad35e83ad4b5b8f9c"
+      ]
+    },
+    {
+      "id": "review-Gen-38-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar sent to paternal home as widow until Shelah grows; Judah fears another death.",
+      "expected_left_reading_sha256": [
+        "84e9ffc732df40c31ef8f5d1c8537336a3a76fe53eaa8eb149a0e5778f324928"
+      ],
+      "expected_right_reading_sha256": [
+        "a21231fe016d13f5f0fafa5124331dd065138a356748aae93023257b6d2bc786"
+      ]
+    },
+    {
+      "id": "review-Gen-38-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah's wife dies, then he goes shearing at Timnah with Hirah; Hebrew Shua's daughter/Greek Saua and friend/shepherd differ.",
+      "expected_left_reading_sha256": [
+        "aae73f514ec076dc166149b94b3b3ef3becf818595322455aecb25dc856b0375"
+      ],
+      "expected_right_reading_sha256": [
+        "4d63faa56449718a8514b385d7ea45ad2768788a6414c36849c5cf862b8d2596"
+      ]
+    },
+    {
+      "id": "review-Gen-38-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar informed of her father-in-law's shearing journey.",
+      "expected_left_reading_sha256": [
+        "0769e097547a1d0ffe06aef5e044352f0a2d9b51ed632391b13e07b4d5cb320d"
+      ],
+      "expected_right_reading_sha256": [
+        "97ba24c047a80df6f679e12e05c50cdb343a0eadcf77c403a7063da195cfb40a"
+      ]
+    },
+    {
+      "id": "review-Gen-38-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar changes widow clothes, veils and sits on Timnah's road because Shelah was withheld.",
+      "expected_left_reading_sha256": [
+        "2f73a746cdf1ccfab46f7ec69884d77a9c012513bd81fa2c31412cc8ffeffb23"
+      ],
+      "expected_right_reading_sha256": [
+        "dc6626941c1ec3d9cdc9c5d595aa7468d6478f6c31c5b88462ae67571112cc39"
+      ]
+    },
+    {
+      "id": "review-Gen-38-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah mistakes veiled Tamar for a prostitute; Greek adds failure to recognize her.",
+      "expected_left_reading_sha256": [
+        "63b136d1ca14613a9c0d797f7f9ca36c3526cfe7cedf77a514ade17817fd98ac"
+      ],
+      "expected_right_reading_sha256": [
+        "64a84709abf5f72efd45e5645a13206c676de79bfcdda946ca3f89c2b9dd0243"
+      ]
+    },
+    {
+      "id": "review-Gen-38-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah solicits intercourse without recognizing his daughter-in-law, who asks payment.",
+      "expected_left_reading_sha256": [
+        "478912b02c222fcc9e4c664f9e437867a2887962303c0dde19186e966a07a0a9"
+      ],
+      "expected_right_reading_sha256": [
+        "eb3e220fdf3faade72268c72aadc7bd94414850f2777edc30d997b4102f81cc3"
+      ]
+    },
+    {
+      "id": "review-Gen-38-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Kid promised in exchange for a pledge until delivery.",
+      "expected_left_reading_sha256": [
+        "cfff8d7f6d731bb000a0412f878982da8977767efffe4c14769f8f04ce53f300"
+      ],
+      "expected_right_reading_sha256": [
+        "5cae1e33be3261ae33fe39f6c0f02596ea24d8dda783ed7b3529d31fed46ca83"
+      ]
+    },
+    {
+      "id": "review-Gen-38-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seal, cord and staff pledge; Greek ring/necklace wording retained; intercourse and conception.",
+      "expected_left_reading_sha256": [
+        "ef89142ea02ff06bb2700aae3231d5108f3dc9729721a75f20bd0b14acba62cb"
+      ],
+      "expected_right_reading_sha256": [
+        "af58e8fe1d8ae42ebed6248c0977a160ac56af4241189a7ae56a45d2a1b12928"
+      ]
+    },
+    {
+      "id": "review-Gen-38-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar departs, removes veil and resumes widow clothes.",
+      "expected_left_reading_sha256": [
+        "d204459a62628bfe9e6578a40efe3c627cefd47c9ecec0128f65d31f78f1481c"
+      ],
+      "expected_right_reading_sha256": [
+        "ec813d8a39eb9e0aab24b772a12f873df54b7cd70b48c0f919da70241a07bc14"
+      ]
+    },
+    {
+      "id": "review-Gen-38-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Kid sent to recover pledge but woman not found; Hebrew friend/Greek shepherd.",
+      "expected_left_reading_sha256": [
+        "5e06c94448da999017e2c05344e5fe765c18e7a871f6334878434203bf8215ac"
+      ],
+      "expected_right_reading_sha256": [
+        "7aa68c441a2b968a63c6436b58c92c9a643285ddf6a201473a0fd6c38cfc1b4c"
+      ]
+    },
+    {
+      "id": "review-Gen-38-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Local inquiry and denial of a prostitute at Enaim/Ainan; qedeshah/porne terminology retained.",
+      "expected_left_reading_sha256": [
+        "cf3fc3517b0bd20c17ece75123ecd12d1021c93240fddd911ec0c2e67c98dfa9"
+      ],
+      "expected_right_reading_sha256": [
+        "c0f0e05e02cb663ee6190600dc9abc491931168bae6e693a1c8aed3bd4ad022f"
+      ]
+    },
+    {
+      "id": "review-Gen-38-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Companion reports failure and local denial.",
+      "expected_left_reading_sha256": [
+        "78f59d4a4f95eddfc39623c6d72f14fde788e1f5359daf03ea9b07bb45ccd535"
+      ],
+      "expected_right_reading_sha256": [
+        "feef2e363f6315217442da08f30b047dba48d38fd6f6f7a847eea6ede5056861"
+      ]
+    },
+    {
+      "id": "review-Gen-38-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah abandons pledge to avoid ridicule after attempted payment.",
+      "expected_left_reading_sha256": [
+        "f8b9f6928a482a7c278c9122be708289ea17966c28822c69dc9bf452adf8a689"
+      ],
+      "expected_right_reading_sha256": [
+        "0769e4e3a6a9f9278e7e5861c42dbe3f7cf3cb3d35516d0089a91825b4bf92f3"
+      ]
+    },
+    {
+      "id": "review-Gen-38-24-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "24"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "24"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "After three months Tamar's pregnancy reported and Judah orders burning.",
+      "expected_left_reading_sha256": [
+        "4cbf5302f27cde608fdd30e26663f40a3757e8270fec0117c69744b09621a910"
+      ],
+      "expected_right_reading_sha256": [
+        "f46392a8d148395267c495a38c8b202fda874efe42327da45194f98f4d4b09d6"
+      ]
+    },
+    {
+      "id": "review-Gen-38-25-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "25"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "25"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tamar sends pledge objects to identify the father of her pregnancy.",
+      "expected_left_reading_sha256": [
+        "395b643ec2575d1adb4635950ab78888f2b3ba6773423c4183ddadce400180c6"
+      ],
+      "expected_right_reading_sha256": [
+        "b0407f9309ce69fca112a10967fdc6dc0442c65b76f483111aa27e081b516011"
+      ]
+    },
+    {
+      "id": "review-Gen-38-26-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "26"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "26"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah recognizes greater righteousness because Shelah was withheld, and does not know her again.",
+      "expected_left_reading_sha256": [
+        "06c87aeb6315f896d7fc9b17861ba498f1758b3bebbdf161a1aff2cb0aef39f5"
+      ],
+      "expected_right_reading_sha256": [
+        "1867df7ed64151f87e85a1fd91daa28598abb2bcae3223e2cbf7ced8b85b34d7"
+      ]
+    },
+    {
+      "id": "review-Gen-38-27-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "27"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "27"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Twins present at birth.",
+      "expected_left_reading_sha256": [
+        "7fac99e977a4959c778399811565380030d8cfb08289abdfc558691c3fb8869c"
+      ],
+      "expected_right_reading_sha256": [
+        "d1b5d014b25f07cf7dc74f5e7be8d4c5545314221e24a55d923bcc14dcc5ffcb"
+      ]
+    },
+    {
+      "id": "review-Gen-38-28-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "28"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "28"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "First emerging hand marked with scarlet; Hebrew came out/Greek will come out first differs.",
+      "expected_left_reading_sha256": [
+        "eae87c81faaf3c9bad630f5433cc995d8e9c0f753782b6b0c562b51ed866b320"
+      ],
+      "expected_right_reading_sha256": [
+        "f1345f9a38ee705e42cebd3ecb0322b63448dc38a5bc4871052cdc126e6b6f59"
+      ]
+    },
+    {
+      "id": "review-Gen-38-29-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "29"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "29"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hand withdrawn and brother breaches first, named Perez.",
+      "expected_left_reading_sha256": [
+        "f086e7477b7542b77f91aaa9c764257f3afbaeb5b207fd8acd7ac6c94b7666e4"
+      ],
+      "expected_right_reading_sha256": [
+        "3af47b6aadbd07e757d4d40eda03ee6f072df2094030149335636a17ec3db74d"
+      ]
+    },
+    {
+      "id": "review-Gen-38-30-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          38,
+          "30"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          38,
+          "30"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Scarlet-marked brother emerges afterward, named Zerah.",
+      "expected_left_reading_sha256": [
+        "d8a082b4d3e4cb2200c01d5a0fb100d2ab754196951571e75235a9822ed8917f"
+      ],
+      "expected_right_reading_sha256": [
+        "d4b29be8b9ca6857dfcbf3f8049671add3c3e62c3122345b09982ba07a25d816"
+      ]
+    },
+    {
+      "id": "review-Gen-39-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph bought in Egypt by Potiphar from Ishmaelites; officer/eunuch and guard/cook titles retained.",
+      "expected_left_reading_sha256": [
+        "d608b4ddc2644d1d2cc3d8061027093cd5eb10b4f9e70b068a4fdda444254b4d"
+      ],
+      "expected_right_reading_sha256": [
+        "245d4c8728657164f3e703daac0cd6c85ddcb019045a6fd5296a23f3be3ba892"
+      ]
+    },
+    {
+      "id": "review-Gen-39-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Yahweh with Joseph and success in the Egyptian master's house.",
+      "expected_left_reading_sha256": [
+        "3857f6c709b5e8671a5dbcad0a02f01bf2bb00f94d189ccd66527745bb460949"
+      ],
+      "expected_right_reading_sha256": [
+        "cd4e05fff069c0941aa423003d15461b3322ebff908a5ba73516968b741e80bc"
+      ]
+    },
+    {
+      "id": "review-Gen-39-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Master recognizes Yahweh's presence and prospering of Joseph's acts.",
+      "expected_left_reading_sha256": [
+        "a265a80c059ebbedc67309861ba7867894f43e682ea8596df4cd7b81f46b6412"
+      ],
+      "expected_right_reading_sha256": [
+        "6eb6c645e6df33833419cb9c98af0baa4a57dc1f7f985c4be8633e76d2e869d4"
+      ]
+    },
+    {
+      "id": "review-Gen-39-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph favored, serves and is entrusted with the whole house.",
+      "expected_left_reading_sha256": [
+        "89abb94108e9e98782e0d0b7af7fa1d8b93c7663968db88b9ba661f2863fdb96"
+      ],
+      "expected_right_reading_sha256": [
+        "0728fb381636b3fe36b9cf932bc594866683ee4f926ef9335fd55a750afc5652"
+      ]
+    },
+    {
+      "id": "review-Gen-39-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Egyptian household and field blessed for Joseph's sake.",
+      "expected_left_reading_sha256": [
+        "c3ff42bc88ef3f3cd394a17c44508254184a694d506a7e2fda5e84a73c238b78"
+      ],
+      "expected_right_reading_sha256": [
+        "90ce3f0827c0a1dba007c07506512546008347eb338d7f289926694bed1fb320"
+      ]
+    },
+    {
+      "id": "review-Gen-39-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "All entrusted except master's food; Joseph's handsome appearance introduced.",
+      "expected_left_reading_sha256": [
+        "847c0cfabc61b1045dd91f53dd09c36a00701125f3f36b4d0e2afed527b208b6"
+      ],
+      "expected_right_reading_sha256": [
+        "b400e2d9cdbd307d15ff83f2899024b6db97ee221ce53ea0377644f449a4a19a"
+      ]
+    },
+    {
+      "id": "review-Gen-39-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Master's wife looks at Joseph and demands intercourse.",
+      "expected_left_reading_sha256": [
+        "7c31dde7f9fbd3d2489abd1ceae42dff9fe986918814aae170a65be3a2403638"
+      ],
+      "expected_right_reading_sha256": [
+        "0370ba72a552411b55e422df0e51070282e91bd7d472a4f1489d31abbc5c0e73"
+      ]
+    },
+    {
+      "id": "review-Gen-39-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph refuses and recalls the master's comprehensive trust.",
+      "expected_left_reading_sha256": [
+        "d797dfaecb4363f7757ff91074b51c5ba40830c585f4cf560cce9efd6fe42df4"
+      ],
+      "expected_right_reading_sha256": [
+        "0b347813f51f296338002018216d340b8da7333db6fac427908545a812ef2ca5"
+      ]
+    },
+    {
+      "id": "review-Gen-39-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Wife withheld as master's wife; proposed evil would sin against God.",
+      "expected_left_reading_sha256": [
+        "e9d12bb6949d449a7f99d62a8d94599e280ddcdd8ed1efc48f814e408c045abe"
+      ],
+      "expected_right_reading_sha256": [
+        "7808b13603c973e28667e2a96e2dbcba36135f188bb80fe7113b7276f6802f19"
+      ]
+    },
+    {
+      "id": "review-Gen-39-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Repeated daily refusal to lie or be with her.",
+      "expected_left_reading_sha256": [
+        "8678f7585a935d76a2c86057c2827195b03bbca4056a9dfe0835900b56152dc0"
+      ],
+      "expected_right_reading_sha256": [
+        "6c821695dc441f509ea935cf3cecf758216ee93f5b2792549bd9d63b936039a0"
+      ]
+    },
+    {
+      "id": "review-Gen-39-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph enters to work when no household man is present.",
+      "expected_left_reading_sha256": [
+        "ef5396af4c7283592573595beadd976efe5d4809f2a9e8ea61ad10a847c87de9"
+      ],
+      "expected_right_reading_sha256": [
+        "cfbc35948c20b0bee6a03dc7c5bdeb73150fbe0bc6193e19a8fbb72941edd436"
+      ]
+    },
+    {
+      "id": "review-Gen-39-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Garment seized and solicitation repeated; Joseph leaves garment and flees.",
+      "expected_left_reading_sha256": [
+        "5c016347530722ba878ea4fbd0510c9271863b65043560dc6ab01754c94645bd"
+      ],
+      "expected_right_reading_sha256": [
+        "6f2c989156eb3070c53028604705108bb1a59ed2f1923d05770f71064a5b1161"
+      ]
+    },
+    {
+      "id": "review-Gen-39-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Woman sees abandoned garment and flight.",
+      "expected_left_reading_sha256": [
+        "1e936d73861a792ec8d0cd308df5a171f967712a601a1b10b3d82ec05b0d22f2"
+      ],
+      "expected_right_reading_sha256": [
+        "f52b7b35037cbd2a539cf3e409becae263de4801f8ee6145d8703dd698650c6e"
+      ]
+    },
+    {
+      "id": "review-Gen-39-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Household called and false accusation made; Greek explicitly quotes an intercourse demand attributed to Joseph.",
+      "expected_left_reading_sha256": [
+        "5d86e1b287ba08ad0e26bba362bc5e27f64b0373e6713a51fa1b459614265a6f"
+      ],
+      "expected_right_reading_sha256": [
+        "c8449ec5379b6072b6108d8e198c80138f95c36b0f714442c1dcf9059319b386"
+      ]
+    },
+    {
+      "id": "review-Gen-39-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Accusation says her cry caused Joseph to leave garment and flee.",
+      "expected_left_reading_sha256": [
+        "8586dcc61b45a14853820ed38b37ae6f06bed4a6b14583cdc266f775c12cdfca"
+      ],
+      "expected_right_reading_sha256": [
+        "f82ee8d7d8c8eb99cb6ce1b2a583af1fba740463f86d021f0959b7cb860fc40f"
+      ]
+    },
+    {
+      "id": "review-Gen-39-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Garment kept until master's return.",
+      "expected_left_reading_sha256": [
+        "5fb17fe52e5b40a07c981cc7f26546a628bb45fff84773239df4c3395fe59f6a"
+      ],
+      "expected_right_reading_sha256": [
+        "08f33c1fd36ee58e522b8a93db197c9c0a85c17c25621931e922c2106080e316"
+      ]
+    },
+    {
+      "id": "review-Gen-39-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Accusation repeated to master; Greek adds Joseph's purported intercourse declaration.",
+      "expected_left_reading_sha256": [
+        "9ad19d3336ba24cc171fb8c930ece8311c8088966faddbe9101cffcedfd7bfad"
+      ],
+      "expected_right_reading_sha256": [
+        "bd44f647f36dce8d193fdc8bb2c7d7bfa1c6d12f8fcc73f84863988594ad03cf"
+      ]
+    },
+    {
+      "id": "review-Gen-39-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Raised voice and flight recounted.",
+      "expected_left_reading_sha256": [
+        "e48ce4aa297e3ce499d3ba5dc8af38c52ea08014f8ae620dd9e08c8e5f3693ed"
+      ],
+      "expected_right_reading_sha256": [
+        "97f792ab4bf477d5d0765a82e51d2c19f3fee278dee57f4dc34f6c41172694fc"
+      ]
+    },
+    {
+      "id": "review-Gen-39-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Master hears accusation and becomes angry.",
+      "expected_left_reading_sha256": [
+        "851e0fceefc32ef633832a7505bf0dd7e1ad8d231f6f5ee2965740f9010a8671"
+      ],
+      "expected_right_reading_sha256": [
+        "c090b04debed036d9de9e9550e1a254e6f42a6fd9b77a40580b062975157fd8f"
+      ]
+    },
+    {
+      "id": "review-Gen-39-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph put in the royal prisoners' confinement; Greek prison description retained.",
+      "expected_left_reading_sha256": [
+        "327dd9610d86d6d741c63f8b959f078c707c48cc1a4083bd645f36bfc5d2feb8"
+      ],
+      "expected_right_reading_sha256": [
+        "8f476bdf27ae93317b09fd9d53de58ccd4b56dde64aebdd0c398cb6b5a5cc8b0"
+      ]
+    },
+    {
+      "id": "review-Gen-39-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Yahweh with Joseph grants kindness and jailer's favor.",
+      "expected_left_reading_sha256": [
+        "cfffc475bf1d4a08db9a5607df14bfc2f9e4c51a98f24ec3c01ccc06513fd77a"
+      ],
+      "expected_right_reading_sha256": [
+        "2507913eccd4ccf4b748de8eda9c1315b1b9116e00a9fb9f2f22fb0195fe220d"
+      ]
+    },
+    {
+      "id": "review-Gen-39-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Prisoners and prison work entrusted to Joseph.",
+      "expected_left_reading_sha256": [
+        "45781bcbffdf26400e309750fb7e7c7e3c8e8139259fd06c7f3ff1daf2564779"
+      ],
+      "expected_right_reading_sha256": [
+        "894893396a6b67a68abe5993cb13265157d5e32b182f50fa98f525d4a66393d0"
+      ]
+    },
+    {
+      "id": "review-Gen-39-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          39,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          39,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jailer does not oversee entrusted affairs because Yahweh prospers Joseph; Greek expands everything through Joseph's hand.",
+      "expected_left_reading_sha256": [
+        "921d39831aae285d397dedb166d2cf1150aaccf3ae50b73fcb4033d615d4132e"
+      ],
+      "expected_right_reading_sha256": [
+        "dca593515c5902252f2b9aa135ed3e153b255f6339b56e34a5d9961b18487b35"
+      ]
+    },
+    {
+      "id": "review-Gen-40-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Egyptian king's cupbearer and baker offend their lord.",
+      "expected_left_reading_sha256": [
+        "1bbcc69b66d8fbaaca208bf2b735ab691027ea860d12e266625c5921810db576"
+      ],
+      "expected_right_reading_sha256": [
+        "a51ea29472d7ab9228a06906608c0c89cd7807a0e26d339c3b250ce51214f6c5"
+      ]
+    },
+    {
+      "id": "review-Gen-40-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh angry with the two officers/eunuchs.",
+      "expected_left_reading_sha256": [
+        "6bb5fb8cb4ffff2e5ee288ac32efd7fd7bf87d8fd4721affb4cecf73b3ab5a6e"
+      ],
+      "expected_right_reading_sha256": [
+        "75a22108c7a9365fbbd5ef68a0da5b6d0588b9d72c466578cdbb23da7a29e152"
+      ]
+    },
+    {
+      "id": "review-Gen-40-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Officials confined where Joseph is imprisoned; Greek omits Hebrew house of chief of guards detail.",
+      "expected_left_reading_sha256": [
+        "ecece27b94e3f8b2da5c5ced3a3a657f61e529787095569891ec6978a4f52e5b"
+      ],
+      "expected_right_reading_sha256": [
+        "f1a3b9cd17f9f598c832f1216d262cdf5fdbc44af54711511543ee5a43c0385a"
+      ]
+    },
+    {
+      "id": "review-Gen-40-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph appointed to serve prisoners; Hebrew chief of guards/Greek chief jailer differs.",
+      "expected_left_reading_sha256": [
+        "6c0fdf4a3ba5a074ef69a9e6530a450d7363719d03f28bf557c912291df8b862"
+      ],
+      "expected_right_reading_sha256": [
+        "8f98f52e81c30d13d717035d7617261441fc8eb3f5d22b37675ef708159e715a"
+      ]
+    },
+    {
+      "id": "review-Gen-40-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Both imprisoned officials dream the same night; differing individual-interpretation/vision phrasing retained.",
+      "expected_left_reading_sha256": [
+        "3de66ca11b7a83a5a21e510f1f80ee293b0b1ee1ee7ec5b09f9b175543d5fe12"
+      ],
+      "expected_right_reading_sha256": [
+        "5cf27f484e06471a3e3db9b0704a296ab892aa1c671037108eab3a1fd15d2761"
+      ]
+    },
+    {
+      "id": "review-Gen-40-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Morning Joseph sees their distress.",
+      "expected_left_reading_sha256": [
+        "32c6fd33927c08f26b1ea617891b81ffa1c6f68016134833b05b4b9f8e73029a"
+      ],
+      "expected_right_reading_sha256": [
+        "4f5bc353af4fc160851010129565644b6f40d8a4c212713933a37427a5205afa"
+      ]
+    },
+    {
+      "id": "review-Gen-40-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph asks why faces are downcast.",
+      "expected_left_reading_sha256": [
+        "f3b9f6099ec1171630531ca0fab7907bd66bfadf644a3ddd5892d71fb717eb3a"
+      ],
+      "expected_right_reading_sha256": [
+        "c042b0f1c9a193b386eb0d9a2b53da0f864ea8d861a68fe26ee8118099ac958b"
+      ]
+    },
+    {
+      "id": "review-Gen-40-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "No interpreter available; Joseph attributes interpretations to God and invites telling.",
+      "expected_left_reading_sha256": [
+        "808d1018d9910f979a1ffacd2e4e2cb220c1f35f62790f7a6d7d3f2f1b2dd272"
+      ],
+      "expected_right_reading_sha256": [
+        "544dc975d0722373666a50e157c5b3a8a169f32bc992be21ed76d3e652c1ef5e"
+      ]
+    },
+    {
+      "id": "review-Gen-40-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Cupbearer recounts a vine dream.",
+      "expected_left_reading_sha256": [
+        "fe24e5b3005bf7c6404b44fbc0768d365d32c6dd311c44c05ee54d2ec3764b03"
+      ],
+      "expected_right_reading_sha256": [
+        "2b328199c69bbf8eccbabaaa708774969d63c4f1a72589d0c31b16b2a131f07b"
+      ]
+    },
+    {
+      "id": "review-Gen-40-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Three branches, budding, blossom and ripe grapes; Greek compressed growth wording retained.",
+      "expected_left_reading_sha256": [
+        "974c052886a2883de90e129760863447720a849e26fae4a446b8ea68974dbf51"
+      ],
+      "expected_right_reading_sha256": [
+        "2450307100a75834daa5089be35f718a7ba0e1ee059561c8bc4d13b1e93f71ee"
+      ]
+    },
+    {
+      "id": "review-Gen-40-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Grapes squeezed into Pharaoh's cup and cup delivered.",
+      "expected_left_reading_sha256": [
+        "65d12d7af72d18431398f77d63fde854565731f71fb0bee259b6c22f13a8211c"
+      ],
+      "expected_right_reading_sha256": [
+        "5ea0b7e8f8cd071a09c806bcd07e3698d8b050564de4a653391a9047d1a3af5e"
+      ]
+    },
+    {
+      "id": "review-Gen-40-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Three branches interpreted as three days.",
+      "expected_left_reading_sha256": [
+        "855906c22a9c4b41ef96ef72e88e526678df36b5d64d89d511b319e3fc3d394d"
+      ],
+      "expected_right_reading_sha256": [
+        "f75ed157a9c5482e0c1708d25a67690a1f680eac26c747a6e3519cc51f7d56b4"
+      ]
+    },
+    {
+      "id": "review-Gen-40-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Restoration to cupbearing in three days; Hebrew lift head/Greek remember office differs.",
+      "expected_left_reading_sha256": [
+        "ad9567f850f692831464b31f05ff91274dd85f5b653a3c892a96bb4cdfb1649d"
+      ],
+      "expected_right_reading_sha256": [
+        "3e90659bffa199d7899d765c59d79d907b972b9ed5ef3de996bdd7a6b4f42979"
+      ]
+    },
+    {
+      "id": "review-Gen-40-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph asks remembrance, kindness and release through Pharaoh.",
+      "expected_left_reading_sha256": [
+        "3e751b251e68e2fc1a1fc1cdb20b7b9d2c1936c2c7b9b323f06b16a8c1098396"
+      ],
+      "expected_right_reading_sha256": [
+        "52b9026c16afa3f2bd728d2e0a61a36a7a95871a3aa1cad43bcf1411838f4158"
+      ]
+    },
+    {
+      "id": "review-Gen-40-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph stolen from Hebrew land and imprisoned without wrongdoing.",
+      "expected_left_reading_sha256": [
+        "2c7c5e76e9b65fb25239d80a928a88c66618c7e5ac14e53790146471f8b80bd5"
+      ],
+      "expected_right_reading_sha256": [
+        "172c79e2315eed6b905f020ec399111a5817503dec9e113ecd65d830d6edb10d"
+      ]
+    },
+    {
+      "id": "review-Gen-40-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Baker introduces three head-baskets after favorable interpretation; white/woven baskets and Greek coarse loaves wording differs.",
+      "expected_left_reading_sha256": [
+        "fc86e392c9034e4d3b13854f3a3a5ab0e8c25139b3411bfd73db03fc63e9758a"
+      ],
+      "expected_right_reading_sha256": [
+        "97eff005e753e377b16160c185d979dac1f651e746a9a78cf73da700166b7a56"
+      ]
+    },
+    {
+      "id": "review-Gen-40-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Top basket has Pharaoh's baked foods eaten by birds.",
+      "expected_left_reading_sha256": [
+        "0c2b3f6767bb22b2d1f1243b657e2ca1c079836ba8b342a8182990051121cebe"
+      ],
+      "expected_right_reading_sha256": [
+        "96e8f034f0b0821b204e910c1c677de96a20e39f4ae35eb192fb03588225d903"
+      ]
+    },
+    {
+      "id": "review-Gen-40-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Three baskets interpreted as three days.",
+      "expected_left_reading_sha256": [
+        "5f20650ce1f98e0b234272846dc5ff6b87574dc31447b26d9a2e31e6ccd02ed4"
+      ],
+      "expected_right_reading_sha256": [
+        "0cb132bdf457bf03b30146c60befe49313df8831870b05858c96c391d4c1fa0c"
+      ]
+    },
+    {
+      "id": "review-Gen-40-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Within three days head removed, body hanged and birds eat flesh.",
+      "expected_left_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "expected_right_reading_sha256": [
+        "b9ec3df223e59f73afa4eb43120da7b2cbb05ca7786eb718ff1faf5e2b5ac8f2"
+      ]
+    },
+    {
+      "id": "review-Gen-40-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh's third-day birthday feast; Hebrew lifting heads/Greek remembering offices differs.",
+      "expected_left_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "expected_right_reading_sha256": [
+        "c851358199886336423731c9aeae523500885801db005518f4926f94c4a08000"
+      ]
+    },
+    {
+      "id": "review-Gen-40-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Cupbearer restored and cup returned to Pharaoh's hand.",
+      "expected_left_reading_sha256": [
+        "1c74e26c4a94009c195cb40029e1474f08bf7182ccd9fdbaa39595e5f001b988"
+      ],
+      "expected_right_reading_sha256": [
+        "a4b8cd6240c2998a281576d86f19ce1083e6252ac5fd857ac517decc0aa37c49"
+      ]
+    },
+    {
+      "id": "review-Gen-40-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Baker hanged as Joseph interpreted.",
+      "expected_left_reading_sha256": [
+        "2bfb578043b3b45ccc44e2991738e2cc0d8bc33c2d2f68ab3af8d937491fb95d"
+      ],
+      "expected_right_reading_sha256": [
+        "0829dfc8c81def869ccf7d3dd5c29fe640b5b7c67045f6524bf85bc949bc461b"
+      ]
+    },
+    {
+      "id": "review-Gen-40-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          40,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Cupbearer forgets Joseph.",
+      "expected_left_reading_sha256": [
+        "b876310615ce2f2790240151f9f9774bcd4a2063692be70c9ca0fd9c99623313"
+      ],
+      "expected_right_reading_sha256": [
+        "f143761eed04b34848c2baa82b80c81227b32bb1b31aa5fd254e59f8b3ec3739"
+      ]
+    },
+    {
+      "id": "review-Gen-41-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "After two years Pharaoh dreams of standing at the river.",
+      "expected_left_reading_sha256": [
+        "ac1abba0ae1e863c3c14db545077ff8d7178d5303d12079b950070f3e39125ae"
+      ],
+      "expected_right_reading_sha256": [
+        "c0d5490a817219116525de17a1723a9433a15e3ede0e7abe523df838009fbb18"
+      ]
+    },
+    {
+      "id": "review-Gen-41-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven healthy cows emerge and graze; Hebrew reeds/Greek Achei retained.",
+      "expected_left_reading_sha256": [
+        "059fc826f29f6f28c60ee8acac8fd460c72307be6a4aab8b459180da45d42507"
+      ],
+      "expected_right_reading_sha256": [
+        "0f56512d1abac91e67cadc9e8700e0c95e955eeb801806d8316a82f1f63abb87"
+      ]
+    },
+    {
+      "id": "review-Gen-41-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven lean cows emerge beside the first at the riverbank.",
+      "expected_left_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "expected_right_reading_sha256": [
+        "1a8d5af131834b77ce66cdb7e3e2b6841825870ae2d6e3b6835b9320f429f7dc"
+      ]
+    },
+    {
+      "id": "review-Gen-41-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Lean cows consume healthy cows and Pharaoh wakes.",
+      "expected_left_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "expected_right_reading_sha256": [
+        "086cd51851d77dbc0502cf1b3370119c805e83ff1aeb9f9c5a8732710111a444"
+      ]
+    },
+    {
+      "id": "review-Gen-41-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Second dream of seven good ears on one stalk; Greek omits the explicit sleeping again.",
+      "expected_left_reading_sha256": [
+        "ae874e2b8c6cc000f68a92bc0e91e8ec2a9bc981184447a4f5abc4bcfa9e071e"
+      ],
+      "expected_right_reading_sha256": [
+        "a07ab5396b63f4d7bbce75cb4be41ca55daa0394677898de9e654ddcb21d8600"
+      ]
+    },
+    {
+      "id": "review-Gen-41-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven thin wind-scorched ears follow; Hebrew east wind/Greek wind wording differs.",
+      "expected_left_reading_sha256": [
+        "fe20bd49e71aafea57c0ccd32aec14affc78e018f78159452889b1f956afeb7a"
+      ],
+      "expected_right_reading_sha256": [
+        "8d8a0c2ad0f94722aa86705d1aaf205c06675c82c733c76bd207c46ec869e691"
+      ]
+    },
+    {
+      "id": "review-Gen-41-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Thin ears swallow full ears and Pharaoh wakes from dream.",
+      "expected_left_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "expected_right_reading_sha256": [
+        "9a5eebe4ff528442a8f3c9c43d5409d3d964fac72abae682a661437620124fa6"
+      ]
+    },
+    {
+      "id": "review-Gen-41-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Morning agitation and unsuccessful interpreter gathering; Hebrew spirit/Greek psyche differs.",
+      "expected_left_reading_sha256": [
+        "fd41cf9ea8803cd8cfc5d02533d212f52d6e1ed014703bc2f68ba1f0e4911c6a"
+      ],
+      "expected_right_reading_sha256": [
+        "276ba7b2efef99f5b8cca94a3e17bb6afe21d1c0531f65db2b76caa3796bcc8c"
+      ]
+    },
+    {
+      "id": "review-Gen-41-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Cupbearer remembers his offense.",
+      "expected_left_reading_sha256": [
+        "923a2c4478f34ec010ffaebfee4a8d264892dc485485ce1714f01a76b4935e5f"
+      ],
+      "expected_right_reading_sha256": [
+        "53e4c5abc10616d9eba4b48d13c335f14bc92c455ea71ec94c5dafc47341aa13"
+      ]
+    },
+    {
+      "id": "review-Gen-41-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Earlier imprisonment with baker in chief official's house recalled.",
+      "expected_left_reading_sha256": [
+        "47d00d4ff78a03834bab9c65e6919ad6e3a130a99a5c7fbcbe43d6fbe5342e46"
+      ],
+      "expected_right_reading_sha256": [
+        "6ef66b59a3af18cd1b4b5686e5689af87d824db4153116b02e27f3784ee6e2ee"
+      ]
+    },
+    {
+      "id": "review-Gen-41-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Both officials' distinct dreams in one night recalled.",
+      "expected_left_reading_sha256": [
+        "9aae05bf2b017a91d145a8aac3829ec77703b73aaf815a01100ce5930ee54dbf"
+      ],
+      "expected_right_reading_sha256": [
+        "6b6f2973df43e0f15806a2c32d69e1db15fb43d36eb084e72cb5fab04b05cb38"
+      ]
+    },
+    {
+      "id": "review-Gen-41-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hebrew young servant interpreted their dreams; Greek lacks the repeated individual-interpretation clause.",
+      "expected_left_reading_sha256": [
+        "4c92a0c00e5c6faf103b4325319bf70904d79f700ba99b36663de3d2256236cd"
+      ],
+      "expected_right_reading_sha256": [
+        "47c11ffdc99bc78d28eb8b78066c92633f4006f3f7d6784cb55256d86aa81a5a"
+      ]
+    },
+    {
+      "id": "review-Gen-41-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Interpretations fulfilled in restoration and hanging.",
+      "expected_left_reading_sha256": [
+        "100541272ccfceae1307e72c4ff6dd78335acc3d9de2c1af83abbe6368160691"
+      ],
+      "expected_right_reading_sha256": [
+        "d72687a1f6498806320985629fb99ce2c69917602f923b456122c69eb4762aa1"
+      ]
+    },
+    {
+      "id": "review-Gen-41-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph summoned, released, shaved and reclothed; Hebrew pit/Greek stronghold wording differs.",
+      "expected_left_reading_sha256": [
+        "a6c2bb0c5c045221f8b6d3cc5235844300d1ecc63ab54a24b76fa73b723478a6"
+      ],
+      "expected_right_reading_sha256": [
+        "0be8c009f92f53f85df7c13873f06d8592a808de68d96b9c83e7877453001db5"
+      ]
+    },
+    {
+      "id": "review-Gen-41-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh seeks Joseph's reported dream-interpretation ability.",
+      "expected_left_reading_sha256": [
+        "53e28eb716eb18f05d019893610544bdfaa935da8ec0694b1b26f8444d4e6016"
+      ],
+      "expected_right_reading_sha256": [
+        "448dd948723d7ddb9f83b7d3ce3d15b434870b35350ee5262b98e4e9482d98d1"
+      ]
+    },
+    {
+      "id": "review-Gen-41-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph attributes response/welfare to God; Hebrew not in me/Greek without God negative construction differs.",
+      "expected_left_reading_sha256": [
+        "448a024d3e8b2238ca72ddbd4d22d3c5ebc173ae02803a836daa425422ec7385"
+      ],
+      "expected_right_reading_sha256": [
+        "3d77d16196bd30626463e3391af2e7a04c2261204309def0f2758c12fe481d2e"
+      ]
+    },
+    {
+      "id": "review-Gen-41-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh recounts standing at riverbank in dream.",
+      "expected_left_reading_sha256": [
+        "3602c1cee11213595fd209e1af64f7496deef64e87086cc79ab6c12c88f8642c"
+      ],
+      "expected_right_reading_sha256": [
+        "9957a0bc4925f5a7cc57a17d1dbb60c444b6a39d66a0c2e7f17724e1f5925061"
+      ]
+    },
+    {
+      "id": "review-Gen-41-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven good cows rise and graze at reeds/Achei.",
+      "expected_left_reading_sha256": [
+        "c25656b0004c49c5d18ea11ca5730a7df73e773a100433e6ddd9c9ab4baf0159"
+      ],
+      "expected_right_reading_sha256": [
+        "b33d620e37658c8f37bed1bce623f6ec207154a391e84b69689af3792c9bd8b5"
+      ]
+    },
+    {
+      "id": "review-Gen-41-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven unprecedentedly ugly lean cows follow.",
+      "expected_left_reading_sha256": [
+        "9d057530b62ebca41b4cb819bdd86a00c8f8285d1099449ab3391ba0d58df3be"
+      ],
+      "expected_right_reading_sha256": [
+        "0e7fd36a8afcb6741f62f52180fa25ab40c8b65e27d5bd17dff37a3c1dbaca37"
+      ]
+    },
+    {
+      "id": "review-Gen-41-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Ugly cows consume the first good cows.",
+      "expected_left_reading_sha256": [
+        "f343a25c31b67f15a39c22317fd368ffb0e5ab85b8b321b78ce6071603a6cf4c"
+      ],
+      "expected_right_reading_sha256": [
+        "5431181d50f6416758d240cb2d3f31ebd41c18104ad9cb8d58a745bf530bb07f"
+      ]
+    },
+    {
+      "id": "review-Gen-41-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Consumption leaves appearance unchanged; Greek additionally says Pharaoh slept after waking.",
+      "expected_left_reading_sha256": [
+        "2fdf7f48185bca7a1020bc011bc537ee25e9d3c6a0e14c218e4fa1e940af2b69"
+      ],
+      "expected_right_reading_sha256": [
+        "9d499265a1cef19514bbff10ebe7e7869675a70fde4954442656bc1f005b274a"
+      ]
+    },
+    {
+      "id": "review-Gen-41-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Second dream's seven full ears on one stalk recounted.",
+      "expected_left_reading_sha256": [
+        "046d4dcca87c3201ad3826a36de0fbe8c4b12c5185a81138d83f8cf5326096dc"
+      ],
+      "expected_right_reading_sha256": [
+        "67ad7d532ea830daecfea197ea6919af649e245f70b0b25ec3dee1312c1c2c3c"
+      ]
+    },
+    {
+      "id": "review-Gen-41-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven thin wind-scorched ears follow; Hebrew withered/east-wind wording fuller.",
+      "expected_left_reading_sha256": [
+        "4ae7c6b33f4eca0b878370f3efdda20a292f3410280fea4b0bd033fe8e656de8"
+      ],
+      "expected_right_reading_sha256": [
+        "ead27af4ac3665eb3a751a3e7c3876a432402fdc6be792d351c7cb2c902004a1"
+      ]
+    },
+    {
+      "id": "review-Gen-41-24-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "24"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "24"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Thin ears swallow full ears and interpreters cannot explain.",
+      "expected_left_reading_sha256": [
+        "c1df6e21612cdadb5dada7639311990a9c61f5b83e50799bf6c27782ab765b53"
+      ],
+      "expected_right_reading_sha256": [
+        "1be98e8249f27b5222bdd8583262e70bb546c431fe667db7fd19c2db19b0c30f"
+      ]
+    },
+    {
+      "id": "review-Gen-41-25-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "25"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "25"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph identifies one dream revealing God's coming act.",
+      "expected_left_reading_sha256": [
+        "2419610a076c5ec267c1bfaa599585d9e7b9850d5e05e6c8c427649d5ee7c9d3"
+      ],
+      "expected_right_reading_sha256": [
+        "5517dfe181aeb8a50b138fa60ab93eff0a3e7b624b3a86ae23897890737f53a5"
+      ]
+    },
+    {
+      "id": "review-Gen-41-26-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "26"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "26"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Good cows and ears both signify seven years.",
+      "expected_left_reading_sha256": [
+        "48933d47fa36b18e2c2b331c64bc4b7be2575748f5d3dfccd9418b965305f85c"
+      ],
+      "expected_right_reading_sha256": [
+        "eb1c23de2e38851bd55e61f6e8b774af01013dba2153433323eaa0202746a72d"
+      ]
+    },
+    {
+      "id": "review-Gen-41-27-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "27"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "27"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Thin cows and ears signify seven famine years.",
+      "expected_left_reading_sha256": [
+        "ec9b1568dcdd53894041885cbffe52a84d897dce4732ce82d02f07f5cf8701db"
+      ],
+      "expected_right_reading_sha256": [
+        "f16eea95161345750a2e2776fd42117ad2e3c0117ca016564459c82e37d46103"
+      ]
+    },
+    {
+      "id": "review-Gen-41-28-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "28"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "28"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "God's coming act revealed to Pharaoh reiterated.",
+      "expected_left_reading_sha256": [
+        "1916916c05ddbafc11142163a9089d9f7e1271d2ca6b1e20581cef1e38ea078b"
+      ],
+      "expected_right_reading_sha256": [
+        "a743a746131e8da12476406b5b6b15497e3482068c96161d6bdc343aeeef09a0"
+      ]
+    },
+    {
+      "id": "review-Gen-41-29-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "29"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "29"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven years of abundance announced.",
+      "expected_left_reading_sha256": [
+        "dca1d998bddca560eb6e2701e742c35893eaae195369d0ee22314c99780302cb"
+      ],
+      "expected_right_reading_sha256": [
+        "4ffc35bd73bdca74f0349d41e153df093d9c2155a5bbd0be90c8ac00e2180447"
+      ]
+    },
+    {
+      "id": "review-Gen-41-30-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "30"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "30"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven famine years will consume the land and erase remembered abundance.",
+      "expected_left_reading_sha256": [
+        "359f92cd19caeef14c8dfdd6fd089fe5b4fabc488c38bab479ee35ec28374e8c"
+      ],
+      "expected_right_reading_sha256": [
+        "dc183088c393cd6221dffdc635db4749f91f266d31975c14e692726ad947f96e"
+      ]
+    },
+    {
+      "id": "review-Gen-41-31-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "31"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "31"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Abundance unrecognizable because subsequent famine is severe.",
+      "expected_left_reading_sha256": [
+        "20fd4e0d762dfadbf67b40ca018759c1eafbdafc392aab04a9f57dde3782b643"
+      ],
+      "expected_right_reading_sha256": [
+        "928951648e6a3f0a8e5616805e9812e9b6b9e5add23258be07eff9e99189d18f"
+      ]
+    },
+    {
+      "id": "review-Gen-41-32-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "32"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "32"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Repeated dream establishes divine certainty and haste.",
+      "expected_left_reading_sha256": [
+        "2deb890b2d888acc7620ce20e6ed4fc0a09e6d906e898e2854188b1ef1d20139"
+      ],
+      "expected_right_reading_sha256": [
+        "6ef8f597b50999b631a8b407398aeeef8bec0f1ee21b9d2734026eb758c0a31a"
+      ]
+    },
+    {
+      "id": "review-Gen-41-33-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "33"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "33"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Wise discerning administrator recommended; Greek addresses Pharaoh directly without naming him here.",
+      "expected_left_reading_sha256": [
+        "83609fad3326ad974d3972ca004933ad481e7a03cddadc72c6408cbe79c2cb4f"
+      ],
+      "expected_right_reading_sha256": [
+        "d1f2b7666299f1d01a587e96326012d01dcde353d66d42c1a8061804c98d3e5d"
+      ]
+    },
+    {
+      "id": "review-Gen-41-34-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "34"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "34"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Officials and one-fifth collection during abundant years; Greek explicitly mentions all produce in its expanded collection wording.",
+      "expected_left_reading_sha256": [
+        "8e20523d9c1d65ad38461275b20807ad4136e6fb816e2c75611885cc31caeff9"
+      ],
+      "expected_right_reading_sha256": [
+        "8a30aaf3158a73a1159d076a30b4e7ff3c8de8c6258023442e23ecb6c2dea855"
+      ]
+    },
+    {
+      "id": "review-Gen-41-35-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "35"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "35"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Food/grain to be gathered under Pharaoh in cities.",
+      "expected_left_reading_sha256": [
+        "2e1f6d8cf6d2213362077f5ecc076374a350c051f85ba92d0a85e4b058f777c8"
+      ],
+      "expected_right_reading_sha256": [
+        "240c4fd1a7b607d88be6126387df505fca235b5b2220fdfc46116554b63f1e5b"
+      ]
+    },
+    {
+      "id": "review-Gen-41-36-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "36"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "36"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Stored food preserves the land through seven famine years.",
+      "expected_left_reading_sha256": [
+        "6c3b1fc0aa3338cc3970d03dedf4fe466719295f5f1a330555b4d571d9b0f311"
+      ],
+      "expected_right_reading_sha256": [
+        "28a7bd259fa439191840f384f4dd2472ec872e1859c3ea8da97e898f91944647"
+      ]
+    },
+    {
+      "id": "review-Gen-41-37-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "37"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "37"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh and servants approve the plan.",
+      "expected_left_reading_sha256": [
+        "75f9d6fe7f6d07c7861e198d5a15c1ef3e66069c729a172dbb1fc6f0419f6f72"
+      ],
+      "expected_right_reading_sha256": [
+        "3a669be3725154fcd894263dfeab8be10537b270f385c253ce866e20d2edf1fe"
+      ]
+    },
+    {
+      "id": "review-Gen-41-38-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "38"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "38"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh asks about another man with God's spirit.",
+      "expected_left_reading_sha256": [
+        "701de581f8569e02fd3927ecea55b72f561e15e2098b83ee96bfe06bf78798ea"
+      ],
+      "expected_right_reading_sha256": [
+        "06ff794032320022fc0abc47d7ed602342af111b4416717b395547cf1fa3001b"
+      ]
+    },
+    {
+      "id": "review-Gen-41-39-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "39"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "39"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Divine disclosure establishes Joseph's unique wisdom/discernment.",
+      "expected_left_reading_sha256": [
+        "1a96a586147062d23419257f9f10b528867d939c2db90e864424dfeb06cc50dd"
+      ],
+      "expected_right_reading_sha256": [
+        "341d4cd730623fe9dfda1d702348ed397b58322efdf155b1084bc5c195a3ee57"
+      ]
+    },
+    {
+      "id": "review-Gen-41-40-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "40"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "40"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Household and people under Joseph, throne reserved to Pharaoh.",
+      "expected_left_reading_sha256": [
+        "dc34f5bac790be30fff956be0d1cb809eccca07b6e90f02c973c163efbbe71f5"
+      ],
+      "expected_right_reading_sha256": [
+        "c3585ead90b10e81c9aabcc53c5619d21c309a5fe82c0e49be32ea228b7bb74b"
+      ]
+    },
+    {
+      "id": "review-Gen-41-41-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "41"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "41"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph appointed over all Egypt; Greek explicitly says today.",
+      "expected_left_reading_sha256": [
+        "f5e3ddf00c121442c873acfc958b35f7399b5a130379ebaf67062ab6dfee6f82"
+      ],
+      "expected_right_reading_sha256": [
+        "43e7a452b99b38251d3bf65a5c85968a9e76a9e8e455969333e83aabd651c13e"
+      ]
+    },
+    {
+      "id": "review-Gen-41-42-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "42"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "42"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Royal ring, fine linen and gold necklace bestowed.",
+      "expected_left_reading_sha256": [
+        "fb32a937f0125a763d38911f013c1b5cf483ce9953f902dd6dce707ccf22249b"
+      ],
+      "expected_right_reading_sha256": [
+        "203df61353cbbbf0f419622512843327bf1fd399602eefce5f04c88f338bc0d7"
+      ]
+    },
+    {
+      "id": "review-Gen-41-43-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "43"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "43"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Second chariot and public heralding; Hebrew abrech/Greek herald wording retained.",
+      "expected_left_reading_sha256": [
+        "51bda2290417516f7ff2f485044b4128b458d270cc8fffb75430c78c1cdd0389"
+      ],
+      "expected_right_reading_sha256": [
+        "b4bfd36ed1ee3d38469b06b104e8bb3233dba9f2193e53904236564f0133ffdc"
+      ]
+    },
+    {
+      "id": "review-Gen-41-44-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "44"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "44"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Pharaoh declares authority restriction without Joseph; Greek lacks Hebrew foot alongside hand.",
+      "expected_left_reading_sha256": [
+        "997ed3f451e333a9e7c6b7acc695c911d07b1e857317551d320b334f65c3fcd2"
+      ],
+      "expected_right_reading_sha256": [
+        "c5251ac71fdf86c5f939b6291190cdea13e6a714bb012c36ef871a6ca238dc1f"
+      ]
+    },
+    {
+      "id": "review-Gen-41-45-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "45"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "45"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "New Egyptian name and Asenath marriage; Hebrew closing departure across Egypt absent here in Greek.",
+      "expected_left_reading_sha256": [
+        "be5ec73ad17dd4e0eed593e0735d1e956721f29977b55c87bb6ac203e52516ea"
+      ],
+      "expected_right_reading_sha256": [
+        "79f02fd72bf5dc05cd9db07c8e105bea8956c07a5b6e729714750a3547f68dc8"
+      ]
+    },
+    {
+      "id": "review-Gen-41-46-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "46"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "46"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph thirty at royal service and travels throughout Egypt after departing Pharaoh.",
+      "expected_left_reading_sha256": [
+        "b64d601f2d12307f372adf16a6d38037788a76e56d319622275db5d274d0b9dd"
+      ],
+      "expected_right_reading_sha256": [
+        "0a2342c48d17a745fc8a6736c3b8d86650e9bf5c7c1b716496011a23a5d7a414"
+      ]
+    },
+    {
+      "id": "review-Gen-41-47-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "47"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "47"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Abundant years yield handfuls/sheaves.",
+      "expected_left_reading_sha256": [
+        "02f9f016d6d89103f9a4a3775321335a1e954762e9c1f62921bb50955588b4e0"
+      ],
+      "expected_right_reading_sha256": [
+        "53b49a99dc02cfaafcc3ff10c817fc05421c760901d7f78225f809a204962306"
+      ]
+    },
+    {
+      "id": "review-Gen-41-48-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "48"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "48"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven years' produce stored locally in the cities.",
+      "expected_left_reading_sha256": [
+        "93f264e39017d73c78c169807a862c90cd56b24c34c2d5f0b2b3db2d19c23393"
+      ],
+      "expected_right_reading_sha256": [
+        "5366da0d67123030d17e8c9be3860a4e3a6c7ad0f4912f790e69e3d6c6250973"
+      ]
+    },
+    {
+      "id": "review-Gen-41-49-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "49"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "49"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Grain like sea sand beyond numbering.",
+      "expected_left_reading_sha256": [
+        "a7d1580451b8a77a8ed0b33344475d20b6a8c4453a9d4df3b396c17289ae3035"
+      ],
+      "expected_right_reading_sha256": [
+        "1ff0120c918ea9c8b1f16aa016d5562a7397479e8819b043ff6e68f75817cd83"
+      ]
+    },
+    {
+      "id": "review-Gen-41-50-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "50"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "50"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Two sons by Asenath born before famine; Greek explicitly seven famine years.",
+      "expected_left_reading_sha256": [
+        "fdba435314e818e9ac3fe693c96a06e5f28cfb7917f61e156ba1df02e41dc410"
+      ],
+      "expected_right_reading_sha256": [
+        "9dd863766d3324514726f4a3036cf7b2a9ff550b8b3b259405af76d56b96f0f4"
+      ]
+    },
+    {
+      "id": "review-Gen-41-51-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "51"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "51"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Manasseh named from God-given forgetting of toil and paternal house.",
+      "expected_left_reading_sha256": [
+        "e875ad1696316977aa0b176a9bdfe1cee20c6db5c2bf8f7a9a4115f19f8b4761"
+      ],
+      "expected_right_reading_sha256": [
+        "39f793cd2135fc64e0c33f06734a555296593643322fc51dad6bd06082b2826e"
+      ]
+    },
+    {
+      "id": "review-Gen-41-52-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "52"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "52"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Ephraim named from fruitfulness in affliction land.",
+      "expected_left_reading_sha256": [
+        "43dcbb177dd50d172c63fc4838db3821c59d10df1def29f9660a70d0e4b91fa7"
+      ],
+      "expected_right_reading_sha256": [
+        "489f4b06e03f4b931a148133f3d093a44d62d4da5f62d11587f1408f01a994ed"
+      ]
+    },
+    {
+      "id": "review-Gen-41-53-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "53"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "53"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven abundance years end.",
+      "expected_left_reading_sha256": [
+        "958010bae627e0b0a1e03289165af5aac36ee8d53c81a646d6e95847f95c258e"
+      ],
+      "expected_right_reading_sha256": [
+        "f8d1205307aa61bd7a1274b2c8df2ad0245e9582b9aeb6317cad39d594e0a838"
+      ]
+    },
+    {
+      "id": "review-Gen-41-54-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "54"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "54"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seven famine years arrive as predicted, with bread still in Egypt.",
+      "expected_left_reading_sha256": [
+        "5d1c35e7ea1ef41c938172f0762ddf59c2d2cf617a21f917766880c6ccf3a5d8"
+      ],
+      "expected_right_reading_sha256": [
+        "d7bf7c13698a8f223bb43199ab516a467aac8821138950364ee472efc17266f0"
+      ]
+    },
+    {
+      "id": "review-Gen-41-55-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "55"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "55"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hungry Egypt cries to Pharaoh and is directed to Joseph.",
+      "expected_left_reading_sha256": [
+        "421157ee9e8d595905f5c3a78c579f5339dcdcf9e1d37b1ea562a77a93d98f41"
+      ],
+      "expected_right_reading_sha256": [
+        "8d49c76db0d1d5fdcdd84eba0f1b193ab542289a831b905b8bc889592bf18dd6"
+      ]
+    },
+    {
+      "id": "review-Gen-41-56-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "56"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "56"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Universal famine and Joseph opening supplies for sale; Greek specifies granaries and lacks Hebrew closing Egyptian famine-intensity clause.",
+      "expected_left_reading_sha256": [
+        "9cefc1ff7c79f35a8dd348f16784dc3976ca1daada0a2e435bca3bd7ffab53fd"
+      ],
+      "expected_right_reading_sha256": [
+        "3939e69f939bd110cb048ecfef7b5fc05c1954015133770003cc9729b4016e5a"
+      ]
+    },
+    {
+      "id": "review-Gen-41-57-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "57"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          41,
+          "57"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "All lands come to Egypt to buy because famine prevailed everywhere.",
+      "expected_left_reading_sha256": [
+        "acff4506bf50ace857f8f050638064cd12524ee1682c8278ac2e8b18a90db415"
+      ],
+      "expected_right_reading_sha256": [
+        "724e5086d10f92ae35538c41570324e34595af94b2bdbfe3e95a12b9e0f971d7"
+      ]
     }
   ],
   "physical_DSS_alignment": "Opening Genesis 1:1–3 physical records reviewed separately in dss-Gen.json; remainder incomplete. Reconstructed/provisional references are not physical attestation.",
