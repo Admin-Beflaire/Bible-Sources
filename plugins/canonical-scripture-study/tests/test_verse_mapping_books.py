@@ -138,9 +138,12 @@ class BookMappingTests(unittest.TestCase):
         self.assertIsNone(greek["next_unresolved_anchor"])
         self.assertEqual(greek["unmatched_target_references"], [])
         dss = progress["DSS_physical_mapping"][0]
-        self.assertEqual(dss["dispositions"]["partial_physical_extent_reviewed"], 6)
-        self.assertEqual(dss["dispositions"]["reconstruction_only_reference"], 3)
-        self.assertEqual(dss["remaining_unreviewed_physical_records"], 832)
+        reviews = json.loads((maps.DSS_REVIEWS / "Gen.json").read_text())["reviewed_records"]
+        self.assertEqual(dss["indexed_physical_records"], 842)
+        self.assertEqual(dss["reviewed_physical_records"], len(reviews))
+        self.assertEqual(dss["remaining_unreviewed_physical_records"], 842 - len(reviews))
+        for disposition in ["partial_physical_extent_reviewed", "reconstruction_only_reference", "provisional_reference"]:
+            self.assertEqual(dss["dispositions"][disposition], sum(r["disposition"] == disposition for r in reviews))
         self.assertFalse(progress["comparison_delivery_enabled"])
 
 
