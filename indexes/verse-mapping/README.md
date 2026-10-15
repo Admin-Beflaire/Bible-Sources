@@ -2,7 +2,7 @@
 
 The pinned native-reference inventory is complete. Actual cross-source mapping is proceeding book by book from Genesis. This is **not a complete cross-source map** and is **not loaded by study tools**; systematic manuscript comparison remains inactive.
 
-The first [Genesis checkpoint](../../development/verse-mapping-progress.md) contains **3,602 edition correspondences**. WLC↔UXLC and WLC↔TAHOT cover all 50 chapters; Greek review covers 1–20 and 35. Ten opening DSS records have separate physical/editorial dispositions. [book-progress.json](book-progress.json) records exact per-pair coverage and the next unfinished reference.
+The current [Genesis checkpoint](../../development/verse-mapping-progress.md) contains **4,575 edition correspondences**. WLC↔UXLC, WLC↔TAHOT and WLC↔Brenton Greek cover all 50 Genesis chapters (1,533 WLC extents; 1,532 Greek native records). **642 / 842 DSS physical records** have individual dispositions: 296 partial physical correspondences, 163 reconstruction-only references and 183 provisional references. **200 remain**. [book-progress.json](book-progress.json) records exact per-pair coverage and the next unfinished physical record.
 
 ## Files and review records
 
@@ -34,6 +34,6 @@ python3 plugins/canonical-scripture-study/scripts/verse_mapping.py lookup --data
 
 Build/check use local, hash-verified pinned data without network access. Check reconstructs every artifact and compares exact bytes. Lookup verifies artifact integrity and source-profile identity and returns expanded endpoint evidence in either edition direction. DSS lookup starts from its reviewed modern anchor, retaining physical identity in the result; DSS does not acquire a fabricated continuous verse system. No transitive mapping or Psalm offset is inferred.
 
-Continue Greek Genesis at chapter 21 and DSS at the annotated Genesis 1:4 physical records, then proceed through the remaining corpus. Record unresolved spans, unavailable sources and book-specific literary forms explicitly. Missing coverage is not a manuscript omission.
+Greek Genesis extent mapping is complete. Continue DSS Genesis at `4Q10 / L1593330-R002` (annotated Genesis 2:3), in one approximately 40-record milestone per response. Stop after Genesis; other books require a separate assignment. Record unresolved spans, unavailable sources and book-specific literary forms explicitly. Missing coverage is not a manuscript omission.
 
 Dataset terms remain those in [ATTRIBUTION.md](../../ATTRIBUTION.md), including the DSS source's **CC BY-NC 4.0** condition. Original source texts, the pinned source profile and the live study sequence are unchanged.
