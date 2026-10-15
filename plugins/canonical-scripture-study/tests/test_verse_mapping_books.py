@@ -33,7 +33,8 @@ class BookMappingTests(unittest.TestCase):
                                           (17, "3", ["3", "4"]), (19, "16", ["16", "17"]), (19, "19", ["18", "19"]),
                                           (22, "4", ["3", "4"]), (23, "6", ["5", "6"]), (24, "19", ["18", "19"]),
                                           (27, "45", ["44", "45"]), (31, "26", ["26", "27"]), (31, "35", ["34", "35"]),
-                                          (37, "2", ["1", "2"]), (37, "10", ["9", "10"])]:
+                                          (37, "2", ["1", "2"]), (37, "10", ["9", "10"]), (47, "6", ["4", "5", "6"]),
+                                          (49, "18", ["17", "18"]), (49, "25", ["24", "25"])]:
             result = maps.lookup(maps.DEST, ["wlc-4.20-oshb", "Gen", chapter, verse], "LXX-GRCBRENT-20260408")
             self.assertEqual(len(result["relations"]), 1)
             row = result["relations"][0]
@@ -131,7 +132,11 @@ class BookMappingTests(unittest.TestCase):
         for row in book["pair_coverage"][:2]:
             self.assertEqual(row["mapped_anchor_verses"], 1533)
             self.assertTrue(row["extent_coverage_complete_for_this_pair"])
-        self.assertFalse(book["pair_coverage"][-1]["extent_coverage_complete_for_this_pair"])
+        greek = book["pair_coverage"][-1]
+        self.assertTrue(greek["extent_coverage_complete_for_this_pair"])
+        self.assertEqual(greek["complete_anchor_chapters"], list(range(1, 51)))
+        self.assertIsNone(greek["next_unresolved_anchor"])
+        self.assertEqual(greek["unmatched_target_references"], [])
         dss = progress["DSS_physical_mapping"][0]
         self.assertEqual(dss["dispositions"]["partial_physical_extent_reviewed"], 6)
         self.assertEqual(dss["dispositions"]["reconstruction_only_reference"], 3)
