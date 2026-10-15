@@ -22863,6 +22863,606 @@
         "basis": "Inspected the hash-verified pinned physical transcription and every per-word sign run against pinned WLC wording and local physical sequence. rec and unc flags distinguish reconstructed and uncertain glyphs; modern verse annotations alone do not establish correspondence. No manuscript images inspected."
       },
       "note": "Only uncertain ב ארץ is nonreconstructed. The animals, possessions, acquiring and Canaan context are reconstructed or outside this record. A wholly uncertain common land-expression cannot securely establish the Esau departure attribution. Transcription consonant runs: unmarked = none; uncertain = ב | ארץ; reconstructed = ו | את | כל | בהמת | ו | ו | את | כל | קנינ | ו | אשר | רכש."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592441-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "6"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "7cb150d83e5fd196dea68fc3db33a2987ebd8e16fc2be9222667b10578edec94",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "20b333458be5efe5d6d3e887ac600eb541ace2668989faa3645a51f2c77a2ea2"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 25 letter slots of כנען וילך אל ארץ מפני יעקב אחיו are reconstructed. The wording corresponds to the closing departure clause of WLC Genesis 36:6, but none of these letters is physical support in this record; the annotation and restoration remain editorial."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592442-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "35"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "78d31bea8e551230a5881e29b9003bcbcdecfc32795bbfd98ecfccb22bf02ce2",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "35",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "cbb4c3e42c18ad2bf3e9e85bf0b1edb6788e8cebef97423daf3349df9fb09edb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Fragment f2ii retains source physical line 0. All 31 letter slots of תחתיו הדד בן בדד המכה את מדין בשדה מואב are reconstructed, corresponding to the middle of WLC Genesis 36:35 without surviving wording attestation."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592443-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "35"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "2bd523d3eea3f5152fd101eadd3634fac0d2cb07f0a4f22f349fe5299a353c1a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "35",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "cbb4c3e42c18ad2bf3e9e85bf0b1edb6788e8cebef97423daf3349df9fb09edb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only ע in the restored city name עוית is non-reconstructed, and it is marked uncertain at level 4. ושם עירו and the remaining וית are reconstructed. This single doubtful letter cannot establish the city-name correspondence with WLC Genesis 36:35; retain the annotation provisionally."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592443-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "36"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "f38401dea62032557ecfed09b1760677475daccf0afdecacfe448291d98bdcc7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "36",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "415bc5d0e291ad2dae74a0380b1ff8d04e900ce3cbd3ba2edd62b902dc35f3c9"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The death and succession wording וימת הדד וימלך תחתיו corresponds to the opening of WLC Genesis 36:36, but all 17 letter slots are reconstructed. It supplies editorial context for the next physical line, not surviving support for this clause."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592444-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "36"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "7bdf8ee9033b3030b60f55b63ff3ee2d1acbfed2fafe565982b91317e8923826",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "36",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "415bc5d0e291ad2dae74a0380b1ff8d04e900ce3cbd3ba2edd62b902dc35f3c9"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The unmarked sequence שמלה ממש identifies Samlah and the beginning of the following place expression in WLC Genesis 36:36 (שמלה ממשׂרקה). Only רקה is reconstructed, three of ten letter slots. The preceding succession formula is reconstructed in the prior record and must not be counted as physically present here."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592444-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "37"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "81cebdd32181a9eb7df7bae4516fbd2dc6a2a7ea87a7e74c59d4fa73dbf3ab77",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "37",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3c8fe83da87cb5a4a85583a736d2fd0a0cca1f64bc6d302f32a9b8dcdf7f2439"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 18 letter slots in וימת שמלה וימלך תחתיו are reconstructed. This is the opening succession formula of WLC Genesis 36:37 supplied editorially; the unmarked Samlah in the preceding record does not make this separately restored death clause physical support."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592445-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "37"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "9b7b32aec97c62eeb16c61b386319e825d94baf211b72448c110b87b9f76c8d5",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "37",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "3c8fe83da87cb5a4a85583a736d2fd0a0cca1f64bc6d302f32a9b8dcdf7f2439"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only ש is unmarked and the following א is uncertain at level 4 in restored שאול; ול מרחבות הנהר is reconstructed. The same column places this after the Samlah record, but the two-letter remnant does not securely establish Saul or the Rehoboth-of-the-River wording of WLC Genesis 36:37. Retain provisional placement."
+    },
+    {
+      "scroll": "2Q1",
+      "record_id": "L1592445-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "38"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "c458cf6f1ed754c7df375f8d36c17b76c796fe18c35bef81598949561548d01b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "38",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "8ba3abb6c82d26761a8cfd757a8a13a4c25a86996d261ed3bc2b50dc7b89d861"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "This Genesis 36:38 annotation contains missing/empty and punctuation signs only, with zero letter slots. No Saul death or Baal-hanan succession wording from the WLC anchor survives or is supplied as letters here. Preserve the editorial reference without physical-wording support."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593092-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "11"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "c81c654b56a7f343cf79077311d99c3c6406f0aee07e2beda55993144eac2afa",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "65d12d7af72d18431398f77d63fde854565731f71fb0bee259b6c22f13a8211c"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "This first physical line of fragment f1i has zero letter slots: a reconstructed missing sign and an unidentified uncertain sign. Neither identifies any wording in WLC Genesis 40:11. Preserve the original annotation as an editorial reference, without converting the unidentified sign into a Hebrew letter."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593093-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "11"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "b418dcf9b2bacb29946dede8cbe2719033e9ecf1fb91404556da062af95c12e7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "65d12d7af72d18431398f77d63fde854565731f71fb0bee259b6c22f13a8211c"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The first record of physical line 2 contains only missing/empty and punctuation signs, all reconstructed, with zero letter slots. The Genesis 40:11 anchor remains an editorial attribution; none of its cup or Pharaoh wording is physically attested here."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593093-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "12"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "e7946151da7baf5527d526d93279e596390a6362ac9a1d6bc46ec6e4fb2857d7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "12",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "855906c22a9c4b41ef96ef72e88e526678df36b5d64d89d511b319e3fc3d394d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only the common demonstrative זה is unmarked; ויאמר לו יוסף is reconstructed. It matches a word in WLC Genesis 40:12, but this word also occurs in nearby interpretation formulas, including 40:18. The fragment sequence and editorial annotation do not independently establish this two-letter placement; retain it provisionally."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593094-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "12"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "71fee02cb476096404dda3bd0c43e9f76e3bb30b3d5b199a3f9518dbba7cef16",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "12",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "855906c22a9c4b41ef96ef72e88e526678df36b5d64d89d511b319e3fc3d394d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 25 letter slots of פתרנו שלשת השרגים שלשת ימים הם are reconstructed. The supplied branch/three-days interpretation corresponds to WLC Genesis 40:12, continuing the preceding demonstrative, but the distinguishing branches wording is not surviving evidence."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593094-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "13"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "b1d3ea21938f2b1f2c929450fd8f1ba63e967bbd1e561a5dcc69a7c326a9ef11",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "13",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ad9567f850f692831464b31f05ff91274dd85f5b653a3c892a96bb4cdfb1649d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "פרעה is unmarked and the final א of ישא is uncertain at level 4; בעוד שלשת ימים and יש are reconstructed. Pharaoh and the lifting formula recur in WLC Genesis 40:19 as well as 40:13. Retain the annotated 40:13 placement provisionally rather than inferring the entire restoration or the rest of the verse from this short remnant; the record ends after Pharaoh with punctuation."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593095-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "18"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "21bcda4b2c70ac1da7a9ac3e1e197186ad3d37197ed8237a7333350e99b48fe0",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "5f20650ce1f98e0b234272846dc5ff6b87574dc31447b26d9a2e31e6ccd02ed4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only final ת is unmarked and preceding ש is uncertain at level 4 in the second restored שלשת. The Joseph, interpretation and baskets wording is reconstructed (31 of 33 letter slots). The remnant is compatible with WLC Genesis 40:18 but cannot establish the repeated numeral or the baskets interpretation; keep the placement provisional."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593096-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "18"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "6e7fe36430613e723727465d33f3f216834c0fa93b6288f52ffad1ce6edcf625",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "5f20650ce1f98e0b234272846dc5ff6b87574dc31447b26d9a2e31e6ccd02ed4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All six letter slots of ימים הם are reconstructed, supplying the end of WLC Genesis 40:18 after the previous line. Neither the days nor the pronoun is physically attested by this record."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593096-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "eddab34b129bf7719337518a1f7fa77724ff9fa6cfe12b2cfc628525cb6e3246",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only ל is unmarked and ע is uncertain at level 2 in על; the other 38 letter slots, including the three days, Pharaoh, head removal and hanging wording, are reconstructed. The common preposition cannot establish WLC Genesis 40:19 or its judgment clause. Preserve the uncertainty and provisional reference; the next line supplies reconstructed עץ."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593097-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "6578f2ceb5479334c4689ca60518c32cf00177ecbf80f20645f2bd7f1d80782c",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 21 letter slots of עץ ואכל העוף את בשרך מעליך are reconstructed. This supplies the tree/birds/flesh conclusion of WLC Genesis 40:19, but none is physical wording support; the preceding record preserves only an uncertain/common preposition."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593097-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "3bde1ced47f4c8342f591e1d11a75e0f376bff638915719781f39684a1b0dcbe",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only רעה is unmarked, with פ uncertain at level 2 in פרעה. The preceding third-day and birthday wording is wholly reconstructed (23 letter slots). This damaged, repeated Pharaoh name alone cannot establish the birthday clause of WLC Genesis 40:20; retain the annotated placement provisionally."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593098-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "0469a5e03331cfbc33cc85f3ad568221998c2e5fdb835e683bcf06d3bc63cd97",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only the final ש of the second restored ראש is unmarked; the remaining 38 letter slots, including the feast, servants and cupbearer wording, are reconstructed. An isolated letter does not establish WLC Genesis 40:20 or the second head phrase, even in the local column sequence. Retain provisional placement."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593099-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "bda5c38bd18240c8fb83e9999e769d4aaf7952f3687e4fd27918bf3d2f09c166",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 16 letter slots of שר האפים בתוך עבדיו are reconstructed. The supplied baker/among-his-servants ending corresponds to WLC Genesis 40:20, continuing the preceding restored head phrase, but no letters in this physical record attest that ending."
     }
   ]
 }

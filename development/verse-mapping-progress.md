@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, DSS milestone 4 completed from preview `078e8c1bf4df42a116754a64f74137cf82191017`; intermediate committed checkpoint `7e5a6fc506f3885cddd8cabb2de9d7beba0c60db`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 15 October 2026, Finish Genesis milestone 1 (20-record schedule), based on verified preview `691e16379258df0e25c2db4ddd436a67a743a922`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
 | WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
-| WLC/OSHB ↔ DSS physical records | 762 / 842 individually reviewed | 80 records remain; next `2Q1 / L1592441-R001` (Genesis 36:6) |
+| WLC/OSHB ↔ DSS physical records | 782 / 842 individually reviewed | 60 records remain; next `4Q3 / L1593099-R002` (Genesis 40:21) |
 
 Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
 The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 325, "reconstruction_only_reference": 210, "provisional_reference": 227}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 326, "reconstruction_only_reference": 221, "provisional_reference": 235}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -82,3 +82,14 @@ Added **40** individual reviews in authoritative unreviewed inventory order, fro
 All previous 722 authored/generated reviews and completed edition/native maps remain unchanged. Notes retain 4Q12's אחרית / לוא forms and uncertain final י after יט, without normalizing to WLC. The unmarked פנות in `4Q6 / L1593182-R001` is preserved against WLC בנות as a transcription difference; no image-based decision establishes it as an actual manuscript variant or an export error. The heavily uncertain altar wording at `4Q6 / L1593180-R002` remains explicitly uncertain. The rare payment-unit noun in 4Q6 is distinguished from reconstructed hundred wording, and Murx's isolated amount remains provisionally placed. No complete purchase clause is invented from these fragments.
 
 Executed deterministic build/check, all **18 mapping tests**, exact prior-record/artifact preservation, next-40 inventory identity checks, count reconciliation and whitespace validation; all passed. 762 reviewed + 80 unreviewed = 842. Source pin, physical identities and source/anchor digests remain verifiable. Model transcription review does not claim human or image verification. Development index only; no runtime integration, deployment or host-performance claim.
+
+
+## Finish Genesis milestone 1 — 20-record schedule, 15 October 2026
+
+This continuation uses the user's replacement schedule: exactly one 20-record milestone per response, with visible progress after ten reviews, validation before committing, one remote HEAD verification (at most one recovery), and a final report before waiting for “Next milestone”. This supersedes the historical 40-record instructions above. After the remaining review batches, perform a separate final Genesis verification milestone; do not start Exodus.
+
+Starting verified preview: `691e16379258df0e25c2db4ddd436a67a743a922`, **762 / 842**. Reviewed exactly the next 20 unique inventory identities, from `2Q1 / L1592441-R001` through `4Q3 / L1593099-R001`. Outcomes: **1 partial physical / 11 reconstruction-only / 8 provisional**; cumulative **326 / 221 / 235**. Total: **782 / 842**, **60 remaining**. Next: **`4Q3 / L1593099-R002`, Genesis 40:21**.
+
+The unmarked שמלה ממש sequence supports a partial Samlah/place correspondence; its remaining place letters are reconstructed. Preserve source physical line 0 at `2Q1 / L1592442-R001`. The uncertain ע in the restored Avith name and short שא remnant remain provisional. The Genesis 40 demonstrative, repeated Pharaoh names, numeral ending, preposition and isolated ש do not independently establish their restored contexts. Zero-letter records retain missing/unidentified signs without invented Hebrew readings. Every record preserves its annotation, source-byte hash, WLC anchor digest and model-review provenance. No manuscript-image inspection or human review is claimed.
+
+Validation: established build/check, all 18 existing mapping tests, exact next-20 identity and prior-review preservation checks, duplicate/count reconciliation, source/anchor hash verification, deterministic artifact comparison and whitespace checks passed. The prior 762 authored/generated reviews, all edition/native mapping artifacts and source pin remain unchanged. Development data only: comparison delivery stays disabled, with no runtime, Production or public deployment change.

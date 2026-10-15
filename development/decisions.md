@@ -115,3 +115,10 @@ Milestone 3 reaches 722 / 842 from 40 new reviews (6 partial physical, 16 recons
 Retain source-transcription differences without silently resolving their origin. The unmarked פנות in `4Q6 / L1593182-R001` differs from WLC בנות; no manuscript-image inspection establishes whether this reflects the witness or an export issue. The 4Q12 well narrative's אחרית / לוא and uncertain final י after יט also remain explicit. A distinctive payment-unit noun can support a partial lexical correspondence while a reconstructed amount remains unattested; an isolated generic amount can still have provisional verse placement. Heavily uncertain altar letters are never presented as unmarked wording.
 
 Milestone 4 adds 40 reviews (12 partial physical, 15 reconstruction-only, 13 provisional), reaching 762 / 842 and leaving 80. Resume at `2Q1 / L1592441-R001` (Genesis 36:6). Earlier reviews, edition maps, source pin and runtime/deployment settings are preserved.
+
+
+## Finish Genesis — bounded 20-record continuation, 15 October 2026
+
+The user replaces the earlier approximately 40-record schedule with exactly one 20-record milestone per turn. Report progress at the start, after ten, after twenty, and after validation; commit once, verify remote HEAD once (at most one recovery), then stop with a final report. Continue only on “Next milestone”. A separate final verification follows all 842 dispositions.
+
+Continuation milestone 1 starts from verified preview `691e16379258df0e25c2db4ddd436a67a743a922` and adds 1 partial physical, 11 reconstruction-only and 8 provisional reviews, reaching 782 / 842 with 60 remaining. Resume at `4Q3 / L1593099-R002` (Genesis 40:21). Short repeated names, function words and isolated letters retain provisional placement; restoration never becomes surviving support. Earlier reviews, edition maps, source pin, runtime gate and deployment settings are preserved.
