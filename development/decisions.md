@@ -129,3 +129,10 @@ Continuation milestone 1 starts from verified preview `691e16379258df0e25c2db4dd
 Continue the bounded 20-record workflow from verified preview `bd07178994ce53159a7f927b96458c1dfbb79f2e`. Added 10 partial physical, 8 reconstruction-only and 2 provisional reviews, reaching 802 / 842 with 40 remaining. Resume at `4Q3 / L1593109-R002` (Genesis 41:8).
 
 Preserve the Genesis 41:7 transcription's ותבלען ending, additional blighted modifier and הבראות spelling alongside the WLC anchor, with per-letter reconstruction and uncertainty explicit. Local physically supported sequence can establish a partial correspondence without making every uncertain or reconstructed letter secure. Short repeated role/river wording remains provisional. No source, runtime, deployment-setting, publication or comparison-delivery change.
+
+
+## Finish Genesis milestone 3 — 15 October 2026
+
+Continue the bounded 20-record workflow from verified preview `75d6f33bfe5605f79995f146b06bbd016451f1c9`. Added 13 partial physical, 4 reconstruction-only and 3 provisional reviews, reaching 822 / 842 with 20 remaining. Resume at `4Q6 / L1593186-R002` (Genesis 48:3); final verification follows that review batch separately.
+
+Preserve 4Q3's cross-record cor=3 span, Mas1's unmarked את יעקוב versus reconstructed אביהם, and 4Q6's overlapping alt/rec flag without flattening them into ordinary surviving text. Local physical sequences can support partial mappings; repeated isolated names and predominantly insecure message fragments may retain provisional references. Preserve source wording and explicit uncertainties without forcing WLC harmonization. No source, runtime, comparison gate, deployment-setting or publication change.
