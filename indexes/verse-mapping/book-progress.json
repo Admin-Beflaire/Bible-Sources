@@ -746,14 +746,14 @@
       "book_id": "Gen",
       "file": "dss-Gen.json",
       "source_review_file": "development/verse-mapping-dss/Gen.json",
-      "source_review_sha256": "e4b909ef798722589fe11e6186e922636ae0d6b0b06802d560797f75b20ffe70",
+      "source_review_sha256": "448b4fcdd619dffdecb7a68e82ca13c41d0e81674648079986874a7f7bb2dfa7",
       "indexed_physical_records": 842,
-      "reviewed_physical_records": 310,
-      "remaining_unreviewed_physical_records": 532,
+      "reviewed_physical_records": 422,
+      "remaining_unreviewed_physical_records": 420,
       "dispositions": {
-        "partial_physical_extent_reviewed": 157,
-        "reconstruction_only_reference": 69,
-        "provisional_reference": 84
+        "partial_physical_extent_reviewed": 202,
+        "reconstruction_only_reference": 100,
+        "provisional_reference": 120
       },
       "physical_alignment_complete": false,
       "next_unreviewed_physical_record": {
