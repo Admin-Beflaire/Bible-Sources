@@ -185,24 +185,24 @@
       "bytes": 127336
     },
     "book-Gen-033.json": {
-      "sha256": "e4d351f5a437a653e0bc9f320798e75cf69ea0e2b0849a9b1d1036d27f047625",
-      "bytes": 53224
+      "sha256": "bd2f50207fe779b842db88553941e5551ef488f846c7cdaf8df9de0c1240f79d",
+      "bytes": 75466
     },
     "book-Gen-034.json": {
-      "sha256": "7edafcf93f4a22dd87963b827ae92adbe908d9cbb6bfc7471785ff55d6a04764",
-      "bytes": 82011
+      "sha256": "22d834a2ce55ebff1e6edf2155d8f5fbe455c91729a765039dfe3dfc3063df8d",
+      "bytes": 116444
     },
     "book-Gen-035.json": {
       "sha256": "b2ca63cb1dd3e7ffbf4d7e8224fbbf1a4e2b1a8bc507b50e647b82a97c489730",
       "bytes": 113326
     },
     "book-Gen-036.json": {
-      "sha256": "d7a096f0d725399804fe50b6e48a56df4ec2969e967ea02617549cc18d9618c7",
-      "bytes": 111203
+      "sha256": "4cfe56291671dae42f88cc7d28ac04f0d09da05c22d807edb4e2e2456148451a",
+      "bytes": 158772
     },
     "book-Gen-037.json": {
-      "sha256": "bec1784cce795ed365795021bc8b0a89b2f8a8ce38d4e7e769873d0a4268d468",
-      "bytes": 95222
+      "sha256": "15819b0c195189cd85d2fa372bf90928aa96099940bcfbfcc3de17bb7c9673c8",
+      "bytes": 134448
     },
     "book-Gen-038.json": {
       "sha256": "48bf7e0017db1e057686c606d4c790d0365148aa7ceea6f56ff4a0b63c12b8b0",
@@ -257,8 +257,8 @@
       "bytes": 69432
     },
     "book-progress.json": {
-      "sha256": "3f1c5369f09d8f5160e47920a1d208a55f1d5910f8b32d1c8c85c3b6d5962d07",
-      "bytes": 86748
+      "sha256": "6744797a2bb4ec1f507e4c0c27ff48ffd4427efb4a5ac9793aa47801a015fa3c",
+      "bytes": 70650
     },
     "dss-Gen.json": {
       "sha256": "77227055d98426cf76408f4b5678a4694e0351dba863396704e25a0784610d53",
@@ -294,10 +294,10 @@
     }
   },
   "book_mapping_progress": "book-progress.json",
-  "book_relations": 4038,
+  "book_relations": 4166,
   "DSS_individually_reviewed_physical_records": 10,
   "book_review_methods": {
-    "model_reviewed": 1009,
+    "model_reviewed": 1137,
     "text_verified": 3029
   }
 }

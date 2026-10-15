@@ -33569,6 +33569,4258 @@
       "expected_right_reading_sha256": [
         "10b593409ebf0e8f45a2245f8e584969e367487c852c163af26c0ee6cef84009"
       ]
+    },
+    {
+      "id": "review-Gen-33-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob sees Esau and four hundred men and divides children among the mothers.",
+      "expected_left_reading_sha256": [
+        "b9c426eba12e1ab638804c7c56a4459b1bd04ad3ba716e17abab3ded9c19d9ee"
+      ],
+      "expected_right_reading_sha256": [
+        "7ce6297ff48ed73bb703ed21f9683bbad359bead660b03a282fd0689477c3cc9"
+      ]
+    },
+    {
+      "id": "review-Gen-33-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Servants first, Leah's family next, Rachel and Joseph last.",
+      "expected_left_reading_sha256": [
+        "ba78d0c6eaef4d62f4f6cad9e73a95a2977842e7dc5dd6fffb4ee8bca77a692a"
+      ],
+      "expected_right_reading_sha256": [
+        "34dc3574836cc008266a7c5d25d37852e182538415a2a0f06a9b0892fedbbebd"
+      ]
+    },
+    {
+      "id": "review-Gen-33-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob passes ahead and bows seven times.",
+      "expected_left_reading_sha256": [
+        "cf112c336cb8dd5d017009b715d911362f990fc875a926462e4f460357b79dae"
+      ],
+      "expected_right_reading_sha256": [
+        "ec21099cfbd19002dddd3f50479082e860a57df8d04c3834f7f5769096899c19"
+      ]
+    },
+    {
+      "id": "review-Gen-33-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau runs, embraces, kisses and both weep.",
+      "expected_left_reading_sha256": [
+        "1305fe73740b783127dc6d899d017cd31995c9b3ed1d675c681d8dfdfdcf8351"
+      ],
+      "expected_right_reading_sha256": [
+        "11ec820abc9b2242d7f1946041895a45217f1a8b5f1d6cee517c7df996c3fc75"
+      ]
+    },
+    {
+      "id": "review-Gen-33-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau asks about women and children; Jacob attributes children to God's grace.",
+      "expected_left_reading_sha256": [
+        "3ccfe39c01385e77e06b812aac6db75b24b38a1473ed90cc00e077bb1aafe131"
+      ],
+      "expected_right_reading_sha256": [
+        "f156cf3c8856cd3e07e3a5a44d3b160f4c7e89caa64d8d3151b9fb38bd3d5ceb"
+      ]
+    },
+    {
+      "id": "review-Gen-33-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Servants and children approach and bow.",
+      "expected_left_reading_sha256": [
+        "afd718a4347d39954179aa034c97c342e29877dc52a3ba46b081c2bfbe96dec6"
+      ],
+      "expected_right_reading_sha256": [
+        "e9d0b1f54dff87e571f47935afd9c03ff99c8d0b410fa31f8b1c5ee65adc1c84"
+      ]
+    },
+    {
+      "id": "review-Gen-33-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Leah's family then Rachel/Joseph approach and bow; Hebrew Joseph/Rachel order differs.",
+      "expected_left_reading_sha256": [
+        "b814c7399c33f926f051fb8141d6adebc3d5c6397bc8863132ed4826ec85e147"
+      ],
+      "expected_right_reading_sha256": [
+        "f358cf93ae731d9585b3bdb0ed98995a3ad6dcb1752ff0e4fe9841aa5c8061ad"
+      ]
+    },
+    {
+      "id": "review-Gen-33-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Question about encountered camps answered as seeking favor.",
+      "expected_left_reading_sha256": [
+        "05876dfaf609d5f0746d984bb4cb5a4b9af162ff822f9930aaf96b098f033ed0"
+      ],
+      "expected_right_reading_sha256": [
+        "1e0c9d542f38a70ecb1749d24ad0614fe0e65d5d9f63d4cfaaf22bb3a80a28d1"
+      ]
+    },
+    {
+      "id": "review-Gen-33-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau says he has enough and declines the property.",
+      "expected_left_reading_sha256": [
+        "51305d2c97919f61f020a07d164f4b415c8915aaacc594299911bc652b76f81e"
+      ],
+      "expected_right_reading_sha256": [
+        "298147e3aafa1c308ad807a346140e18a555b1192885f74141a83f3105b4835b"
+      ]
+    },
+    {
+      "id": "review-Gen-33-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob urges acceptance and compares seeing Esau's face to God's face.",
+      "expected_left_reading_sha256": [
+        "e308833509109735b746824d6199c9c2b5e7b2e6292d25824d3b93ba555a839c"
+      ],
+      "expected_right_reading_sha256": [
+        "978fa2ff80fa1c7cf8a05fb25c6f54121ad0c298ab157909b8eee1d733667e58"
+      ]
+    },
+    {
+      "id": "review-Gen-33-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Blessing/gift accepted after urging, grounded in divine generosity.",
+      "expected_left_reading_sha256": [
+        "bdab2439b12d0bf40fe935d1d1eea71b2024145ff97b0cb1aaba22b7b37d746b"
+      ],
+      "expected_right_reading_sha256": [
+        "445f25d226d9f8956b5b1cc720a19aec9cc036d2627727c1a648f10ca11dc6e0"
+      ]
+    },
+    {
+      "id": "review-Gen-33-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Proposal to journey together; Hebrew go before you/Greek straight ahead differs.",
+      "expected_left_reading_sha256": [
+        "f7406100e87b39008343748683d8d5ad59877e563234452907a6927c1a8da626"
+      ],
+      "expected_right_reading_sha256": [
+        "9354e2a2c4c2960c5ea785e5f9a7fcb335f0a9b44628d61261d6c193c13fdbea"
+      ]
+    },
+    {
+      "id": "review-Gen-33-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Tender children and nursing flocks cannot endure being driven hard.",
+      "expected_left_reading_sha256": [
+        "4e4396398573956ed2932f29d9cb3b11edf80169bc3ca25eff6c274d624303d3"
+      ],
+      "expected_right_reading_sha256": [
+        "f6088a35ad428bb5d9e9925ea9508d1aadd57e3e03e2fd363dc534b185f2e19e"
+      ]
+    },
+    {
+      "id": "review-Gen-33-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob proposes a slower pace until reaching Seir.",
+      "expected_left_reading_sha256": [
+        "8cf4edde56d770ff40a6c3deae7c09e54e1e76bb16b90cca7ff7341b8c18289b"
+      ],
+      "expected_right_reading_sha256": [
+        "ccc02a86abceebfff7a23affe5cc06fb6d81100786b950d0b12afb74bdc47128"
+      ]
+    },
+    {
+      "id": "review-Gen-33-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau offers an escort; Jacob invokes sufficient favor.",
+      "expected_left_reading_sha256": [
+        "bf8d8f58519782c5639227d9484aee43b536f8074e7f2fd4e4d65eb3e09022ec"
+      ],
+      "expected_right_reading_sha256": [
+        "05de7a7df91ff5e62ee6eeb3221c70bf6ff8a4ba37e762bb45691aad0d48c1b7"
+      ]
+    },
+    {
+      "id": "review-Gen-33-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau returns toward Seir that day.",
+      "expected_left_reading_sha256": [
+        "108c65bcb0ee2edabdfabbe6e735d28e8263c94d7eb1f60edd4798c46022f3cc"
+      ],
+      "expected_right_reading_sha256": [
+        "fd9600f745cb85c851fa16108ecd270c9810866856dfa49d2c752453b58a67eb"
+      ]
+    },
+    {
+      "id": "review-Gen-33-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob builds house and livestock shelters at Succoth/Tents.",
+      "expected_left_reading_sha256": [
+        "f7b82f0189ecc08f64d1566b63f2837494244d023c39ca73455ec6486bbf14dd"
+      ],
+      "expected_right_reading_sha256": [
+        "3dd26d9002829621d93f297a0582407cf621670f3216f97f26a5ba5bad9890f7"
+      ]
+    },
+    {
+      "id": "review-Gen-33-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Arrival at Shechem; Hebrew שלם may describe safe arrival, Greek explicitly makes Salem a destination. Preserve the difference.",
+      "expected_left_reading_sha256": [
+        "bd9f589a803560a7ea42fc8105499258196d60da2765e03f2af9bdc8c952074f"
+      ],
+      "expected_right_reading_sha256": [
+        "21b86b94d2ea0e8150802ab67a8332fe858a34679e835653327b018ad6385bcd"
+      ]
+    },
+    {
+      "id": "review-Gen-33-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Field purchase for a hundred qesitah/lambs; Hebrew sons of Hamor/Greek Hamor himself differ.",
+      "expected_left_reading_sha256": [
+        "6847f028dcfba2edaa9c7ce98fa0036af2b8d66afbebda27e66f0afe6ab88474"
+      ],
+      "expected_right_reading_sha256": [
+        "fb9bfd15a71092a2812aac8e596efe3fe0bb0669f81a00790edc92019f6ce830"
+      ]
+    },
+    {
+      "id": "review-Gen-33-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          33,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          33,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Altar and invocation/naming of God of Israel; differing construction retained.",
+      "expected_left_reading_sha256": [
+        "305634e0e00abcb1d4e50e24985f2c297b5c1bb40565b80726029da96e7292da"
+      ],
+      "expected_right_reading_sha256": [
+        "34892940fa0d29c483666ffffe874fa82e9ff35dd31f356d21c1c24e5b218175"
+      ]
+    },
+    {
+      "id": "review-Gen-34-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Dinah, Leah's daughter, goes to see the local daughters.",
+      "expected_left_reading_sha256": [
+        "31d5c6d7a531ecdf67ff1f39acbb7b3e730879abc65aab6bd816f8a8b0384ce3"
+      ],
+      "expected_right_reading_sha256": [
+        "3729953b483828311eec92a42b2d98d473217a3d749c0cb685c911d140a420bc"
+      ]
+    },
+    {
+      "id": "review-Gen-34-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shechem son of Hamor takes, lies with and humiliates Dinah.",
+      "expected_left_reading_sha256": [
+        "76f3ec931607e42d36a5c7c289602809fa815e2142366d812131ac9c6b44bd0c"
+      ],
+      "expected_right_reading_sha256": [
+        "00544cbe366373a585ee19defa324b3f49b1215967732637b5bd3b1f261f5ef1"
+      ]
+    },
+    {
+      "id": "review-Gen-34-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Attachment, love and tender speech to Dinah; Hebrew his life/Greek Dinah's life syntax differs.",
+      "expected_left_reading_sha256": [
+        "4f187fb75dfb40dc7ba1b7443ee941123bdc131bbd9550222cb68d7654f2dc1a"
+      ],
+      "expected_right_reading_sha256": [
+        "462552de8e2867d25af0cafc471b4275e734ab8a5623c799b691bab8ca518fec"
+      ]
+    },
+    {
+      "id": "review-Gen-34-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shechem asks his father to obtain Dinah as wife.",
+      "expected_left_reading_sha256": [
+        "090fbf8c49d9d20435e849491f9466377fabb8b6f5fd3da2d228137c81dd76a7"
+      ],
+      "expected_right_reading_sha256": [
+        "a1540e8f00f26cfc449e17a8572cbbaa6dbc89f18f8936a12007dfd6f873eac6"
+      ]
+    },
+    {
+      "id": "review-Gen-34-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob hears of defilement and waits silently for sons in the field.",
+      "expected_left_reading_sha256": [
+        "b695d14d2d4380e7a8701cc7bf8e7aed8fdfd95040e06d27eff020efff2fdfd7"
+      ],
+      "expected_right_reading_sha256": [
+        "f028c2101855b658d1f4b6fb5b2a9c2b678cb6256973e36772d669f45ac1777f"
+      ]
+    },
+    {
+      "id": "review-Gen-34-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hamor approaches Jacob for discussion.",
+      "expected_left_reading_sha256": [
+        "639c0a3fc81d517717ecbf9c94d880b4259c9c6b8306134febd01d674cdb2939"
+      ],
+      "expected_right_reading_sha256": [
+        "fd7e2fd1c9d71aec2df1116c87b3add4c2b02fae8b27f751820da0b85118217b"
+      ]
+    },
+    {
+      "id": "review-Gen-34-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Sons return distressed and angry over the outrage in Israel.",
+      "expected_left_reading_sha256": [
+        "90abd7fdbca94c58f609867b10aec063bea20f3040a0d5c68d4b8f33d24dc24c"
+      ],
+      "expected_right_reading_sha256": [
+        "6b2d51abe9c0b31fdceb6bd56d33d4982449113764663e0ba50c0e838cb2ea1c"
+      ]
+    },
+    {
+      "id": "review-Gen-34-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hamor requests Dinah for Shechem because of his desire.",
+      "expected_left_reading_sha256": [
+        "60c7460378939a1d35491e12e09dbda77e75a6f2f36f76d16e94c1c0aef2a8a0"
+      ],
+      "expected_right_reading_sha256": [
+        "dcf0bba0ca7a037ca68752da4d9b053b9212f411dd0a0bdf3296a124936cb253"
+      ]
+    },
+    {
+      "id": "review-Gen-34-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Mutual intermarriage proposed; Greek explicitly mentions sons receiving their daughters.",
+      "expected_left_reading_sha256": [
+        "f2f189d7795ecbb09e84cb7128ef57b7215aea3d133b4ed803c01cf1ad435cae"
+      ],
+      "expected_right_reading_sha256": [
+        "01181302cbc466a05e828ff51a285c12b0479f3f6dffce48f21ad34e0b45b81e"
+      ]
+    },
+    {
+      "id": "review-Gen-34-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Residence, trade and possession in the available land.",
+      "expected_left_reading_sha256": [
+        "fe25cba3c95ca3a5d78e434919a51990216b40a80102f34dc64f5f2997db88b3"
+      ],
+      "expected_right_reading_sha256": [
+        "9dc32353da8504eeab47533a7ecfba4dbc784d6f073f02978156463438bcc168"
+      ]
+    },
+    {
+      "id": "review-Gen-34-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shechem offers whatever the father and brothers ask.",
+      "expected_left_reading_sha256": [
+        "54f521bf63c1062c48bcf5eca67c064ba25ca5b2f93fc5f013515d1c13b0f827"
+      ],
+      "expected_right_reading_sha256": [
+        "7709d2499e89515a9840cc307ce062ffc7994be58a815662eb8b3b83e9fb5f81"
+      ]
+    },
+    {
+      "id": "review-Gen-34-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Large bride-price/gifts offered in exchange for marriage; Greek uses the shorter dowry wording.",
+      "expected_left_reading_sha256": [
+        "395b897efc04dcb8fbe3d1d4cc46e23317217bd641b7745b0248054fddb1804c"
+      ],
+      "expected_right_reading_sha256": [
+        "39175769cb6bb4aa7393893bc2f21da8f610c16601635a5e0b25df6e11ae0e08"
+      ]
+    },
+    {
+      "id": "review-Gen-34-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob's sons deceitfully answer because Dinah was defiled.",
+      "expected_left_reading_sha256": [
+        "8607258fabf194d6b91de793415d043ad7e294f7198aa6fc3ee7080defacc2be"
+      ],
+      "expected_right_reading_sha256": [
+        "e84b0f11291aaf57e7b7bedc5c729efde486c2d68f82305d4c03494ca67a5601"
+      ]
+    },
+    {
+      "id": "review-Gen-34-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Refusal of marriage to an uncircumcised man; Greek explicitly names Simeon and Levi as speakers.",
+      "expected_left_reading_sha256": [
+        "2e578c5f63b580841d40e6f84a1fd0cbdd6c44361ab689e26e46658185d90f57"
+      ],
+      "expected_right_reading_sha256": [
+        "8923d00c9d8a59016801394f922e80d393d1fa31a2a526a36778cececcfed362"
+      ]
+    },
+    {
+      "id": "review-Gen-34-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Agreement conditioned on circumcision of all males; Greek adds dwelling among them.",
+      "expected_left_reading_sha256": [
+        "432eb3d2c92a014675e3a82dcaa024c9f3c034f4679a492d3e9f249f7d09d6ca"
+      ],
+      "expected_right_reading_sha256": [
+        "fd91c064647ea8a139a93dab361e5cd093df051547f489c17a5a61d3a0389b1b"
+      ]
+    },
+    {
+      "id": "review-Gen-34-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Mutual marriage, shared residence and one people promised.",
+      "expected_left_reading_sha256": [
+        "5fefd4469609ebce11b6b29652cb8d633e19aae0d64f9b47232f1a54f106728d"
+      ],
+      "expected_right_reading_sha256": [
+        "fa95b005c51040814a0c9bf647f39099ad685aa0cbfe02874aa390e86f766aa3"
+      ]
+    },
+    {
+      "id": "review-Gen-34-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Refusal of circumcision would mean taking their daughter and leaving.",
+      "expected_left_reading_sha256": [
+        "d9ef0c4b656ece3083554eec1c4f272540c06ba9e83b2dc6aa46f1c1d62953de"
+      ],
+      "expected_right_reading_sha256": [
+        "3d5023e99bf72dc1911e4950025b12f081d6960172e29f2936535b0d63ece136"
+      ]
+    },
+    {
+      "id": "review-Gen-34-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hamor and Shechem approve the words.",
+      "expected_left_reading_sha256": [
+        "419297d09cf9a2d42a66d292bf8f4d3447289d10974ada4ad1ce8244b76ee141"
+      ],
+      "expected_right_reading_sha256": [
+        "dc5a878fb0cd3128487ae8f5c12e3d9ddf75b1fa5f10bcd0b71460f56e0570d1"
+      ]
+    },
+    {
+      "id": "review-Gen-34-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Young Shechem acts promptly out of desire; his household standing noted.",
+      "expected_left_reading_sha256": [
+        "0d801e4df19b04a8f920fdd78eec186994470eb0f7188b811078914c63a5ccbc"
+      ],
+      "expected_right_reading_sha256": [
+        "85f6503460d72f6a6fb00e06113dc4fc94e2022505c2c6e0476f76c0a6d4f007"
+      ]
+    },
+    {
+      "id": "review-Gen-34-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hamor and Shechem address the city men at the gate.",
+      "expected_left_reading_sha256": [
+        "745f2806868b9e9324662f574b9c63a829106b7245ee3420be1dc6e50275f378"
+      ],
+      "expected_right_reading_sha256": [
+        "26de7dcd935343035bc1a61247796b48a5fb59b9d7684ec6644f3410dee28e70"
+      ]
+    },
+    {
+      "id": "review-Gen-34-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Peaceful residence, commerce and intermarriage commended.",
+      "expected_left_reading_sha256": [
+        "8a3be79ead2ce5528b38a10e83b9877086cc0af3e01e2df40b5caaade4655006"
+      ],
+      "expected_right_reading_sha256": [
+        "c206e29546a3ec2200d39ad1122a88a95cdc60404e654a5a4ff38fd0a6f138f9"
+      ]
+    },
+    {
+      "id": "review-Gen-34-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Circumcision as condition of becoming one people.",
+      "expected_left_reading_sha256": [
+        "b9c7abb35b14311bf56acbf3e597c3ff60c0c4ea2f0da0a1a01ab4bd90d88181"
+      ],
+      "expected_right_reading_sha256": [
+        "e39dc449b0bd2f56dfa0287088f41ad42e687147463e78aa8487e009bfa3605d"
+      ]
+    },
+    {
+      "id": "review-Gen-34-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Prospective acquisition of their livestock and goods used as incentive.",
+      "expected_left_reading_sha256": [
+        "992a445c3db3ff147613f8d2e49ae54bebbc1297576ef71a6e2178e01c415449"
+      ],
+      "expected_right_reading_sha256": [
+        "629062e7aeb59eb48d77ee2331bfeca67f1f9d2a24a053165f2b6180fdb57c0a"
+      ]
+    },
+    {
+      "id": "review-Gen-34-24-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "24"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "24"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Gate's men assent and all males circumcised; Hebrew repeats city-gate phrase, Greek does not.",
+      "expected_left_reading_sha256": [
+        "80ec9d1c4fbec031a6b4d38cd423448d353a550c2e53dbd775db81733029e7f1"
+      ],
+      "expected_right_reading_sha256": [
+        "a3eba8706b49d75d6f6953156770c19fde06adef15bbb1f4a86ce74fc5c723dc"
+      ]
+    },
+    {
+      "id": "review-Gen-34-25-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "25"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "25"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Third-day pain enables Simeon and Levi's sword attack on all males.",
+      "expected_left_reading_sha256": [
+        "77bdceec9419018fde1fc88de5a66b9ea8ebc48db8bf40596e0eceb9b4b20981"
+      ],
+      "expected_right_reading_sha256": [
+        "add0edc80ae5f9ec2bad25da43ab39507a1cc18fc19a12ccda861fcc022bbc05"
+      ]
+    },
+    {
+      "id": "review-Gen-34-26-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "26"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "26"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hamor and Shechem killed and Dinah removed from Shechem's house.",
+      "expected_left_reading_sha256": [
+        "1422b9df4135684b36e319117dd67e233ddb65587c7c3f1fcfc6d73bdef32d1d"
+      ],
+      "expected_right_reading_sha256": [
+        "f45192d117400aa4d251a65b670e3b84309c9604f575219d5b25a3c2274fcea1"
+      ]
+    },
+    {
+      "id": "review-Gen-34-27-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "27"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "27"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob's sons plunder the defiled city's slain/wounded.",
+      "expected_left_reading_sha256": [
+        "468779e7fdeb0e3e3c405d51a490abf514de98008efb604e81a17239a4461540"
+      ],
+      "expected_right_reading_sha256": [
+        "b9f8b3529d02bf525d9ed49650b71dbc24f5fdd0b66952e3d94ecd54789ac239"
+      ]
+    },
+    {
+      "id": "review-Gen-34-28-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "28"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "28"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Sheep, cattle, donkeys and city/field goods seized.",
+      "expected_left_reading_sha256": [
+        "bf84e9b3b9061b77a8e3d9bc6f66174421d7244fc2274db59438f07efb736b63"
+      ],
+      "expected_right_reading_sha256": [
+        "58a7e22cf09fd4bc9dcc4866b82aab938a3d39cae6ca635c4da8358f3d766ec8"
+      ]
+    },
+    {
+      "id": "review-Gen-34-29-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "29"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "29"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Captives and property seized; Hebrew wealth/children and Greek bodies/baggage wording retained, with Greek repeated city goods.",
+      "expected_left_reading_sha256": [
+        "c98ec1769a36e34b1af44e3b70f4c6380071aa0956344638d39974cf008d663c"
+      ],
+      "expected_right_reading_sha256": [
+        "22204eff372e966a3a544a7d8f46dff2c9f614dff8d54fe961d32685628f8d21"
+      ]
+    },
+    {
+      "id": "review-Gen-34-30-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "30"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "30"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob fears retaliation by Canaanites/Perizzites against his small household.",
+      "expected_left_reading_sha256": [
+        "be881a31307b9a6c18e51de0eedf7aada7e1622e8c4e2e396f5b099d8dc0443b"
+      ],
+      "expected_right_reading_sha256": [
+        "831ea2835dced99831f1d6475171159a2ae5f36f3e0d0f73685b91f15e8b6b8f"
+      ]
+    },
+    {
+      "id": "review-Gen-34-31-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          34,
+          "31"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          34,
+          "31"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Brothers challenge treating their sister as a prostitute.",
+      "expected_left_reading_sha256": [
+        "869d1723e933bc9a86a91fca97fa92f36d0b49440334785bc75bbb72f42b136d"
+      ],
+      "expected_right_reading_sha256": [
+        "4fd7a5a2fa48760bd5877b51aeac50ac73607d6933e4c930d3f32b776c0c856b"
+      ]
+    },
+    {
+      "id": "review-Gen-36-1-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "1"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "1"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau/Edom genealogy heading.",
+      "expected_left_reading_sha256": [
+        "962b7ffc67c20d6991e51f868ae47ac586eccae9323c7ceb7defb3f29e174e92"
+      ],
+      "expected_right_reading_sha256": [
+        "48a7820210fd3a8eba4e3d2675a38a2cc595d416dc22fd2f6ae58340b9d55ac2"
+      ]
+    },
+    {
+      "id": "review-Gen-36-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Canaanite wives Adah and Oholibamah introduced; Hebrew daughter of Zibeon/Greek son of Zibeon differs.",
+      "expected_left_reading_sha256": [
+        "165d10d8205708ca2a2a36f842b9dc14d40df496558bcb9ce717901ba24fa7d5"
+      ],
+      "expected_right_reading_sha256": [
+        "fec8cc395584578f3368e8fac027bfd22ee6211f738ee7c43a9ad3afa12ab477"
+      ]
+    },
+    {
+      "id": "review-Gen-36-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Basemath daughter of Ishmael and sister of Nebaioth.",
+      "expected_left_reading_sha256": [
+        "2837b6fdc340c8febb3c547a5c4240b9cced1c282c641cd3e5dd8db04be78f83"
+      ],
+      "expected_right_reading_sha256": [
+        "9bea85d051117c496e443b1485159b6c0d95dd0228cc20fa1e9a07baef1a03fd"
+      ]
+    },
+    {
+      "id": "review-Gen-36-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Adah bears Eliphaz and Basemath bears Reuel.",
+      "expected_left_reading_sha256": [
+        "7c95c2a92d581d166decf652fa9cce4aab961ca606911f2fd818ea9a20890dbd"
+      ],
+      "expected_right_reading_sha256": [
+        "f667fe6b9352bba3c30ee9434132374b00da7ee041e7e8fa775fa773fd2c9526"
+      ]
+    },
+    {
+      "id": "review-Gen-36-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Oholibamah's Jeush, Jalam and Korah; Canaan-born sons summarized.",
+      "expected_left_reading_sha256": [
+        "b8f63743e37dda2e692bb03db2f3ec41d00d5c6758ae00617c304814c4276914"
+      ],
+      "expected_right_reading_sha256": [
+        "283b2953c389c14758f34f789e66894d7922f5bed131305bfc55c53af1da07df"
+      ]
+    },
+    {
+      "id": "review-Gen-36-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau takes household, people, livestock and property away from Jacob; Greek explicitly departs Canaan where Hebrew leaves the destination unspecified.",
+      "expected_left_reading_sha256": [
+        "20b333458be5efe5d6d3e887ac600eb541ace2668989faa3645a51f2c77a2ea2"
+      ],
+      "expected_right_reading_sha256": [
+        "2572e4d3515c1ebe8025885504106b2eb99076dab8d77231ee8ae16092e7a6e6"
+      ]
+    },
+    {
+      "id": "review-Gen-36-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Great possessions prevent joint residence in the land.",
+      "expected_left_reading_sha256": [
+        "2146dd59ffa775b8131948ec81d055ea99739e5b7695dbcb23aca47b3ce882b7"
+      ],
+      "expected_right_reading_sha256": [
+        "e0aa29a2fff823400402cec449178598f583dac5f83b5f1b6266167f0e98a322"
+      ]
+    },
+    {
+      "id": "review-Gen-36-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau settles in Seir and is identified as Edom.",
+      "expected_left_reading_sha256": [
+        "ac9d9bb493b355647739e4c39ce0d9281b1f23d4401abbe0f3c6c51b63ea1b52"
+      ],
+      "expected_right_reading_sha256": [
+        "44da3d9ad20c8f9cf780d8fd44b49117b763a0e9858dc45a407506f5c612e789"
+      ]
+    },
+    {
+      "id": "review-Gen-36-9-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "9"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "9"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau as Edom's father in Seir, second genealogy heading.",
+      "expected_left_reading_sha256": [
+        "f148de097d1acc6807784deb75e8090e872da037aa2236b72665ab7c6c5e0567"
+      ],
+      "expected_right_reading_sha256": [
+        "40250450f160b9eb1d857bf9445e3a38c7245d7e28881b9588fbfeef267a77df"
+      ]
+    },
+    {
+      "id": "review-Gen-36-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Eliphaz and Reuel identified through their mothers.",
+      "expected_left_reading_sha256": [
+        "f534cc03486123b40ba1ead14aded7dd0fc5d713d84a63bcddf402bccb32b376"
+      ],
+      "expected_right_reading_sha256": [
+        "867b46c465d3b23b099ecf1260d2ec2028e3ffc2272d71ae9be9cb576bec3280"
+      ]
+    },
+    {
+      "id": "review-Gen-36-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Eliphaz's Teman, Omar, Zepho, Gatam and Kenaz, with Greek name forms retained.",
+      "expected_left_reading_sha256": [
+        "c0a2278c265cfd47b431b29819ef2459fccfb845251b277c4e95193187c9ea32"
+      ],
+      "expected_right_reading_sha256": [
+        "cd108926051d37dfb0ee2a2c7d71734e53f3326fec4c7b553443114c322873f0"
+      ]
+    },
+    {
+      "id": "review-Gen-36-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Timna, Eliphaz's concubine, bears Amalek; Adah's lineage summarized.",
+      "expected_left_reading_sha256": [
+        "fcc00d94ead046be351add2d342b98d261aabf40bbab1af02e3fcd3d6d610326"
+      ],
+      "expected_right_reading_sha256": [
+        "5398fd467aab3da7c2da4e20e2b2a2fde18ac0335385ac8a9411ea32299e84c5"
+      ]
+    },
+    {
+      "id": "review-Gen-36-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Reuel's Nahath, Zerah, Shammah and Mizzah; Basemath's lineage.",
+      "expected_left_reading_sha256": [
+        "660a4309b0e78ab69673fa0a279cf6e2fc50f81b271b1495536f6e1e73e9cbdd"
+      ],
+      "expected_right_reading_sha256": [
+        "8730d30ca2a3e9c816b2ca63bffc7457ea064c2f65722e2da348927b13d7933d"
+      ]
+    },
+    {
+      "id": "review-Gen-36-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Oholibamah's three sons restated; daughter/son ancestry difference retained.",
+      "expected_left_reading_sha256": [
+        "7002f94f394377c557eb57a052e31ec749675c9ed9291d58725acef628af806f"
+      ],
+      "expected_right_reading_sha256": [
+        "71a8c855bbf1045581babac82bf4325a7473e736eb8908160dd8fbcb3da2d2a7"
+      ]
+    },
+    {
+      "id": "review-Gen-36-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Eliphaz's chiefs Teman, Omar, Zepho and Kenaz.",
+      "expected_left_reading_sha256": [
+        "0e40be83dcd057e81262b01d1facf783ffb77973f3e7f3d74a8d9f6783052022"
+      ],
+      "expected_right_reading_sha256": [
+        "7e0b1de19301048bb2aa616d993d152efa6e5d0b7254e5590f939eadc4907fba"
+      ]
+    },
+    {
+      "id": "review-Gen-36-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Chiefs Korah, Gatam and Amalek; Eliphaz/Adah summary.",
+      "expected_left_reading_sha256": [
+        "9fdc1bcbdab88967f768fb5b6a1df62d3a9e6d6d547d6082f47ba103887f16bf"
+      ],
+      "expected_right_reading_sha256": [
+        "4294715bda93d0d065d59a90a41db9f24f20d70a79148b4ac256514928a7d4bb"
+      ]
+    },
+    {
+      "id": "review-Gen-36-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Reuel's four chiefs and Basemath summary.",
+      "expected_left_reading_sha256": [
+        "f83ee728653083c19aecf20ed4efeb6b6ca2ca7e44de3d7fc7ab7a1716ee2034"
+      ],
+      "expected_right_reading_sha256": [
+        "4c8db7b367c752a5b5a8b7f6ea0a97294881513f3807d6b9129512c226798268"
+      ]
+    },
+    {
+      "id": "review-Gen-36-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Oholibamah's chiefs Jeush, Jalam and Korah.",
+      "expected_left_reading_sha256": [
+        "e323e7d96466496115c7ac0f2f0fece623f33c52a3c51dc2a6e3ab5b3c4169ec"
+      ],
+      "expected_right_reading_sha256": [
+        "a5f9f31fcac6c8edced81ef914e4deefe40536f891b7402756f3b89f0f04ff22"
+      ]
+    },
+    {
+      "id": "review-Gen-36-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Esau's sons and chiefs summarized as Edom; Greek makes sons of Edom plural.",
+      "expected_left_reading_sha256": [
+        "e83a531fbb8820af7ca34caf55e7215a9388cca1218dd7b093274e2b4f03dc52"
+      ],
+      "expected_right_reading_sha256": [
+        "23dd4fffb4b93e36da6f7de2cd30827db87065a150c6559c072681dde0471587"
+      ]
+    },
+    {
+      "id": "review-Gen-36-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Seir the Horite's Lotan, Shobal, Zibeon and Anah.",
+      "expected_left_reading_sha256": [
+        "5716cedeca785c08c55bcdb2d26c812284a8e9493ad486fa6c81d8cbd8a7f360"
+      ],
+      "expected_right_reading_sha256": [
+        "d61bd53db10ccbe13c6729e49d3581d450ba363f6639afdcf3cb372238fce36c"
+      ]
+    },
+    {
+      "id": "review-Gen-36-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Dishon, Ezer and Dishan complete the Horite chief list; Greek Rison name retained.",
+      "expected_left_reading_sha256": [
+        "76d01c159db69471104985476c74ab1679273048bf6958ac3c24b09139ab2e07"
+      ],
+      "expected_right_reading_sha256": [
+        "d3e57894981da3db250e601f20438134b7783c775693b8d234841ec23cb29276"
+      ]
+    },
+    {
+      "id": "review-Gen-36-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Lotan's Hori and Hemam, and sister Timna.",
+      "expected_left_reading_sha256": [
+        "3418c5721a886d80dcde0f3cf642d346febdddb17a890f5827a66193bb883dca"
+      ],
+      "expected_right_reading_sha256": [
+        "bf42096525d15b125e93dce5006a88f41b2872a94900bb74ec1034a6ddde130b"
+      ]
+    },
+    {
+      "id": "review-Gen-36-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shobal's Alvan, Manahath, Ebal, Shepho and Onam; differing Greek names retained.",
+      "expected_left_reading_sha256": [
+        "47b6c00c9f8cbbb4f1afc9ed826861521a2594e131f50c1bbfaaf71ddd509223"
+      ],
+      "expected_right_reading_sha256": [
+        "1e405d22f9ae3c1a7ba81c60ce43f1e454819e72f27ded96337fcbbcf9243afb"
+      ]
+    },
+    {
+      "id": "review-Gen-36-24-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "24"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "24"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Zibeon's Aiah/Anah and wilderness discovery while tending donkeys; Greek Iamein does not resolve Hebrew ימם.",
+      "expected_left_reading_sha256": [
+        "36c94b9c36adfc06c5510fdb4da85fb1438051a5b1f942fb11bf45f55ef8d106"
+      ],
+      "expected_right_reading_sha256": [
+        "17db2bc23654134c0f639f6c54757ffe47a131f8009febee6ad7d74cfb7d5ddc"
+      ]
+    },
+    {
+      "id": "review-Gen-36-25-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "25"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "25"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Anah's Dishon and daughter Oholibamah.",
+      "expected_left_reading_sha256": [
+        "8044855018590579725264765149aeda8f2fe00b7da9539a820a561ef30f7f02"
+      ],
+      "expected_right_reading_sha256": [
+        "8b97eab17ecd9b77f4546a32b81c14c61ca416a5907408f69eab0901eec80c58"
+      ]
+    },
+    {
+      "id": "review-Gen-36-26-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "26"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "26"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Dishon's Hemdan, Eshban, Ithran and Cheran, with Greek forms.",
+      "expected_left_reading_sha256": [
+        "1d255cfe77ef71a2ac1f9cf77b5ef4baeb75b9a73037b15fba30c25a1b259081"
+      ],
+      "expected_right_reading_sha256": [
+        "4d3f0ae51f43693a3e4bb1bf0a0be42cb011c3c2fa581c4aba149bdbf3186743"
+      ]
+    },
+    {
+      "id": "review-Gen-36-27-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "27"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "27"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Ezer's Bilhan, Zaavan and Akan, with Greek forms.",
+      "expected_left_reading_sha256": [
+        "c9012cc911e41d250aed6459fe3d1ee6a3d1eed16c1410b9d46bcdeba4ed2d84"
+      ],
+      "expected_right_reading_sha256": [
+        "cff05d2db166172c838dc3e28641d2ddff07b7488d6c6a929e655bbe592a61b0"
+      ]
+    },
+    {
+      "id": "review-Gen-36-28-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "28"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "28"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Dishan's Uz and Aran; Greek Rison and Os forms retained.",
+      "expected_left_reading_sha256": [
+        "58970c699f705d0e0822d5b2fb2e9d32172296b6da2108c178ac402cefdedb6c"
+      ],
+      "expected_right_reading_sha256": [
+        "b669015322b54544942f05225caa22ed6382747c3e2850188665893415c2c421"
+      ]
+    },
+    {
+      "id": "review-Gen-36-29-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "29"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "29"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Horite chiefs Lotan, Shobal, Zibeon and Anah.",
+      "expected_left_reading_sha256": [
+        "2900f9593fedca1f84f752b89d439c8ad9d0f81335737941be34b0d9f56b0eb3"
+      ],
+      "expected_right_reading_sha256": [
+        "5c1625dcbbf7d7cdf1277714d5b887d0dee01e2f02738f7950ee8d70ae09016b"
+      ]
+    },
+    {
+      "id": "review-Gen-36-30-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "30"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "30"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Horite chiefs Dishon, Ezer and Dishan; Hebrew Seir/Greek Edom territorial summary differs.",
+      "expected_left_reading_sha256": [
+        "a6854afa2868d16e267577a652103d9c2c585ee4d372140a21f456217f83a819"
+      ],
+      "expected_right_reading_sha256": [
+        "4913dc941bf611fbb3c046e832f54293c2ab80ee3561465b37f1e7e20d5f8aef"
+      ]
+    },
+    {
+      "id": "review-Gen-36-31-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "31"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "31"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Kings in Edom before Israel had a king.",
+      "expected_left_reading_sha256": [
+        "4cfd102c11786254c7c043f784ad20047b1d0b2aa7d1e66acd884e5e1bac387b"
+      ],
+      "expected_right_reading_sha256": [
+        "4ca1454eff2eed836491a7dc4c7f7999cbf5cc90c9af88c60ac8296f8aeaea09"
+      ]
+    },
+    {
+      "id": "review-Gen-36-32-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "32"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "32"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Bela son of Beor and Dinhabah; Greek Balak name retained.",
+      "expected_left_reading_sha256": [
+        "63feb24be21f253eb53170705146a80b8c93227c9fea042df9e3c0e5d0d6c251"
+      ],
+      "expected_right_reading_sha256": [
+        "cc783ea965047b48ace903c795203bea735abd43d07b6c778bd04905a4af6030"
+      ]
+    },
+    {
+      "id": "review-Gen-36-33-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "33"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "33"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Bela/Balak succeeded by Jobab son of Zerah from Bozrah.",
+      "expected_left_reading_sha256": [
+        "d6beb90da699e6b9c6814d55658d0eff3290db100d6733eb4ca95e69f1439d59"
+      ],
+      "expected_right_reading_sha256": [
+        "4c59d1fe4f5dcc24330c23a66a25561f17146151d9893212c097e652aa520969"
+      ]
+    },
+    {
+      "id": "review-Gen-36-34-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "34"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "34"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jobab succeeded by Husham/Asom from Temanite country.",
+      "expected_left_reading_sha256": [
+        "92e8f01dc34efe289ddb773c534f2ab6913b95fb61cc055fdac1ee761750514d"
+      ],
+      "expected_right_reading_sha256": [
+        "7ca19858dbd6860951318a85abd3447f2723fabf9926281b459ce50dd15de276"
+      ]
+    },
+    {
+      "id": "review-Gen-36-35-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "35"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "35"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hadad succeeds Husham and defeats Midian in Moab; Greek Barad and Getthaim differ from Badad and Avith.",
+      "expected_left_reading_sha256": [
+        "cbb4c3e42c18ad2bf3e9e85bf0b1edb6788e8cebef97423daf3349df9fb09edb"
+      ],
+      "expected_right_reading_sha256": [
+        "aee1f7785f3f2d72ea3499ca9953826202605707131a33be4510c596c17bbe61"
+      ]
+    },
+    {
+      "id": "review-Gen-36-36-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "36"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "36"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Hadad succeeded by Samlah/Samada from Masrekah/Massekka.",
+      "expected_left_reading_sha256": [
+        "415bc5d0e291ad2dae74a0380b1ff8d04e900ce3cbd3ba2edd62b902dc35f3c9"
+      ],
+      "expected_right_reading_sha256": [
+        "3fb29e0b299b054c2765ff8a5d2c0499f4a985079c7f3218dee7fad066298d06"
+      ]
+    },
+    {
+      "id": "review-Gen-36-37-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "37"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "37"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Samlah/Samada succeeded by Shaul from Rehoboth by the river.",
+      "expected_left_reading_sha256": [
+        "3c8fe83da87cb5a4a85583a736d2fd0a0cca1f64bc6d302f32a9b8dcdf7f2439"
+      ],
+      "expected_right_reading_sha256": [
+        "d1d663358879523d91c49f765996b52c6260e831904b7923a1f4921c4d99a746"
+      ]
+    },
+    {
+      "id": "review-Gen-36-38-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "38"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "38"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Shaul succeeded by Baal-hanan son of Achbor.",
+      "expected_left_reading_sha256": [
+        "8ba3abb6c82d26761a8cfd757a8a13a4c25a86996d261ed3bc2b50dc7b89d861"
+      ],
+      "expected_right_reading_sha256": [
+        "02b5344f67a8bfa66bf6c52e67c8dd2b2e6483fa3609f305f88341d8e9dfa55e"
+      ]
+    },
+    {
+      "id": "review-Gen-36-39-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "39"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "39"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Baal-hanan succeeded by Hadar/Arad; Greek adds son of Barad and differs in capital and wife's ancestor forms.",
+      "expected_left_reading_sha256": [
+        "063d8debba57d085400eba789392faeaabdf571d83c5395ec29632b2958d55ca"
+      ],
+      "expected_right_reading_sha256": [
+        "6aa4a9f41adf3b68ab1dd5b44cf7bcb3cb34179683c9eb431f1445734133041b"
+      ]
+    },
+    {
+      "id": "review-Gen-36-40-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "40"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "40"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Territorial/clan chief list begins Timna, Alvah and Jetheth; Greek expands the territorial descriptors.",
+      "expected_left_reading_sha256": [
+        "8528642557483777398547f05d667299e2118f7d1829925bf0091939800470dd"
+      ],
+      "expected_right_reading_sha256": [
+        "6523970904b6723445d39d82001b251cb4c4ac855bdbbbc0c9a921ca62fe2226"
+      ]
+    },
+    {
+      "id": "review-Gen-36-41-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "41"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "41"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Chiefs Oholibamah, Elah and Pinon.",
+      "expected_left_reading_sha256": [
+        "dfe0950c31951a76e8b64fbc951d9908b985a830db5ac61962f1810224d9fc5b"
+      ],
+      "expected_right_reading_sha256": [
+        "f04b73ca34faff885e7e2d3acc2e69667133a31866414bc4a8c75ac70326f20d"
+      ]
+    },
+    {
+      "id": "review-Gen-36-42-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "42"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "42"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Chiefs Kenaz, Teman and Mibzar/Mazar.",
+      "expected_left_reading_sha256": [
+        "c3ea2e26d7a178845b4d3c0a7c9d12dc98240265c5b20ced9e980d9f64557964"
+      ],
+      "expected_right_reading_sha256": [
+        "02e58dcf32a04d59bf9e797be654c2543a6998b9e8eaf9f95e0d61f12abaf0b5"
+      ]
+    },
+    {
+      "id": "review-Gen-36-43-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "43"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          36,
+          "43"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Chiefs Magdiel and Iram/Zaphoeim; final Edom/Esau territorial summary.",
+      "expected_left_reading_sha256": [
+        "1d4fbbc7c48fe2f969c04a9df5dd85a5cae48dcc1336fd1f21b04249c8b0c4e3"
+      ],
+      "expected_right_reading_sha256": [
+        "433029b38338643059213b90307a6afde492ef290cc0fe2d6133db4a5e9e3d4a"
+      ]
+    },
+    {
+      "id": "review-Gen-37-1-2-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "1"
+        ],
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "2"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "1"
+        ],
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "2"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Residence in Canaan and Jacob's genealogy heading introduce seventeen-year-old Joseph. Hebrew אלה תלדות יעקב opens 37:2; Greek αυται δε αι γενεσεις Ιακωβ closes 37:1. Group both. Hebrew makes Joseph bring the bad report about the brothers; the pinned Greek plural κατηνεγκαν with Ιωσηφ preserves a different report construction and must not be silently harmonized.",
+      "expected_left_reading_sha256": [
+        "0c390331e69091be473422812274d639eb51ec0b61e14daa534bae5953247fdf",
+        "51038bf86ba500a8cdfab1330b57c37fab8723bd38a4e55b84ef041c5898fdfc"
+      ],
+      "expected_right_reading_sha256": [
+        "517a9f925a862d51af87253b709cf4a5144e13ead1a373d84b3102bc2d83aa1d",
+        "60c3f2991b589a26b54bfd5a2df92e806db3928272d5081c697add2d2cf127c1"
+      ]
+    },
+    {
+      "id": "review-Gen-37-3-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "3"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "3"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Israel/Jacob loves Joseph as old-age son and gives the special/multicolored tunic.",
+      "expected_left_reading_sha256": [
+        "baa003d89c8cde3f58c2333adebc917fbbdb0d955710f6270f4b60f17c82b164"
+      ],
+      "expected_right_reading_sha256": [
+        "dfea24c6d700b7ba928f7023412f13644a92728c66c29b3cfb5966411a852a51"
+      ]
+    },
+    {
+      "id": "review-Gen-37-4-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "4"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "4"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Paternal preference causes brothers' hatred and inability to speak peaceably.",
+      "expected_left_reading_sha256": [
+        "52b55fe65485ee66b46557e4117b850bfde2142c2c17bf58ae12f37aab533f99"
+      ],
+      "expected_right_reading_sha256": [
+        "d667b15fc08835834940d38230fabbdb5e9a5726bdcdf4f3528d52f6e375b98a"
+      ]
+    },
+    {
+      "id": "review-Gen-37-5-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "5"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "5"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph reports a dream; Hebrew additionally repeats the increase of hatred here, absent in Greek 5.",
+      "expected_left_reading_sha256": [
+        "0ac1d5bf01a57df782b280f967f2d42472b2074669ba77de49eb581747d342df"
+      ],
+      "expected_right_reading_sha256": [
+        "c2d68b38421b790041e853ed4706bef22c1a2ea12b5cbdba66548874e77d1d7a"
+      ]
+    },
+    {
+      "id": "review-Gen-37-6-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "6"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "6"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph asks the brothers to hear the dream.",
+      "expected_left_reading_sha256": [
+        "66188665b666e5c293f1610493ab3e9731fe54cefbea9eb520bd53d0e0e72290"
+      ],
+      "expected_right_reading_sha256": [
+        "0961f9378accbd8b46efb8fa38f61eeb4c02dcffb3668bbca725b13952b0f12d"
+      ]
+    },
+    {
+      "id": "review-Gen-37-7-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "7"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "7"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Sheaves bind, Joseph's rises and others bow; Hebrew we/Greek you binding differs.",
+      "expected_left_reading_sha256": [
+        "0f834c03f10ba19558137a15bdec8d7203d87933b93f5e336532fd8cee856d7d"
+      ],
+      "expected_right_reading_sha256": [
+        "22d65cb71c355e469663b5eabc3c11b38bb7494f94dedfe18f2076153d10d643"
+      ]
+    },
+    {
+      "id": "review-Gen-37-8-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "8"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "8"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Brothers reject royal dominion and hate Joseph for dreams and words.",
+      "expected_left_reading_sha256": [
+        "72b5cee442535af07b39f31dca9861cd78a890e12ef4a92623eacd33bd11ec97"
+      ],
+      "expected_right_reading_sha256": [
+        "be2f5d9185810e582fec0ff485406fe2a809dd3110e92c5f5c82462243e87fb8"
+      ]
+    },
+    {
+      "id": "review-Gen-37-9-10-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "9"
+        ],
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "10"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "9"
+        ],
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "10"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Second dream and father's rebuke: Hebrew recounts telling the father and brothers at the opening of 37:10; Greek includes the father in the telling in 37:9 and begins 10 with the rebuke. Group both extents and retain the sun/moon/eleven-stars dream.",
+      "expected_left_reading_sha256": [
+        "643ae28a706e6f4dd21ae9440cd2e986695171cec2becc629147847865b624d7",
+        "e76c8bc0d67ad93cf95e826f8f98eef0539e71b653c6fa9c9d7e14727bd76b76"
+      ],
+      "expected_right_reading_sha256": [
+        "8bbe4b7076ddbd58ae35ced0f11af29497071e217a16c96a7dedce104801bf48",
+        "1da5a036a25a562d7d2ff4405923a1ace4b971f71ba342ba6bb0910f0e0c07e2"
+      ]
+    },
+    {
+      "id": "review-Gen-37-11-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "11"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "11"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Brothers envy, father preserves the saying.",
+      "expected_left_reading_sha256": [
+        "29d777a0450f23f5ff4cfc2c51254bc9e30d3e864d430a9e838cdb4f9afa0a23"
+      ],
+      "expected_right_reading_sha256": [
+        "293280c66c63ea8f086a41504ff74c873a948e2b44f8a6f5057339c15f9d9db2"
+      ]
+    },
+    {
+      "id": "review-Gen-37-12-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "12"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "12"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Brothers pasture the father's flock at Shechem.",
+      "expected_left_reading_sha256": [
+        "fd70d2cb90be6c0a8a1be1a6c994caa2d0493a5eb8c77c53c07c28efb095d9c2"
+      ],
+      "expected_right_reading_sha256": [
+        "0043f5afdd6d80e343fc44765fae8a2a45b1b1409bcd0468ad6d638654c07a6d"
+      ]
+    },
+    {
+      "id": "review-Gen-37-13-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "13"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "13"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Israel sends Joseph to his brothers and Joseph responds.",
+      "expected_left_reading_sha256": [
+        "49d98a6394b0f00365f0da59a7e1b4677c10fb144f583cc0bfa4fde33f15a53e"
+      ],
+      "expected_right_reading_sha256": [
+        "02c9f5a36f97393de8dc2674b1b01b469b13182117725a5f8b70d6f219197a95"
+      ]
+    },
+    {
+      "id": "review-Gen-37-14-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "14"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "14"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Welfare inquiry and report commissioned; departure from Hebron and arrival at Shechem.",
+      "expected_left_reading_sha256": [
+        "3897e57f399d3c82d47fcc4b9daafd142e5c8064e11d9122551df3779f793091"
+      ],
+      "expected_right_reading_sha256": [
+        "a738cdae89abc3281c02a07b9013210bdb280632e6d5d6eba834e464c42fb2cb"
+      ]
+    },
+    {
+      "id": "review-Gen-37-15-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "15"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "15"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "A man finds Joseph wandering and asks what he seeks.",
+      "expected_left_reading_sha256": [
+        "4d1f1cda258e423e2f309f2b8abc525f74a49417b515c71a6ed4df5b778464f2"
+      ],
+      "expected_right_reading_sha256": [
+        "8d845fe821f7c0a58b248a4e71d155987aa67cc4bb1320bdc4dad5d3fceb2a5c"
+      ]
+    },
+    {
+      "id": "review-Gen-37-16-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "16"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "16"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph asks where his brothers pasture.",
+      "expected_left_reading_sha256": [
+        "0cde4b32478440186204e5188dc83dbb58a4c111c39f4d2c149af381089ea93c"
+      ],
+      "expected_right_reading_sha256": [
+        "430899be9eaff6d98e9bb88a2089dd715b1327441c12dc7b3c3e825d8e29aa69"
+      ]
+    },
+    {
+      "id": "review-Gen-37-17-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "17"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "17"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Man reports Dothan destination and Joseph finds the brothers there.",
+      "expected_left_reading_sha256": [
+        "36ea1582ecb75aa42e8f0f3f1be65ba16cf2faf1ceb5f4ee0b841a56822874d4"
+      ],
+      "expected_right_reading_sha256": [
+        "1634c82857250dde780e4a98b167967602064c7c7fae5785fbccba9b046c1dcc"
+      ]
+    },
+    {
+      "id": "review-Gen-37-18-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "18"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "18"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Brothers see him far off and plot his death.",
+      "expected_left_reading_sha256": [
+        "64172346e7206decdbdb9dc46a4901b04a29ad9e68289255af36c07bf091d334"
+      ],
+      "expected_right_reading_sha256": [
+        "9d3fcd243b1fc09dea8296150f7acf468983e41dc691b4d297875d6e64fe422e"
+      ]
+    },
+    {
+      "id": "review-Gen-37-19-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "19"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "19"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "The dreamer approaches, brothers say.",
+      "expected_left_reading_sha256": [
+        "4579da375f3ec9c3e259e09410a582424b729f8e09441afeec1e4046d1070ba5"
+      ],
+      "expected_right_reading_sha256": [
+        "2b9ee9729f1532d9ef34648f45b1065f242f8fb66315fd390884593114f22c45"
+      ]
+    },
+    {
+      "id": "review-Gen-37-20-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "20"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "20"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Murder, pit disposal and beast story proposed to test the dreams.",
+      "expected_left_reading_sha256": [
+        "97d965756b8aff14f255dd70a04bbe14eb374b355a7e260ec9f123cd00183323"
+      ],
+      "expected_right_reading_sha256": [
+        "77de792b4cc0fe4dbd012238870839d8cdafa17e0c71e9ef5bbda12ea76b300c"
+      ]
+    },
+    {
+      "id": "review-Gen-37-21-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "21"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "21"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Reuben intervenes against taking his life.",
+      "expected_left_reading_sha256": [
+        "993dd1e77a3ae3a667b0145ed1a421161a576a4aee1c4aaab6e1ed6657be5588"
+      ],
+      "expected_right_reading_sha256": [
+        "2d0fa253638d7c2bd3e870d22db1dcd03ebb19013df1887ace81a6a7a13f15f2"
+      ]
+    },
+    {
+      "id": "review-Gen-37-22-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "22"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "22"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Bloodshed forbidden; pit proposal intended to restore him to father.",
+      "expected_left_reading_sha256": [
+        "f0380a5a5701b2ad52d575fb004d417bd4c63c6363a955e3233dd8904fc7e7ab"
+      ],
+      "expected_right_reading_sha256": [
+        "823a15c7250565dad3bce459c215fd1773e6a6271f09368df26c5f37dfa684a4"
+      ]
+    },
+    {
+      "id": "review-Gen-37-23-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "23"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "23"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph stripped of his special/multicolored tunic.",
+      "expected_left_reading_sha256": [
+        "a8ded11d82dd2232954a78bca0290edfd27b74f9543e73ff61699c0709615cbd"
+      ],
+      "expected_right_reading_sha256": [
+        "0de9a2e72a30ad5bd5e84a3b2c6f570f669cba2b3caa10cfdf721df35968db09"
+      ]
+    },
+    {
+      "id": "review-Gen-37-24-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "24"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "24"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Joseph thrown into an empty, waterless pit.",
+      "expected_left_reading_sha256": [
+        "2db7573b0dc8e60c77c74127dc45809f196526ef76c672ec6ef3836651b6af18"
+      ],
+      "expected_right_reading_sha256": [
+        "8b63304ff983c90d650fc7d84b88681e0bf2764d2dc462d28bbb76e26fbf02f3"
+      ]
+    },
+    {
+      "id": "review-Gen-37-25-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "25"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "25"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Meal and sight of Ishmaelite caravan carrying aromatics from Gilead to Egypt; spice names differ.",
+      "expected_left_reading_sha256": [
+        "91a2fa506c7bfcb1559ef5f61f7ca1ff9e1d1855d5ccdce0cc44239b21596b79"
+      ],
+      "expected_right_reading_sha256": [
+        "0c31be13ae2325ce9475b78b2903c5848b17aed108e414d6d42217d4cd3807c6"
+      ]
+    },
+    {
+      "id": "review-Gen-37-26-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "26"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "26"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Judah questions profit in killing and concealing blood.",
+      "expected_left_reading_sha256": [
+        "a0d0d50128a1273293805f1266b873666e78de00c03b89af1dafa7394bea0d43"
+      ],
+      "expected_right_reading_sha256": [
+        "9d5c4be833e694ee7281f9604d1448a98ae81cc586ef49eb8435984c369edf22"
+      ]
+    },
+    {
+      "id": "review-Gen-37-27-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "27"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "27"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Sale to Ishmaelites proposed because Joseph is their flesh and brother.",
+      "expected_left_reading_sha256": [
+        "0688e04ccbd9d448455f8832d5777fc4b6afbbf2393639f575ce8a2f969f8d2a"
+      ],
+      "expected_right_reading_sha256": [
+        "4fb36770edf67f662236201d6712ea4c77ceff819a5aaaef51b9ac042e8041f9"
+      ]
+    },
+    {
+      "id": "review-Gen-37-28-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "28"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "28"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Midianite traders, extraction and sale for twenty; Hebrew silver/Greek gold differ.",
+      "expected_left_reading_sha256": [
+        "e9494d82b74a7e5459479b652c1850eb20f7d3f86ab9d48e091951096c8088df"
+      ],
+      "expected_right_reading_sha256": [
+        "28c02dfffac339e7f764bfdd2c4b7dfa961d7aad78b34b685835cb7036059a57"
+      ]
+    },
+    {
+      "id": "review-Gen-37-29-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "29"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "29"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Reuben returns to empty pit and tears clothes.",
+      "expected_left_reading_sha256": [
+        "698757543bef2ea409ce7db1385c1e55e8389e8457c8f7fe2b7886a06351f8e6"
+      ],
+      "expected_right_reading_sha256": [
+        "8467f069d7cd7f9ff6cd6342a72d783911d323c0296f689da756698318dc8d81"
+      ]
+    },
+    {
+      "id": "review-Gen-37-30-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "30"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "30"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Reuben reports the child's absence and his own helplessness.",
+      "expected_left_reading_sha256": [
+        "15f89c49858ecec4f41c2a05146e6a96a66dce75ed5f09df44acf85fede53517"
+      ],
+      "expected_right_reading_sha256": [
+        "6a69cfc5e951f57967062144b7aebdb35a8c8dcba1a27cf77a5a575d296e022e"
+      ]
+    },
+    {
+      "id": "review-Gen-37-31-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "31"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "31"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Goat slaughter and blood applied to Joseph's tunic.",
+      "expected_left_reading_sha256": [
+        "3ed45ca93b4f68e2d357c78bc0381ee2855662fbf20361c3be600628e3c52c1d"
+      ],
+      "expected_right_reading_sha256": [
+        "87032a892149142c01c3f2845fd04b3c10e926a1836e84d8de86f908ce0f7808"
+      ]
+    },
+    {
+      "id": "review-Gen-37-32-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "32"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "32"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Bloodied tunic sent to father for identification.",
+      "expected_left_reading_sha256": [
+        "f50a56ca0199c0f5a4df090437c76e93c3572c4161b15f80406f5f710fa7c306"
+      ],
+      "expected_right_reading_sha256": [
+        "4db8da9374dd82e9f4de77a9262486086f60e399b770354193b5acab57ca6ec4"
+      ]
+    },
+    {
+      "id": "review-Gen-37-33-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "33"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "33"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Father identifies tunic and infers Joseph's mauling by a wild beast.",
+      "expected_left_reading_sha256": [
+        "2d44bfbe75f1a001146881a339cffebebc7236396d85020d631c5d86b8bac89e"
+      ],
+      "expected_right_reading_sha256": [
+        "97924b0d182304558e361ac8f309ff723e3fdb52e7eeac010d26ec8d7b2107da"
+      ]
+    },
+    {
+      "id": "review-Gen-37-34-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "34"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "34"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Jacob tears garments, wears sackcloth and mourns many days.",
+      "expected_left_reading_sha256": [
+        "1358876fb9ba172aa9f9cebb9038064d3a447f482c3e41d3006bfb583149ed63"
+      ],
+      "expected_right_reading_sha256": [
+        "47dee36cea9fa6c8f0d64b51aba3b55972f1718afc5b2b0054f3843465ad43d0"
+      ]
+    },
+    {
+      "id": "review-Gen-37-35-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "35"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "35"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Family cannot comfort him; descent mourning to son in Sheol/Hades stated.",
+      "expected_left_reading_sha256": [
+        "e415b0011ac82b990ba4cb5548515538ca509dbb33ce9228d693710a62cecab1"
+      ],
+      "expected_right_reading_sha256": [
+        "29f257d76cd78c926481fa96e4ea08e1ed858fa3ba016300294da70f4fb4f0f8"
+      ]
+    },
+    {
+      "id": "review-Gen-37-36-to-LXX",
+      "left": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "36"
+        ]
+      ],
+      "right": [
+        [
+          "LXX-GRCBRENT-20260408",
+          "GEN",
+          37,
+          "36"
+        ]
+      ],
+      "order_relation": "parallel",
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected pinned WLC Hebrew and Brenton Greek wording and adjacent passage boundaries; correspondence does not assert identical readings."
+      },
+      "note": "Traders sell Joseph to Potiphar, Pharaoh's officer; Hebrew Medanites/Greek Midianites and titles remain distinct.",
+      "expected_left_reading_sha256": [
+        "5c7cf8ca0fedf580b18e432e80a9cb489a3c625ec2fa6a0a796a40b22ebc8b3c"
+      ],
+      "expected_right_reading_sha256": [
+        "7cba920fb64227228ac7aae109bf1094b6d5c159164e365628b85e5fa59643d0"
+      ]
     }
   ],
   "physical_DSS_alignment": "Opening Genesis 1:1–3 physical records reviewed separately in dss-Gen.json; remainder incomplete. Reconstructed/provisional references are not physical attestation.",
