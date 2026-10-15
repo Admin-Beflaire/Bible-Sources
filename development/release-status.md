@@ -109,3 +109,11 @@ Live contracts at **19:07–19:09Z** verify the exact original request, four par
 Final Ready at **19:08:59.528Z** refreshes the timestamp/layout, retains reference guidance and reports output completion unobserved. Its Next passage control and planner continuation advance to **Genesis 2:4–25**. These were source-free contract fixtures, not generated studies or proof of displayed host output.
 
 A fresh complete host study must verify actual prose, progress clocks, reference usefulness and retained wording. Production/public promotion and public submission remain out of scope.
+
+## Genesis book/chapter mapping — 15 October 2026
+
+Read-only checks at **08:02:57Z / 10:02:57 CEST** confirm Preview **0.1.18**, Production **0.1.10** and unchanged source pin `054a5226027deb13827a04a6e68c56cbd3702f37`. Public connector health still returns an internal error; no fresh public version claim is made. Cloudflare retains the manual-only public watch path and disabled public previews. Starting preview ref: `91ed9e637c4b737bec9f61d260e9d147478b4c15`.
+
+The offline Genesis batch contains **3,390 relations**, with **3,029 text-verified** and **361 individually model-reviewed**. Each Hebrew target covers all **1,533 WLC Genesis verses**. Greek chapter review covers **1–11 and 35**, including grouped/reordered boundaries. Ten DSS records at Genesis 1:1–3 were inspected: **six partial physical links, three reconstruction-only references and one provisional short-fragment attribution**, leaving **832** indexed Genesis records unreviewed. No human review or manuscript-image verification is claimed.
+
+Validation passed: **57 Python tests**, including real TAHOT chapter renumbering, moved Greek clauses/names/genealogies, relocated Migdal Eder, retained Qere/X flags, duplicate suppression, digest/overlap rejection and reconstruction-only safeguards. Deterministic rebuild verifies original pinned bytes and every endpoint/artifact hash. These are offline index checks; the index is not bundled into study retrieval, systematic comparison remains inactive and the Worker remains 0.1.18. No Production/public promotion.

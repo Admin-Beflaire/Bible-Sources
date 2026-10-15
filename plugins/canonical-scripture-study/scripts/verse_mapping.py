@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build/query an offline native-reference inventory and reviewed pilot relations.
+"""Build/query offline, pinned book/chapter mappings and DSS physical links.
 
 This development index is not loaded by study tools and never changes source text.
 """
@@ -18,10 +18,14 @@ PLUGIN = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PLUGIN))
 from bible_study.readers import Reader  # noqa: E402
 from bible_study.store import SourceStore, StudyError  # noqa: E402
+from scripts.verse_mapping_books import compile_books, expand_relation, signature  # noqa: E402
+from scripts.verse_mapping_dss import compile_dss_reviews, lookup_dss  # noqa: E402
 
 ROOT = PLUGIN.parents[1]
 DEST = ROOT / "indexes/verse-mapping"
 SEEDS = ROOT / "development/verse-mapping-pilot.json"
+BOOK_REVIEWS = ROOT / "development/verse-mapping-books"
+DSS_REVIEWS = ROOT / "development/verse-mapping-dss"
 DATASET_NAMES = {"wlc-4.20-oshb": "WLC/OSHB 4.20", "uxlc-2.4": "UXLC 2.4", "TAHOT": "TAHOT", "LXX-GRCBRENT-20260408": "Brenton Greek Septuagint", "SBLGNT": "SBL Greek New Testament"}
 
 
@@ -121,7 +125,7 @@ def dss_inventory(store):
     return {"dataset_id": "DSS-2.0.1", "identity": "scroll_and_record_id", "reference_status": "modern_annotations_not_reviewed_cross_edition_alignment", "evidence_access": "Read the pinned TSV row and its hash-verified source span; preserve reconstruction, uncertainty, fragment and line identity.", "tables": tables, "physical_records": len(physical_ids), **dict(totals)}
 
 
-def build(reader, seeds):
+def build(reader, seeds, book_reviews=BOOK_REVIEWS, dss_reviews=DSS_REVIEWS):
     editions = inventory(reader)
     files = {}
     coverage = {}
@@ -134,7 +138,16 @@ def build(reader, seeds):
     files["native-DSS-2.0.1.json"] = (json.dumps(dss, ensure_ascii=False, indent=2) + "\n").encode()
     relations = compile_relations(reader, seeds)
     files["pilot-relations.json"] = (json.dumps({"source_commit": reader.store.profile["commit"], "relations": relations}, ensure_ascii=False, indent=2) + "\n").encode()
+    book_files, book_progress = compile_books(reader, book_reviews, endpoint, native_key)
+    files.update(book_files)
+    dss_files, dss_progress = compile_dss_reviews(reader, dss_reviews, endpoint, native_key)
+    files.update(dss_files)
+    files["book-progress.json"] = (json.dumps({"source_commit": reader.store.profile["commit"], "books": book_progress, "DSS_physical_mapping": dss_progress, "reviewed_alignment_complete": False, "comparison_delivery_enabled": False}, ensure_ascii=False, indent=2) + "\n").encode()
     manifest = {"schema_version": "0.1.0", "status": "partial_mapping_index_with_complete_native_inventory", "source_repository": reader.store.profile["repository"], "source_commit": reader.store.profile["commit"], "chapter_index_sha256": reader.store.profile["metadata_hashes"]["indexes/chapter-index.jsonl"], "source_profile_sha256": digest((PLUGIN / "bible_study/config/source-profile.json").read_bytes()), "coverage": coverage, "DSS": {k: v for k, v in dss.items() if k in {"physical_records", "numeric_reference_annotations", "unresolved_native_references", "fully_reconstructed_letter_records"}}, "DSS_index_tables": len(dss["tables"]), "model_reviewed_pilot_relations": len(relations), "reviewed_alignment_complete": False, "comparison_delivery_enabled": False, "witness_relationships": {"wlc-4.20-oshb+uxlc-2.4": "related_transcriptions_of_the_same_Leningrad_manuscript", "LXX-GRCBRENT-20260408": "Greek_translation_tradition_in_a_modern_edition", "TAHOT": "annotated_Hebrew_edition_not_an_independent_manuscript_vote", "SBLGNT": "modern_critical_edition_not_a_single_manuscript", "DSS-2.0.1": "individual_scrolls_with_physical_and_reconstruction_status"}, "open_work": ["Review remaining verse correspondences from source wording and boundaries.", "Handle split, merged, reordered and partial spans without inferring equivalence from labels.", "Review DSS reference annotations against actual physical readings and reconstruction.", "Keep edition-only books, headings, suffixes, unavailable records and unresolved alignments explicit."], "files": {name: {"sha256": digest(data), "bytes": len(data)} for name, data in sorted(files.items())}}
+    manifest.update(schema_version="0.2.0", book_mapping_progress="book-progress.json",
+        book_relations=sum(b["relation_count"] for b in book_progress),
+        DSS_individually_reviewed_physical_records=sum(b["reviewed_physical_records"] for b in dss_progress),
+        book_review_methods={key: sum(b["review_methods"].get(key, 0) for b in book_progress) for key in sorted({k for b in book_progress for k in b["review_methods"]})})
     files["manifest.json"] = (json.dumps(manifest, indent=2, ensure_ascii=False) + "\n").encode()
     return files, manifest
 
@@ -145,7 +158,7 @@ def load_index(directory):
     if manifest["source_commit"] != json.loads(profile_bytes)["commit"] or manifest["source_profile_sha256"] != digest(profile_bytes):
         raise ValueError("Index provenance does not match the pinned source profile.")
     if manifest["reviewed_alignment_complete"] or manifest["comparison_delivery_enabled"]:
-        raise ValueError("The pilot index cannot claim complete mapping or enable study delivery.")
+        raise ValueError("The partial development index cannot claim complete mapping or enable study delivery.")
     for name, expected in manifest["files"].items():
         path = directory / name
         if path.parent != directory or not path.is_file():
@@ -164,11 +177,33 @@ def lookup(directory, ref, target_dataset=None, target_book=None):
     native = json.loads((directory / f"native-{dataset}.json").read_text())["books"]
     if verse not in native.get(book, {}).get(str(chapter), []):
         return {"native_reference": ref, "status": "no_indexed_native_reference_not_evidence_of_omission", "relations": []}
-    relations = json.loads((directory / "pilot-relations.json").read_text())["relations"]
+    if target_dataset == "DSS-2.0.1":
+        return lookup_dss(directory, manifest, ref, target_book)
+    # Prefer chapter mappings over duplicate historical pilot examples. Do not
+    # infer transitive mappings or extrapolate offsets to unreviewed references.
+    relations = []
+    seen = set()
+    if manifest.get("book_mapping_progress"):
+        progress = json.loads((directory / manifest["book_mapping_progress"]).read_text())
+        native_chapter = "/".join(map(str, ref[:3]))
+        for book_progress in progress["books"]:
+            for shard in book_progress["shards"]:
+                if native_chapter not in shard["native_chapters"]:
+                    continue
+                chapter = json.loads((directory / shard["file"]).read_text())
+                for row in chapter["relations"]:
+                    if ref in row["left"] or ref in row["right"]:
+                        relations.append(expand_relation(row, chapter["chapter_evidence"]))
+                        seen.add(signature(row))
+    relations.extend(row for row in json.loads((directory / "pilot-relations.json").read_text())["relations"] if signature(row) not in seen)
     matches = [row for row in relations if ref in row["left"] or ref in row["right"]]
     if target_dataset:
         matches = [row for row in matches if any(x[0] == target_dataset and (target_book is None or x[1] == target_book) for x in row["left"] + row["right"])]
-    result = {"native_reference": ref, "source_commit": manifest["source_commit"], "status": "model_reviewed_pilot_extent" if matches else "unresolved_alignment", "relations": matches, "comparison_delivery_enabled": False}
+    book_match = any(row.get("mapping_origin") == "book_chapter" for row in matches)
+    status = "reviewed_book_extent" if book_match else "model_reviewed_pilot_extent"
+    if matches and all(row["review"]["status"] == "text_verified" for row in matches):
+        status = "text_verified_book_extent"
+    result = {"native_reference": ref, "source_commit": manifest["source_commit"], "status": status if matches else "unresolved_alignment", "relations": matches, "comparison_delivery_enabled": False}
     if not matches and target_dataset:
         native_key([target_dataset, target_book or book, chapter, verse])
         target = json.loads((directory / f"native-{target_dataset}.json").read_text())["books"]
@@ -187,7 +222,7 @@ def main():
     parser.add_argument("--book")
     parser.add_argument("--chapter", type=int)
     parser.add_argument("--verse")
-    parser.add_argument("--target-dataset", choices=DATASET_NAMES)
+    parser.add_argument("--target-dataset", choices=[*DATASET_NAMES, "DSS-2.0.1"])
     parser.add_argument("--target-book")
     args = parser.parse_args()
     try:
@@ -196,13 +231,13 @@ def main():
             args.directory.mkdir(parents=True, exist_ok=True)
             for name, raw in files.items():
                 (args.directory / name).write_bytes(raw)
-            print(json.dumps({"coverage": manifest["coverage"], "DSS": manifest["DSS"], "pilot_relations": manifest["model_reviewed_pilot_relations"], "comparison_delivery_enabled": False}))
+            print(json.dumps({"coverage": manifest["coverage"], "DSS": manifest["DSS"], "pilot_relations": manifest["model_reviewed_pilot_relations"], "book_relations": manifest["book_relations"], "book_review_methods": manifest["book_review_methods"], "comparison_delivery_enabled": False}))
         elif args.action == "check":
             load_index(args.directory)
             expected, _ = build(Reader(SourceStore(data_root=ROOT, offline=True)), json.loads(args.seeds.read_text()))
             if any((args.directory / name).read_bytes() != raw for name, raw in expected.items()):
                 raise ValueError("Index does not match a deterministic rebuild from pinned sources and review records.")
-            print("Verified artifact hashes, pinned-source rebuild and pilot endpoint evidence.")
+            print("Verified artifact hashes, pinned-source rebuild, book extents and DSS physical reviews.")
         else:
             if None in [args.dataset, args.book, args.chapter, args.verse]:
                 parser.error("lookup requires --dataset, --book, --chapter and --verse")
