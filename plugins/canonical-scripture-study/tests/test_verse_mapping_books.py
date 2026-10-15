@@ -31,7 +31,8 @@ class BookMappingTests(unittest.TestCase):
     def test_greek_clause_and_name_boundaries_use_groups(self):
         for chapter, verse, expected in [(1, "6", ["6", "7"]), (10, "28", ["27", "28"]), (11, "12", ["12", "13"]),
                                           (17, "3", ["3", "4"]), (19, "16", ["16", "17"]), (19, "19", ["18", "19"]),
-                                          (22, "4", ["3", "4"]), (23, "6", ["5", "6"]), (24, "19", ["18", "19"])]:
+                                          (22, "4", ["3", "4"]), (23, "6", ["5", "6"]), (24, "19", ["18", "19"]),
+                                          (27, "45", ["44", "45"])]:
             result = maps.lookup(maps.DEST, ["wlc-4.20-oshb", "Gen", chapter, verse], "LXX-GRCBRENT-20260408")
             self.assertEqual(len(result["relations"]), 1)
             row = result["relations"][0]
