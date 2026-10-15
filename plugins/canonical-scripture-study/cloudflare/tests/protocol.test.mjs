@@ -182,9 +182,10 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const clocks=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Clock'}})).structuredContent;
     assert.equal(clocks.status,'clock_check');
     const health=(await rpc(preview,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.equal(health.runtime_controls.preview_debug_mode,true);
-    const normalHealth=(await rpc(normal,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.ok(normalHealth.preview_debug&&normalHealth.preview_clock);
+    const normalHealth=(await rpc(normal,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.ok(!normalHealth.preview_debug&&!normalHealth.preview_clock);
     const normalPlan=(await rpc(normal,'tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 11'}})).structuredContent;
     assert.equal(normalPlan.delivery.mode,'preview_one_part_per_turn');
+    assert.equal(normalPlan.output_contract.diagnostics,undefined);
     assert.equal(normalPlan.delivery.current_part,'translation_notes');
     const normalReady=(await rpc(normal,'tools/call',{name:'study_plan',arguments:{query:'Ready',study_state:{preview_delivery:normalPlan.delivery_state}}})).structuredContent;
     assert.equal(normalReady.next_title,'Local explanation and literary structure');

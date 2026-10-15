@@ -90,6 +90,7 @@ test('No-sign-in public MCP exposes twelve parity tools and verified Genesis map
   assert.equal(health.runtime_controls.rate_limit_scope, 'shared_connector_ip_and_service');
    assert.equal(health.genesis_mapping.consumer,'released_channels');
    assert.equal(health.runtime_controls.preview_staged_delivery,true);
+   assert.equal(health.runtime_controls.preview_debug_mode,false);
   const passage = (await rpc('tools/call', {name: 'fetch_passage', arguments: {reference: 'Genesis 1:1-3', sources: ['WLC']}})).structuredContent;
   assert.equal(passage.source_packets[0].records.length, 3);
   assert.equal(passage.source_packets[0].evidence.repository, 'Admin-Beflaire/Bible-Sources');

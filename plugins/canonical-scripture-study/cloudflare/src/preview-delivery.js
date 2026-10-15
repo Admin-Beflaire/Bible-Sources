@@ -91,7 +91,7 @@ function outputContract(engine, state, now, debug = true) {
     } : {}),
     ...(debug ? {diagnostics:'Report only observed diagnostic metrics and never invented host timings.'} : {}),
     closing_lines: [...(debug ? [`Last server check: ${clock.display}`] : []), next ? `Next: ${titles[next]}` : 'Next passage'],
-    instruction: 'Use the fresh output_contract returned by Ready immediately before output. Deliver only this part and stop; Ready does not certify the text or observe output completion.',
+    instruction:debug?'Use the fresh output_contract including its timestamp. Deliver only this part and stop. Ready is not output completion.':'Deliver only this part and stop. Do not add diagnostics, clock stamps or timing footers. Ready is not output completion.',
   };
 }
 function partPlan(engine, plan, state, now, debug = true) {
@@ -141,7 +141,7 @@ export async function deliveryAction(engine, action, state, now = Date.now(), de
   const {passage, sequence} = validateState(engine, state, now);
   if (action === 'ready') {
     const hasNext = state.stage_index + 1 < sequence.length;
-    return {status: 'host_reports_part_ready', output_status:'awaiting_host_output', output_completion_observed:false, ...(debug?{timestamp:timestamp(now,state.started_at)}:{}), output_contract:outputContract(engine,state,now,debug), completed_part: sequence[state.stage_index], completed_title: titles[sequence[state.stage_index]], next_title: hasNext ? titles[sequence[state.stage_index + 1]] : 'Next passage', passage_complete: !hasNext, next_delivery_state: {...state}, next_action: 'next', button_label: hasNext ? `Next: ${titles[sequence[state.stage_index + 1]]}` : 'Next passage', instruction: 'Use output_contract for the current part, beginning with its fresh first_line timestamp. Deliver only this part and stop. Retain next_delivery_state for Next. If a clock call after substantive streaming is supported, append that fresh timestamp labelled Server check after output. Otherwise retain the Last server check footer. Never label Ready as output completion. Readiness is reported by the host; this tool does not certify translation, interpretation or delivery.'};
+    return {status: 'host_reports_part_ready', output_status:'awaiting_host_output', output_completion_observed:false, ...(debug?{timestamp:timestamp(now,state.started_at)}:{}), output_contract:outputContract(engine,state,now,debug), completed_part: sequence[state.stage_index], completed_title: titles[sequence[state.stage_index]], next_title: hasNext ? titles[sequence[state.stage_index + 1]] : 'Next passage', passage_complete: !hasNext, next_delivery_state: {...state}, next_action: 'next', button_label: hasNext ? `Next: ${titles[sequence[state.stage_index + 1]]}` : 'Next passage', instruction:debug?'Use output_contract with its timestamp. Deliver only this part and stop; retain Next state. Do not equate Ready with output completion.':'Deliver only this part and stop, keeping the Next continuation state. No diagnostic metrics or server timings.'};
   }
   if (action === 'next' && state.stage_index + 1 === sequence.length) {
     return previewPlan(engine, {query: 'Next', study_state: passage, sources:retainedSources(state), language: passage.language, translation_format: passage.translation_format}, now, debug);
