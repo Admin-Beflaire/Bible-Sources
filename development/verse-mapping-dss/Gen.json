@@ -2,7 +2,7 @@
   "schema_version": "0.2.0",
   "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
   "book_id": "Gen",
-  "scope": "Opening physical records inspected against source transcription and sign annotations; manuscript images were not independently inspected. Editorial reconstruction is not physical attestation.",
+  "scope": "All 842 indexed Genesis physical records individually reviewed against pinned source transcriptions, sign annotations, Hebrew anchors and local sequence. Dispositions distinguish partial physical correspondences, reconstruction-only references and provisional placements. Manuscript images were not independently inspected; no human review is claimed. Editorial reconstruction is not physical attestation.",
   "reviewed_records": [
     {
       "scroll": "4Q2",

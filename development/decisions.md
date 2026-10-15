@@ -143,3 +143,10 @@ Preserve 4Q3's cross-record cor=3 span, Mas1's unmarked את יעקוב versus r
 From verified preview `2a6ad998edf1ea205fbcf052ecbc1532d95c01c1`, the final 20-record batch adds 16 partial physical, 1 reconstruction-only and 3 provisional reviews. All 842 indexed Genesis DSS identities have dispositions; no unreviewed record remains. Completion of this inventory review does not mean every record has a confident physical alignment. Keep the existing physical-alignment/comparison flags false and reserve the separate full Genesis verification/documentation milestone for the next explicit continuation.
 
 Preserve differences in the damaged 48:6 reading, shorter transcribed 48:7/9 wording, 48:10 age term and embrace/kiss order without silently harmonizing with WLC or inferring image-confirmed manuscript omissions. Retain reconstructed alternatives and uncertainty. No runtime, source-pin, deployment-setting or publication change; do not start Exodus.
+
+
+## Genesis final verification — 16 October 2026
+
+The five-milestone continuation is complete. Preserve all 842 Genesis DSS reviews, the 365 / 234 / 243 disposition split, completed Hebrew/Greek edition maps and source pin. The reviewed-record scope metadata now accurately describes all Genesis records, with no change to individual review objects. The final evidence is recorded in [verse-mapping-genesis-verification.json](verse-mapping-genesis-verification.json).
+
+Inventory completion means every physical identity received a source-bound disposition; it does not promote provisional or reconstruction-only references to physical support. Keep confident physical-alignment and comparison-delivery flags false, leave runtime integration inactive and stop after Genesis. Final verification passed build/check, 58 Python tests, 35 Worker tests and 1,956 parity cases, complete source/anchor hash and identity checks, and edition forward/reverse lookups. Read-only Cloudflare checks confirm Production/public deployments still date to 12 October and the public manual-only build path remains intact; public health remains unavailable. No promotion, deployment, publication or host-performance claim.

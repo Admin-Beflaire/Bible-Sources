@@ -746,7 +746,7 @@
       "book_id": "Gen",
       "file": "dss-Gen.json",
       "source_review_file": "development/verse-mapping-dss/Gen.json",
-      "source_review_sha256": "bb4190f1563e6f9c322332d9d12cb3cc621c01259510c3b405d45351e1f9bf42",
+      "source_review_sha256": "301bd61959e9f6cce8f87ded6f016884ad535b4d3c1936e57a4740b51ada4638",
       "indexed_physical_records": 842,
       "reviewed_physical_records": 842,
       "remaining_unreviewed_physical_records": 0,
