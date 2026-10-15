@@ -1,0 +1,271 @@
+{
+  "release": "0.1.19",
+  "code_commit": "513c72f9989cc7a722c2b56ba926df2e729ea933",
+  "build_id": "238627e9-147c-42f6-ab2d-95752df92c6a",
+  "build_completed_at": "2026-10-15T22:25:27.882Z",
+  "health": {
+    "plugin_version": "0.1.19",
+    "source_profile": "shared-public",
+    "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+    "source_access": "pinned_verified_worker_assets",
+    "base_books": 66,
+    "indexed_chapters": 4150,
+    "curated_word_studies": 50,
+    "default_study_depth": "standard",
+    "study_depths": [
+      "standard",
+      "detailed",
+      "full"
+    ],
+    "canonical_seed_dossiers": 6,
+    "translation_and_interpretation": "performed_by_the_host_model_using_skills_not_by_a_dictionary_replacement_algorithm",
+    "deployment": {
+      "runtime": "Cloudflare Worker",
+      "services": [
+        "Workers",
+        "Workers Static Assets"
+      ],
+      "paid_services_required": false,
+      "asset_files": 13419,
+      "model_api_key_required": false
+    },
+    "limitations": [
+      "Genesis edition extents and DSS dispositions are indexed; other books remain unverified.",
+      "No full manuscript apparatus, full Greek concordance, exhaustive canonical database or complete imported website claim profile.",
+      "Free-plan CPU use must be monitored during real studies; study prose depends on the host."
+    ],
+    "genesis_mapping": {
+      "book": "Gen",
+      "edition_extent_coverage_complete": true,
+      "DSS_inventory_reviews": 842,
+      "DSS_dispositions": {
+        "partial_physical_extent_reviewed": 365,
+        "reconstruction_only_reference": 234,
+        "provisional_reference": 243
+      },
+      "confident_DSS_alignment_complete": false,
+      "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+      "index_manifest_sha256": "fa294dfa332460ce9f62c8d1f800ae5ce385d96ce6d32bfd3a85eb9359b0098b",
+      "consumer": "private_preview_only",
+      "systematic_comparison_section_enabled": false
+    },
+    "runtime_controls": {
+      "rate_limiter_configured": true,
+      "max_request_bytes": 131072,
+      "verified_source_cache_bytes": 8388608,
+      "preview_staged_delivery": true,
+      "preview_timestamps": true,
+      "preview_debug_mode": true,
+      "timestamp_time_zone": "Europe/Amsterdam",
+      "preview_registered_tools": [
+        "preview_timestamp",
+        "study_delivery"
+      ],
+      "preview_registered_tool_count": 12,
+      "preview_handoff_validation": false,
+      "cached_connection_fallback": "study_plan: Clock, Ready/Next/Resume/Next passage with preview_delivery state"
+    },
+    "preview_clock": {
+      "iso": "2026-10-15T22:26:16.816Z",
+      "display": "16-10-2026 00:26:16 (CEST, Europe/Amsterdam)",
+      "time_zone": "Europe/Amsterdam",
+      "measures": "Server clock check; not client rendering or final-message completion.",
+      "visible_message_rule": "Copy display as the first line of the next visible assistant message, including brief orientation and progress updates. Use the newest clock already returned by a tool; do not add a redundant clock call or invent a time."
+    },
+    "preview_debug": {
+      "operation_id": "79e64b0d-b3c9-4e95-a842-7d4146db8500",
+      "operation": "study_health",
+      "outcome": "completed",
+      "started_at": "2026-10-15T22:26:16.816Z",
+      "returned_at": "2026-10-15T22:26:16.816Z",
+      "server_execution_ms": 0,
+      "asset_fetches": 0,
+      "cache_hits": 0,
+      "asset_bytes": 0,
+      "output_completion_observed": false,
+      "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+    }
+  },
+  "plan": {
+    "reference": "Genesis 32:1",
+    "guidance": "GENESIS INDEX: Preview fetch_passage uses reviewed Genesis edition extents, including renumbered, grouped and reordered units. Preserve native labels and meaningful wording differences. Grouped target context does not expand the requested translation scope or prove identical individual verse boundaries. Genesis fetch_dss uses reviewed physical identities: partial physical correspondence, reconstruction-only reference and provisional reference remain distinct; model review is not human or image review. Other books retain native-label candidate retrieval. Do not automatically add editions or DSS when sources are restricted, or research later study parts.",
+    "can_retrieve": true,
+    "asset_fetches": 0
+  },
+  "checks": {
+    "tahot": {
+      "reference": "Genesis 32:1",
+      "alignment_status": "reviewed_Genesis_extents_not_identical_wording",
+      "packets": [
+        {
+          "dataset": "TAHOT",
+          "chapter": 31,
+          "verses": [
+            55
+          ],
+          "records": 12
+        }
+      ],
+      "operation": {
+        "operation_id": "2c06a4d2-d86f-4591-afb9-f2a66ab5d31f",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-15T22:26:28.102Z",
+        "returned_at": "2026-10-15T22:26:28.656Z",
+        "server_execution_ms": 554,
+        "asset_fetches": 2,
+        "cache_hits": 0,
+        "asset_bytes": 330038,
+        "reference": "Genesis 32:1",
+        "retrieved": [
+          {
+            "source": "TAHOT",
+            "records": 12,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "greek": {
+      "reference": "Genesis 35:21",
+      "alignment_status": "reviewed_Genesis_extents_not_identical_wording",
+      "packets": [
+        {
+          "dataset": "LXX-GRCBRENT-20260408",
+          "chapter": 35,
+          "verses": [
+            "16"
+          ],
+          "records": 1
+        }
+      ],
+      "operation": {
+        "operation_id": "7d5c5947-ab35-4576-a663-97689718b2f0",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-15T22:26:28.338Z",
+        "returned_at": "2026-10-15T22:26:28.695Z",
+        "server_execution_ms": 357,
+        "asset_fetches": 2,
+        "cache_hits": 0,
+        "asset_bytes": 261253,
+        "reference": "Genesis 35:21",
+        "retrieved": [
+          {
+            "source": "LXX",
+            "records": 1,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "dss": {
+      "reference": "Genesis 48:11",
+      "physical_records": [
+        {
+          "scroll": "4Q6",
+          "record_id": "L1593199-R002",
+          "disposition": "partial_physical_extent_reviewed",
+          "physical_letter_support": true
+        }
+      ],
+      "operation": {
+        "operation_id": "c8b05007-36a0-4e4b-a61b-01735780115c",
+        "operation": "fetch_dss",
+        "outcome": "completed",
+        "started_at": "2026-10-15T22:26:28.090Z",
+        "returned_at": "2026-10-15T22:26:28.531Z",
+        "server_execution_ms": 441,
+        "asset_fetches": 2,
+        "cache_hits": 0,
+        "asset_bytes": 202131,
+        "reference": "Genesis 48:11",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "restored": {
+      "reference": "Genesis 36:6",
+      "physical_records": [
+        {
+          "scroll": "2Q1",
+          "record_id": "L1592438-R001",
+          "disposition": "reconstruction_only_reference",
+          "physical_letter_support": false
+        }
+      ],
+      "operation": {
+        "operation_id": "75d6f429-b28d-411c-8d58-3ffc5e8e4e55",
+        "operation": "fetch_dss",
+        "outcome": "completed",
+        "started_at": "2026-10-15T22:26:28.305Z",
+        "returned_at": "2026-10-15T22:26:28.829Z",
+        "server_execution_ms": 524,
+        "asset_fetches": 2,
+        "cache_hits": 0,
+        "asset_bytes": 486339,
+        "reference": "Genesis 36:6",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "wlc": {
+      "reference": "Genesis 1:1",
+      "alignment_status": "native_number_candidate_retrieval_not_verified_verse_equivalence",
+      "packets": [
+        {
+          "dataset": "wlc-4.20-oshb",
+          "chapter": 1,
+          "verses": [
+            1
+          ],
+          "records": 1
+        }
+      ],
+      "operation": {
+        "operation_id": "65112978-92e0-4e5c-8f7d-89cc55965baf",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-15T22:26:28.205Z",
+        "returned_at": "2026-10-15T22:26:28.211Z",
+        "server_execution_ms": 6,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 173759,
+        "reference": "Genesis 1:1",
+        "retrieved": [
+          {
+            "source": "WLC",
+            "records": 1,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    }
+  },
+  "production_version": "0.1.10",
+  "deployment_isolation": {
+    "production_deployment_id": "1f13e9d5-8a55-4798-a9ae-b70bd7115d43",
+    "public_deployment_id": "30ac1ac7-0f5c-4df1-be75-aa5920c99464",
+    "both_active_deployments_date": "2026-10-12",
+    "public_path_includes": [
+      "__manual_public_release_only__/**"
+    ],
+    "public_health": "internal connector error; no fresh public version claim",
+    "mutations": "private Preview only"
+  },
+  "validation": {
+    "python_tests": 58,
+    "worker_tests": 41,
+    "parity_cases": 1956,
+    "index_check": "passed",
+    "private_packaging_dry_run": "passed",
+    "host_generated_study_and_performance": "not established by these checks"
+  }
+}

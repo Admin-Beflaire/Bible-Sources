@@ -5,7 +5,7 @@
 - Private Preview Genesis passage retrieval follows reviewed WLC↔UXLC/TAHOT/Brenton Greek extents, including TAHOT renumbering, Greek grouped verses and relocated content. Preserve native record order, exact requested translation scope, source restrictions, reading hashes and meaningful wording differences. WLC-only retrieval adds no comparison reads; other books and normal/public servers keep existing behavior.
 - Package fifty SHA-256-verified Genesis mapping assets from the completed index. Genesis DSS pages select reviewed physical identities and return their exact dispositions and provenance; reconstruction-only/provisional references never become surviving text or full-verse equivalence.
 - Publish Preview-only health/planner guidance. Keep the existing four-part study sequence and systematic comparison section disabled. No Production/public promotion or index work on another book.
-- Implementation/local checks complete; private Preview deployment and live checks are recorded separately in development/release-status.md.
+- 58 Python tests, 41 Worker tests, 1,956 parity cases, index integrity check and private packaging dry run passed. Private Preview deployed from `513c72f9989cc7a722c2b56ba926df2e729ea933`; build `238627e9-147c-42f6-ab2d-95752df92c6a` succeeded. Live health/planner/mapped TAHOT/Greek/DSS and WLC-only checks passed. Production/public deployments remain unchanged; host prose/performance are not established by these checks.
 
 ## 0.1.18 — Full references, presentation and mapping foundation — 2026-10-14
 

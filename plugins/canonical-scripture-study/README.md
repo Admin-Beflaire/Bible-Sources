@@ -1,4 +1,4 @@
-# Canonical Scripture Study — 0.1.18
+# Canonical Scripture Study — 0.1.19
 
 *Study Scripture through its languages, context, and canonical story.*
 
@@ -38,7 +38,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter and Worker package use the same semantic version (**0.1.18**). Live checks verify Preview **0.1.18** and Production **0.1.10**. Public MCP was last successfully verified at **0.1.11**; its current connector health call returns an internal error while the public build suspension is unchanged. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter and Worker package use the same semantic version (**0.1.19**). Live checks verify Preview **0.1.19** and Production **0.1.10**. Public MCP was last successfully verified at **0.1.11**; its current connector health call returns an internal error while the public build suspension is unchanged. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 
@@ -183,4 +183,6 @@ The completed Genesis index now supplies a **private Preview runtime consumer**.
 
 Preview Genesis `fetch_dss` uses reviewed anchors and physical identities, retaining source annotations, exact hashes, model provenance, reconstruction and uncertainty. All 842 records remain classified as 365 partial physical, 234 reconstruction-only and 243 provisional references; this does not create continuous DSS verse coverage or resolve uncertain placements. Source restrictions remain active. Health and active plans describe this Genesis-only capability without adding a study part or routinely requesting further witnesses. The systematic comparison-delivery section remains disabled; the historical development-index gate is unchanged. No Production/public deployment or other-book mapping is included.
 
-Implemented and locally tested candidate; see the [release status](../../development/release-status.md) for the separate deployment/live-check outcome. The earlier final-verification report describes the completed offline milestone at its recorded commit, before this newly authorized runtime integration.
+Implemented, tested and deployed to private Preview 0.1.19; see the [release status](../../development/release-status.md) for the separate deployment/live-check outcome. The earlier final-verification report describes the completed offline milestone at its recorded commit, before this newly authorized runtime integration.
+
+Private Preview 0.1.19 [live verification](../../development/preview-genesis-index-live-2026-10-16.json) passed for mapped TAHOT 31:55, Greek 35:16, reviewed DSS identities and reconstruction-only limits. Code commit: `513c72f9989cc7a722c2b56ba926df2e729ea933`. Local tests and tool contracts do not establish host-generated prose or speed.
