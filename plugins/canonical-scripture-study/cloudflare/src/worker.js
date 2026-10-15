@@ -158,7 +158,7 @@ export default {
       request = new Request(request, {body});
     }
     // Released channels share staged study behavior; environment flags permit explicitly versioned experiments.
-    if (!handlers.has(env)) handlers.set(env, createMcpHandler(() => createServer(env.ASSETS, env.MCP_RATE_LIMITER, {previewDelivery: env.PREVIEW_DELIVERY !== 'false',previewDebug:env.PREVIEW_DEBUG !== 'false'}), {route: '/mcp', responseMode: 'json', legacy: 'stateless', corsOptions: {origin: 'https://chatgpt.com'}}));
+    if (!handlers.has(env)) handlers.set(env, createMcpHandler(() => createServer(env.ASSETS, env.MCP_RATE_LIMITER, {previewDelivery: env.PREVIEW_DELIVERY !== 'false',previewDebug:env.PREVIEW_DEBUG === 'true'}), {route: '/mcp', responseMode: 'json', legacy: 'stateless', corsOptions: {origin: 'https://chatgpt.com'}}));
     const response = await handlers.get(env)(request, env, ctx);
     // Authenticated MCP responses must never be reused by an HTTP cache.
     const headers = new Headers(response.headers);
