@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, Finish Genesis milestone 1 (20-record schedule), based on verified preview `691e16379258df0e25c2db4ddd436a67a743a922`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 15 October 2026, Finish Genesis milestone 2 (20-record schedule), based on verified preview `bd07178994ce53159a7f927b96458c1dfbb79f2e`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
 | WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
-| WLC/OSHB ↔ DSS physical records | 782 / 842 individually reviewed | 60 records remain; next `4Q3 / L1593099-R002` (Genesis 40:21) |
+| WLC/OSHB ↔ DSS physical records | 802 / 842 individually reviewed | 40 records remain; next `4Q3 / L1593109-R002` (Genesis 41:8) |
 
 Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
 The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 326, "reconstruction_only_reference": 221, "provisional_reference": 235}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 336, "reconstruction_only_reference": 229, "provisional_reference": 237}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -93,3 +93,12 @@ Starting verified preview: `691e16379258df0e25c2db4ddd436a67a743a922`, **762 / 8
 The unmarked שמלה ממש sequence supports a partial Samlah/place correspondence; its remaining place letters are reconstructed. Preserve source physical line 0 at `2Q1 / L1592442-R001`. The uncertain ע in the restored Avith name and short שא remnant remain provisional. The Genesis 40 demonstrative, repeated Pharaoh names, numeral ending, preposition and isolated ש do not independently establish their restored contexts. Zero-letter records retain missing/unidentified signs without invented Hebrew readings. Every record preserves its annotation, source-byte hash, WLC anchor digest and model-review provenance. No manuscript-image inspection or human review is claimed.
 
 Validation: established build/check, all 18 existing mapping tests, exact next-20 identity and prior-review preservation checks, duplicate/count reconciliation, source/anchor hash verification, deterministic artifact comparison and whitespace checks passed. The prior 762 authored/generated reviews, all edition/native mapping artifacts and source pin remain unchanged. Development data only: comparison delivery stays disabled, with no runtime, Production or public deployment change.
+
+
+## Finish Genesis milestone 2 — 20-record schedule, 15 October 2026
+
+Starting verified preview: `bd07178994ce53159a7f927b96458c1dfbb79f2e`, **782 / 842**. Reviewed exactly the next 20 unique inventory identities, `4Q3 / L1593099-R002` through `4Q3 / L1593109-R001`, following fragment f1ii physical lines 5-15. Outcomes: **10 partial physical / 8 reconstruction-only / 2 provisional**; cumulative **336 / 229 / 237**. Total: **802 / 842**, **40 remaining**. Next: **`4Q3 / L1593109-R002`, Genesis 41:8**. Continue exactly one 20-record milestone per turn and return a final report; wait for “Next milestone”. The final Genesis verification remains separate.
+
+Notes preserve fully reconstructed cupbearer/baker clauses and the provisional repeated cupbearer title, then track actual dream/cattle/grain wording through the column. Short uncertain river wording remains provisional. The unmarked/plene forms בריאות (41:2, 4) and יפות (41:4) are distinguished from the WLC anchor spellings. At 41:7, the six unmarked letters ותבלען lack WLC's final ה; the following record preserves an additional blighted modifier (ו restored, ה uncertain, שדפות unmarked) and הבראות without WLC's י. Sign-run uncertainty, reconstructed introductions, standalone vacats and source identity remain explicit. These are transcription observations, not image-confirmed manuscript variants or whole-verse equivalence. No human review is claimed.
+
+Validation: established build/check, all 18 existing mapping tests, exact next-20 identity and prior-782 preservation checks, no duplicates, source/anchor hashes, deterministic artifact integrity, count reconciliation and whitespace checks passed. Earlier Hebrew/Greek/native mapping artifacts, the source pin and comparison-delivery gate are unchanged. Development data only; no runtime, Production or public deployment change, or host-model performance claim.

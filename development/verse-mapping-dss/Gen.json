@@ -23463,6 +23463,606 @@
         "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
       },
       "note": "All 16 letter slots of שר האפים בתוך עבדיו are reconstructed. The supplied baker/among-his-servants ending corresponds to WLC Genesis 40:20, continuing the preceding restored head phrase, but no letters in this physical record attest that ending."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593099-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "21"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "8841b562e58fac2124a50325b38eabde8492df5f082e4ba406a0449ad13bfe1c",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1c74e26c4a94009c195cb40029e1474f08bf7182ccd9fdbaa39595e5f001b988"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 31 letter slots of וישב את שר המשקים על משקהו ויתן הכוס על are reconstructed. The restoration corresponds to the cupbearer restoration and cup-giving clauses of WLC Genesis 40:21 but supplies no physical wording support; the last preposition continues into the next physical line."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593100-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "21"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "46efaa6b7a6a6b2def1ab96ef7f5dd90671bbf4ac24c5ef157746b1bb51fe531",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1c74e26c4a94009c195cb40029e1474f08bf7182ccd9fdbaa39595e5f001b988"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All six letter slots of כף פרעה are reconstructed, completing the editorial cup-giving clause of WLC Genesis 40:21 on physical line 6. Neither the hand nor Pharaoh wording survives in this record."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593100-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "22"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "99c0930ff9b7889b4c597be223c9647f270271d52547f21919c20d4f8bc13d6e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "22",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2bfb578043b3b45ccc44e2991738e2cc0d8bc33c2d2f68ab3af8d937491fb95d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 27 letter slots of ואת שר האפים תלה כאשר פתר להם יוסף are reconstructed. The supplied baker execution and Joseph interpretation clauses correspond to WLC Genesis 40:22; a complete-looking restored sentence is not surviving manuscript wording."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593100-R003",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "23"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "603f3539ae19b695bb4866f285fa2f03a362f6fd435e99fcfdfe94bf51aee33b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "23",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "b876310615ce2f2790240151f9f9774bcd4a2063692be70c9ca0fd9c99623313"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only המשקים is unmarked (six letters); ולא זכר שר is reconstructed. The cupbearers title occurs in WLC Genesis 40:20, 40:21 and 40:23. The local sequence is compatible with the annotated 40:23 placement, but the surviving title alone does not establish the forgetting clause, and the following Joseph wording is restored. Retain provisional placement."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593101-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "23"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "1961e8b943789a2bafe0d9ccd1761fbd4175d89b4101dd17b7a4435d56555309",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "23",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "b876310615ce2f2790240151f9f9774bcd4a2063692be70c9ca0fd9c99623313"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All 13 letter slots of את יוסף וישכחהו are reconstructed. The supplied object and forgetting clause correspond to the end of WLC Genesis 40:23 but do not physically attest either Joseph or the action; preserve this separate physical-line extent."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593101-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "1"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "b4a4dff58f423f238f00d363de46520a34a50d5149c5377c672328deed6fe884",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "1",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ac1abba0ae1e863c3c14db545077ff8d7178d5303d12079b950070f3e39125ae"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The unmarked עמד על follows five uncertain letters: final ם of restored חלם (level 4), then ו (3), ה (4), נ (3), ה (4). In the local column sequence before the physically supported healthy-cattle and river/ugly-appearance wording on lines 8-9, this damaged standing/dream transition supports a partial correspondence to WLC Genesis 41:1. The first 23 letter slots, including the two-year interval and Pharaoh, are reconstructed; neither חלם nor והנה is securely preserved in full. The river noun belongs to the next, fully restored record."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593102-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "1"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "0485295cc19ca3bc831c5ffc9bcec1a089a8505af4da8cf453b7e1e69d26534a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "1",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ac1abba0ae1e863c3c14db545077ff8d7178d5303d12079b950070f3e39125ae"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All four letter slots of היאר are reconstructed, supplying the river noun at the end of WLC Genesis 41:1. The preceding standing expression has physical letter support in its own record, but that does not make this restored river word surviving evidence."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593102-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "2"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "8c9e68bb471b376179f3a7ebf7ea629ce8b40b6a3c1d0a85292e4e282be5c339",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "059fc826f29f6f28c60ee8acac8fd460c72307be6a4aab8b459180da45d42507"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked ובריאות בשר and final נה in the grazing verb support the healthy-cattle description and partial grazing wording of WLC Genesis 41:2 in the local dream sequence. Preserve the transcription's fully unmarked plene בריאות against WLC בריאת; do not normalize its ו away. Final ה of מראה is uncertain (level 4); the grazing ו, ת, ע, י have uncertainty levels 1, 4, 2, 1, and ר is reconstructed. The river, seven cows and beautiful-appearance opening are restored, not physical support; 28 of 45 letter slots are reconstructed."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593103-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "2"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "e0269a06b1a5d90f79b4db7e8dca6ad17feacf905bfbc0633ff504a182b2fa68",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "059fc826f29f6f28c60ee8acac8fd460c72307be6a4aab8b459180da45d42507"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All four letter slots of באחו are reconstructed. This supplies the meadow ending of WLC Genesis 41:2 on the next physical line, without surviving meadow wording; it must remain distinct from the preceding record's partial grazing expression."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593103-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "b923bf9646e45fae598fe5723323a14ebd651f8e414ec1e7cffa0154dc7e8741",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The 12 unmarked letters היאר רעות מראה identify the river/ugly-appearance sequence of WLC Genesis 41:3, following the healthy-flesh fragment on the preceding physical line. The first 28 letter slots, including the seven other cows and their ascent, are reconstructed; no complete cattle clause or verse equivalence is claimed."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593104-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "a7f43fec63e2ff12139b832938a34069b9e19d23252b6a5e95ca13915a561ae4",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Only י and ר are unmarked in יאר, with א uncertain at level 2; the other 29 letter slots, including the thin-flesh, standing-beside and riverbank clauses, are reconstructed. The preceding physical line supports the ugly-cattle description, but the repeated damaged river word alone cannot establish the annotated end of WLC Genesis 41:3. Retain provisional placement."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593104-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "1bddea50b56166e765d46484cf2e0da2ee1f583b9c78f8f951ea387295b9267b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The unmarked ותאכלנה and most letters of הפרות רעות support the opening cattle-eating clause of WLC Genesis 41:4 immediately after the preceding ugly-cattle record. All 16 letter slots are non-reconstructed, but final ת of פרות and ע and ת of רעות are uncertain at level 2. A standalone vacat occurs before this record; preserve it without equating its size to an omission or a verse boundary."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593105-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "a228d9dc58c6c17e09b0074ba85ffe37d52988f44aa8252dbd50077807b0a406",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked final ת of restored הפרות, then יפות המראה וה and parts of בריאות and וייקץ support the beautiful-cattle object and awakening transition of WLC Genesis 41:4. Preserve unmarked plene יפות and the unmarked ו in בריאות against WLC יפת and בריאת. In בריאות, ב and א are uncertain at level 2 and ר at level 4; in וייקץ, ו and both י letters are uncertain at level 1, while קץ is unmarked. The first 22 letter slots are reconstructed. A standalone vacat between יפות and המראה is retained; no manuscript-image judgment or full-clause attestation is claimed."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593106-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "2d4eb596b34bb7a0a58a60fe147e1054e61b535be03c8a7af3c5649319d9e630",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All four letter slots of פרעה are reconstructed, supplying the name at the end of WLC Genesis 41:4 on physical line 12. The awakening remnants in the previous record do not physically attest this separately restored name."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593106-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "5"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "337c76e8042d465f39465efeb72678467ba2c5c4d03bac3380a89c32a3d98904",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ae874e2b8c6cc000f68a92bc0e91e8ec2a9bc981184447a4f5abc4bcfa9e071e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked בלים עלות בקנה אחד בריאות, with initial ש of שבלים uncertain at level 2, identifies the ears-of-grain rising on one stalk in WLC Genesis 41:5. All 21 opening letter slots, including sleeping and dreaming a second time and the numeral seven, are reconstructed. Preserve the standalone vacat between עלות and בקנה and the distinction between the physically supported stalk description and the restored dream introduction."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593107-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "5"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "b30d7a4a8804a2fd6765dfdfeffdccb697d297580741c6bc1da962fe34bf7bdb",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ae874e2b8c6cc000f68a92bc0e91e8ec2a9bc981184447a4f5abc4bcfa9e071e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All five letter slots of וטבות are reconstructed, supplying the good-ears description at the end of WLC Genesis 41:5. The preceding grain/stalk wording is partially physical, but this separate adjectival ending is editorial restoration."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593107-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "6"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "3ec1d369ae4d1003fce1093bc5923cc8062dff85272a6e895448dd854ce721d0",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fe20bd49e71aafea57c0ccd32aec14affc78e018f78159452889b1f956afeb7a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "Unmarked דקות, פות in damaged שדפות, and קדים צמחות with parts of אחריהן identify the thin/east-wind-blighted ears growing afterward in WLC Genesis 41:6. The י of the initial ears-word ending is uncertain at level 1; ד of שדפות at level 4; ח and י of אחריהן at levels 2 and 1. ש in שדפות and its preceding ו are reconstructed, as are the seven-ears introduction and most of שבלים (12 reconstructed letter slots total). Preserve the exact sign-run flags rather than inferring status from the displayed brackets."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593107-R003",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "5a5f3eabe6cb845e8e87f5307cae714e14b8c281917f29699f7d9cae6ae115c8",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "All six letters of ותבלען are unmarked. This swallowing verb follows the physically supported blighted-ears clause on the same physical line and continues into the grain-object clause on the next line, supporting a partial correspondence to WLC Genesis 41:7. Preserve the transcription ending ן without final ה against WLC ותבלענה; do not silently expand it or claim an entire verse from this verb."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593108-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "1a27e442e64a46b86cc831860a7fc2ff91170c3cd57830659b6bb54241b9de5a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The unmarked שדפות את שבע השבלים הבראות and much of והמלאות וייקץ establish the swallowing-object/awakening continuation of WLC Genesis 41:7. The transcription includes a blighted modifier והשדפות absent from this WLC verse: its ו is reconstructed, ה uncertain at level 2, and שדפות unmarked. Preserve this actual additional wording without harmonizing to WLC. Also preserve unmarked הבראות against WLC הבריאות (no י in the transcribed word). ק and ו of the preceding thin modifier are uncertain at levels 4 and 3, and מ of מלאות at level 4; ten letter slots are reconstructed. These transcription differences have not been checked against manuscript images."
+    },
+    {
+      "scroll": "4Q3",
+      "record_id": "L1593109-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "a9b2fb0171065f78f2a01c3781c429bd2c3e0b0f7e982acf201c793d7e38efa6",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Read the hash-verified physical-record transcription and per-word sign runs, comparing actual unmarked, uncertain and reconstructed glyphs and local physical sequence with the pinned WLC wording. Reference annotations alone were not treated as proof; no manuscript-image or human review is claimed."
+      },
+      "note": "The dream conclusion follows the physically supported וייקץ on the preceding line: נה and לום are unmarked, while ו of והנה is uncertain at level 3, its first ה at level 2, and ח of חלום at level 4. Together with the immediately preceding swallowing/awakening sequence, this supports the partial conclusion of WLC Genesis 41:7. All four letters of פרעה are reconstructed; no physical attestation of that name is claimed here."
     }
   ]
 }

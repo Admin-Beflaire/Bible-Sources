@@ -122,3 +122,10 @@ Milestone 4 adds 40 reviews (12 partial physical, 15 reconstruction-only, 13 pro
 The user replaces the earlier approximately 40-record schedule with exactly one 20-record milestone per turn. Report progress at the start, after ten, after twenty, and after validation; commit once, verify remote HEAD once (at most one recovery), then stop with a final report. Continue only on “Next milestone”. A separate final verification follows all 842 dispositions.
 
 Continuation milestone 1 starts from verified preview `691e16379258df0e25c2db4ddd436a67a743a922` and adds 1 partial physical, 11 reconstruction-only and 8 provisional reviews, reaching 782 / 842 with 60 remaining. Resume at `4Q3 / L1593099-R002` (Genesis 40:21). Short repeated names, function words and isolated letters retain provisional placement; restoration never becomes surviving support. Earlier reviews, edition maps, source pin, runtime gate and deployment settings are preserved.
+
+
+## Finish Genesis milestone 2 — 15 October 2026
+
+Continue the bounded 20-record workflow from verified preview `bd07178994ce53159a7f927b96458c1dfbb79f2e`. Added 10 partial physical, 8 reconstruction-only and 2 provisional reviews, reaching 802 / 842 with 40 remaining. Resume at `4Q3 / L1593109-R002` (Genesis 41:8).
+
+Preserve the Genesis 41:7 transcription's ותבלען ending, additional blighted modifier and הבראות spelling alongside the WLC anchor, with per-letter reconstruction and uncertainty explicit. Local physically supported sequence can establish a partial correspondence without making every uncertain or reconstructed letter secure. Short repeated role/river wording remains provisional. No source, runtime, deployment-setting, publication or comparison-delivery change.
