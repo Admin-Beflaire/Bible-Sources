@@ -12663,6 +12663,2496 @@
         "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
       },
       "note": "Only conjunction and uncertain speech letters in restored Israel declaration; provisional. Transcription-unmarked glyph runs: ו. Uncertain runs (not secure letters): אמ. Editorially reconstructed runs: י | ר | ישראל | רב | עוד | יוסף | בנ | ׳ | י | חי | אלכה | ו | ארא | ׳ | נו | ב | טרם | אמות |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593124-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "43"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "81c0dcb5035e268a9d5e9ccf21edb2d06e50a5e522abc7950314a5f10ca9c509",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "43",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1d4fbbc7c48fe2f969c04a9df5dd85a5cae48dcc1336fd1f21b04249c8b0c4e3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Magdiel ending and chief word partly retained/uncertain; completed name and territorial list restored, specific placement provisional. Transcription-unmarked glyph runs: יא | אלוף. Uncertain runs (not secure letters): ד | ל. Editorially reconstructed runs: אלוף | מג | עירם | אלה | אלופי | אדום | ל | משבת | ׳ | ם | ב | ארץ | אחזת | ׳ | ם."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593125-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "43"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "858e8504b7e82573c47084a41896b63d72e91f24d4754bb85dbbe3dad2736d76",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "43",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1d4fbbc7c48fe2f969c04a9df5dd85a5cae48dcc1336fd1f21b04249c8b0c4e3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Esau father-of-Edom clause retained with uncertain initial; neighboring chief fragment supports chapter close. Transcription-unmarked glyph runs: שו | אבי | אדום. Uncertain runs (not secure letters): ע. Editorially reconstructed runs: הוא |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593126-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          36,
+          "43"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "4cc877a9aa7b229e3d1869e39cb7b3989bb64d8881de0735e7bcd9ff1d746e2e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "36",
+        "verse": "43",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1d4fbbc7c48fe2f969c04a9df5dd85a5cae48dcc1336fd1f21b04249c8b0c4e3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs:  | ε |  | ε."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593127-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "1"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "01ca2b9a5edd445c288d21fb3a2175ae33c6402bb5f1e60aeca78cc3833e7fae",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "1",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "0c390331e69091be473422812274d639eb51ec0b61e14daa534bae5953247fdf"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Paternal residence-land wording retained with uncertainty after Edom genealogy close. Transcription-unmarked glyph runs: ארץ | מג | רי | אבי | ו | ב | אר. Uncertain runs (not secure letters): ו | ץ. Editorially reconstructed runs: ו | ישב | יעקב | ב | כנען |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593127-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "2"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "0c5ce380deb2d0368d35ae801472f4f1f843905166e7409c25ffa4e62fcc8db4",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "51038bf86ba500a8cdfab1330b57c37fab8723bd38a4e55b84ef041c5898fdfc"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: אלה | תלדות | יעקב | יוסף | בן."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593128-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "2"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "cbd35abd1025e014c23417177a2bc4a240fdac1db636e9d167f82137d7fc7ecd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "51038bf86ba500a8cdfab1330b57c37fab8723bd38a4e55b84ef041c5898fdfc"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Pasturing with brothers partly retained/uncertain; age, name and maternal-servant list restored, partial support through preceding land and following Joseph report. Transcription-unmarked glyph runs: ר | את | אחי | ו | ב. Uncertain runs (not secure letters): ה | ה | ה | ע | ה | צ. Editorially reconstructed runs: שבע | עשרה | שנ | י | אן | ו | הוא | נער | את | בני | בלהה | ו | את."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593129-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "2"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "3020c93e2c75c91be5018a92a735b41ddff238e01ed02f9419259fbba50e719e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "51038bf86ba500a8cdfab1330b57c37fab8723bd38a4e55b84ef041c5898fdfc"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Joseph/report/bad remnants partly retained/uncertain, not a fully surviving report statement. Transcription-unmarked glyph runs: סף | א | ם | ר. Uncertain runs (not secure letters): ו | ת | ע. Editorially reconstructed runs: בני | זלפה | נשי | אבי | ׳ | ו | ו | יבא | י | ת | דב | ה | אל | אבי | ׳ | הם |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593130-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "27"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "cd3c871bb4796d8fcaa7cd485adaf99b4d62ea89d730eca90791f4a3ed921e2d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "27",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "0688e04ccbd9d448455f8832d5777fc4b6afbbf2393639f575ce8a2f969f8d2a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Our-brother/flesh phrase partly retained/uncertain; Ishmaelite sale proposal reconstructed, specific attribution provisional. Transcription-unmarked glyph runs: י | אחי | נו | ב. Uncertain runs (not secure letters): כ | ש | נו | ה | ו. Editorially reconstructed runs: לכו | ו | נמכר | ׳ | נו | ל | ישמעאלים | ו | יד | ׳ | נו | אל | תהי | ב | ׳ | ו | ר | א | ו | ישמעו | אחי | ׳ | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593130-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "28"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "aa65faac49bc9adc45ec60cadd785548bb1cf99a447deec34f1d18126471d723",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "28",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e9494d82b74a7e5459479b652c1850eb20f7d3f86ab9d48e091951096c8088df"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | יעברו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593131-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "28"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "76b47dad9f96edc88cb076ed636ea005ec506d600368f95fd1518325447349c9",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "28",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e9494d82b74a7e5459479b652c1850eb20f7d3f86ab9d48e091951096c8088df"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Drawing up Joseph remnants retained with uncertainty; sale partners and price restored. Transcription-unmarked glyph runs: ו | ו | יעלו | ת | יוסף | מ. Uncertain runs (not secure letters): כ | א | ן | כר | ו. Editorially reconstructed runs: אנשים | מדינים | סחרים | ו | ימש | ה | בור | ו | ימ | את | יוסף | ל | ישמעאלים | ב | עשרים."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593132-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "28"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "8983d9bae6d5d8a90cff123224c8b1b136c811517d02a0897a1b4c9a5d7d99d7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "28",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "e9494d82b74a7e5459479b652c1850eb20f7d3f86ab9d48e091951096c8088df"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only Egypt-name and Joseph suffix remnants, partly uncertain; precise placement provisional. Transcription-unmarked glyph runs: צר. Uncertain runs (not secure letters): ף | מ. Editorially reconstructed runs: כסף | ו | יביאו | את | יוס | ימ | ׳ | ה |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593132-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "29"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "2da4e6469a6663f48c384cbf50f83f0d928594f8fcf5eb0804fe565adcecdea8",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "29",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "698757543bef2ea409ce7db1385c1e55e8389e8457c8f7fe2b7886a06351f8e6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only Reuben-name ending and preposition/article; pit and response restored, attribution provisional. Transcription-unmarked glyph runs: בן | אל. Uncertain runs (not secure letters): ה. Editorially reconstructed runs: ו | ישב | ראו | בור | ו | הנה | אין | יוסף | ב | בור | ו | יקרע | את | בגדי | ׳ | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593133-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          37,
+          "30"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "82214d7370aa6bb00e5d8e1f717b04d1ea575661cdd4b6b0bf3a6d69552ae86a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "37",
+        "verse": "30",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "15f89c49858ecec4f41c2a05146e6a96a66dce75ed5f09df44acf85fede53517"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only generic speech/child initial, mostly uncertain/restored; provisional. Transcription-unmarked glyph runs: ה | י. Uncertain runs (not secure letters): ר | ל. Editorially reconstructed runs: ו | ישב | אל | אחי | ׳ | ו | ו | יאמ | ד | אינ | ׳ | נו | ו | אני | אנ | ׳ | ה | אני | בא |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593134-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "18"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "f6940b5e74250e3d12a5d9e5979d7eef5fc160f3dd5fda2821ac3b6ada0efbf7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "5f20650ce1f98e0b234272846dc5ff6b87574dc31447b26d9a2e31e6ccd02ed4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only day ending partly uncertain, entire basket interpretation reconstructed; provisional. Transcription-unmarked glyph runs: ם. Uncertain runs (not secure letters): מ | י. Editorially reconstructed runs: ו | יען | יוסף | ו | יאמר | זה | פתרנ | ׳ | ו | שלשת | ה | סלים | שלשת | י | הם |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593134-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "9c72081d593d28602e734e9efe5b9161e47e02e238fa5ab2ed35f5d30259f005",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ב | עוד | שלשת."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593135-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "70fb9d4b7b01d26a8da02f5ff10aab730606df0d023c2e0145953c70bb2cdf6d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "You/on-tree phrase retained with uncertain hanging verb in execution interpretation sequence. Transcription-unmarked glyph runs: את | ך | על | עץ | ו. Uncertain runs (not secure letters): ה | א. Editorially reconstructed runs: ימים | ישא | פרעה | את | ראש | ׳ | ך | מ | עלי | ׳ | ך | ו | תל | כל | ה | עוף | את."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593136-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "cdd10c243d269b050eec6846a8d0273dfaebf9665c7f17d36d09470e1c46ade3",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6dca4146bffc2934a1c1c75d5e47fa1c18b956a9e18a2beb0ccddbd1134a9d73"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: בשר | ׳ | ך |  | ε |  | ε |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593136-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "14226c4183e06ee53c42db88f19611c67928f639e673cc1153ed9067a12c0e75",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Birthday/Pharaoh remnants retained; source הולד differs from WLC הלדת, identifying royal birthday. Transcription-unmarked glyph runs: ם | הולד | א | פרעה | ו | י. Editorially reconstructed runs: ו | יהי | ב | יום | ה | שלישי | יו | ת | עש."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593137-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "5b3986653e54e39012f83d77b6fa22644435892f2c473ff76b39b73cdcaef232",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Servants and official/head remnants retained with uncertainty after birthday reference. Transcription-unmarked glyph runs: ל | כל | קים | ו | את | ר | שר | ה | א | ב | תו. Uncertain runs (not secure letters): ה | עב | א | ם | ך. Editorially reconstructed runs: משת | די | ׳ | ו | ו | ישא | את | ראש | שר | ה | מש | ש | פי."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593138-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "20"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "c95b4ee0eda7247ed08b5097e426b004e99a1b291cab413c6470a7a86fc30ac7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "20",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2ff875499ebea817f2565181e21097bc24c8541b9841a5019a64ef9be90edc91"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "His-servants close retained in preceding birthday/officials sequence, not independently unique. Transcription-unmarked glyph runs: עבדי | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593138-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "21"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "694db5fb65346e6110e3f9fa22b0bf8e52e80732e357ed2e749f0e8ece0bb79d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "21",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1c74e26c4a94009c195cb40029e1474f08bf7182ccd9fdbaa39595e5f001b988"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Cup/giving/restoration remnants retained with uncertainty, official position mostly restored. Transcription-unmarked glyph runs: ו | יש | ו | יתן | ה | כ | ס. Uncertain runs (not secure letters): ו. Editorially reconstructed runs: ב | את | שר | ה | משקים | על | משק | ׳ | הו | על | כף | פרעה |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593138-R003",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "22"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "cb50b144c30a02048cc34302fa33e3dea21b7e22e595e6c9104d37445ddd3ff2",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "22",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2bfb578043b3b45ccc44e2991738e2cc0d8bc33c2d2f68ab3af8d937491fb95d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only object/chief phrase with uncertain conjunction; baker/hanging restored, specific attribution provisional. Transcription-unmarked glyph runs: את | שר. Uncertain runs (not secure letters): ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593139-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "22"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "6664c4468167f9baa634210efe5ce5939784dfde16e07595825a56ac5392947a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "22",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2bfb578043b3b45ccc44e2991738e2cc0d8bc33c2d2f68ab3af8d937491fb95d"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ה | אפים | תלה | כ | אשר | פתר | ל | ׳ | הם | יוסף |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593139-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          40,
+          "23"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "c94d24d45e4c7a2eab9125b4e237876973afe37fbab5b460d426061292effddc",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "40",
+        "verse": "23",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "b876310615ce2f2790240151f9f9774bcd4a2063692be70c9ca0fd9c99623313"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Cupbearer/Joseph/forgetting remnants retained and uncertain, with no-remembrance opening restored. Transcription-unmarked glyph runs: שר | ה | מ | וסף | ו | ישכח | הו. Uncertain runs (not secure letters): ש | את. Editorially reconstructed runs: ו | לא | זכר | קים | י."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593141-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "1"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "d99cccac40046de46878a7e4824ae07ab6f7935e813b0ff6391edde05d597815",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "1",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ac1abba0ae1e863c3c14db545077ff8d7178d5303d12079b950070f3e39125ae"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Standing at river retained; Pharaoh/dream/date reconstructed, located after cupbearer-forgetting sequence. Transcription-unmarked glyph runs: הנה | עומד | על | ה | יאר. Uncertain runs (not secure letters): ו. Editorially reconstructed runs: ו | יהי | מ | קץ | שנתים | ימים | ו | פרעה | חלם."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593141-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "2"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "588c88a85d7f5178a77ade578404e91801fcf67ef9c6fdc6bf5bec38cbe9c4c4",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "059fc826f29f6f28c60ee8acac8fd460c72307be6a4aab8b459180da45d42507"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Behold/from river retained, continuing adjacent dream opening. Transcription-unmarked glyph runs: ו | הנה | מן | ה | יאר."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593142-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "2"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "3fbbe9f272ee52dba28e163d4b2fe740b1587ecb8fe5427f8ea8df946fa80a0f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "2",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "059fc826f29f6f28c60ee8acac8fd460c72307be6a4aab8b459180da45d42507"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Grazing verb and uncertain meadow letters retained, cow descriptors reconstructed. Transcription-unmarked glyph runs: תרעינ. Uncertain runs (not secure letters): ו | ב | א | ח. Editorially reconstructed runs: עלת | שבע | פרות | יפות | מראה | ו | בריאת | בשר | ה | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593142-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "900b8da7b798e52083fe5200386e027c2980214718d4e1eba41927f47ffdbd76",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Seven cows retained with uncertain deictic, establishing cow-dream sequence. Transcription-unmarked glyph runs: ה | שבע | פרות. Uncertain runs (not secure letters): נ. Editorially reconstructed runs: ו | ה."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593143-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "f9fa5edde200799d6f75d066eb7ba15f994f21288d6c206b2ab13dfd9e61ec52",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Thin/standing-beside wording partly retained/uncertain; source רקות differs from WLC דקות. Transcription-unmarked glyph runs: ו | רקו | עמדנה | אצל. Uncertain runs (not secure letters): ת | ת. Editorially reconstructed runs: אחרות | עלות | אחרי | ׳ | הן | מן | ה | יאר | רעות | מראה | בשר | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593144-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "3"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "a475efe68d2250d1366a6d776f94822cdb3914aaea94e32c6d55453fc015d807",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "3",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "339a42308f0e9331a84bcefbd3040781bd61174c5b8c94cff198a625976d0deb"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ה | פרות | על | שפת | ה | יאר |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593144-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "5d433b82f47bd0ba2a7dea7dbd4891caf5663c6d3b6d1e7681b7fe4f58f55fe5",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Ugly/thin flesh descriptors retained/uncertain, source רקות against WLC דקות; eating action reconstructed. Transcription-unmarked glyph runs: ר | ות | ה | ו | רקות | ה | בשר. Uncertain runs (not secure letters): ע | ה. Editorially reconstructed runs: ו | תאכלנה | ה | פרות | מרא."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593145-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "4"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "b38874a8255ef56ad864fca8bfecc31a620aceef2bdf47826289344b8c572233",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "4",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6929379fb1e2edbe9512d484ba9cfe3186b9013ee2e134ab356091cfab77e6a6"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Pharaoh retained with uncertain waking ending after cow-descriptor record. Transcription-unmarked glyph runs: פרעה. Uncertain runs (not secure letters): ץ. Editorially reconstructed runs: את | שבע | ה | פרות | יפת | ה | מראה | ו | ה | בריאת | ו | ייק."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593145-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "5"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "e6ef94bed3dd5bee09c68b21b4200b6a8f104d4c07461826614684b7e75897e5",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ae874e2b8c6cc000f68a92bc0e91e8ec2a9bc981184447a4f5abc4bcfa9e071e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Dreamed again/behold retained with uncertain sleeping close, identifying second dream transition. Transcription-unmarked glyph runs: ו | יחלם | שנית | ו | הנה. Uncertain runs (not secure letters): ן. Editorially reconstructed runs: ו | ייש."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593146-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "5"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "4dbe9d42276a18721d3812b801c66c61f29250433b0d29bcf545dd3ae5b81863",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "5",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "ae874e2b8c6cc000f68a92bc0e91e8ec2a9bc981184447a4f5abc4bcfa9e071e"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: שבע | שבלים | עלות | ב | קנה | אחד | בריאות | ו | טבות |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593146-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "6"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "257f1f9627dadb43f7b835c15d03ad4f0a8bc225e4ee3680cf40448b9a469c04",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fe20bd49e71aafea57c0ccd32aec14affc78e018f78159452889b1f956afeb7a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Ear-ending/wind-scorched/east-wind wording retained with uncertainty; source shorter than WLC thin-ear list at this point. Transcription-unmarked glyph runs: לים | ו | ש | פות | קדים. Uncertain runs (not secure letters): ד. Editorially reconstructed runs: ו | הנה | שבע | שב."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593147-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "6"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "4452ab25c8c7a658a090848dcf9ccb5192feac0693e96e5481e238c10753544a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fe20bd49e71aafea57c0ccd32aec14affc78e018f78159452889b1f956afeb7a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: צמחות | אחרי | ׳ | הן |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593147-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "0b52e79b7d42c9ef6bc88209e1904b72cc11d1ae3c8616f0a4b77e1d0c2760df",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Seven/ear remnants retained with uncertainty in grain-dream sequence; much of swallowing language reconstructed. Transcription-unmarked glyph runs: א | בע | ה | שבל. Uncertain runs (not secure letters): ת. Editorially reconstructed runs: ו | תבלענה | ה | שבלים | ה | דקות | ו | ה | שדפו | ת | ש | ים | ה | בריאות."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593148-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "7"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "a69354d16ca33594a72ea3e57a793faa223cb3b9b7712d48a5615e99b73c1280",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fcb82d448488dd556ae44bab4b2a6afce482df116a27fd03fb58fb3c036bb1c4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | ה | מלאות | ו | ייקץ | פרעה | ו | הנה | חלום |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593148-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "8"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "644baecfcdde98959697d1dbfd40e43e4c56e21b121f0189cab4c264a6d1da52",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "8",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fd41cf9ea8803cd8cfc5d02533d212f52d6e1ed014703bc2f68ba1f0e4911c6a"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Single uncertain ל amid restored agitation/calling sentence; provisional. Transcription-unmarked glyph runs: none. Uncertain runs (not secure letters): ל. Editorially reconstructed runs: ו | יהי | ב | בקר | ו | תפעם | רוח | ׳ | ו | ו | יש | ח | ו | יקרא."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593149-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "34"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "2f43515f9bb535e7bd4a69f961c51b0366e53fd1813643206f4fe7b6868346b7",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "34",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "8e20523d9c1d65ad38461275b20807ad4136e6fb816e2c75611885cc31caeff9"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs:  | ε |  |  | ε."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593150-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "35"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "f01fb94bd90fc74fd84b5b75a923a6c5d4e2761de25fbd7cb198cd5f6fd61aaa",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "35",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "2e1f6d8cf6d2213362077f5ecc076374a350c051f85ba92d0a85e4b058f777c8"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only storing-verb beginning with uncertain ר, food/Pharaoh/cities restored; provisional. Transcription-unmarked glyph runs: ו | יצב. Uncertain runs (not secure letters): ר. Editorially reconstructed runs: ה | אלה | ו | בר | תחת | יד | פרעה | אכל | ב | ערים | ו | שמרו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593151-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "36"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "2ab08163829588dc9232aa6253dcf521b33dfe15f2c63f5263e9d522988ab112",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "36",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6c3b1fc0aa3338cc3970d03dedf4fe466719295f5f1a330555b4d571d9b0f311"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Reserve-for-land phrase retained, seven-year famine context restored but local preservation line follows. Transcription-unmarked glyph runs: ל | פקדון | ל | ארץ | ל | ש. Editorially reconstructed runs: ו | היה | ה | אכל | בע | שני | ה | רעב | אשר | תהיין."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593152-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "36"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "a9a8827941d1b86dd3630248d83f8875436d6b3183e30591f642930d346bd58c",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "36",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "6c3b1fc0aa3338cc3970d03dedf4fe466719295f5f1a330555b4d571d9b0f311"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Land-not-destroyed-by-famine remnants retained; source תכחד differs from WLC תכרת, uncertain negative/famine letters remain marked. Transcription-unmarked glyph runs: ב | א | תכחד | ה | ארץ | ב | רע. Uncertain runs (not secure letters): ל | ב. Editorially reconstructed runs: ארץ | מצרים | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593152-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "37"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "e2e3a494d6f41447b52ed992e105d0c17fa30af6b70b6e4c23faef6c5cac066b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "37",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "75f9d6fe7f6d07c7861e198d5a15c1ef3e66069c729a172dbb1fc6f0419f6f72"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | ייטב | ה | דבר | ב | עיני | פרעה."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593153-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "37"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "ef345a80bafb4ff0589e4e324d9e3cadcec68bc6f6df0a702506029437f68590",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "37",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "75f9d6fe7f6d07c7861e198d5a15c1ef3e66069c729a172dbb1fc6f0419f6f72"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only conjunction survives, royal approval phrase restored; provisional. Transcription-unmarked glyph runs: ו. Editorially reconstructed runs: ב | עיני | כל | עבדי | ׳ | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593153-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "38"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "1a07f0e43d858f344d01a9d2144eddf459c78fe76a24d82fb9f811157ca1223e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "38",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "701de581f8569e02fd3927ecea55b72f561e15e2098b83ee96bfe06bf78798ea"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Pharaoh speech opening partly retained with uncertain servant initial; distinctive Spirit clause entirely restored, so placement provisional. Transcription-unmarked glyph runs: אמר | פרעה | אל. Uncertain runs (not secure letters): ע. Editorially reconstructed runs: ו | י | בדי | ׳ | ו | ה | נמצא | כ | זה | איש."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593154-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "38"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "e8527db302827f06aeeb33988b541387aac1b0f69834da1eee00cb80de5b6f42",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "38",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "701de581f8569e02fd3927ecea55b72f561e15e2098b83ee96bfe06bf78798ea"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: אשר | רוח | אלהים | ב | ׳ | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593154-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "39"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "ca07ff020a27500368edf512b76aa39c3c3ffe2720673a32e78e2d279d585a7f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "39",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1a96a586147062d23419257f9f10b528867d939c2db90e864424dfeb06cc50dd"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only uncertain פ of Pharaoh, divine revelation/wisdom reconstructed; provisional. Transcription-unmarked glyph runs: none. Uncertain runs (not secure letters): פ. Editorially reconstructed runs: ו | יאמר | רעה | אל | יוסף | אחרי | הודיע | אלהים | אות | ׳ | ך."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593155-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "39"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "cda65cbd4a3e725295ff5c9c3917c654e0db212186f219e723d6d2d4b3768abd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "39",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1a96a586147062d23419257f9f10b528867d939c2db90e864424dfeb06cc50dd"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: את | כל | זאת | אין | נבון | ו | חכם | כמו | ׳ | ך |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593155-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "40"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "917a0e7b77278c225d1f3eaf6655ffbd0cbe83205693e182d94e1e3893499e5b",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "40",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "dc34f5bac790be30fff956be0d1cb809eccca07b6e90f02c973c163efbbe71f5"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: אתה | תהיה | על | בית | ׳ | י | ו | על | פי | ׳ | ך."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593156-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "40"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "73ff23378c5ab7c66b276d1c5227b7c96a787d45e5b9c24ed4891726e2e3b7c2",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "40",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "dc34f5bac790be30fff956be0d1cb809eccca07b6e90f02c973c163efbbe71f5"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only י plus uncertain ש of submission verb, throne/people restored; provisional. Transcription-unmarked glyph runs: י. Uncertain runs (not secure letters): ש. Editorially reconstructed runs: ק | כל | עמ | ׳ | י | רק | ה | כסא | אגדל | ממ | ׳ | ך |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593156-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "41"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "912afe5aa9c743a74881f92122923ce0e71566fedf0c7db45fabd1d1802fa3ae",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "41",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "f5e3ddf00c121442c873acfc958b35f7399b5a130379ebaf67062ab6dfee6f82"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | יאמר | פרעה | אל | יוסף | ראה."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593157-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "41"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "916e5d5cd191cb675610d3d0db82c1b66d49bf249a685c09b4ffac8036d6264f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "41",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "f5e3ddf00c121442c873acfc958b35f7399b5a130379ebaf67062ab6dfee6f82"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only נת of giving verb, land grant restored; provisional. Transcription-unmarked glyph runs: נת. Editorially reconstructed runs: תי | את | ׳ | ך | על | כל | ארץ | מצרים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593157-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "42"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "a766aefeb001e1215d473e0091e059c40de8c00204726c406221cf9ce6dec1d6",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "42",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fb32a937f0125a763d38911f013c1b5cf483ce9953f902dd6dce707ccf22249b"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | יסר | פרעה | את | טבעת | ׳ | ו | מ | על | יד | ׳ | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593158-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "42"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "2858acbaa59cf99ebe9c836ab7835b6fda54601a0ec8e3420c1b0f0862888ef9",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "42",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fb32a937f0125a763d38911f013c1b5cf483ce9953f902dd6dce707ccf22249b"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Generic giving-object phrase only, ring/linen/gold reconstructed; precise verse attribution provisional. Transcription-unmarked glyph runs: ו | יתן | את. Editorially reconstructed runs: ה | על | יד | יוסף | ו | ילבש | את | ׳ | ו | בגדי | שש | ו | ישם | רבד | ה | זהב."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593159-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "42"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "bad69a20e0e6ee806f40e441a8265f1a78e0e2211aad37f88e155b147fd31a7f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "42",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "fb32a937f0125a763d38911f013c1b5cf483ce9953f902dd6dce707ccf22249b"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Neck beginning and preposition partly retained/uncertain, unique regalia context not physically established; provisional. Transcription-unmarked glyph runs: על | צו. Uncertain runs (not secure letters): א. Editorially reconstructed runs: ר | ׳ | ו |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593159-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "43"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "3858f1c26f1a1e2c40dbbef18a15c55a6402bc647d56055fb43bf6a96f9ead1e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "43",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "51bda2290417516f7ff2f485044b4128b458d270cc8fffb75430c78c1cdd0389"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | ירכב | את | ׳ | ו | ב | מרכבת | ה | משנה | אשר | ל | ׳ | ו | ו | יקראו | ל | פני | ׳ | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593160-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "43"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ad693711c59f1c2c85c6e5bff055c22044284ba8112e96563290f6cfa976f3ea",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "43",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "51bda2290417516f7ff2f485044b4128b458d270cc8fffb75430c78c1cdd0389"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "אברך retained; distinctive proclamation term identifies royal investiture scene even though chariot appointment text restored. Transcription-unmarked glyph runs: אברך. Editorially reconstructed runs: ו | נתון | את | ׳ | ו | על | כל | ארץ | מצרים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593161-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "44"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "3201419b8a160391f943f805eb6ca09ff0f2ec1804c78b56ebd0b03f522d3cc2",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "44",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "997ed3f451e333a9e7c6b7acc695c911d07b1e857317551d320b334f65c3fcd2"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Generic speech opening only; royal ban restored, provisional. Transcription-unmarked glyph runs: ו | יאמר. Editorially reconstructed runs: פרעה | אל | יוסף | אני | פרעה | ו | בלעדי | ׳ | ך | לא | ירים | איש | את | יד | ׳ | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593162-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          41,
+          "44"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "13ba1561e3cc1f6f92e4a58b7269d442865d82fb3606b043d3869cb382a547b1",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "41",
+        "verse": "44",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "997ed3f451e333a9e7c6b7acc695c911d07b1e857317551d320b334f65c3fcd2"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Conjunction/object only; foot/Egypt wording restored, provisional. Transcription-unmarked glyph runs: ו | את. Editorially reconstructed runs: רגל | ׳ | ו | ב | כל | ארץ | מצרים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593163-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          42,
+          "17"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "12b5c4dae99c14c3cd45be42946d6caf9e36abed64dcb39208e6185f2309946a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "42",
+        "verse": "17",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "7a36219b00040bcdb25ae7ab3e64fd1154711e4ce062bc2a0f2357bf70e544f5"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Three-number fragments partly uncertain, custody/day wording restored; provisional. Transcription-unmarked glyph runs: ש | ש. Uncertain runs (not secure letters): ל | ת. Editorially reconstructed runs: את | ׳ | ם | אל | משמר | ימים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593163-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          42,
+          "18"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "fe887a90ad457d7813f2173e46a8de1361cfc853359a97976a5bb38a761f95ab",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "42",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "4a0e4debddff27075c79cc722b231c0e2c93432232b15552a99020c08999d794"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | יאמר | אל | ׳ | הם | יוסף | ב | יום | ה | שלישי | זאת."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593164-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          42,
+          "18"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "bea33a2215da8f6e6957ffbcdbbb3938279f8e18ad68e6e9072154cc650d8d11",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "42",
+        "verse": "18",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "4a0e4debddff27075c79cc722b231c0e2c93432232b15552a99020c08999d794"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only deity-ending and pronoun-initial among restored fear-of-God statement; provisional. Transcription-unmarked glyph runs: ם | א. Uncertain runs (not secure letters): י. Editorially reconstructed runs: עשו | ו | חיו | את | ה | אלה | ני | ירא |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593164-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          42,
+          "19"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "815dba3b58b256512860a98ebdc94b7a81b728d63d1559443f1ff8688fcaf4dd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "42",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "efbc8635db8a59e211369623223c695a832c36d205413ec340f0efb7c75fb2c3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: אם | כנים | אתם | אחי | ׳ | כם | אחד | יאסר."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593165-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          42,
+          "19"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "59528312077128c40fcb15f237332ea75fce1819270bf4c88f0070d1d0974965",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "42",
+        "verse": "19",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "efbc8635db8a59e211369623223c695a832c36d205413ec340f0efb7c75fb2c3"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only ל survives in reconstructed departure instruction; provisional. Transcription-unmarked glyph runs: ל. Editorially reconstructed runs: ב | בית | משמר | ׳ | כם | ו | אתם | כו | הביאו | שבר | רעבון | בתי | ׳ | כם |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593166-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "8"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "60de9aee3435a5785079c4c68c78cecb0e030ee8ad18eabdd06af96d2eaa450e",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "8",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "d9b1e26127d2b7717c943769401e4d0cd58a594b165f641f8d821e34d7390ad1"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Not die/we/you/children wording retained with uncertain negative initial, supports life-preservation appeal. Transcription-unmarked glyph runs: א | נמות | גם | אנחנו | גם | אתה | גם | טפ | נו. Uncertain runs (not secure letters): ל. Editorially reconstructed runs: ו | נחיה | ו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593166-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "9"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "358b884bd2910b8c005d8a0e7492f3e198e52daff9666334f680c8465fb88d1c",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "9",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "702cfe588f7c152c3fc0ebc760b94a4e01a9aea5b6b8b83cb2c3a219c88b6122"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Judahs guarantee retained with extra ו before from-my-hand compared with WLC. Transcription-unmarked glyph runs: אנכי | אערב | נו | ו | מ | יד. Editorially reconstructed runs: י | תבקש | ׳ | נו."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593167-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "9"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "ba76b59ee487765f674a4d856bd320d19bd53783a8ca6215600844307900c83a",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "9",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "702cfe588f7c152c3fc0ebc760b94a4e01a9aea5b6b8b83cb2c3a219c88b6122"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Bring-him/stand-him/lifelong-guilt remnants retained, with object suffix differences and uncertain letters. Transcription-unmarked glyph runs: ת | הו | אלי | ך | ו | הצגת | הו | ל | פני | ך | ו | חט | ל | ך | כל | ה. Uncertain runs (not secure letters): ל | א. Editorially reconstructed runs: אם | א | הביא | תי | ימים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593167-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "10"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "a216f7476af27aaee8f738823a6d5ef91d53bf9f7bc69182ad3601bcac1ee6ff",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "10",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1652025c065888b66da4e3f0278a5a0e578b93db8e0d8f14634820d5e8a019f5"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: כי."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593168-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "10"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "7da9f1062c6fcfa14c2799d4981743334b181a037fa20802ea1e8ae4f16b4a3f",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "10",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1652025c065888b66da4e3f0278a5a0e578b93db8e0d8f14634820d5e8a019f5"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Return-twice and now wording retained in delay argument. Transcription-unmarked glyph runs: הנו | כי | עתה | שבנו | זה | פעמים. Editorially reconstructed runs: לולא | התמהמ."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593169-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "11"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "8830da011bde389b1f195fb63f4f6aa716516c981ebf180693b21f152fb1bd18",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "7ed8c0ef273c78d1152ca23596e70cc375c081226901866fcf116b1ac7801799"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Israel/father/do/take wording retained with uncertainty in following gift instructions. Transcription-unmarked glyph runs: ם | ישראל | אבי | ה | ן | אפוא | עשו | קחו | מ. Uncertain runs (not secure letters): כ | ז | א. Editorially reconstructed runs: ו | יאמר | אלי | ׳ | ה | ם | אם | ת | זמרת | ה | ארץ."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593170-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "11"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "f46fd3fb72c5568d323d7553de3f0bdc1f2ece5b2af19273eae91bb2583655dd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "7ed8c0ef273c78d1152ca23596e70cc375c081226901866fcf116b1ac7801799"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Gift/quantity remnants partly retained/uncertain, spice list restored; individual verse position supported by preceding named Israel instruction but wording too generic for firmness. Transcription-unmarked glyph runs: ה | מע | מ. Uncertain runs (not secure letters): ט | ע. Editorially reconstructed runs: ב | כלי | ׳ | כם | ו | הורידו | ל | איש | מנח | צרי | ו | ט | דבש | נכאת | ו | לט | בטנים."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593171-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "11"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "e661bc4a9153526321988e72ddf30127c21a4e583ff1d9d2ab74cbf3c260e4ce",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "11",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "7ed8c0ef273c78d1152ca23596e70cc375c081226901866fcf116b1ac7801799"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ו | שקדים |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593171-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "12"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "43c386ff9aef0d3838878e9d630f02212b96daa633ad32df3c0139ea138c4702",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "12",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "504c684af4c0d905459bb612aee49b8894af48429b323c571d64d725c8e58434"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Silver/returned remnants retained and uncertain in double-money instruction. Transcription-unmarked glyph runs: כם | ו | את | ה | כ | ה | מו. Uncertain runs (not secure letters): ס | ף | ש. Editorially reconstructed runs: ו | כסף | משנה | קחו | ב | יד | ב | ב | פי | אמתחתי | ׳ | כם."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593172-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "12"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "91647252c1378418d5ea39a7a3728c5d6c09e368644fd36425809680316ed58d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "12",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "504c684af4c0d905459bb612aee49b8894af48429b323c571d64d725c8e58434"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: תשיבו | ב | יד | ׳ | כם | אולי | משגה | הוא |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593172-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "13"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "23596cf4f343fd9598270ee56d4d3dd1fa6a095b54b20efd8b75e6677300a517",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "13",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "472693199dc1a8e1f6fea0e153a41fd62fe7b49d0582b2dc118693db8d94dd2c"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Your-brother retained with uncertain suffix in travel command between money and mercy instructions. Transcription-unmarked glyph runs: ו | את | אחי | כ. Uncertain runs (not secure letters): ם. Editorially reconstructed runs: קחו | ו | קומו | שובו | אל | ה | איש |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593173-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "14"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "e5e7e7f5d6b5cd75a7ae4f9757ab9ee95ef7e4aa1e9a8e7ef237500421dddc83",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "14",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "b76c8e991371a8f6763f0f9480fc845d89cadaabe047bc5870669b203603f104"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only man and uncertain sending letter; mercy/Shaddai/Benjamin all reconstructed, so provisional. Transcription-unmarked glyph runs: איש. Uncertain runs (not secure letters): ל. Editorially reconstructed runs: ו | אל | שדי | יתן | ל | ׳ | כם | רחמים | ל | פני | ה | ו | ש | ח | ל | ׳ | כם | את | אחי | ׳ | כם | אחר."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593174-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          43,
+          "14"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "c004e24e834e2e523c110a9600c08f03570a96ec0e139b9d218f92c62eafa652",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "43",
+        "verse": "14",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "b76c8e991371a8f6763f0f9480fc845d89cadaabe047bc5870669b203603f104"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only bereavement-word ending partly retained/uncertain, specific blessing attribution provisional. Transcription-unmarked glyph runs: ל | י. Uncertain runs (not secure letters): ת. Editorially reconstructed runs: ו | את | בנימין | ו | אני | כ | אשר | שכ | שכלתי |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593175-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          49,
+          "6"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "311dc5ec73c8a8a602254ed0a113e1ce77632c42260801f4ca58bf253aecbed2",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "49",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1bd5f3dc9261a329c760966d21053d1ae6b83519a64457e5a5f2e77734be5251"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only uncertain קה in reconstructed council/violence oracle, provisional. Transcription-unmarked glyph runs: none. Uncertain runs (not secure letters): קה. Editorially reconstructed runs: ב | סד | ׳ | ם | אל | תבא | נפש | ׳ | י | ב | ל | ׳ | ם | אל | תחד | כבד | ׳ | י | כי | ב | אפ | ׳ | ם | הרגו | איש | ו | ב | רצנ | ׳ | ם."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593176-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          49,
+          "6"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "fac59ab6c3a29f07be3d67150cc7c30191f9d192fd2d8135ba1310adb475fddd",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "49",
+        "verse": "6",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "1bd5f3dc9261a329c760966d21053d1ae6b83519a64457e5a5f2e77734be5251"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: עקרו | שור |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593176-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          49,
+          "7"
+        ]
+      ],
+      "disposition": "provisional_reference",
+      "expected_record_sha256": "7b055ad8c57fdbef38b18e27f0c40958dfdb9612165a202305b5122d3e749354",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "49",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "9cde0419a6fbb433f939b4ff9f4ad3602343dce4e4499f58e78dd03e8d3037d4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Only suffix תם retained; removed sign cluster flagged rem=2 is not surviving readable violence wording; precise attribution provisional. Transcription-unmarked glyph runs: ת | ם. Editorially reconstructed runs: ארור | אפ | ׳ | ם | כי | עז | ו | עבר | כי | קשתה | אחלק | ׳ | ם | ב | יעקב | ו | אפיצ | ׳ | ם. Other sign flags retained in source: [{\"slots\": \"926898-926903\", \"type\": \"unc\", \"glyphs_unicode\": [\" # \", \" # \", \" # \", \" # \", \" # \", \" # \"], \"rem\": 2}]."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593177-R001",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          49,
+          "7"
+        ]
+      ],
+      "disposition": "reconstruction_only_reference",
+      "expected_record_sha256": "281662353b524b9b48d8a6e15403c7782b9cb731c0483ab39074e27d7f133051",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "49",
+        "verse": "7",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "9cde0419a6fbb433f939b4ff9f4ad3602343dce4e4499f58e78dd03e8d3037d4"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "No physical letter slots survive: the indexed wording is entirely reconstructed or consists only of gap/nonletter signs. The modern annotation remains an editorial reference, not physical attestation. Transcription-unmarked glyph runs: none. Editorially reconstructed runs: ב | ישראל |  | ׃."
+    },
+    {
+      "scroll": "4Q5",
+      "record_id": "L1593177-R002",
+      "anchor_references": [
+        [
+          "wlc-4.20-oshb",
+          "Gen",
+          49,
+          "8"
+        ]
+      ],
+      "disposition": "partial_physical_extent_reviewed",
+      "expected_record_sha256": "731922223d2b2b63a7f11e43057057bfe3d2e983b5694956aefeb4b470f9528d",
+      "expected_source_annotation": {
+        "book": "Gen",
+        "chapter": "49",
+        "verse": "8",
+        "halfverse": ""
+      },
+      "expected_anchor_reading_sha256": [
+        "aead677cb4934a423e9d9acc63d2e2f87f0a8e392c611d501a5a2bda0cd4581b"
+      ],
+      "review": {
+        "status": "model_reviewed",
+        "reviewer": "Codex",
+        "date": "2026-10-15",
+        "basis": "Inspected the hash-verified transcription record, per-word glyph runs and sign flags alongside pinned WLC wording and local sequence. rec marks reconstruction, unc marks uncertainty; annotation alone was not accepted as physical evidence. No manuscript images inspected."
+      },
+      "note": "Enemies-name and neck-ending remnants retained with uncertain following bow initial; identifies Judah enemy-submission imagery in blessing context. Transcription-unmarked glyph runs: ף | אויבי | ך. Uncertain runs (not secure letters): י. Editorially reconstructed runs: יהודה | אתה | יודו | ׳ | ך | אחי | ׳ | ך | יד | ׳ | ך | ב | ער | שתחוו | ל | ׳ | ך | בני | אבי | ׳ | ך |  | ׃."
     }
   ]
 }
