@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, committed data `62d1c6acf82c714e6e96ada97ebea187466ef3ea`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 15 October 2026, committed data `cf7a03c09972c54624da85ee10f4b9fb1cf2913f`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
-| WLC/OSHB ↔ Brenton Greek | 1,120 / 1,533 WLC extents; 1,119 / 1,532 Greek records; 1,100 relations | Genesis 38:1 |
-| WLC/OSHB ↔ DSS physical records | 10 / 842 individually reviewed | 832 records remain |
+| WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
+| WLC/OSHB ↔ DSS physical records | 94 / 842 individually reviewed | 748 records remain |
 
-Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37.
+Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
-The edition layer has **4,166 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,137 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
+The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 6, "provisional_reference": 1, "reconstruction_only_reference": 3}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 66, "provisional_reference": 18, "reconstruction_only_reference": 10}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -25,6 +25,9 @@ Notable boundary cases already encoded:
 - Genesis 17:3–4: the divine-speech introduction moves from the Hebrew third verse into the Greek fourth verse.
 - Genesis 19:16–17: preserve the family being brought outside with the hand-taking/escape block.
 - Genesis 19:18–19: the Lord-address crosses the Hebrew/Greek verse boundary.
+
+
+Additional reviewed boundaries: 22:3–4 (third day); 23:5–6 (address); 24:18–19 (drink completion); 27:44–45 (anger); 31:26–27 (hidden flight); 31:34–35 (search); 31:44/46/48/50–52 (noncontiguous repeated witness language and Greek `50a`); 37:1–2 (genealogy heading) and 37:9–10 (report to father). Hebrew 26:32 found water and pinned Greek did not find water remain distinct.
 
 
 Additional reviewed boundaries: 22:3–4 (third day); 23:5–6 (address); 24:18–19 (drink completion); 27:44–45 (anger); 31:26–27 (hidden flight); 31:34–35 (search); 31:44/46/48/50–52 (noncontiguous repeated witness language and Greek `50a`); 37:1–2 (genealogy heading) and 37:9–10 (report to father). Hebrew 26:32 found water and pinned Greek did not find water remain distinct.
