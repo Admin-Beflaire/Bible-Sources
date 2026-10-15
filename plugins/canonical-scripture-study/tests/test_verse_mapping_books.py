@@ -32,7 +32,7 @@ class BookMappingTests(unittest.TestCase):
         for chapter, verse, expected in [(1, "6", ["6", "7"]), (10, "28", ["27", "28"]), (11, "12", ["12", "13"]),
                                           (17, "3", ["3", "4"]), (19, "16", ["16", "17"]), (19, "19", ["18", "19"]),
                                           (22, "4", ["3", "4"]), (23, "6", ["5", "6"]), (24, "19", ["18", "19"]),
-                                          (27, "45", ["44", "45"])]:
+                                          (27, "45", ["44", "45"]), (31, "26", ["26", "27"]), (31, "35", ["34", "35"])]:
             result = maps.lookup(maps.DEST, ["wlc-4.20-oshb", "Gen", chapter, verse], "LXX-GRCBRENT-20260408")
             self.assertEqual(len(result["relations"]), 1)
             row = result["relations"][0]
@@ -47,6 +47,15 @@ class BookMappingTests(unittest.TestCase):
         self.assertEqual([r[3] for r in row["left"]], ["16", "21"])
         self.assertEqual(row["cardinality"], "many_to_one")
         self.assertIn("not evidence", row["note"])
+
+    def test_greek_covenant_repetitions_and_suffixed_label_reverse_lookup(self):
+        row = maps.lookup(maps.DEST, ["wlc-4.20-oshb", "Gen", 31, "51"], "LXX-GRCBRENT-20260408")["relations"][0]
+        self.assertEqual([r[3] for r in row["left"]], ["44", "46", "48", "50", "51", "52"])
+        self.assertEqual([r[3] for r in row["right"]], ["44", "46", "48", "50", "50a", "52"])
+        self.assertEqual(row["order_relation"], "reordered")
+        reverse = maps.lookup(maps.DEST, ["LXX-GRCBRENT-20260408", "GEN", 31, "50a"], "wlc-4.20-oshb")
+        self.assertEqual(reverse["relations"][0]["id"], row["id"])
+        self.assertIn("not a textual omission", row["note"])
 
     def test_qere_and_editorial_additions_remain_explicit(self):
         qere = maps.lookup(maps.DEST, ["wlc-4.20-oshb", "Gen", 8, "17"], "uxlc-2.4")["relations"][0]
