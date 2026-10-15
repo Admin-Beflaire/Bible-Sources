@@ -97,3 +97,9 @@ The next source-review batch extends Greek Genesis through chapter 20 (plus the 
 Implement the existing physical-record schema without redesign. Use the next unreviewed chapter/verse/scroll/record inventory entries, preserving local physical sequence, in approximately 40-record milestones with an intermediate checkpoint near 20. A completed review may remain provisional or reconstruction-only. Completion counts reviewed dispositions, not confident whole-verse alignment. The milestone 1 source pin remains `054a5226027deb13827a04a6e68c56cbd3702f37`; 642 / 842 are reviewed and 200 remain. Greek Genesis extent mapping is already complete, superseding the earlier chapter-21 continuation above.
 
 Keep corrected and removed sign features explicit alongside rec/unc status. In this batch, isolated/common endings and uncertain-only openings do not establish the annotation; record the uncertainty rather than promoting it from a matching verse label. Publish only forward-moving `preview` commits. Keep this index development-only; runtime integration, Production/public deployment and other books are outside this assignment.
+
+## Genesis DSS milestone 2 — 15 October 2026
+
+Continue the same physical-record schema and model-review method. Preserve transcription differences even in a partial correspondence: additional ה before אף in `4Q10 / L1593333-R001`, and the plural kinds suffix in `6Q1 / L1602886-R002` against WLC's singular suffix. Do not promote a repeated noun such as מלאכתו, an isolated place expression such as ממצרים, or a single uncertain letter into a confident verse attribution. Physical line 0 and composite fragment labels remain unchanged.
+
+Milestone 2 adds 40 reviews and reaches 682 / 842, leaving 160. Resume at `8Q1 / L1603102-R001` (Genesis 17:13). The prior 642 reviews and completed edition maps remain unchanged; the source pin, runtime comparison gate and deployment settings remain untouched.

@@ -1,19 +1,19 @@
 # Verse-mapping progress
 
-Checkpoint: 15 October 2026, DSS milestone 1 completed from preview `39e00a2f56e4772b41bf1d558384f3efd2fb469c`; intermediate committed checkpoint `57ab114b6e7edc2a16ae41dc3f703d8a6d768605`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
+Checkpoint: 15 October 2026, DSS milestone 2 completed from preview `46daf9f347184f3b973aa24bbafa9bafbb55abf4`; intermediate committed checkpoint `c542e48760cb8ae484c54b2d6bd7149af9abe6ae`. Source pin: `054a5226027deb13827a04a6e68c56cbd3702f37`. Development index only; systematic study comparison remains inactive. Completion here is book-specific, not corpus-wide.
 
 | Genesis source pair | Reviewed coverage | Next work |
 | --- | --- | --- |
 | WLC/OSHB ↔ UXLC | 1,533 / 1,533 WLC verse extents, all 50 chapters | Same Leningrad manuscript, not independent witnesses |
 | WLC/OSHB ↔ TAHOT | 1,533 / 1,533 WLC verse extents, all 50 chapters | Preserve Qere/X status and the 31/32 renumbering |
 | WLC/OSHB ↔ Brenton Greek | 1,533 / 1,533 WLC extents; 1,532 / 1,532 Greek records; 1,509 relations | None; both native inventories completely covered |
-| WLC/OSHB ↔ DSS physical records | 642 / 842 individually reviewed | 200 records remain; next `4Q10 / L1593330-R002` (Genesis 2:3) |
+| WLC/OSHB ↔ DSS physical records | 682 / 842 individually reviewed | 160 records remain; next `8Q1 / L1603102-R001` (Genesis 17:13) |
 
 Greek completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
 
 The edition layer has **4,575 correspondences**: **3,029 text-verified** by unique full-verse Hebrew consonants and **1,546 individually model-reviewed** from actual source wording and boundaries. Expected reading hashes bind reviews to inspected text. No human review, textual identity or preferred reading is claimed. Eleven historical pilot records remain for provenance, with duplicate Genesis lookup edges suppressed.
 
-DSS dispositions: {"partial_physical_extent_reviewed": 296, "reconstruction_only_reference": 163, "provisional_reference": 183}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
+DSS dispositions: {"partial_physical_extent_reviewed": 307, "reconstruction_only_reference": 179, "provisional_reference": 196}. Preserve scroll, fragment, line, physical record ID, original annotation, source bytes, sign-slot uncertainty and reconstruction. Reconstructed text is not physical attestation; slot counts are not a verse-survival percentage. Manuscript photographs have not been examined.
 
 Notable boundary cases already encoded:
 
@@ -50,3 +50,11 @@ Verification: deterministic build and check; **18 mapping tests passed**; exact 
 ## DSS milestone 2 — intermediate checkpoint, 15 October 2026
 
 Added the next 20 inventory reviews, `4Q10 / L1593330-R002` through `6Q1 / L1602881-R001`, from preview `46daf9f347184f3b973aa24bbafa9bafbb55abf4`. Outcomes: **6 partial physical / 6 reconstruction-only / 8 provisional**. Total: **662 / 842**, **180 remaining**. Next: `6Q1 / L1602881-R002` (Genesis 6:16). The earlier overview reflects milestone 1 until the milestone 2 endpoint is reconciled. Deterministic build/check and all 18 mapping tests passed. Prior reviews and edition maps remain unchanged; no runtime integration or deployment claim.
+
+## DSS milestone 2 — completed, 15 October 2026
+
+Added **40** individual reviews in authoritative unreviewed inventory order, from `4Q10 / L1593330-R002` through `8Q1 / L1603101-R002`. Intermediate 20-record checkpoint: `c542e48760cb8ae484c54b2d6bd7149af9abe6ae` (662 / 842). Milestone outcomes: **11 partial physical / 16 reconstruction-only / 13 provisional**. Total: **682 / 842**, **160 remaining**. Next: **`8Q1 / L1603102-R001`, Genesis 17:13**. Continue with one approximately 40-record milestone per response.
+
+Preserved the previous 642 authored and generated reviews, all edition/native mapping artifacts and the pinned source profile. Each added disposition is bound to the source-record bytes, original annotation and WLC reading hash. The Genesis 3:1 transcription's additional ה before אף and Genesis 6:20 plural kinds suffix remain explicit rather than harmonized with WLC. The first Genesis 17:12 record retains fragment f1+4 / physical line 0; its eight-day wording is reconstructed, not surviving attestation. Short recipient endings, isolated place wording and single uncertain letters remain provisional. No images or human review are claimed.
+
+Executed deterministic build/check, **18 mapping tests**, exact prior-record/artifact preservation checks, next-40 inventory identity checks and whitespace validation; all passed. Review counts reconcile: 682 reviewed + 160 unreviewed = 842. Model transcription review remains distinct from confident physical alignment. Development index only; no runtime integration, deployment or host-performance claim.
