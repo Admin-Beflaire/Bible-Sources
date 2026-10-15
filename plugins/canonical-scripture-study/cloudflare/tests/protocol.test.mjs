@@ -145,6 +145,15 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.equal(fetched.preview_debug.retrieved[0].records,3);
     assert.equal(fetched.consulted_editions[0].records,3);
     assert.match(fetched.source_packets[0].edition_label,/Westminster Leningrad Codex/);
+    const mapped=(await rpc(preview,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 32:1',sources:['TAHOT']}})).structuredContent;
+    assert.equal(mapped.source_packets[0].chapter,31);assert.ok(mapped.source_packets[0].records.every(r=>r.verse===55));
+    const ordinary=(await rpc(normal,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 32:1',sources:['TAHOT']}})).structuredContent;
+    assert.equal(ordinary.source_packets[0].chapter,32);assert.ok(!ordinary.verse_mapping);
+    const mappingHealth=(await rpc(preview,'tools/call',{name:'study_health',arguments:{}})).structuredContent;
+    assert.equal(mappingHealth.genesis_mapping.DSS_inventory_reviews,842);assert.equal(mappingHealth.genesis_mapping.systematic_comparison_section_enabled,false);
+    assert.match(plan.genesis_mapping_guidance,/grouped and reordered/);
+    const physical=(await rpc(preview,'tools/call',{name:'fetch_dss',arguments:{reference:'Genesis 48:11',include_linguistics:false}})).structuredContent;
+    assert.equal(physical.records[0].verse_mapping.physical_reference.record_id,'L1593199-R002');
     const evalTool=tools.find(t=>t.name==='evaluate_reading');assert.deepEqual(evalTool.inputSchema.properties.record.properties.significance.enum,['semantic','theological','insignificant','uncertain']);
     const ready=(await rpc(preview,'tools/call',{name:'study_delivery',arguments:{action:'ready',delivery_state:plan.delivery_state}})).structuredContent;
     assert.equal(ready.next_title,'Local explanation and literary structure');

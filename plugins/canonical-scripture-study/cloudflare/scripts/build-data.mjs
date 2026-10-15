@@ -125,6 +125,26 @@ for (const path of Object.keys(profile.metadata_hashes).filter(p => p.startsWith
   }
 }
 
+// Genesis mapping is a separately hashed, reviewed development layer, never part of the corpus pin.
+const mappingRoot = 'indexes/verse-mapping/';
+const mapManifestRaw = source(mappingRoot + 'manifest.json');
+const mapManifest = JSON.parse(text(mapManifestRaw));
+if (mapManifest.source_commit !== profile.commit || mapManifest.source_profile_sha256 !== hash(readFileSync(resolve(here, '../bible_study/config/source-profile.json')))) throw Error('Genesis mapping provenance mismatch');
+const mappingFile = name => checked(source(mappingRoot + name), mapManifest.files[name].sha256);
+const progress = JSON.parse(text(mappingFile('book-progress.json')));
+const dssMap = JSON.parse(text(mappingFile('dss-Gen.json')));
+const dssProgress = progress.DSS_physical_mapping.find(b => b.book_id === 'Gen');
+if (dssMap.source_commit !== profile.commit || dssMap.records.length !== 842 || dssProgress.reviewed_physical_records !== 842 || dssProgress.remaining_unreviewed_physical_records !== 0 || new Set(dssMap.records.map(r => `${r.physical_reference.scroll}/${r.physical_reference.record_id}`)).size !== 842) throw Error('Genesis DSS inventory review incomplete');
+checked(source(dssProgress.source_review_file), dssProgress.source_review_sha256);
+for (let c=1;c<=50;c++) {
+  const book = JSON.parse(text(mappingFile(`book-Gen-${String(c).padStart(3,'0')}.json`)));
+  if (book.source_commit !== profile.commit || book.book_id !== 'Gen' || book.anchor_chapter !== c) throw Error('Genesis chapter mapping provenance mismatch');
+  const physical = dssMap.records.filter(r => r.anchor_references.some(a => a[2] === c));
+  for (const r of physical) span(r.record_evidence);
+  asset(`mapping/Gen/${c}.json`, Buffer.from(JSON.stringify({source_commit:profile.commit,relations:book.relations,dss_records:physical})));
+}
+const genesisMapping = {source_commit:profile.commit,manifest_sha256:hash(mapManifestRaw),inventory_reviews:842,consumer:'private_preview_only'};
+
 const documents = {};
 for (const folder of readdirSync(resolve(here, '../skills'))) {
   const path = `skills/${folder}/SKILL.md`;
@@ -134,7 +154,7 @@ for (const folder of readdirSync(resolve(here, '../skills'))) {
 for (const file of readdirSync(resolve(here, '../references')).filter(n => n.endsWith('.md'))) documents[`references/${file}`] = readFileSync(resolve(here, '../references', file), 'utf8');
 const counts = {asset_files: Object.keys(assetHashes).length, asset_bytes: totalBytes, indexed_chapters: chapterRows.length, dss_physical_records: dssPhysicalRecords, dss_passages: dssPassages};
 if (counts.asset_files > 20000) throw Error('Cloudflare Free static-file count exceeded');
-const bundle = {source_commit: profile.commit, compiled_metadata: compiledMetadata, chapters, dss_rows: dssRows, asset_hashes: assetHashes, documents, counts};
+const bundle = {source_commit: profile.commit, compiled_metadata: compiledMetadata, chapters, dss_rows: dssRows, asset_hashes: assetHashes, documents, genesis_mapping:genesisMapping, counts};
 writeFileSync(resolve(here, 'generated/bundle.json'), JSON.stringify(bundle));
 writeFileSync(resolve(here, 'generated/build-report.json'), JSON.stringify({schema_version: '0.1.0', source_commit: profile.commit, metadata_verified: verifiedMetadata.size, source_spans_verified: verifiedSpans.size, ...counts, largest_asset_bytes: Math.max(...Object.values(assetHashes).map(x => x.bytes)), free_limits_checked: {asset_files: 20000, individual_asset_bytes: 25 * 1024 * 1024}, source_normalization: false, runtime_source_verification: 'SHA-256 for each asset; original span pointers retained'}, null, 2) + '\n');
 console.log(JSON.stringify({source_commit: profile.commit, ...counts}));
