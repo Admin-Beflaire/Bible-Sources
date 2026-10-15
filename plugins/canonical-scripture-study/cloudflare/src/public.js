@@ -36,7 +36,7 @@ export default {
       try {body = await readBoundedBody(request.body, 128 * 1024);} catch (error) {return noStore(new Response(error instanceof BodyLimitError ? 'Request too large' : 'Invalid request body', {status: error instanceof BodyLimitError ? 413 : 400}));}
       request = new Request(request, {body});
     }
-    if (!handlers.has(env.ASSETS)) handlers.set(env.ASSETS, createMcpHandler(() => createServer(env.ASSETS, env.PUBLIC_IP_LIMITER, {noAuth: true, runtimeControls}), {route: '/mcp', responseMode: 'json', legacy: 'stateless', corsOptions: {origin: 'https://chatgpt.com'}}));
+    if (!handlers.has(env.ASSETS)) handlers.set(env.ASSETS, createMcpHandler(() => createServer(env.ASSETS, env.PUBLIC_IP_LIMITER, {noAuth: true, previewDelivery: true, previewDebug: true, runtimeControls}), {route: '/mcp', responseMode: 'json', legacy: 'stateless', corsOptions: {origin: 'https://chatgpt.com'}}));
     return noStore(await handlers.get(env.ASSETS)(request, env, ctx));
   },
   async scheduled(controller, env, ctx) {

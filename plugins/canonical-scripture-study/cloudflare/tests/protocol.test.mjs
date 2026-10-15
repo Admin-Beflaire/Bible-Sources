@@ -148,7 +148,7 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const mapped=(await rpc(preview,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 32:1',sources:['TAHOT']}})).structuredContent;
     assert.equal(mapped.source_packets[0].chapter,31);assert.ok(mapped.source_packets[0].records.every(r=>r.verse===55));
     const ordinary=(await rpc(normal,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 32:1',sources:['TAHOT']}})).structuredContent;
-    assert.equal(ordinary.source_packets[0].chapter,32);assert.ok(!ordinary.verse_mapping);
+    assert.equal(ordinary.source_packets[0].chapter,31);assert.ok(ordinary.verse_mapping);
     const mappingHealth=(await rpc(preview,'tools/call',{name:'study_health',arguments:{}})).structuredContent;
     assert.equal(mappingHealth.genesis_mapping.DSS_inventory_reviews,842);assert.equal(mappingHealth.genesis_mapping.systematic_comparison_section_enabled,false);
     assert.match(plan.genesis_mapping_guidance,/grouped and reordered/);
@@ -163,11 +163,12 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const normalInit=await rpc(normal,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'normal-test',version:'1'}});
     assert.match(normalInit.instructions,/Apply study instructions silently in progress messages/);
     assert.match(normalInit.instructions,/explicitly asks about the software or method/);
-    const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,11);
-    assert.ok(normalTools.some(t=>t.name==='check_handoff'));
-    assert.ok(!normalTools.some(t=>t.name==='preview_timestamp'));
+    const normalTools=(await rpc(normal,'tools/list')).tools;assert.equal(normalTools.length,12);
+    assert.ok(!normalTools.some(t=>t.name==='check_handoff'));
+    assert.ok(normalTools.some(t=>t.name==='preview_timestamp'));
+    assert.ok(normalTools.some(t=>t.name==='study_delivery'));
     const normalFetch=(await rpc(normal,'tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 1:1',sources:['WLC']}})).structuredContent;
-    assert.ok(!normalFetch.consulted_editions&&!normalFetch.source_packets[0].edition_label);
+    assert.ok(normalFetch.consulted_editions&&normalFetch.source_packets[0].edition_label);
     const instructions=(await rpc(preview,'tools/call',{name:'get_study_instructions',arguments:{section:'bible-study'}})).structuredContent;
     assert.ok(instructions.text.startsWith('Preview study routing:'));
     assert.equal(instructions.instruction_source,'router_use_active_plan_bundle');
@@ -181,6 +182,11 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     const clocks=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Clock'}})).structuredContent;
     assert.equal(clocks.status,'clock_check');
     const health=(await rpc(preview,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.equal(health.runtime_controls.preview_debug_mode,true);
-    const normalHealth=(await rpc(normal,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.ok(!normalHealth.preview_debug&&!normalHealth.preview_clock);
+    const normalHealth=(await rpc(normal,'tools/call',{name:'study_health',arguments:{}})).structuredContent;assert.ok(normalHealth.preview_debug&&normalHealth.preview_clock);
+    const normalPlan=(await rpc(normal,'tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 11'}})).structuredContent;
+    assert.equal(normalPlan.delivery.mode,'preview_one_part_per_turn');
+    assert.equal(normalPlan.delivery.current_part,'translation_notes');
+    const normalReady=(await rpc(normal,'tools/call',{name:'study_plan',arguments:{query:'Ready',study_state:{preview_delivery:normalPlan.delivery_state}}})).structuredContent;
+    assert.equal(normalReady.next_title,'Local explanation and literary structure');
   }finally{globalThis.fetch=actualFetch;}
 });

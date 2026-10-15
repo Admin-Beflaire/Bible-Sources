@@ -64,7 +64,7 @@ test('Public Worker blocks outsiders and bypass hostnames, enforces both quotas 
   assert.equal((await publicWorker.fetch(new Request(`https://${host}/spans/arbitrary.txt`), env, {})).status, 404);
 });
 
-test('No-sign-in public MCP exposes eleven noauth tools and returns verified evidence', async () => {
+test('No-sign-in public MCP exposes twelve parity tools and verified Genesis mapping', async () => {
   const limit = {limit: async () => ({success: true})};
   const env = {PUBLIC_HOST: host, CONNECTOR_RANGES: binding(policy()), PUBLIC_IP_LIMITER: limit, PUBLIC_SERVICE_LIMITER: limit, ASSETS: {fetch: async req => new Response(readFileSync(resolve(here, '../generated/assets', new URL(req.url).pathname.slice(1))))}};
   const pending = [], ctx = {waitUntil: p => pending.push(p)};
@@ -80,14 +80,25 @@ test('No-sign-in public MCP exposes eleven noauth tools and returns verified evi
   };
   const init = await rpc('initialize', {protocolVersion: '2025-06-18', capabilities: {}, clientInfo: {name: 'public-study-test', version: '1'}});
   assert.equal(init.serverInfo.version, '0.1.19');
-  const list = await rpc('tools/list'); assert.equal(list.tools.length, 11);
+  const list = await rpc('tools/list'); assert.equal(list.tools.length, 12);
+   assert.ok(!list.tools.some(t=>t.name==='check_handoff'));
+   assert.ok(list.tools.some(t=>t.name==='study_delivery'));
+   assert.ok(list.tools.some(t=>t.name==='preview_timestamp'));
   assert.ok(list.tools.every(t => t._meta?.securitySchemes?.[0]?.type === 'noauth'));
   const health = (await rpc('tools/call', {name: 'study_health', arguments: {}})).structuredContent;
   assert.equal(health.runtime_controls.user_authentication, false);
   assert.equal(health.runtime_controls.rate_limit_scope, 'shared_connector_ip_and_service');
+   assert.equal(health.genesis_mapping.consumer,'released_channels');
+   assert.equal(health.runtime_controls.preview_staged_delivery,true);
   const passage = (await rpc('tools/call', {name: 'fetch_passage', arguments: {reference: 'Genesis 1:1-3', sources: ['WLC']}})).structuredContent;
   assert.equal(passage.source_packets[0].records.length, 3);
   assert.equal(passage.source_packets[0].evidence.repository, 'Admin-Beflaire/Bible-Sources');
+   const mapped=(await rpc('tools/call',{name:'fetch_passage',arguments:{reference:'Genesis 32:1',sources:['TAHOT']}})).structuredContent;
+   assert.equal(mapped.source_packets[0].chapter,31);
+   const plan=(await rpc('tools/call',{name:'study_plan',arguments:{query:'Full study Genesis 11'}})).structuredContent;
+   assert.equal(plan.delivery.current_part,'translation_notes');
+   const ready=(await rpc('tools/call',{name:'study_plan',arguments:{query:'Ready',study_state:{preview_delivery:plan.delivery_state}}})).structuredContent;
+   assert.equal(ready.next_title,'Local explanation and literary structure');
   const bad = await publicWorker.fetch(request('192.0.2.1', '{}', '/mcp', {Origin: 'https://unrelated.invalid'}), env, ctx);
   assert.equal(bad.status, 403);
   await Promise.all(pending);

@@ -159,3 +159,8 @@ The user explicitly authorizes runtime use of the completed Genesis index, super
 Build fifty hash-verified chapter assets from the reviewed manifest, retaining a separate index fingerprint alongside corpus provenance. Retrieve selected editions by reviewed native extents and verify reading hashes. Keep grouped target context distinct from requested translation scope; preserve native record order. Return reviewed DSS physical identities and dispositions without promoting reconstruction/provisional references. WLC-only requests need no alignment assets or extra witnesses. Index/review source records are not rewritten; the prior final audit remains a dated offline checkpoint.
 
 Preview 0.1.19 deployed from `513c72f9989cc7a722c2b56ba926df2e729ea933`; successful build and live mapped-retrieval checks are recorded in [release status](release-status.md) and [the live evidence](preview-genesis-index-live-2026-10-16.json). Production/public deployments remain unchanged.
+
+
+## Released-version feature parity — 16 October 2026
+
+A common numeric release version must expose the same study/retrieval feature contract on private Preview, authenticated Production, and public/video. Authentication, rate limiting, public routing and optional channel-specific deployment diagnostics may differ, but staged Full-study delivery and reviewed Genesis mapping must not silently differ. Preview-only future features require an explicitly distinct prerelease version/build label until promoted. This decision does not override the public manual-release gate or constitute evidence of host-model delivery quality.
