@@ -47,7 +47,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter and Worker package use the same semantic version (**0.1.20**) for this candidate. Before this milestone, connected live checks verified all three channels at **0.1.19**; older deployment statements below are historical. See [release status](../../development/release-status.md) for the exact Preview deployment and verification. Production/Public remain on their verified pre-change releases and Public retains its manual-release gate. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter and Worker package use the same semantic version (**0.1.20**). Connected checks verify private Preview **0.1.20**, Production **0.1.19** and Public **0.1.19**. Preview implementation commit is `2740a4dd088138a76f9a3afee7b60ae030f41298`; [release status](../../development/release-status.md) records the successful build and live evidence. Older deployment statements below are historical. Public retains its manual-release gate. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 

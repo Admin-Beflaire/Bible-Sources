@@ -1,0 +1,832 @@
+{
+  "kind": "connected_preview_contract_and_source_capability_checks",
+  "study_prose_generated": false,
+  "blind_host_studies": 0,
+  "implementation_commit": "2740a4dd088138a76f9a3afee7b60ae030f41298",
+  "implementation_tree": "eb9668ab27ebfa4a6ec4c5c35d5e05de6dac545a",
+  "endpoint": "https://preview-canonical-scripture-study.shrill-shadow-3258.workers.dev/mcp",
+  "build": {
+    "id": "3e9b96a9-f121-4b9a-b10a-925ce684dd72",
+    "status": "stopped",
+    "outcome": "success",
+    "commit": "2740a4dd088138a76f9a3afee7b60ae030f41298",
+    "stopped_on": "2026-10-16T13:12:40.559Z"
+  },
+  "unique_deployment_url": "https://88709e68-canonical-scripture-study.shrill-shadow-3258.workers.dev",
+  "health": {
+    "plugin_version": "0.1.20",
+    "source_profile": "shared-public",
+    "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+    "source_access": "pinned_verified_worker_assets",
+    "base_books": 66,
+    "indexed_chapters": 4150,
+    "curated_word_studies": 50,
+    "default_study_depth": "standard",
+    "study_depths": [
+      "standard",
+      "detailed",
+      "full"
+    ],
+    "canonical_seed_dossiers": 6,
+    "translation_and_interpretation": "performed_by_the_host_model_using_skills_not_by_a_dictionary_replacement_algorithm",
+    "deployment": {
+      "runtime": "Cloudflare Worker",
+      "services": [
+        "Workers",
+        "Workers Static Assets"
+      ],
+      "paid_services_required": false,
+      "asset_files": 13419,
+      "model_api_key_required": false
+    },
+    "limitations": [
+      "Genesis edition extents and DSS dispositions are indexed; other books remain unverified.",
+      "No full manuscript apparatus, full Greek concordance, exhaustive canonical database or complete imported website claim profile.",
+      "Free-plan CPU use must be monitored during real studies; study prose depends on the host."
+    ],
+    "interpretation": {
+      "policy_version": "0.1.20",
+      "execution": "host_model",
+      "server_discovers_interpretations": false,
+      "external_search": "host_tools_if_available",
+      "blind_host_acceptance": "not_established_by_contract_checks"
+    },
+    "genesis_mapping": {
+      "book": "Gen",
+      "edition_extent_coverage_complete": true,
+      "DSS_inventory_reviews": 842,
+      "DSS_dispositions": {
+        "partial_physical_extent_reviewed": 365,
+        "reconstruction_only_reference": 234,
+        "provisional_reference": 243
+      },
+      "confident_DSS_alignment_complete": false,
+      "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+      "index_manifest_sha256": "fa294dfa332460ce9f62c8d1f800ae5ce385d96ce6d32bfd3a85eb9359b0098b",
+      "consumer": "released_channels",
+      "systematic_comparison_section_enabled": false
+    },
+    "runtime_controls": {
+      "rate_limiter_configured": true,
+      "max_request_bytes": 131072,
+      "verified_source_cache_bytes": 8388608,
+      "preview_staged_delivery": true,
+      "preview_timestamps": true,
+      "preview_debug_mode": true,
+      "timestamp_time_zone": "Europe/Amsterdam",
+      "preview_registered_tools": [
+        "preview_timestamp",
+        "study_delivery"
+      ],
+      "preview_registered_tool_count": 12,
+      "preview_handoff_validation": false,
+      "cached_connection_fallback": "study_plan: Clock, Ready/Next/Resume/Next passage with preview_delivery state"
+    },
+    "preview_clock": {
+      "iso": "2026-10-16T13:13:24.905Z",
+      "display": "16-10-2026 15:13:24 (CEST, Europe/Amsterdam)",
+      "time_zone": "Europe/Amsterdam",
+      "measures": "Server clock check; not client rendering or final-message completion.",
+      "visible_message_rule": "Copy display as the first line of the next visible assistant message, including brief orientation and progress updates. Use the newest clock already returned by a tool; do not add a redundant clock call or invent a time."
+    },
+    "preview_debug": {
+      "operation_id": "98320570-c9df-4852-bda6-3bce6e11dbac",
+      "operation": "study_health",
+      "outcome": "completed",
+      "started_at": "2026-10-16T13:13:24.905Z",
+      "returned_at": "2026-10-16T13:13:24.905Z",
+      "server_execution_ms": 0,
+      "asset_fetches": 0,
+      "cache_hits": 0,
+      "asset_bytes": 0,
+      "output_completion_observed": false,
+      "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+    }
+  },
+  "neutral_cases": [
+    {
+      "query": "Full study Genesis 9:18-27, exact",
+      "reference": "Genesis 9:18-27",
+      "depth": "full",
+      "initial_part": "translation_notes",
+      "instruction_sections": [
+        "bible-source-retrieval",
+        "bible-translation",
+        "translation-key"
+      ],
+      "initial_diagnostics": {
+        "operation_id": "dc63b145-7a8d-4c10-a041-d81fff24821e",
+        "operation": "study_plan",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:48.463Z",
+        "returned_at": "2026-10-16T13:13:48.463Z",
+        "server_execution_ms": 0,
+        "asset_fetches": 0,
+        "cache_hits": 0,
+        "asset_bytes": 0,
+        "reference": "Genesis 9:18-27",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "primary_editions": [
+        {
+          "source": "WLC",
+          "edition": "Westminster Leningrad Codex 4.20 / Open Scriptures Hebrew Bible",
+          "records": 10,
+          "coverage_status": "indexed_source_span_verified"
+        }
+      ],
+      "primary_diagnostics": {
+        "operation_id": "a208bb2a-5431-4359-94a0-135e33128af9",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:49.107Z",
+        "returned_at": "2026-10-16T13:13:49.120Z",
+        "server_execution_ms": 13,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 143864,
+        "reference": "Genesis 9:18-27",
+        "retrieved": [
+          {
+            "source": "WLC",
+            "records": 10,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "stages": [
+        {
+          "part": "local_explanation",
+          "reference": "Genesis 9:18-27",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "544c4d46-f9dc-4272-a448-675a690d3709",
+          "planning_clock": "2026-10-16T13:14:11.890Z",
+          "ready_operation_id": "2caf38f1-b21e-4602-9312-1a222cb521ba",
+          "ready_clock": "2026-10-16T13:14:12.424Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "historical_context",
+          "reference": "Genesis 9:18-27",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "3720d210-bf41-4891-b2a6-2e7d153b15b8",
+          "planning_clock": "2026-10-16T13:14:12.819Z",
+          "ready_operation_id": "43d1e736-dba1-4045-aded-614db2c24802",
+          "ready_clock": "2026-10-16T13:14:14.252Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "canonical_synthesis",
+          "reference": "Genesis 9:18-27",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "77d9fbd1-d969-4d12-9a60-889386811fa3",
+          "planning_clock": "2026-10-16T13:14:14.536Z",
+          "ready_operation_id": "95949c0a-76c4-4e5b-aa6f-39fd5ba11d84",
+          "ready_clock": "2026-10-16T13:14:14.850Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Full study Judges 11:29-40, exact",
+      "reference": "Judges 11:29-40",
+      "depth": "full",
+      "initial_part": "translation_notes",
+      "instruction_sections": [
+        "bible-source-retrieval",
+        "bible-translation",
+        "translation-key"
+      ],
+      "initial_diagnostics": {
+        "operation_id": "5fdd7907-c20b-48f8-92dc-0187b5142474",
+        "operation": "study_plan",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:48.528Z",
+        "returned_at": "2026-10-16T13:13:48.528Z",
+        "server_execution_ms": 0,
+        "asset_fetches": 0,
+        "cache_hits": 0,
+        "asset_bytes": 0,
+        "reference": "Judges 11:29-40",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "primary_editions": [
+        {
+          "source": "WLC",
+          "edition": "Westminster Leningrad Codex 4.20 / Open Scriptures Hebrew Bible",
+          "records": 12,
+          "coverage_status": "indexed_source_span_verified"
+        }
+      ],
+      "primary_diagnostics": {
+        "operation_id": "f50be19a-c19d-4b98-af4b-181b4b68ba35",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:48.821Z",
+        "returned_at": "2026-10-16T13:13:49.212Z",
+        "server_execution_ms": 391,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 263669,
+        "reference": "Judges 11:29-40",
+        "retrieved": [
+          {
+            "source": "WLC",
+            "records": 12,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "stages": [
+        {
+          "part": "local_explanation",
+          "reference": "Judges 11:29-40",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "d8c29085-3efc-481b-bf94-967dbd08934d",
+          "planning_clock": "2026-10-16T13:14:11.853Z",
+          "ready_operation_id": "1e55c30f-bc71-4bb9-80c7-fac815eeb72a",
+          "ready_clock": "2026-10-16T13:14:12.149Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "historical_context",
+          "reference": "Judges 11:29-40",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "7039d7f7-fdd1-4b52-a6e2-498ea382aef4",
+          "planning_clock": "2026-10-16T13:14:12.428Z",
+          "ready_operation_id": "1e14cb26-bf62-4236-bb56-699eb4238426",
+          "ready_clock": "2026-10-16T13:14:12.710Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "canonical_synthesis",
+          "reference": "Judges 11:29-40",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "6a71ca36-8976-42fd-8719-0aca100e6007",
+          "planning_clock": "2026-10-16T13:14:13.037Z",
+          "ready_operation_id": "e5972218-196b-4e66-8df3-90faf7da19a2",
+          "ready_clock": "2026-10-16T13:14:13.345Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Full study Romans 8:1-39, exact",
+      "reference": "Romans 8",
+      "depth": "full",
+      "initial_part": "translation_notes",
+      "instruction_sections": [
+        "bible-source-retrieval",
+        "bible-translation",
+        "translation-key"
+      ],
+      "initial_diagnostics": {
+        "operation_id": "08b6f3de-9d3c-4949-9504-df8cf2aafa31",
+        "operation": "study_plan",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:48.507Z",
+        "returned_at": "2026-10-16T13:13:48.507Z",
+        "server_execution_ms": 0,
+        "asset_fetches": 0,
+        "cache_hits": 0,
+        "asset_bytes": 0,
+        "reference": "Romans 8",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "primary_editions": [
+        {
+          "source": "SBLGNT",
+          "edition": "SBL Greek New Testament",
+          "records": 39,
+          "coverage_status": "indexed_source_span_verified"
+        }
+      ],
+      "primary_diagnostics": {
+        "operation_id": "99e3f1ee-53cf-4a62-9817-c1f35d5467c8",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:13:48.814Z",
+        "returned_at": "2026-10-16T13:13:48.824Z",
+        "server_execution_ms": 10,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 8042,
+        "reference": "Romans 8",
+        "retrieved": [
+          {
+            "source": "SBLGNT",
+            "records": 39,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      },
+      "stages": [
+        {
+          "part": "local_explanation",
+          "reference": "Romans 8",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "99127e52-708c-4c3e-b413-3a1d50ea408e",
+          "planning_clock": "2026-10-16T13:14:11.874Z",
+          "ready_operation_id": "8527ad14-907e-4626-a431-e6a78ef3f666",
+          "ready_clock": "2026-10-16T13:14:12.167Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "historical_context",
+          "reference": "Romans 8",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "5a9885c1-1856-421e-a9bd-8fcf95b7c045",
+          "planning_clock": "2026-10-16T13:14:12.406Z",
+          "ready_operation_id": "836632e7-7a65-4191-ab0c-26b56b7a5198",
+          "ready_clock": "2026-10-16T13:14:12.723Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        },
+        {
+          "part": "canonical_synthesis",
+          "reference": "Romans 8",
+          "depth": "full",
+          "policy": "0.1.20",
+          "planning_asset_fetches": 0,
+          "planning_operation_id": "b84abf6c-5d11-457b-8e8f-bb8d7692dc76",
+          "planning_clock": "2026-10-16T13:14:13.112Z",
+          "ready_operation_id": "172a70be-5cd8-4858-8914-763e2915625e",
+          "ready_clock": "2026-10-16T13:14:13.406Z",
+          "ready_output_completion_observed": false,
+          "conditional_secondary_sources": 6,
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ]
+        }
+      ]
+    }
+  ],
+  "shared_local_exegesis_contract": {
+    "policy_version": "0.1.20",
+    "active_part": "local_explanation",
+    "task": "Reconstruct the connected argument or narrative before evaluating readings. Independently notice ambiguous constructions, unusual expressions, omissions, unexplained consequences, referents and repeated details. Form text-grounded candidate explanations, then actively check for serious alternatives absent from the initial account; do not wait for the reader to name them. For a disputed reading use a neutral passage/expression search followed by a targeted search for its strongest case and substantial challenge, where permitted. An initial familiar reading or one commentary is not a completed discovery check. Test idiomatic and literal senses in the actual construction and speaker/participants; compare relevant biblical wording with its context, not identical words alone. Necessary cultural evidence may be checked here when it distinguishes readings; defer only the wider historical development. Present the best evidence and objections for every serious case, with no forced winner.",
+    "discovery": "A serious reading needs an identifiable textual anchor and defensible linguistic, literary, historical or scholarly reasoning. Independently investigate idiom/euphemism, metaphor, polysemy, conjunctions/prepositions, syntax, variants, repetition, omissions, unresolved consequences and the connected argument where relevant. Seek the strongest case and meaningful challenge, not only the familiar interpretation. Do not introduce denominational systems simply because they have advocates or prooftexts.",
+    "evidence": "For each serious case identify its textual anchors, original-language argument, strongest supporting evidence, substantial objections, necessary assumptions and unresolved gaps. Distinguish direct statement, contextual inference, historical reconstruction, speculation and canonical synthesis. Assess cumulative contributions without counting dependent observations twice or requiring each to prove the conclusion alone. Mark cultural parallels directly attested, analogous or speculative with relevant date/place and provenance. Do not inflate thin evidence for symmetry or declare a preferred winner.",
+    "continuity": "Retain concise findings, source credit and unresolved questions in the conversation. Next state controls the part, not the evidence: reuse earlier findings without refetching them. If earlier evidence is missing, report the gap and retrieve only what this part requires. Do not create a new handoff/validation step.",
+    "research": {
+      "primary_first": true,
+      "routes": "Reuse primary text and indexes first. For a consequential syntax question retrieve only the affected verses with fetch_passage detail linguistic. Use actual token/entry IDs for lookup_lexical; curated lookup_word records are leads, not independent lexica. Retrieve relevant biblical parallels with their contexts, respecting source restrictions. Do not fetch every witness or a whole chapter of linguistic data for one phrase.",
+      "external": "External search/retrieval belongs to available host tools; this MCP server has no academic search engine or model. Inspect primary historical texts or identifiable academic arguments when needed. Search snippets and uninspected bibliographies are leads, not consulted evidence. If host research is unavailable, identify the limitation rather than invent support.",
+      "expansion_trigger": "A concrete ambiguity, serious disputed reading or missing historical premise can justify bounded research at any depth, after primary analysis. A Full study alone does not require browsing.",
+      "conditional_ceiling": {
+        "secondary_sources": 6,
+        "secondary_entries": 12,
+        "excerpt_characters": 16000,
+        "kind": "Host research guidance, not a server-enforced quota or a target. Overrides default secondary budgets only for the identified question; never overrides source restrictions."
+      },
+      "stop": "Stop when the serious cases, material objections and remaining gaps are adequately represented. Do not collect agreement or repeat wording refinement. If the bounded research leaves a gap, preserve it explicitly."
+    }
+  },
+  "source_restriction": {
+    "plan": {
+      "reference": "Genesis 9:18-27",
+      "source_policy": {
+        "restricted": true,
+        "allowed_editions": [
+          "WLC"
+        ],
+        "secondary_lookups_allowed": false,
+        "external_research_allowed": false,
+        "instruction": "Source restrictions govern evidence retrieval, not translation rules, language, literary scope or continuation. Honour excluded comparisons and secondary lookups; label coverage limits and never say excluded sources were consulted."
+      }
+    },
+    "next": {
+      "reference": "Genesis 9:18-27",
+      "part": "local_explanation",
+      "source_policy": {
+        "restricted": true,
+        "allowed_editions": [
+          "WLC"
+        ],
+        "secondary_lookups_allowed": false,
+        "external_research_allowed": false,
+        "instruction": "Source restrictions govern evidence retrieval, not translation rules, language, literary scope or continuation. Honour excluded comparisons and secondary lookups; label coverage limits and never say excluded sources were consulted."
+      },
+      "interpretation_workflow": {
+        "policy_version": "0.1.20",
+        "active_part": "local_explanation",
+        "task": "Reconstruct the connected argument or narrative before evaluating readings. Independently notice ambiguous constructions, unusual expressions, omissions, unexplained consequences, referents and repeated details. Form text-grounded candidate explanations, then actively check for serious alternatives absent from the initial account; do not wait for the reader to name them. For a disputed reading use a neutral passage/expression search followed by a targeted search for its strongest case and substantial challenge, where permitted. An initial familiar reading or one commentary is not a completed discovery check. Test idiomatic and literal senses in the actual construction and speaker/participants; compare relevant biblical wording with its context, not identical words alone. Necessary cultural evidence may be checked here when it distinguishes readings; defer only the wider historical development. Present the best evidence and objections for every serious case, with no forced winner.",
+        "discovery": "A serious reading needs an identifiable textual anchor and defensible linguistic, literary, historical or scholarly reasoning. Independently investigate idiom/euphemism, metaphor, polysemy, conjunctions/prepositions, syntax, variants, repetition, omissions, unresolved consequences and the connected argument where relevant. Seek the strongest case and meaningful challenge, not only the familiar interpretation. Do not introduce denominational systems simply because they have advocates or prooftexts.",
+        "evidence": "For each serious case identify its textual anchors, original-language argument, strongest supporting evidence, substantial objections, necessary assumptions and unresolved gaps. Distinguish direct statement, contextual inference, historical reconstruction, speculation and canonical synthesis. Assess cumulative contributions without counting dependent observations twice or requiring each to prove the conclusion alone. Mark cultural parallels directly attested, analogous or speculative with relevant date/place and provenance. Do not inflate thin evidence for symmetry or declare a preferred winner.",
+        "continuity": "Retain concise findings, source credit and unresolved questions in the conversation. Next state controls the part, not the evidence: reuse earlier findings without refetching them. If earlier evidence is missing, report the gap and retrieve only what this part requires. Do not create a new handoff/validation step.",
+        "research": {
+          "primary_first": true,
+          "routes": "Reuse primary text and indexes first. For a consequential syntax question retrieve only the affected verses with fetch_passage detail linguistic. Use actual token/entry IDs for lookup_lexical; curated lookup_word records are leads, not independent lexica. Retrieve relevant biblical parallels with their contexts, respecting source restrictions. Do not fetch every witness or a whole chapter of linguistic data for one phrase.",
+          "external": "Excluded by the retained source selection. Report the evidence gap; do not bypass it with remembered scholarly claims.",
+          "expansion_trigger": "A concrete ambiguity, serious disputed reading or missing historical premise can justify bounded research at any depth, after primary analysis. A Full study alone does not require browsing.",
+          "conditional_ceiling": {
+            "secondary_sources": 0,
+            "secondary_entries": 0,
+            "excerpt_characters": 0,
+            "kind": "Host research guidance, not a server-enforced quota or a target. Overrides default secondary budgets only for the identified question; never overrides source restrictions."
+          },
+          "stop": "Stop when the serious cases, material objections and remaining gaps are adequately represented. Do not collect agreement or repeat wording refinement. If the bounded research leaves a gap, preserve it explicitly."
+        }
+      }
+    },
+    "ready": {
+      "next_delivery_state": {
+        "schema_version": 1,
+        "passage_state": {
+          "request_mode": "full_study",
+          "language": "en",
+          "translation_format": "plain_working",
+          "original_reference": "Genesis 9:18-27",
+          "current_reference": "Genesis 9:18-27",
+          "pending_references": [],
+          "study_depth": "full"
+        },
+        "stage_index": 1,
+        "started_at": "2026-10-16T13:14:36.830Z",
+        "sources": [
+          "WLC"
+        ],
+        "source_restriction": "WLC"
+      },
+      "output_contract": {
+        "first_line": "16-10-2026 15:14:37 (CEST, Europe/Amsterdam)",
+        "progress": {
+          "first_line": "16-10-2026 15:14:37 (CEST, Europe/Amsterdam)",
+          "applies_to": "Every visible assistant message: initial orientation, intermediate progress, continuation and substantive output.",
+          "format": "Timestamp on its own first line, blank line, then one or two sentences about the passage or actual evidence. No internal-rule or publisher-review narration.",
+          "refresh": "Reuse the newest preview_clock.display or timestamp.display returned by the just-completed tool. Do not make an extra Clock call just to repeat that clock.",
+          "host_limit": "This is a host presentation instruction, not proof of rendering or output completion."
+        },
+        "heading": "## Genesis 9:18-27 — Local explanation and literary structure",
+        "reader_focus": "Explain Scripture, actual source evidence, meaningful alternatives and uncertainty in ordinary reader-facing language. Apply study instructions silently in progress messages, translations, footnotes and explanations. Do not narrate plugin rules, reviewed policy, skills, prompts, schemas, pipeline stages or instruction compliance. Explain scope through the passage itself and cite biblical connections normally; never imply that an unconsulted edition or source was newly retrieved. Keep technical identifiers and tool mechanics in explicitly requested technical answers, structured exports or enabled Preview diagnostics. Preview diagnostics may report actual operations and metrics, but must not become commentary on internal rules. When the user explicitly asks about the software or method, answer that question directly and accurately. Integrate useful secondary research into an independent, Scripture-centered explanation in your own wording. Support conclusions and meaningful limits with biblical or historical evidence; do not organize ordinary studies around what BibleProject or another publisher says, overstates or gets wrong. Preserve appropriate credit in citations, footnotes or Sources consulted, including accurate attribution of quotations and distinctive sourced proposals. Discuss or compare a teacher or publisher directly only when the user requests that assessment; do not copy its wording, adopt unsupported claims or hide consequential counter-evidence.",
+        "source_line": "Name only actually consulted editions using their reader-facing edition_label. Keep dataset_id in enabled diagnostics or an explicit technical export. Cite known biblical connections normally without narrating reviewed policy or claiming a new source retrieval.",
+        "scope_preface": "At most two sentences for a necessary literary-unit adjustment or dependent opening, then begin the active part. Do not put a stage overview table before the translation.",
+        "interpretation": {
+          "coverage": "Develop the competing cases substantially using inspected evidence.",
+          "case_fields": [
+            "reading and textual anchor",
+            "strongest supporting case, including relevant language",
+            "substantial objections",
+            "evidence type and unresolved gaps"
+          ],
+          "presentation": "Use descriptive headings, not ranked labels. No percentages, likelihood labels, rankings or preferred winner. Unequal evidence needs no artificial balance. State direct textual claims clearly; distinguish them from inference and reconstruction."
+        },
+        "section_order": [
+          "Local explanation and literary structure",
+          "Compact observed diagnostics",
+          "Server-check footer",
+          "Continuation label"
+        ],
+        "full_study": {
+          "analysis": [
+            "source_language_and_context",
+            "historical_cultural_context",
+            "narrative_and_covenantal_development",
+            "explained_intertextual_relationships",
+            "warranted_Christ_and_Spirit_integration",
+            "theological_conclusions_and_formation"
+          ],
+          "local_terms": "Develop consequential words, grammar, names and images in local explanation, with source forms/transliteration and verse-linked contextual senses. Do not delay initial translation or turn every word into an exhaustive word study.",
+          "reference_material": {
+            "placement": "After final synthesis and formation, within the existing final part.",
+            "components": [
+              "consequential_terms_with_forms_contextual_senses_and_verses",
+              "key_passages_with_connection_type_and_contribution",
+              "relevant_thematic_role_or_covenant_tables",
+              "necessary_abbreviations",
+              "sources_actually_consulted_across_the_study"
+            ],
+            "evidence_rule": "Reuse actual study evidence and source credit; do not refetch to populate tables, invent lexicon access, copy another bibliography or repeat earlier essays.",
+            "rendering_continuity": "Retain the established working rendering and notes; identify and explain a warranted revision rather than silently replacing a rendering in the reference table."
+          },
+          "scope": "Full passage studies and Full exegesis only; preserve source restrictions and proportional Standard/Detailed/focused outputs.",
+          "manuscript_variance": "Separate systematic manuscript comparison remains inactive until the full verse-mapping index is reviewed. Distinguish rendering alternatives from textual variants.",
+          "active_focus": "Develop the consequential words, grammar, names and images in their actual verses. Keep later canonical synthesis for its own part."
+        },
+        "diagnostics": "Report only observed diagnostic metrics and never invented host timings.",
+        "closing_lines": [
+          "Last server check: 16-10-2026 15:14:37 (CEST, Europe/Amsterdam)",
+          "Next: Historical-cultural context"
+        ],
+        "instruction": "Use the fresh output_contract including its timestamp. Deliver only this part and stop. Ready is not output completion."
+      },
+      "preview_debug": {
+        "operation_id": "f76dbc02-6383-48fe-9244-b70036dc2a7b",
+        "operation": "study_plan",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:14:37.129Z",
+        "returned_at": "2026-10-16T13:14:37.129Z",
+        "server_execution_ms": 0,
+        "asset_fetches": 0,
+        "cache_hits": 0,
+        "asset_bytes": 0,
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    }
+  },
+  "standard": {
+    "reference": "Judges 11:29-40",
+    "depth": "standard",
+    "part": "local_explanation",
+    "contract": {
+      "coverage": "Cover meaningful alternatives and their decisive evidence proportionately; do not omit a serious case merely to keep the study short.",
+      "case_fields": [
+        "reading and textual anchor",
+        "strongest supporting case, including relevant language",
+        "substantial objections",
+        "evidence type and unresolved gaps"
+      ],
+      "presentation": "Use descriptive headings, not ranked labels. No percentages, likelihood labels, rankings or preferred winner. Unequal evidence needs no artificial balance. State direct textual claims clearly; distinguish them from inference and reconstruction."
+    },
+    "conditional_ceiling": {
+      "secondary_sources": 2,
+      "secondary_entries": 12,
+      "excerpt_characters": 16000,
+      "kind": "Host research guidance, not a server-enforced quota or a target. Overrides default secondary budgets only for the identified question; never overrides source restrictions."
+    },
+    "diagnostics": {
+      "operation_id": "bfb753e7-1009-492d-83ed-97cf47ca0779",
+      "operation": "study_plan",
+      "outcome": "completed",
+      "started_at": "2026-10-16T13:15:29.966Z",
+      "returned_at": "2026-10-16T13:15:29.966Z",
+      "server_execution_ms": 0,
+      "asset_fetches": 0,
+      "cache_hits": 0,
+      "asset_bytes": 0,
+      "reference": "Judges 11:29-40",
+      "output_completion_observed": false,
+      "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+    }
+  },
+  "source_capabilities": {
+    "hebrew": {
+      "words": 15,
+      "annotation_layer": "OSHB_modern_lemma_morphology_and_structure",
+      "operation": {
+        "operation_id": "8c34ba0f-7cb5-443d-bbc6-f55faf98591c",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:14:36.274Z",
+        "returned_at": "2026-10-16T13:14:36.274Z",
+        "server_execution_ms": 0,
+        "asset_fetches": 0,
+        "cache_hits": 1,
+        "asset_bytes": 0,
+        "reference": "Judges 11:31",
+        "retrieved": [
+          {
+            "source": "WLC",
+            "records": 1,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "greek": {
+      "records": 3,
+      "annotation_layer": "runtime_surface_tokenization_no_lemma_or_morphology",
+      "operation": {
+        "operation_id": "00035bc8-4e2b-46e9-ba97-65684f795ae1",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:14:36.099Z",
+        "returned_at": "2026-10-16T13:14:36.107Z",
+        "server_execution_ms": 8,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 8042,
+        "reference": "Romans 8:28-30",
+        "retrieved": [
+          {
+            "source": "SBLGNT",
+            "records": 3,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "lexical": {
+      "entry_id": "STEP:TBESH:H1961:L2657",
+      "records": 1,
+      "coverage": "606 selected STEP/OSHB supporting records. Full upstream lexicons and a corpus-wide Greek lemma layer are not imported.",
+      "operation": {
+        "operation_id": "43e13c21-51c7-40bf-96ed-fd4d1da0433c",
+        "operation": "lookup_lexical",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:15:29.351Z",
+        "returned_at": "2026-10-16T13:15:29.610Z",
+        "server_execution_ms": 259,
+        "asset_fetches": 1,
+        "cache_hits": 0,
+        "asset_bytes": 1192,
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "genesis_extent": {
+      "alignment_status": "reviewed_Genesis_extents_not_identical_wording",
+      "TAHOT_first_locator": "Gen.31.55(32.1)#01=L",
+      "operation": {
+        "operation_id": "b9281960-ef5f-4b07-9ea9-496b0b1cac8f",
+        "operation": "fetch_passage",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:14:36.146Z",
+        "returned_at": "2026-10-16T13:14:36.475Z",
+        "server_execution_ms": 329,
+        "asset_fetches": 3,
+        "cache_hits": 0,
+        "asset_bytes": 517913,
+        "reference": "Genesis 32:1",
+        "retrieved": [
+          {
+            "source": "WLC",
+            "records": 1,
+            "coverage_status": "indexed_source_span_verified"
+          },
+          {
+            "source": "TAHOT",
+            "records": 12,
+            "coverage_status": "indexed_source_span_verified"
+          }
+        ],
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    },
+    "dss": {
+      "reference": "Genesis 48:11",
+      "total_records": 1,
+      "coverage_status": "reviewed_physical_or_editorial_links",
+      "complete_verse_equivalence": false,
+      "verse_mapping": {
+        "book": "Gen",
+        "edition_extent_coverage_complete": true,
+        "DSS_inventory_reviews": 842,
+        "DSS_dispositions": {
+          "partial_physical_extent_reviewed": 365,
+          "reconstruction_only_reference": 234,
+          "provisional_reference": 243
+        },
+        "confident_DSS_alignment_complete": false,
+        "source_commit": "054a5226027deb13827a04a6e68c56cbd3702f37",
+        "index_manifest_sha256": "fa294dfa332460ce9f62c8d1f800ae5ce385d96ce6d32bfd3a85eb9359b0098b",
+        "consumer": "released_channels",
+        "systematic_comparison_section_enabled": false
+      },
+      "operation": {
+        "operation_id": "b54a4ec7-6df6-4eff-aae6-cdbe2992b91c",
+        "operation": "fetch_dss",
+        "outcome": "completed",
+        "started_at": "2026-10-16T13:15:29.622Z",
+        "returned_at": "2026-10-16T13:15:29.643Z",
+        "server_execution_ms": 21,
+        "asset_fetches": 2,
+        "cache_hits": 0,
+        "asset_bytes": 202131,
+        "reference": "Genesis 48:11",
+        "output_completion_observed": false,
+        "instruction": "Report actual operations and metrics. Returned time is a server check, not host generation or output completion."
+      }
+    }
+  },
+  "unchanged_channels": {
+    "production": {
+      "version": "0.1.19",
+      "deployment": {
+        "id": "a5fd4055-9abf-4af8-be7e-26bbf6e32ad8",
+        "source": "wrangler",
+        "strategy": "percentage",
+        "annotations": {
+          "workers/triggered_by": "deployment"
+        },
+        "versions": [
+          {
+            "version_id": "a0bff586-76e1-4083-8f2d-eb0185ad5d85",
+            "percentage": 100
+          }
+        ],
+        "created_on": "2026-10-16T09:22:07.197169Z"
+      }
+    },
+    "public": {
+      "version": "0.1.19",
+      "deployment": {
+        "id": "79410b24-428d-4a20-b966-1d8246513e42",
+        "source": "wrangler",
+        "strategy": "percentage",
+        "annotations": {
+          "workers/triggered_by": "deployment"
+        },
+        "versions": [
+          {
+            "version_id": "4530f986-240f-4358-8ced-5d45503f7448",
+            "percentage": 100
+          }
+        ],
+        "created_on": "2026-10-16T09:23:38.95328Z"
+      },
+      "gate": {
+        "path_includes": [
+          "__manual_public_release_only__/**"
+        ],
+        "previews_enabled": false
+      }
+    }
+  },
+  "limitations": [
+    "No independent blind host-model studies were run. Expected interpretations were already visible in this development conversation.",
+    "Ready calls above are software-contract fixtures, not completed study output; output_completion_observed remains false.",
+    "Greek linguistic retrieval supplies surface tokens, not a verified morphology layer. The selected lexical database is not full BDB/HALOT.",
+    "External historical/academic retrieval and interpretation remain host responsibilities; no academic search engine or inference provider was added.",
+    "Local replay timings and live server diagnostics establish no host performance improvement."
+  ]
+}

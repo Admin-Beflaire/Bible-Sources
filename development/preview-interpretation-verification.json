@@ -36,10 +36,20 @@
     "first_part_plan_byte_change": 1403,
     "host_performance_improvement_established": false
   },
-  "deployment_status": "pending_push_and_cloudflare_preview_build",
+  "deployment_status": "deployed_and_connected_contracts_verified",
   "host_studies": {
     "blind_runs": 0,
     "status": "unverified",
     "reason": "No independent host-model runner exposed. Current development conversation contains the expected rubric; tool-contract tests do not generate studies."
-  }
+  },
+  "implementation_commit": "2740a4dd088138a76f9a3afee7b60ae030f41298",
+  "implementation_tree": "eb9668ab27ebfa4a6ec4c5c35d5e05de6dac545a",
+  "preview_build": {
+    "id": "3e9b96a9-f121-4b9a-b10a-925ce684dd72",
+    "outcome": "success",
+    "stopped_on": "2026-10-16T13:12:40.559Z",
+    "unique_deployment_url": "https://88709e68-canonical-scripture-study.shrill-shadow-3258.workers.dev"
+  },
+  "live_evidence": "preview-interpretation-live-2026-10-16.json",
+  "production_public_unchanged_after_release": true
 }
