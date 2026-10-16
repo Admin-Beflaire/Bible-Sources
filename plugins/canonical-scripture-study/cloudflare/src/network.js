@@ -71,7 +71,7 @@ export async function allowConnector(request, binding, now = Date.now()) {
 
 export async function refreshConnectorPolicy(binding, fetcher = fetch, now = Date.now()) {
   if (!binding?.put) throw Error('Connector policy binding missing');
-  const response = await fetcher(CONNECTOR_SOURCE, {redirect: 'error', signal: AbortSignal.timeout(15000)});
+  const response = await fetcher(CONNECTOR_SOURCE, {redirect: 'manual', signal: AbortSignal.timeout(15000)});
   if (!response.ok) throw Error('Connector source unavailable');
   const bytes = await readBoundedBody(response.body, 65536);
   const document = JSON.parse(new TextDecoder('utf-8', {fatal: true}).decode(bytes));

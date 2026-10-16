@@ -39,9 +39,9 @@ test('Missing, stale, malformed and unavailable network policy fails closed', as
 test('Range refresh validates its bounded official response before replacing the last good policy', async () => {
   const writes = [], b = {put: async (key, value) => writes.push({key, value})};
   const now = Date.now();
-  const count = await refreshConnectorPolicy(b, async (url, options) => {assert.equal(url, CONNECTOR_SOURCE); assert.equal(options.redirect, 'error'); return Response.json(policy().document);}, now);
+  const count = await refreshConnectorPolicy(b, async (url, options) => {assert.equal(url, CONNECTOR_SOURCE); assert.equal(options.redirect, 'manual'); return Response.json(policy().document);}, now);
   assert.equal(count, 2); assert.equal(writes.length, 1); assert.equal(JSON.parse(writes[0].value).fetchedAt, now);
-  for (const response of [new Response('Unavailable', {status: 503}), Response.json({prefixes: []}), new Response('x'.repeat(65537))]) await assert.rejects(refreshConnectorPolicy(b, async () => response));
+  for (const response of [new Response('Unavailable', {status: 503}), new Response(null, {status: 302, headers: {Location: 'https://unexpected.invalid/ip-ranges'}}), Response.json({prefixes: []}), new Response('x'.repeat(65537))]) await assert.rejects(refreshConnectorPolicy(b, async () => response));
   assert.equal(writes.length, 1, 'Failed refresh must retain the last good snapshot');
 });
 

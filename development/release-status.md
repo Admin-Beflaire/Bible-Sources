@@ -199,3 +199,8 @@ Production health remains **0.1.10**. Cloudflare active Production/public deploy
 ## 0.1.19 feature-parity correction — 16 October 2026
 
 **Implemented on `preview`; validation and release verification pending.** Production and public/video previously displayed 0.1.19 but retained the older 11-tool/unstaged behavior. Correct the shared release contract so all three endpoints use the same 12-tool staged study flow, continuation state, source-bound Genesis index and debugging/timestamps. Preserve the private Cloudflare Access gate and the public connector-network allowlist, distinct rate limiting and manual-only public build trigger. No corpus expansion, extra manuscript studies or publication-directory submission. Validate locally and live before reporting feature parity; actual host-model part-by-part behavior remains a separate test and is not established by tool contracts.
+
+
+### Public-only connector refresh maintenance — 16 October 2026
+
+**Fix committed for public manual deployment; runtime verification pending.** Cloudflare's scheduled refresh was failing because Workers does not support fetch `redirect: 'error'`. Switch to `redirect: 'manual'`, keeping the existing `!response.ok` rejection of all 3xx responses and fail-closed policy age validation. Extend the public Worker test to reject redirect responses without replacing the last good policy. No change to study features, private authentication, public allowlist enforcement, six-hour Cron, or manual-only public deployment. Validate on the actual public endpoint and record evidence before claiming restoration.
