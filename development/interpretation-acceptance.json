@@ -1,0 +1,46 @@
+{
+  "kind": "blind_host_acceptance_rubric_not_runtime_data",
+  "status": "host_runs_pending",
+  "instructions": "Use only each neutral prompt in a fresh host conversation. Do not give the model this rubric or the assignment. Complete all parts with Next. Inspect actual sources, provenance and arguments; keyword matches or passing contract tests do not establish reasoning quality. Record model/client, deployed version, timestamps, source/tool trace and each part. Review every criterion, objections and missing evidence manually. Do not declare success from a model self-rating.",
+  "cross_case_criteria": [
+    "No percentages, likelihood labels, rankings or preferred interpretive winner; one defensible translation with meaningful notes remains required.",
+    "No forced symmetry, fabricated evidence/quotations/consultations or inferred events presented as narrated.",
+    "Standard gives proportionate serious alternatives; Full develops each substantially.",
+    "Stage boundaries, source restrictions, Genesis mapping and Preview diagnostics remain intact."
+  ],
+  "cases": [
+    {
+      "id": "genesis9",
+      "prompt": "Full study Genesis 9:18-27, exact",
+      "reference": "Genesis 9:18-27",
+      "review_criteria": [
+        "Direct dishonor/seeing nakedness; paternal sexual assault; maternal incest, each fairly developed.",
+        "Hebrew seeing/uncovering nakedness idioms and Leviticus constructions in context, without assuming verbal identity.",
+        "Canaan’s curse; covering by Shem/Japheth; textual statements distinguished from proposed events.",
+        "Kinship, sexual power and family authority with dated/geographically relevant evidence and explicit limits."
+      ]
+    },
+    {
+      "id": "judges11",
+      "prompt": "Full study Judges 11:29-40, exact",
+      "reference": "Judges 11:29-40",
+      "review_criteria": [
+        "Literal burnt sacrifice and lifelong dedication; strongest case and objections for each.",
+        "Conjunctive/disjunctive waw in the actual vow construction; grammatical arguments and counterarguments.",
+        "Repeated virginity; annual practice in v40; no explicit narration of death.",
+        "Human sacrifice, vows and religious dedication with relevant sources; literary/moral setting of Judges."
+      ]
+    },
+    {
+      "id": "romans8",
+      "prompt": "Full study Romans 8:1-39, exact",
+      "reference": "Romans 8:1-39",
+      "review_criteria": [
+        "Connected argument: Spirit, liberation, adoption, suffering, creation, hope and restoration.",
+        "Greek vocabulary/syntax of 8:28-30: foreknowledge, predestination, calling, justification, glorification.",
+        "Immediate Romans argument and relevant Romans 9-11 connections.",
+        "Text-generated alternatives, not an automatic Calvinism/Arminianism debate or double-predestination starting premise."
+      ]
+    }
+  ]
+}

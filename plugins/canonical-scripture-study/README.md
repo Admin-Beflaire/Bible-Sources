@@ -1,8 +1,17 @@
-# Canonical Scripture Study — 0.1.19
+# Canonical Scripture Study — 0.1.20
 
 *Study Scripture through its languages, context, and canonical story.*
 
 A public, inspectable Bible study plugin combining biblical theology, canonical theology and contextual working translation. Eight skills guide the host model; a Python runtime supplies pinned, hash-verified passages and bounded knowledge packets. The runtime does not generate translations by replacing dictionary words.
+
+
+## Contextual interpretation and evidence
+
+Version 0.1.20 gives active passage parts a reusable `interpretation_workflow` and carries reader-facing evidence requirements through planning and Ready. It independently asks the host to discover serious readings, investigate consequential grammar/idiom and contextual evidence, and present the strongest supporting cases, substantial objections and unresolved gaps. It distinguishes textual statements, contextual inference, historical reconstruction, speculation and canonical synthesis. It prescribes no preferred interpretive winner, ranking, likelihood label or new owner-directed theology. Direct textual claims remain clear; the reader weighs the evidence and exercises spiritual discernment.
+
+Translation/numbered notes still come first with one defensible main rendering. Local exegesis can check history needed to distinguish a reading; Full's history part develops the remaining questions. Standard covers meaningful alternatives proportionately and Full develops cases substantially. Conditional research expansion remains question-bound and never overrides source restrictions. External academic research uses available host tools; the MCP server does not search academic resources or generate studies itself. Focused word studies load their own depth guidance instead of duplicating it in ordinary passage bundles.
+
+[Acceptance criteria](../../development/interpretation-acceptance.json) are development-only and never bundled into runtime study requests or source assets. Automated contract/retrieval checks do not establish blind host reasoning quality. See the [verification protocol](../../development/interpretation-regression.md) and release record for observed limits.
 
 ## Start locally
 
@@ -30,7 +39,7 @@ Configure an MCP-capable host to start that environment's `bible-study-mcp` exec
 
 The study interface is a ChatGPT conversation in Chat or Work. Once connected and installed, select **@Canonical Scripture Study** and ask for a passage study or a focused command. ChatGPT uses the skills to translate and explain the retrieved evidence.
 
-The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; Production runs 0.1.10; Preview runs 0.1.18 and the separate public endpoint was last successfully verified at 0.1.11, with distinct endpoints and rate-limit counters. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
+The code and local runtime are published. A [free Cloudflare hosting package](cloudflare/) now supplies a native Worker, verified static source assets and a Streamable HTTP endpoint. Use its setup guide to deploy and then connect the actual HTTPS `/mcp` URL in ChatGPT. The existing OAuth deployment uses https://study.canonical-theology.com/mcp; The channels have distinct endpoints and rate-limit counters; [release status](../../development/release-status.md) records current live versions. This hosting path needs no model API key; ChatGPT performs the study. Publishing these files does not replace the existing personal plugin or create a public Plugins Directory listing.
 
 The public MCP service uses **https://mcp.canonical-theology.com/mcp**, with **No authentication** and no additional sign-in. Requests are restricted to OpenAI's connector network and rate limited by shared connector IP and service. [mcp.public.json](mcp.public.json) is the remote public-package configuration; the local stdio configuration remains in `mcp.json`. See the [public network-access guide](cloudflare/README.md#public-mcp-without-an-additional-sign-in) for policy refresh, failure behavior and the limits of IP restrictions. A public directory listing still requires the separate verification/submission process.
 
@@ -38,7 +47,7 @@ Public submission is prepared separately in [publication/](publication/README.md
 
 ## Deployed version and updating ChatGPT
 
-The manifest, Python adapter and Worker package use the same semantic version (**0.1.19**). Live checks verify Preview **0.1.19** and Production **0.1.10**. Public MCP was last successfully verified at **0.1.11**; its current connector health call returns an internal error while the public build suspension is unchanged. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
+The manifest, Python adapter and Worker package use the same semantic version (**0.1.20**) for this candidate. Before this milestone, connected live checks verified all three channels at **0.1.19**; older deployment statements below are historical. See [release status](../../development/release-status.md) for the exact Preview deployment and verification. Production/Public remain on their verified pre-change releases and Public retains its manual-release gate. MCP `study_health.plugin_version` reflects the deployed Git commit, not this GitHub file until a successful Cloudflare deployment.
 
 The dialogue policy introduced in 0.1.9 adds a shared study-dialogue policy: answer questions, retain clarified claims, assess cumulative contextual reasoning, distinguish explicit statements from inference, and correct the actual faulty step. Doctrine and theology remain reasoned from Scripture rather than demanded as isolated proof texts.
 

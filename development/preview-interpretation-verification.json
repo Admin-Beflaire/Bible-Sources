@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-16T13:10:33.602277+00:00",
+  "version": "0.1.20",
+  "base_preview_commit": "2196e3cf8c2aeede7ec83c7af1fd4f051b4f4d59",
+  "source_pin": "054a5226027deb13827a04a6e68c56cbd3702f37",
+  "pre_change_live_versions": {
+    "preview": "0.1.19",
+    "production": "0.1.19",
+    "public": "0.1.19"
+  },
+  "unchanged_deployments": {
+    "production": {
+      "deployment_id": "a5fd4055-9abf-4af8-be7e-26bbf6e32ad8",
+      "version_id": "a0bff586-76e1-4083-8f2d-eb0185ad5d85"
+    },
+    "public": {
+      "deployment_id": "79410b24-428d-4a20-b966-1d8246513e42",
+      "version_id": "4530f986-240f-4358-8ced-5d45503f7448"
+    }
+  },
+  "public_build_gate": "__manual_public_release_only__/**",
+  "local_checks": {
+    "python_tests": 58,
+    "worker_tests": 45,
+    "python_worker_parity_cases": 1956,
+    "all_passed": true,
+    "private_worker_dry_run": "passed",
+    "source_and_mapping_files_changed": false
+  },
+  "benchmark": {
+    "kind": "controlled_local_retrieval_replay_only",
+    "before": "benchmarks/0.1.19-interpretation-baseline.json",
+    "after": "benchmarks/0.1.20-interpretation-candidate.json",
+    "repetitions_per_case_and_cache": 5,
+    "identical_asset_fetch_counts": true,
+    "first_part_plan_byte_change": 1403,
+    "host_performance_improvement_established": false
+  },
+  "deployment_status": "pending_push_and_cloudflare_preview_build",
+  "host_studies": {
+    "blind_runs": 0,
+    "status": "unverified",
+    "reason": "No independent host-model runner exposed. Current development conversation contains the expected rubric; tool-contract tests do not generate studies."
+  }
+}

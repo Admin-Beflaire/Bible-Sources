@@ -79,7 +79,7 @@ test('No-sign-in public MCP exposes twelve parity tools and verified Genesis map
     assert.ok(p && !p.error); return p.result;
   };
   const init = await rpc('initialize', {protocolVersion: '2025-06-18', capabilities: {}, clientInfo: {name: 'public-study-test', version: '1'}});
-  assert.equal(init.serverInfo.version, '0.1.19');
+  assert.equal(init.serverInfo.version, '0.1.20');
   const list = await rpc('tools/list'); assert.equal(list.tools.length, 12);
    assert.ok(!list.tools.some(t=>t.name==='check_handoff'));
    assert.ok(list.tools.some(t=>t.name==='study_delivery'));

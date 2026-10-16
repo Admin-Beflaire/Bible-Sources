@@ -100,6 +100,9 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
   try{
     const init=await rpc(preview,'initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'preview-test',version:'1'}});
     assert.ok(init.instructions.startsWith('PREVIEW TIMING AND STAGED DELIVERY OVERRIDE:'));
+    assert.match(init.instructions,/TEXT-FIRST INTERPRETATION/);
+    assert.match(init.instructions,/likelihood labels, rankings or a preferred/);
+    assert.ok(!init.instructions.includes("working biblical/canonical theology is preferred"));
     assert.match(init.instructions,/Apply study instructions silently in progress messages/);
     assert.match(init.instructions,/actual source evidence, meaningful alternatives and uncertainty/);
     const tools=(await rpc(preview,'tools/list')).tools;assert.equal(tools.length,12);
@@ -112,6 +115,12 @@ test('Preview-only timing, part plans and UI are isolated from normal server on 
     assert.deepEqual(Object.keys(plan.instruction_bundle),['bible-source-retrieval','bible-translation','translation-key']);
     assert.equal(plan.preview_debug.operation,'study_plan');assert.ok(plan.preview_debug.server_execution_ms>=0);
     assert.equal(plan.preview_debug.asset_fetches,0);
+    assert.equal(plan.interpretation_workflow.policy_version,'0.1.20');
+    const exegesis=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Next',study_state:{preview_delivery:plan.delivery_state}}})).structuredContent;
+    assert.equal(exegesis.interpretation_workflow.active_part,'local_explanation');
+    assert.equal(exegesis.preview_debug.asset_fetches,0);
+    const readyCase=(await rpc(preview,'tools/call',{name:'study_plan',arguments:{query:'Ready',study_state:{preview_delivery:exegesis.delivery_state}}})).structuredContent;
+    assert.deepEqual(readyCase.output_contract.interpretation,exegesis.output_contract.interpretation);
     assert.equal(plan.preview_debug.cache_hits,0);
     assert.match(plan.preview_debug.operation_id,/^[0-9a-f-]{36}$/);
     assert.ok(Date.parse(plan.preview_debug.returned_at)>=Date.parse(plan.preview_debug.started_at));

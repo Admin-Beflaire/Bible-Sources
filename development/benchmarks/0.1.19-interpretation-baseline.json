@@ -1,0 +1,1140 @@
+{
+  "kind": "local_retrieval_replay",
+  "recorded_at": "2026-10-16T13:00:25.647Z",
+  "version": "0.1.19",
+  "git_head": "2196e3cf8c2aeede7ec83c7af1fd4f051b4f4d59",
+  "node": "v24.19.0",
+  "scope": "Genesis 1:1-2:3",
+  "language": "en",
+  "translation_format": "plain_working",
+  "limitations": [
+    "No host model, network, Cloudflare CPU, wording quality, or client rendering is measured.",
+    "Identical planned calls compare runtime overhead only; they cannot establish reduced host call counts or Worked for time."
+  ],
+  "summary": [
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetitions": 5,
+      "median_total_ms": 11.71403699999999,
+      "median_plan_ms": 1.567610000000002,
+      "median_passage_ms": 9.63482399999998,
+      "median_ready_ms": 0.6145390000000077,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "plan_bytes": 26619
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetitions": 5,
+      "median_total_ms": 4.430878000000007,
+      "median_plan_ms": 1.5748000000000104,
+      "median_passage_ms": 2.539159000000012,
+      "median_ready_ms": 0.39444699999998534,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "plan_bytes": 26619
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetitions": 5,
+      "median_total_ms": 6.286102999999997,
+      "median_plan_ms": 1.3018169999999998,
+      "median_passage_ms": 4.634375000000006,
+      "median_ready_ms": 0.5177520000000015,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "plan_bytes": 25592
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetitions": 5,
+      "median_total_ms": 4.012065000000007,
+      "median_plan_ms": 1.2513720000000035,
+      "median_passage_ms": 2.3276189999999986,
+      "median_ready_ms": 0.3375910000000033,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "plan_bytes": 25592
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetitions": 5,
+      "median_total_ms": 4.732854000000003,
+      "median_plan_ms": 1.0543739999999957,
+      "median_passage_ms": 3.3032340000000033,
+      "median_ready_ms": 0.36931899999996176,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "plan_bytes": 25595
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetitions": 5,
+      "median_total_ms": 3.498663000000022,
+      "median_plan_ms": 1.14122500000002,
+      "median_passage_ms": 1.7510469999999714,
+      "median_ready_ms": 0.30628300000000763,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "plan_bytes": 25595
+    }
+  ],
+  "samples": [
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetition": 1,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 19.41614,
+      "passage_ms": 11.398110000000003,
+      "ready_ms": 0.8951529999999934,
+      "total_ms": 31.709402999999995,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetition": 1,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 2.4757630000000006,
+      "passage_ms": 2.5445259999999905,
+      "ready_ms": 0.5722950000000111,
+      "total_ms": 5.592584000000002,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetition": 2,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 5.864214000000004,
+      "passage_ms": 9.960245999999984,
+      "ready_ms": 0.6145390000000077,
+      "total_ms": 16.438998999999995,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetition": 2,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.5748000000000104,
+      "passage_ms": 3.535443999999984,
+      "ready_ms": 0.8452580000000012,
+      "total_ms": 5.955501999999996,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetition": 3,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.567610000000002,
+      "passage_ms": 9.63482399999998,
+      "ready_ms": 0.511603000000008,
+      "total_ms": 11.71403699999999,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetition": 3,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.2741860000000145,
+      "passage_ms": 1.864639000000011,
+      "ready_ms": 0.3702599999999734,
+      "total_ms": 3.509084999999999,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetition": 4,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.3646530000000041,
+      "passage_ms": 5.573925000000003,
+      "ready_ms": 0.6675889999999924,
+      "total_ms": 7.606166999999999,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetition": 4,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.9155250000000024,
+      "passage_ms": 2.1209060000000193,
+      "ready_ms": 0.39444699999998534,
+      "total_ms": 4.430878000000007,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "cold",
+      "repetition": 5,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.3548479999999756,
+      "passage_ms": 4.295002000000011,
+      "ready_ms": 0.45394699999999943,
+      "total_ms": 6.103796999999986,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "full_first_part",
+      "cache": "warm",
+      "repetition": 5,
+      "query": "Full study Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.4361810000000048,
+      "passage_ms": 2.539159000000012,
+      "ready_ms": 0.35649899999998524,
+      "total_ms": 4.331839000000002,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 26619,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetition": 1,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.4439530000000218,
+      "passage_ms": 7.25341899999998,
+      "ready_ms": 0.6133070000000203,
+      "total_ms": 9.310679000000022,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetition": 1,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.2513720000000035,
+      "passage_ms": 2.630606,
+      "ready_ms": 0.3375910000000033,
+      "total_ms": 4.219569000000007,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetition": 2,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.4612590000000125,
+      "passage_ms": 4.350627000000003,
+      "ready_ms": 0.4742169999999817,
+      "total_ms": 6.286102999999997,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetition": 2,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.356901999999991,
+      "passage_ms": 2.227916999999991,
+      "ready_ms": 0.4272460000000251,
+      "total_ms": 4.012065000000007,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetition": 3,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.1660329999999988,
+      "passage_ms": 6.229715999999996,
+      "ready_ms": 0.5782949999999971,
+      "total_ms": 7.974043999999992,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetition": 3,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.1640999999999906,
+      "passage_ms": 2.383853000000016,
+      "ready_ms": 0.3337349999999901,
+      "total_ms": 3.881687999999997,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetition": 4,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.0192710000000034,
+      "passage_ms": 4.634375000000006,
+      "ready_ms": 0.48091700000000515,
+      "total_ms": 6.134563000000014,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetition": 4,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.5979649999999879,
+      "passage_ms": 2.3276189999999986,
+      "ready_ms": 0.32170600000000604,
+      "total_ms": 4.2472899999999925,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "cold",
+      "repetition": 5,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.3018169999999998,
+      "passage_ms": 4.103503999999987,
+      "ready_ms": 0.5177520000000015,
+      "total_ms": 5.923072999999988,
+      "asset_fetches": 4,
+      "cache_hits": 0,
+      "asset_bytes": 346682,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_comparisons",
+      "cache": "warm",
+      "repetition": 5,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC",
+        "LXX"
+      ],
+      "plan_ms": 1.0627369999999985,
+      "passage_ms": 2.2153479999999774,
+      "ready_ms": 0.3655430000000024,
+      "total_ms": 3.6436279999999783,
+      "asset_fetches": 0,
+      "cache_hits": 4,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        },
+        {
+          "source": "LXX",
+          "count": 31
+        },
+        {
+          "source": "LXX",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25592,
+      "passage_bytes": 35135
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetition": 1,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.0500769999999875,
+      "passage_ms": 3.3032340000000033,
+      "ready_ms": 0.3795430000000124,
+      "total_ms": 4.732854000000003,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "asset_bytes": 306522,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetition": 1,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.4032010000000241,
+      "passage_ms": 1.7510469999999714,
+      "ready_ms": 0.4487980000000107,
+      "total_ms": 3.603046000000006,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetition": 2,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.116858000000036,
+      "passage_ms": 3.615374999999972,
+      "ready_ms": 0.35353400000002466,
+      "total_ms": 5.085767000000033,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "asset_bytes": 306522,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetition": 2,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.3566000000000145,
+      "passage_ms": 1.8533919999999853,
+      "ready_ms": 0.30628300000000763,
+      "total_ms": 3.5162750000000074,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetition": 3,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.0543739999999957,
+      "passage_ms": 5.1257680000000505,
+      "ready_ms": 0.400244999999984,
+      "total_ms": 6.58038700000003,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "asset_bytes": 306522,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetition": 3,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.14122500000002,
+      "passage_ms": 2.0512860000000046,
+      "ready_ms": 0.3061519999999973,
+      "total_ms": 3.498663000000022,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetition": 4,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.1729020000000219,
+      "passage_ms": 2.836338000000012,
+      "ready_ms": 0.35199199999999564,
+      "total_ms": 4.3612320000000295,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "asset_bytes": 306522,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetition": 4,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 1.0535930000000349,
+      "passage_ms": 1.734931999999958,
+      "ready_ms": 0.29046900000003006,
+      "total_ms": 3.078994000000023,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "cold",
+      "repetition": 5,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 0.9990109999999959,
+      "passage_ms": 2.8790410000000293,
+      "ready_ms": 0.36931899999996176,
+      "total_ms": 4.247370999999987,
+      "asset_fetches": 2,
+      "cache_hits": 0,
+      "asset_bytes": 306522,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    },
+    {
+      "case": "translation_wlc",
+      "cache": "warm",
+      "repetition": 5,
+      "query": "Translate Genesis 1:1-2:3, exact",
+      "reference": "Genesis 1:1-2:3",
+      "sources": [
+        "WLC"
+      ],
+      "plan_ms": 0.9438369999999736,
+      "passage_ms": 1.6104839999999854,
+      "ready_ms": 0.32995900000003076,
+      "total_ms": 2.8842799999999897,
+      "asset_fetches": 0,
+      "cache_hits": 2,
+      "asset_bytes": 0,
+      "records": [
+        {
+          "source": "WLC",
+          "count": 31
+        },
+        {
+          "source": "WLC",
+          "count": 3
+        }
+      ],
+      "plan_bytes": 25595,
+      "passage_bytes": 21392
+    }
+  ]
+}

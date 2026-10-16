@@ -158,3 +158,10 @@ Preview planning uses local metadata without retrieving an opening verse. Its ex
 Preview removes check_handoff, retains strict reading-selection evidence checks, and supplies request-local metrics and correlation IDs without transcript logging. Both successful and domain-error results carry real clocks. Ready is explicitly awaiting host output; the UI describes elapsed time between server checks without claiming to measure text generation or output completion.
 
 Private/public dry runs passed for the candidate. They do not deploy either service. [Release status](../../../development/release-status.md) records the live checks and deployment; [benchmark protocol](../../../development/benchmark-protocol.md) separates exploratory host observations, local runtime replays and still-pending controlled host tests.
+
+
+## Contextual interpretation contracts (0.1.20)
+
+`src/interpretation.js` supplies passage-independent, active-part research guidance and compact output requirements. Planning reads no source assets; it supplies no preset interpretations. Ready retains the same evidence requirements without adding a handoff or model call. Necessary history can inform local exegesis; broader history and canonical synthesis retain their part boundaries. Focused source restrictions now explicitly exclude secondary/external research as well as other editions. The word-study reference loads only for focused word work.
+
+External history/academic retrieval belongs to available host tools. There is no server-side academic search engine, model API, new storage, authentication change or source-pin change. `study_health.interpretation` identifies this boundary. Default budgets remain bounded; an identified interpretive question permits a conditional two/three/six-source ceiling for Standard/Detailed/Full, subject to source restrictions. It is host guidance, not a server-enforced quota. No speed or blind reasoning-quality claim follows from these contracts. Development acceptance answers remain outside runtime bundles; see [the protocol](../../../development/interpretation-regression.md).

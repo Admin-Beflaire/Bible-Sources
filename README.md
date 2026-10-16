@@ -1,5 +1,7 @@
 # Bible-Sources
 
+Preview 0.1.20 adds a reusable, stage-specific interpretation-discovery and evidence-development workflow: serious text-grounded readings, original-language and period-specific contextual research, strongest cases and substantial objections, and explicit uncertainty without rankings or an imposed interpretive winner. Translation still selects one defensible main rendering and supplies meaningful alternatives in notes. No owner-directed theological framework is introduced. See the [interpretation policy and acceptance protocol](development/interpretation-regression.md) and [release status](development/release-status.md) for implemented, tested, deployed and host-observed states. Production/Public promotion is outside this milestone; Public remains manual-release only.
+
 Public source data and study software for AI-assisted Bible study, maintained by Mark Gatzen. This repository contains original source files, structured Hebrew/Greek texts, linguistic and manuscript data, curated word studies, verified retrieval indexes, and the working **Canonical Scripture Study** plugin.
 
 ## Study plugin

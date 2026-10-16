@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.20 — Preview contextual interpretation
+
+- Add reusable active-part discovery/research and evidence-presentation contracts, carried through Ready/Next.
+- Develop serious readings fairly without rankings, likelihood labels, a preferred winner or an imposed owner framework.
+- Permit bounded ambiguity-driven research at every depth, preserve source restrictions, and distinguish host research from MCP capabilities.
+- Separate word-study detail from passage bundles and correct stale runtime continuation guidance.
+- Add neutral-prompt contract regressions and development-only blind host acceptance criteria; generated reasoning remains separately unverified.
+
+
 ## 0.1.19 — Preview Genesis index retrieval — 2026-10-16
 
 - Private Preview Genesis passage retrieval follows reviewed WLC↔UXLC/TAHOT/Brenton Greek extents, including TAHOT renumbering, Greek grouped verses and relocated content. Preserve native record order, exact requested translation scope, source restrictions, reading hashes and meaningful wording differences. WLC-only retrieval adds no comparison reads; other books and normal/public servers keep existing behavior.
