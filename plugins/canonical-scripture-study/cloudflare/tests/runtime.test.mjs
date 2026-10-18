@@ -18,6 +18,20 @@ const assets = {fetch: async request => {
   return new Response(readFileSync(resolve(here, '../generated/assets', path)));
 }};
 const make = () => new Engine(new SourceStore(assets));
+test('Original-language word aliases resolve existing curated entries without inventing absent coverage', async () => {
+  const e = make();
+  for (const query of ['ruach', 'רוּחַ', 'רוח', 'H7307']) {
+    const result = await e.knowledge.word(query);
+    assert.equal(result.status, 'curated_entries', query);
+    assert.equal(result.entries[0].entry.id, 'WT010', query);
+  }
+  for (const query of ['tselem', 'tzelem', 'ṣelem', 'צֶלֶם', 'צלם', 'beeld', 'image', 'H6754']) {
+    const result = await e.knowledge.word(query);
+    assert.equal(result.status, 'curated_entries', query);
+    assert.equal(result.entries[0].entry.id, 'WT043', query);
+  }
+  assert.equal((await e.knowledge.word('unlisted-made-up-term')).status, 'no_curated_entry');
+});
 test('Section-bounded delivery retains Full scope and focused-task contracts', async () => {
   for (const command of ['Genesis 1', 'Detailed study Genesis 1', 'Full study Genesis 1', 'Translate Genesis 1']) {
     const plan = await make().plan(command);

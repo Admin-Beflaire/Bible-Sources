@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.21 — Preview curated-word discovery repair — 2026-10-18
+
+- Resolve *tselem* (including alternative romanizations and Hebrew spelling) to existing WT043; Hebrew spellings of *ruach* resolve to existing WT010. No change to the fifty underlying authored studies or source pin.
+- Clarify Full-study exegetical retrieval: distinguish unavailable from unconsulted, recognize theme-hub coverage and check salient curated records before making a nonavailability claim, without scanning all fifty entries.
+- Add retrieval regression checks. Source/host reasoning behavior and deployment status require separate verification.
+
+
 ## 0.1.20 — Preview contextual interpretation
 
 - Add reusable active-part discovery/research and evidence-presentation contracts, carried through Ready/Next.

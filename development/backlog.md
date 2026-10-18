@@ -1,6 +1,7 @@
 # Development backlog
 
 | Priority | Work | Status | Evidence / next action |
+| 0 | Full-study curated word coverage and truthful missing-source statements | 0.1.21 Preview implementation pending deployment/host verification | WT010 ruach is reachable; WT043 tselem only via 'image'/H6754 prior to fix. Add term aliases and targeted lookup instructions. Validate using live lookup_word and a fresh Full Genesis 1 run: no false "not available" claim, no bulk lookup of fifty entries. |
 | --- | --- | --- | --- |
 | 0 | Contextual interpretation discovery and evidence development | 0.1.20 implemented, tested and privately deployed; blind host acceptance pending | [Protocol](interpretation-regression.md) and [three neutral-prompt rubrics](interpretation-acceptance.json). Check actual discovery, grammar, cultural provenance, strongest cases/objections and no winner. Contract tests cannot close this item. |
 | 1 | Future owner-directed theological synthesis | Deferred by this milestone | Define separately; do not reintroduce framework preference during exegesis. |
