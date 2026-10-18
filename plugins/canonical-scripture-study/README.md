@@ -1,9 +1,13 @@
-# Canonical Scripture Study — 0.1.20
+# Canonical Scripture Study — 0.1.21
 
 *Study Scripture through its languages, context, and canonical story.*
 
 A public, inspectable Bible study plugin combining biblical theology, canonical theology and contextual working translation. Eight skills guide the host model; a Python runtime supplies pinned, hash-verified passages and bounded knowledge packets. The runtime does not generate translations by replacing dictionary words.
 
+
+## Curated word coverage (Preview 0.1.21)
+
+The fifty authored word studies remain unchanged, but key words can be indexed under a broader theme hub. For instance, `ruach` / רוּחַ retrieves WT010 (*Spirit, wind, breath, and Spirit-language*), while `tselem` / צֶלֶם retrieves WT043 (*Image, glory, form, exaltation*). Both are available through `lookup_word`, including alternate transliterations, Hebrew spellings and the appropriate verified Strong identifier. In passage studies, the host should check targeted available curated records before asserting that a study is missing, and distinguish *not consulted* from *not available*. This is a retrieval policy, not evidence of host compliance or a requirement to load all fifty studies.
 
 ## Contextual interpretation and evidence
 
