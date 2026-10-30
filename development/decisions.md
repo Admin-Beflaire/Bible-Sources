@@ -1,5 +1,8 @@
 # Development decisions
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/05f7b4ecff1d5eaf179052adb03b82bed9909a22). Do not redeploy the retired services.
+
+
 ## Complete Genesis Work observation — 14 October 2026, 20:20 CEST
 
 The supplied final part completes the four-part Genesis 1:1–2:3 output, with a reported 1m31s and a correct next-passage suggestion. Its narrative development, explained textual relationships, Christ/Spirit synthesis and formation are already present and should be preserved. The coverage design should make them consistent rather than characterize them as absent. The main content addition is organized word-study/reference support; keep the initial translation workflow intact. Existing internal-rule/publisher-presentation drafts remain unreleased, and progress timestamps remain an open issue.
