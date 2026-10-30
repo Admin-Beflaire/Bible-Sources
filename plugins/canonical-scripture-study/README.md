@@ -1,5 +1,8 @@
 # Canonical Scripture Study — 0.1.21
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/b90bcb02802cc96ecfa661ffbf125277af1a7d7d). Do not redeploy the retired services.
+
+
 *Study Scripture through its languages, context, and canonical story.*
 
 A public, inspectable Bible study plugin combining biblical theology, canonical theology and contextual working translation. Eight skills guide the host model; a Python runtime supplies pinned, hash-verified passages and bounded knowledge packets. The runtime does not generate translations by replacing dictionary words.

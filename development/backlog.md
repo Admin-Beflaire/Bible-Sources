@@ -1,5 +1,8 @@
 # Development backlog
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/b90bcb02802cc96ecfa661ffbf125277af1a7d7d). Do not redeploy the retired services.
+
+
 | Priority | Work | Status | Evidence / next action |
 | 0 | Full-study curated word coverage and truthful missing-source statements | 0.1.21 Preview implementation pending deployment/host verification | WT010 ruach is reachable; WT043 tselem only via 'image'/H6754 prior to fix. Add term aliases and targeted lookup instructions. Validate using live lookup_word and a fresh Full Genesis 1 run: no false "not available" claim, no bulk lookup of fifty entries. |
 | --- | --- | --- | --- |
