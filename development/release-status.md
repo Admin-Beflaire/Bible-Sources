@@ -1,5 +1,8 @@
 # Release status
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/b90bcb02802cc96ecfa661ffbf125277af1a7d7d). Do not redeploy the retired services.
+
+
 ## Verified before changes — 13 October 2026, 20:48 CEST
 
 | Channel | Live version | Branch | Evidence |
