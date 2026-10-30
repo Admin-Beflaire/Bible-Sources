@@ -1,5 +1,8 @@
 # Bible-Sources
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/05f7b4ecff1d5eaf179052adb03b82bed9909a22). Do not redeploy the retired services.
+
+
 Public source data and study software for AI-assisted Bible study, maintained by Mark Gatzen. This repository contains original source files, structured Hebrew/Greek texts, linguistic and manuscript data, curated word studies, verified retrieval indexes, and the working **Canonical Scripture Study** plugin.
 
 ## Study plugin

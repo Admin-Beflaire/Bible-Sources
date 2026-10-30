@@ -1,5 +1,8 @@
 # Canonical Scripture Study development
 
+> **Retired MCP services — 30 October 2026:** The private and public Study Workers have been decommissioned. Their server code, deployment/package configuration and MCP adapters were removed under [cleanup #6](https://github.com/Admin-Beflaire/Bible-Sources/issues/6). Sources, indexes, knowledge, provenance, research records and offline source/mapping tools remain. Earlier hosting/install/release instructions below are historical; retired files remain in [the pre-cleanup revision](https://github.com/Admin-Beflaire/Bible-Sources/tree/05f7b4ecff1d5eaf179052adb03b82bed9909a22). Do not redeploy the retired services.
+
+
 Repository code and verified running deployments are authoritative. Before changing a release, check all three live `study_health` results and the Cloudflare build configuration. Work in `plugins/canonical-scripture-study` and use the existing deployment process.
 
 - Develop and deploy to private Preview first, on `preview`.
